@@ -521,7 +521,11 @@
    "featured": false,
    "place": "kavala",
    "district": {
-    "ru": "Центр"
+    "ru": "Центр",
+    "bg": "Център",
+    "en": "Centre",
+    "de": "Zentrum",
+    "es": "Centro"
    },
    "price": 89000,
    "area": 60,
@@ -544,10 +548,18 @@
     "https://imotipremier.com/webfactor-images/b793c223-c8fa-4db9-88c1-b4ad00bc9955-1200x800-center-1240308.webp"
    ],
    "title": {
-    "ru": "Квартира с 1 спальней, 60 м², в центре Кавалы"
+    "ru": "Квартира с 1 спальней, 60 м², в центре Кавалы",
+    "bg": "Апартамент с 1 спалня, 60 м², в центъра на Кавала",
+    "en": "One-bedroom apartment, 60 m², in central Kavala",
+    "de": "Wohnung mit 1 Schlafzimmer, 60 m², im Zentrum von Kavala",
+    "es": "Piso de 1 dormitorio, 60 m², en el centro de Kavala"
    },
    "desc": {
-    "ru": "Полностью отремонтированная (2022) и меблированная квартира в центре Кавалы, рядом с улицей Венизелу. Спальня, гостиная с открытой кухней, санузел, бытовая техника и кондиционер. Сейчас сдаётся за 400 € в месяц, подходит для долгосрочной и летней аренды."
+    "ru": "Полностью отремонтированная (2022) и меблированная квартира в центре Кавалы, рядом с улицей Венизелу. Спальня, гостиная с открытой кухней, санузел, бытовая техника и кондиционер. Сейчас сдаётся за 400 € в месяц, подходит для долгосрочной и летней аренды.",
+    "bg": "Напълно ремонтиран (2022) и обзаведен апартамент в центъра на Кавала, до улица Венизелу. Спалня, дневна с отворена кухня, баня, уреди и климатик. В момента се отдава за 400 € на месец — подходящ за дългосрочен и летен наем.",
+    "en": "Fully renovated (2022) and furnished apartment in central Kavala, next to Venizelou Street. Bedroom, living room with open kitchen, bathroom, appliances and air conditioning. Currently let for €400 a month, suitable for long-term and summer rentals.",
+    "de": "Komplett renovierte (2022) und möblierte Wohnung im Zentrum von Kavala, nahe der Venizelou-Straße. Schlafzimmer, Wohnzimmer mit offener Küche, Bad, Geräte und Klimaanlage. Derzeit für 400 € im Monat vermietet, geeignet für Langzeit- und Sommervermietung.",
+    "es": "Piso totalmente reformado (2022) y amueblado en el centro de Kavala, junto a la calle Venizelou. Dormitorio, salón con cocina abierta, baño, electrodomésticos y aire acondicionado. Actualmente alquilado por 400 € al mes, apto para alquiler largo y de verano."
    },
    "feat": {
     "ru": [
@@ -556,6 +568,34 @@
      "Полностью меблирована",
      "Кондиционер",
      "Сдаётся: 400 €/мес."
+    ],
+    "bg": [
+     "Центъра на града",
+     "Ремонт 2022",
+     "Напълно обзаведен",
+     "Климатик",
+     "Отдава се: 400 €/мес."
+    ],
+    "en": [
+     "City centre",
+     "Renovated 2022",
+     "Fully furnished",
+     "Air conditioning",
+     "Let: €400/month"
+    ],
+    "de": [
+     "Stadtzentrum",
+     "Renoviert 2022",
+     "Komplett möbliert",
+     "Klimaanlage",
+     "Vermietet: 400 €/Monat"
+    ],
+    "es": [
+     "Centro de la ciudad",
+     "Reformado 2022",
+     "Totalmente amueblado",
+     "Aire acondicionado",
+     "Alquilado: 400 €/mes"
     ]
    }
   }

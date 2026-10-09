@@ -99,3 +99,10 @@ header .small{font-weight:bold}
 @media(max-width:850px){.hero{padding:120px 6% 84px}}
 @media(max-width:520px){.hero{min-height:88svh;padding:110px 6% 76px}.hero-content{bottom:auto}}
 .hero>img{top:0;left:0;right:0;bottom:0}
+/* переключатель языков */
+.lang{display:flex;gap:2px;margin-left:6px}
+.lang button{border:0;background:none;color:inherit;font:bold 11px Arial,sans-serif;letter-spacing:1px;padding:8px 5px;opacity:.65;cursor:pointer;min-height:36px}
+.lang button[aria-pressed="true"]{opacity:1;text-decoration:underline;text-underline-offset:4px}
+.lang button:hover{opacity:1}
+.head-links{align-items:center}
+@media(max-width:850px){header .head-links a{display:none}.lang{margin-left:0}}
