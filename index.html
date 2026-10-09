@@ -1,0 +1,516 @@
+<!doctype html>
+<html lang="bg">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="description" content="Венера Хасанова, брокер Imoti Premier: квартиры, дома и виллы в Греции. Консультации на болгарском, русском, английском, немецком и испанском.">
+<meta property="og:title" content="Венера Хасанова · Imoti Premier · Имоти в Гърция">
+<meta property="og:description" content="Венера Хасанова, брокер Imoti Premier: квартиры, дома и виллы в Греции. Консультации на болгарском, русском, английском, немецком и испанском.">
+<meta property="og:image" content="https://imotipremier.com/wp-content/uploads/c9b7f77e-55e0-425a-9763-b4b700f33b0f.jpg">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://venerahome.github.io/">
+<title>Венера Хасанова · Imoti Premier</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Golos+Text:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+html{color-scheme:light}body{margin:0}img{max-width:100%}[hidden]{display:none!important}
+/* Layout: strict editorial column, navy ink on cool stone, brass details; listings as a photo grid with a gallery dialog */
+:root{
+  --bg:#F2F2F0; --surface:#FFFFFF; --ink:#0E1B2C; --muted:#5D6672; --line:#D6D7D8;
+  --brass:#8F7140; --soft:#E7E8EA; --on-ink:#F2F2F0;
+  --display:'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+  --body:'Golos Text', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --mono:'IBM Plex Mono', ui-monospace, Menlo, monospace;
+  --sky1:#C9D3DC; --sky2:#E9EDF0; --sea:#3B5974; --sea2:#243B52; --hill:#8E9A84;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0B1420; --surface:#111D2B; --ink:#ECEBE6; --muted:#9AA3AD; --line:#243142;
+  --brass:#D9C08F; --soft:#1A2636; --on-ink:#0B1420;
+  --sky1:#24384D; --sky2:#15222F; --sea:#2D4A66; --sea2:#1C3247; --hill:#5B6858; color-scheme:dark}
+:root[data-theme="dark"]{
+  --bg:#0B1420; --surface:#111D2B; --ink:#ECEBE6; --muted:#9AA3AD; --line:#243142;
+  --brass:#D9C08F; --soft:#1A2636; --on-ink:#0B1420;
+  --sky1:#24384D; --sky2:#15222F; --sea:#2D4A66; --sea2:#1C3247; --hill:#5B6858; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.6;padding-inline:20px}
+.wrap{max-width:1140px;margin:0 auto}
+h1,h2,h3{font-family:var(--display);font-weight:500;text-wrap:balance;margin:0;line-height:1.12}
+a{color:var(--ink)}
+button,input,select,textarea{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--brass);outline-offset:2px}
+.eyebrow{font-family:var(--mono);font-size:.74rem;letter-spacing:.16em;text-transform:uppercase;color:var(--brass)}
+
+header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:10;background:color-mix(in srgb,var(--bg) 94%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);margin-inline:-20px;padding:12px 20px}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap}
+.brand{display:flex;flex-direction:column;line-height:1.15;text-decoration:none;color:var(--ink)}
+.brand b{font-family:var(--display);font-weight:500;font-size:1.45rem}
+.brand span{font-size:.66rem;letter-spacing:.22em;text-transform:uppercase;color:var(--brass)}
+nav.links{display:flex;gap:22px;flex-wrap:wrap}
+nav.links a{text-decoration:none;font-size:.92rem}
+nav.links a:hover{color:var(--brass)}
+.lang{display:flex;border:1px solid var(--line)}
+.lang button{border:0;background:transparent;padding:6px 10px;cursor:pointer;font-size:.78rem;font-weight:600;letter-spacing:.08em}
+.lang button[aria-pressed="true"]{background:var(--ink);color:var(--on-ink)}
+
+.hero{display:grid;grid-template-columns:1.15fr .85fr;gap:56px;align-items:center;padding-block:64px 44px}
+.hero > *{min-width:0}
+.hero h1{font-size:clamp(2.4rem,5.2vw,4rem);margin-block:16px 20px}
+.hero h1 em{font-style:italic;color:var(--brass)}
+.lead{font-size:1.08rem;color:var(--muted);max-width:52ch;margin:0 0 28px}
+.btns{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:14px 26px;text-decoration:none;font-weight:600;font-size:.76rem;letter-spacing:.14em;text-transform:uppercase;border:1px solid var(--ink);background:var(--ink);color:var(--on-ink);cursor:pointer}
+.btn.ghost{background:transparent;color:var(--ink)}
+.btn:hover{filter:brightness(1.12)}
+.hero-art{aspect-ratio:4/5;max-width:100%;border:1px solid var(--line);overflow:hidden}
+.hero-art svg{display:block;width:100%;height:100%}
+.facts{display:flex;gap:30px;flex-wrap:wrap;margin-top:34px;padding-top:22px;border-top:1px solid var(--line)}
+.facts div{display:flex;flex-direction:column}
+.facts b{font-family:var(--display);font-weight:500;font-size:1.8rem;font-variant-numeric:tabular-nums}
+.facts span{font-size:.84rem;color:var(--muted)}
+
+section{padding-block:60px}
+.sec-head{margin-bottom:28px}
+.sec-head h2{font-size:clamp(1.9rem,3.6vw,2.7rem);margin-top:8px}
+.sec-head p{color:var(--muted);margin:8px 0 0;max-width:58ch}
+
+.filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:24px;align-items:center}
+.chip{border:1px solid var(--line);background:var(--surface);padding:7px 14px;cursor:pointer;font-size:.88rem}
+.chip[aria-pressed="true"]{border-color:var(--ink);background:var(--ink);color:var(--on-ink)}
+.filters select{border:1px solid var(--line);background:var(--surface);padding:7px 12px}
+
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:26px}
+.card{background:var(--surface);border:1px solid var(--line);overflow:hidden;display:flex;flex-direction:column;cursor:pointer;text-align:left;padding:0;transition:transform .25s, box-shadow .25s}
+.card:hover{transform:translateY(-3px);box-shadow:0 14px 34px -22px rgba(14,27,44,.55)}
+.pic{aspect-ratio:3/2;position:relative;background:var(--soft);overflow:hidden}
+.pic img,.pic svg{display:block;width:100%;height:100%;object-fit:cover}
+.tag{position:absolute;top:12px;left:12px;background:var(--surface);color:var(--ink);font-family:var(--mono);font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;padding:4px 9px}
+.count{position:absolute;bottom:10px;right:10px;background:rgba(14,27,44,.75);color:#F2F2F0;font-size:.72rem;padding:3px 8px;font-variant-numeric:tabular-nums}
+.card .body{padding:18px 20px 20px;display:flex;flex-direction:column;gap:6px;flex:1}
+.loc{font-size:.84rem;color:var(--muted)}
+.card h3{font-size:1.32rem}
+.price{font-family:var(--display);font-size:1.6rem;color:var(--brass);font-variant-numeric:tabular-nums}
+.specs{display:flex;gap:14px;font-size:.84rem;color:var(--muted);font-variant-numeric:tabular-nums;margin-top:auto;padding-top:12px;border-top:1px solid var(--line);flex-wrap:wrap}
+.empty{color:var(--muted);padding:30px 0}
+
+.steps{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:20px}
+.step{border-top:1px solid var(--brass);padding-top:14px}
+.step .n{font-family:var(--mono);font-size:.78rem;color:var(--brass)}
+.step h3{font-size:1.2rem;margin:6px 0}
+.step p{margin:0;font-size:.92rem;color:var(--muted)}
+.step code{font-family:var(--mono);font-size:.85em;background:var(--soft);padding:1px 5px}
+
+.about{display:grid;grid-template-columns:.75fr 1.25fr;gap:56px;align-items:center}
+.about > *{min-width:0}
+.portrait{aspect-ratio:4/5;background:var(--soft);display:grid;place-items:center;max-width:340px;width:100%;border:1px solid var(--line);overflow:hidden}
+.portrait img{width:100%;height:100%;object-fit:cover;object-position:top}
+.portrait span{font-family:var(--display);font-size:5.5rem;color:var(--brass)}
+.about p{max-width:60ch}
+.about ul{padding-left:18px;color:var(--muted)}
+
+.contact{background:var(--ink);color:var(--on-ink);padding:44px;display:grid;grid-template-columns:1fr 1fr;gap:44px}
+.contact > *{min-width:0}
+.contact h2{color:var(--on-ink)}
+.contact p{opacity:.85}
+.cline{display:flex;justify-content:space-between;gap:12px;align-items:center;padding:12px 0;border-bottom:1px solid color-mix(in srgb,var(--on-ink) 25%,transparent);flex-wrap:wrap}
+.cline span{font-size:.76rem;text-transform:uppercase;letter-spacing:.1em;opacity:.75}
+.cline b{font-weight:500;user-select:all;word-break:break-all;font-variant-numeric:tabular-nums}
+.cline a{color:inherit;text-decoration:none;border-bottom:1px solid currentColor;font-size:.8rem}
+form{display:flex;flex-direction:column;gap:12px}
+form label{font-size:.84rem;opacity:.85}
+form input,form textarea,form select{width:100%;background:color-mix(in srgb,var(--on-ink) 8%,transparent);border:1px solid color-mix(in srgb,var(--on-ink) 30%,transparent);padding:10px 12px;color:var(--on-ink)}
+form select option{color:#0E1B2C;background:#FFFFFF}
+form textarea{min-height:90px;resize:vertical}
+.btn.brass{background:var(--brass);border-color:var(--brass);color:var(--ink);align-self:flex-start}
+.done{background:color-mix(in srgb,var(--on-ink) 10%,transparent);padding:16px}
+.done pre{white-space:pre-wrap;font-family:var(--body);margin:8px 0 12px;font-size:.92rem}
+
+footer{padding-block:30px 44px;color:var(--muted);font-size:.84rem;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+
+dialog{border:0;padding:0;max-width:880px;width:calc(100% - 32px);background:var(--surface);color:var(--ink)}
+dialog::backdrop{background:rgba(8,16,26,.7)}
+.gal{position:relative;aspect-ratio:3/2;background:var(--soft)}
+.gal img,.gal svg{display:block;width:100%;height:100%;object-fit:cover}
+.gal .nav{position:absolute;top:50%;transform:translateY(-50%);width:42px;height:42px;border:0;background:rgba(14,27,44,.7);color:#F2F2F0;cursor:pointer;font-size:1.2rem}
+.gal .prev{left:10px}.gal .next{right:10px}
+.gal .count{bottom:12px;right:12px}
+.close{position:absolute;top:12px;right:12px;width:40px;height:40px;border:0;background:var(--surface);color:var(--ink);cursor:pointer;font-size:1.3rem;z-index:2}
+.m-body{padding:26px 28px 30px}
+.m-specs{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:18px 0}
+.m-specs div{background:var(--soft);padding:10px 12px}
+.m-specs span{display:block;font-size:.74rem;color:var(--muted)}
+.m-specs b{font-variant-numeric:tabular-nums;font-weight:600}
+.m-feat{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 18px;padding:0;list-style:none}
+.m-feat li{border:1px solid var(--line);padding:4px 10px;font-size:.84rem}
+.m-actions{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+.m-actions .src{font-size:.84rem;color:var(--muted)}
+
+@media (max-width:900px){
+  .grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .steps{grid-template-columns:repeat(2,minmax(0,1fr))}
+  nav.links{display:none}
+}
+@media (max-width:640px){
+  .hero,.about,.contact{grid-template-columns:1fr}
+  .hero{padding-block:32px 24px;gap:28px}
+  .grid,.steps{grid-template-columns:1fr}
+  .contact{padding:28px 20px}
+  .m-specs{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .m-body{padding:20px}
+  .portrait{max-width:220px}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#top"><b data-i="name"></b><span data-i="role"></span></a>
+    <nav class="links">
+      <a href="#objects" data-i="navObjects"></a>
+      <a href="#how" data-i="navHow"></a>
+      <a href="#about" data-i="navAbout"></a>
+      <a href="#contact" data-i="navContact"></a>
+    </nav>
+    <div class="lang" role="group" aria-label="Language" id="langs"></div>
+  </div>
+</header>
+
+<main class="wrap" id="top">
+  <section class="hero">
+    <div>
+      <div class="eyebrow" data-i="heroEyebrow"></div>
+      <h1 data-i="heroTitle" data-html></h1>
+      <p class="lead" data-i="heroLead"></p>
+      <div class="btns">
+        <a class="btn" href="#objects" data-i="heroBtn"></a>
+        <a class="btn ghost" href="#contact" data-i="heroBtn2"></a>
+      </div>
+      <div class="facts">
+        <div><b id="factCount"></b><span data-i="fact1"></span></div>
+        <div><b>5</b><span data-i="fact2"></span></div>
+        <div><b>BG ⇄ GR</b><span data-i="fact3"></span></div>
+      </div>
+    </div>
+    <div class="hero-art" id="heroArt"></div>
+  </section>
+
+  <section id="objects">
+    <div class="sec-head">
+      <div class="eyebrow" data-i="objEyebrow"></div>
+      <h2 data-i="objTitle"></h2>
+      <p data-i="objLead"></p>
+    </div>
+    <div class="filters" id="filters"></div>
+    <div class="grid" id="grid"></div>
+  </section>
+
+  <section id="how">
+    <div class="sec-head"><h2 data-i="howTitle"></h2><p data-i="howLead"></p></div>
+    <div class="steps" id="steps"></div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="portrait" id="portrait"><span>ВХ</span></div>
+    <div>
+      <div class="eyebrow" data-i="aboutEyebrow"></div>
+      <h2 style="margin:10px 0 16px;font-size:clamp(1.8rem,3.2vw,2.5rem)" data-i="aboutTitle"></h2>
+      <p data-i="about1"></p>
+      <p data-i="about2"></p>
+      <ul id="aboutList"></ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="contact">
+      <div>
+        <h2 style="font-size:clamp(1.8rem,3.2vw,2.5rem)" data-i="contactTitle"></h2>
+        <p data-i="contactLead"></p>
+        <div class="cline"><span data-i="phone"></span><b>+359 879 590 026</b></div>
+        <div class="cline"><span>WhatsApp · Viber</span><b>+359 882 593 077</b></div>
+        <div class="cline"><span>Email</span><b>hasanova@imotipremier.com</b></div>
+        <div class="cline"><span>Imoti Premier</span><span style="display:flex;gap:16px;opacity:1;text-transform:none;letter-spacing:0"><a href="https://wa.me/359882593077" target="_blank" rel="noopener">WhatsApp ↗</a><a href="https://imotipremier.com/brokeri/venera-hasanova/" target="_blank" rel="noopener">imotipremier.com ↗</a></span></div>
+      </div>
+      <div>
+        <form id="form">
+          <div><label for="f-name" data-i="fName"></label><input id="f-name" required></div>
+          <div><label for="f-phone" data-i="fPhone"></label><input id="f-phone" required></div>
+          <div><label for="f-obj" data-i="fObj"></label><select id="f-obj"></select></div>
+          <div><label for="f-msg" data-i="fMsg"></label><textarea id="f-msg"></textarea></div>
+          <button class="btn brass" type="submit" data-i="fSend"></button>
+        </form>
+        <div class="done" id="done" hidden>
+          <b data-i="doneTitle"></b>
+          <pre id="doneText"></pre>
+          <button class="btn brass" id="copy" type="button" data-i="copy"></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <span>© 2026 <span data-i="name"></span> · Imoti Premier</span>
+    <span id="updated"></span>
+  </footer>
+</main>
+
+<dialog id="modal">
+  <button class="close" id="mClose" aria-label="Close">×</button>
+  <div class="gal" id="gal">
+    <div id="galImg" style="width:100%;height:100%"></div>
+    <button class="nav prev" id="gPrev" aria-label="Previous">‹</button>
+    <button class="nav next" id="gNext" aria-label="Next">›</button>
+    <span class="count" id="gCount"></span>
+  </div>
+  <div class="m-body">
+    <div class="eyebrow" id="mLoc"></div>
+    <h2 id="mTitle" style="margin:10px 0 6px;font-size:clamp(1.6rem,3vw,2.2rem)"></h2>
+    <div class="price" id="mPrice"></div>
+    <div class="m-specs" id="mSpecs"></div>
+    <p id="mDesc"></p>
+    <ul class="m-feat" id="mFeat"></ul>
+    <div class="m-actions">
+      <a class="btn" href="#contact" id="mAsk"></a>
+      <a class="src" id="mSrc" target="_blank" rel="noopener"></a>
+    </div>
+  </div>
+</dialog>
+
+<script src="listings.js"></script>
+<script>
+/* Google Analytics 4: вставьте сюда свой ID вида "G-XXXXXXXXXX" после регистрации */
+const GA_ID = "";
+if (GA_ID) {
+  const s=document.createElement("script"); s.async=true; s.src="https://www.googletagmanager.com/gtag/js?id="+GA_ID; document.head.appendChild(s);
+  window.dataLayer=window.dataLayer||[]; window.gtag=function(){dataLayer.push(arguments)}; gtag("js",new Date()); gtag("config",GA_ID);
+}
+const track=(name,params)=>{ try{ if(window.gtag) gtag("event",name,params) }catch(e){} };
+
+const LANGS=["bg","ru","en","de","es"];
+const LOCALE={bg:"bg-BG",ru:"ru-RU",en:"en-GB",de:"de-DE",es:"es-ES"};
+
+const T={
+bg:{name:"Венера Хасанова",role:"Imoti Premier · Имоти в Гърция",navObjects:"Имоти",navHow:"Как работя",navAbout:"За мен",navContact:"Контакт",
+ heroEyebrow:"Кавала · Северна Гърция",heroTitle:"Вашият дом <em>на гръцкото море</em>, с личен брокер, който говори вашия език",
+ heroLead:"Подбирам апартаменти и къщи в Гърция за купувачи от България и цяла Европа. Огледи онлайн и на място, проверка на документите и придружаване до нотариуса.",
+ heroBtn:"Виж имотите",heroBtn2:"Безплатна консултация",fact1:"актуални имота в Гърция",fact2:"езика за консултации",fact3:"живея между двете държави",
+ objEyebrow:"Imoti Premier",objTitle:"Актуални имоти в Гърция",objLead:"Всички обяви са мои и са публикувани в Imoti Premier. Натиснете карта за снимки и подробности.",
+ all:"Всички",typeAll:"Всички видове",apt:"Апартамент",house:"Къща",villa:"Вила",none:"Няма имоти по този филтър.",
+ area:"Площ",bedrooms:"Спални",floor:"Етаж",sea:"До морето",seafront:"на брега",km:"км",photos:"снимки",
+ ask:"Питай за този имот",source:"Обява в Imoti Premier, код",
+ howTitle:"Как работя",howLead:"Покупката в Гърция има свои правила. Минавам с вас през всяка стъпка.",
+ steps:[["Подбор","Обсъждаме бюджет, район и цел: почивка, живеене или отдаване под наем."],["Оглед","Видео оглед онлайн или пътуване заедно до имота."],["ΑΦΜ и сметка","Помагам с гръцки данъчен номер <code>ΑΦΜ</code> и банкова сметка в Гърция."],["Проверка","Адвокат проверява собствеността, тежестите и разрешенията."],["Нотариус","Подписване при нотариус и вписване в Κτηματολόγιο."]],
+ aboutEyebrow:"За мен",aboutTitle:"Купих и възстановявам собствена къща в Гърция",
+ about1:"От 2013 г. живея в България. Тук създадох първото училище за неформално образование, което получи две награди, а по-късно го продадох. Днес съм брокер на недвижими имоти в Imoti Premier.",
+ about2:"Сама минах през покупката и ремонта на къща в Гърция, затова знам къде купувачите губят време и пари. Помагам ви да избегнете същите грешки.",
+ aboutList:["Брокер в Imoti Premier, офис Варна","Консултации на български, руски, английски, немски и испански","Живея между България и Гърция","Работя с проверени адвокати и нотариуси"],
+ contactTitle:"Да намерим вашия имот",contactLead:"Оставете заявка или пишете директно. Отговарям в рамките на деня.",
+ phone:"Телефон",fName:"Име",fPhone:"Телефон или Viber",fObj:"Имот",fMsg:"Какво търсите?",anyObj:"Общо запитване",
+ fSend:"Подготви заявка",doneTitle:"Заявката е готова. Копирайте я и я изпратете по Viber, WhatsApp или имейл:",copy:"Копирай",copied:"Копирано",updated:"Обявите са обновени"},
+ru:{name:"Венера Хасанова",role:"Imoti Premier · Недвижимость в Греции",navObjects:"Объекты",navHow:"Как я работаю",navAbout:"Обо мне",navContact:"Контакты",
+ heroEyebrow:"Кавала · Северная Греция",heroTitle:"Ваш дом <em>у греческого моря</em>, с личным риэлтором, который говорит на вашем языке",
+ heroLead:"Подбираю квартиры и дома в Греции для покупателей из Болгарии и всей Европы. Показы онлайн и вживую, проверка документов и сопровождение до нотариуса.",
+ heroBtn:"Смотреть объекты",heroBtn2:"Бесплатная консультация",fact1:"актуальных объекта в Греции",fact2:"языков для консультаций",fact3:"живу между двумя странами",
+ objEyebrow:"Imoti Premier",objTitle:"Актуальные объекты в Греции",objLead:"Все объявления мои и опубликованы в Imoti Premier. Нажмите на карточку, чтобы посмотреть фото и подробности.",
+ all:"Все",typeAll:"Все типы",apt:"Квартира",house:"Дом",villa:"Вилла",none:"По этому фильтру объектов нет.",
+ area:"Площадь",bedrooms:"Спальни",floor:"Этаж",sea:"До моря",seafront:"на берегу",km:"км",photos:"фото",
+ ask:"Спросить об этом объекте",source:"Объявление в Imoti Premier, код",
+ howTitle:"Как я работаю",howLead:"У покупки в Греции свои правила. Я прохожу с вами каждый шаг.",
+ steps:[["Подбор","Обсуждаем бюджет, район и цель: отдых, жизнь или сдача в аренду."],["Показ","Видеопоказ онлайн или совместная поездка на объект."],["ΑΦΜ и счёт","Помогаю получить греческий налоговый номер <code>ΑΦΜ</code> и открыть счёт в Греции."],["Проверка","Адвокат проверяет собственность, обременения и разрешения."],["Нотариус","Подписание у нотариуса и регистрация в Κτηματολόγιο."]],
+ aboutEyebrow:"Обо мне",aboutTitle:"Я сама купила и восстанавливаю дом в Греции",
+ about1:"С 2013 года я живу в Болгарии. Здесь я создала первую школу неформального образования, она получила две награды, позже я её продала. Сейчас я риэлтор в Imoti Premier.",
+ about2:"Я сама прошла покупку и ремонт дома в Греции, поэтому знаю, где покупатели теряют время и деньги. Помогаю вам не повторять этих ошибок.",
+ aboutList:["Риэлтор Imoti Premier, офис в Варне","Консультации на болгарском, русском, английском, немецком и испанском","Живу между Болгарией и Грецией","Работаю с проверенными адвокатами и нотариусами"],
+ contactTitle:"Давайте найдём ваш объект",contactLead:"Оставьте заявку или напишите напрямую. Отвечаю в течение дня.",
+ phone:"Телефон",fName:"Имя",fPhone:"Телефон или Viber",fObj:"Объект",fMsg:"Что вы ищете?",anyObj:"Общий вопрос",
+ fSend:"Подготовить заявку",doneTitle:"Заявка готова. Скопируйте её и отправьте в Viber, WhatsApp или на почту:",copy:"Скопировать",copied:"Скопировано",updated:"Объявления обновлены"},
+en:{name:"Venera Hasanova",role:"Imoti Premier · Property in Greece",navObjects:"Properties",navHow:"How I work",navAbout:"About",navContact:"Contact",
+ heroEyebrow:"Kavala · Northern Greece",heroTitle:"Your home <em>by the Greek sea</em>, with a personal agent who speaks your language",
+ heroLead:"I find apartments and houses in Greece for buyers from Bulgaria and across Europe. Online and in-person viewings, document checks and support all the way to the notary.",
+ heroBtn:"View properties",heroBtn2:"Free consultation",fact1:"current listings in Greece",fact2:"languages spoken",fact3:"I live in both countries",
+ objEyebrow:"Imoti Premier",objTitle:"Current properties in Greece",objLead:"All listings are mine and published with Imoti Premier. Tap a card for photos and details.",
+ all:"All",typeAll:"All types",apt:"Apartment",house:"House",villa:"Villa",none:"No properties match this filter.",
+ area:"Area",bedrooms:"Bedrooms",floor:"Floor",sea:"To the sea",seafront:"on the shore",km:"km",photos:"photos",
+ ask:"Ask about this property",source:"Imoti Premier listing, code",
+ howTitle:"How I work",howLead:"Buying in Greece has its own rules. I guide you through every step.",
+ steps:[["Selection","We discuss budget, area and purpose: holidays, living or renting out."],["Viewing","A video viewing online or a trip to the property together."],["ΑΦΜ and bank","I help you get a Greek tax number <code>ΑΦΜ</code> and open a Greek bank account."],["Due diligence","A lawyer checks ownership, encumbrances and permits."],["Notary","Signing at the notary and registration in the Κτηματολόγιο land registry."]],
+ aboutEyebrow:"About me",aboutTitle:"I bought a house in Greece myself and I am restoring it",
+ about1:"I have lived in Bulgaria since 2013. Here I founded the country's first non-formal education school, which won two awards, and later sold it. Today I am a real estate agent at Imoti Premier.",
+ about2:"I went through buying and renovating a house in Greece myself, so I know where buyers lose time and money. I help you avoid the same mistakes.",
+ aboutList:["Agent at Imoti Premier, Varna office","Consultations in Bulgarian, Russian, English, German and Spanish","I live between Bulgaria and Greece","I work with trusted lawyers and notaries"],
+ contactTitle:"Let's find your property",contactLead:"Send a request or contact me directly. I reply the same day.",
+ phone:"Phone",fName:"Name",fPhone:"Phone or Viber",fObj:"Property",fMsg:"What are you looking for?",anyObj:"General enquiry",
+ fSend:"Prepare request",doneTitle:"Your request is ready. Copy it and send it via Viber, WhatsApp or email:",copy:"Copy",copied:"Copied",updated:"Listings updated"},
+de:{name:"Venera Hasanova",role:"Imoti Premier · Immobilien in Griechenland",navObjects:"Immobilien",navHow:"Ablauf",navAbout:"Über mich",navContact:"Kontakt",
+ heroEyebrow:"Kavala · Nordgriechenland",heroTitle:"Ihr Zuhause <em>am griechischen Meer</em>, mit einer persönlichen Maklerin, die Ihre Sprache spricht",
+ heroLead:"Ich finde Wohnungen und Häuser in Griechenland für Käufer aus Bulgarien und ganz Europa. Besichtigungen online und vor Ort, Prüfung der Unterlagen und Begleitung bis zum Notar.",
+ heroBtn:"Immobilien ansehen",heroBtn2:"Kostenlose Beratung",fact1:"aktuelle Angebote in Griechenland",fact2:"Beratungssprachen",fact3:"ich lebe in beiden Ländern",
+ objEyebrow:"Imoti Premier",objTitle:"Aktuelle Immobilien in Griechenland",objLead:"Alle Angebote sind meine eigenen und bei Imoti Premier veröffentlicht. Tippen Sie auf eine Karte für Fotos und Details.",
+ all:"Alle",typeAll:"Alle Arten",apt:"Wohnung",house:"Haus",villa:"Villa",none:"Keine Immobilien für diesen Filter.",
+ area:"Fläche",bedrooms:"Schlafzimmer",floor:"Etage",sea:"Zum Meer",seafront:"direkt am Strand",km:"km",photos:"Fotos",
+ ask:"Zu dieser Immobilie anfragen",source:"Angebot bei Imoti Premier, Code",
+ howTitle:"So arbeite ich",howLead:"Ein Kauf in Griechenland hat eigene Regeln. Ich begleite Sie bei jedem Schritt.",
+ steps:[["Auswahl","Wir besprechen Budget, Region und Ziel: Urlaub, Wohnen oder Vermietung."],["Besichtigung","Video-Besichtigung online oder gemeinsame Fahrt zur Immobilie."],["ΑΦΜ und Konto","Ich helfe bei der griechischen Steuernummer <code>ΑΦΜ</code> und einem Bankkonto in Griechenland."],["Prüfung","Ein Anwalt prüft Eigentum, Belastungen und Genehmigungen."],["Notar","Unterzeichnung beim Notar und Eintragung im Κτηματολόγιο (Grundbuch)."]],
+ aboutEyebrow:"Über mich",aboutTitle:"Ich habe selbst ein Haus in Griechenland gekauft und restauriere es",
+ about1:"Seit 2013 lebe ich in Bulgarien. Hier habe ich die erste Schule für nicht-formale Bildung gegründet, die zwei Preise gewann und die ich später verkauft habe. Heute bin ich Immobilienmaklerin bei Imoti Premier.",
+ about2:"Ich habe den Kauf und die Renovierung eines Hauses in Griechenland selbst erlebt und weiß, wo Käufer Zeit und Geld verlieren. Ich helfe Ihnen, diese Fehler zu vermeiden.",
+ aboutList:["Maklerin bei Imoti Premier, Büro Varna","Beratung auf Bulgarisch, Russisch, Englisch, Deutsch und Spanisch","Ich lebe zwischen Bulgarien und Griechenland","Ich arbeite mit geprüften Anwälten und Notaren"],
+ contactTitle:"Finden wir Ihre Immobilie",contactLead:"Senden Sie eine Anfrage oder schreiben Sie mir direkt. Ich antworte am selben Tag.",
+ phone:"Telefon",fName:"Name",fPhone:"Telefon oder Viber",fObj:"Immobilie",fMsg:"Was suchen Sie?",anyObj:"Allgemeine Anfrage",
+ fSend:"Anfrage vorbereiten",doneTitle:"Ihre Anfrage ist fertig. Kopieren Sie sie und senden Sie sie per Viber, WhatsApp oder E-Mail:",copy:"Kopieren",copied:"Kopiert",updated:"Angebote aktualisiert"},
+es:{name:"Venera Hasanova",role:"Imoti Premier · Inmuebles en Grecia",navObjects:"Inmuebles",navHow:"Cómo trabajo",navAbout:"Sobre mí",navContact:"Contacto",
+ heroEyebrow:"Kavala · Norte de Grecia",heroTitle:"Su casa <em>junto al mar griego</em>, con una agente personal que habla su idioma",
+ heroLead:"Busco pisos y casas en Grecia para compradores de Bulgaria y de toda Europa. Visitas online y presenciales, revisión de documentos y acompañamiento hasta el notario.",
+ heroBtn:"Ver inmuebles",heroBtn2:"Consulta gratuita",fact1:"inmuebles disponibles en Grecia",fact2:"idiomas de atención",fact3:"vivo entre los dos países",
+ objEyebrow:"Imoti Premier",objTitle:"Inmuebles disponibles en Grecia",objLead:"Todos los anuncios son míos y están publicados en Imoti Premier. Pulse una tarjeta para ver fotos y detalles.",
+ all:"Todos",typeAll:"Todos los tipos",apt:"Piso",house:"Casa",villa:"Villa",none:"No hay inmuebles con este filtro.",
+ area:"Superficie",bedrooms:"Dormitorios",floor:"Planta",sea:"Al mar",seafront:"en la orilla",km:"km",photos:"fotos",
+ ask:"Preguntar por este inmueble",source:"Anuncio en Imoti Premier, código",
+ howTitle:"Cómo trabajo",howLead:"Comprar en Grecia tiene sus propias reglas. Le acompaño en cada paso.",
+ steps:[["Selección","Hablamos de presupuesto, zona y objetivo: vacaciones, vivir o alquilar."],["Visita","Visita por vídeo online o viaje juntos al inmueble."],["ΑΦΜ y cuenta","Le ayudo a obtener el número fiscal griego <code>ΑΦΜ</code> y abrir una cuenta bancaria en Grecia."],["Comprobación","Un abogado revisa la propiedad, las cargas y los permisos."],["Notario","Firma ante notario e inscripción en el Κτηματολόγιο (catastro)."]],
+ aboutEyebrow:"Sobre mí",aboutTitle:"Yo misma compré una casa en Grecia y la estoy restaurando",
+ about1:"Vivo en Bulgaria desde 2013. Aquí fundé la primera escuela de educación no formal del país, que recibió dos premios, y más tarde la vendí. Hoy soy agente inmobiliaria en Imoti Premier.",
+ about2:"Pasé personalmente por la compra y la reforma de una casa en Grecia, así que sé dónde pierden tiempo y dinero los compradores. Le ayudo a evitar esos errores.",
+ aboutList:["Agente en Imoti Premier, oficina de Varna","Atención en búlgaro, ruso, inglés, alemán y español","Vivo entre Bulgaria y Grecia","Trabajo con abogados y notarios de confianza"],
+ contactTitle:"Encontremos su inmueble",contactLead:"Envíe una solicitud o escríbame directamente. Respondo el mismo día.",
+ phone:"Teléfono",fName:"Nombre",fPhone:"Teléfono o Viber",fObj:"Inmueble",fMsg:"¿Qué busca?",anyObj:"Consulta general",
+ fSend:"Preparar solicitud",doneTitle:"Su solicitud está lista. Cópiela y envíela por Viber, WhatsApp o correo:",copy:"Copiar",copied:"Copiado",updated:"Anuncios actualizados"}
+};
+
+/* данные объектов — в listings.js */
+
+/* drawn fallback when a photo can't load */
+function scene(type, w, h, seed){
+  const hy=h*.58, bx=w*(.16+((seed*37)%28)/100), bw=w*.42, bh=h*.3;
+  const roof = type==="house"
+    ? `<polygon points="${bx-10},${hy-bh} ${bx+bw/2},${hy-bh-h*.12} ${bx+bw+10},${hy-bh}" fill="#9C5B3E"/>`
+    : `<rect x="${bx-6}" y="${hy-bh-8}" width="${bw+12}" height="10" fill="#D9D4C8"/>`;
+  let wins=""; const cols=type==="villa"?4:3;
+  for(let i=0;i<cols;i++) wins+=`<rect x="${bx+14+i*(bw-28)/cols}" y="${hy-bh+16}" width="${(bw-28)/cols-10}" height="${bh*.32}" fill="#243B52" opacity=".85"/>`;
+  return `<svg viewBox="0 0 ${w} ${h}" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+    <defs><linearGradient id="sk${seed}" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="var(--sky1)"/><stop offset="1" stop-color="var(--sky2)"/></linearGradient></defs>
+    <rect width="${w}" height="${h}" fill="url(#sk${seed})"/>
+    <circle cx="${w*.8}" cy="${h*.18}" r="${h*.06}" fill="#E8D3A2"/>
+    <path d="M0 ${hy-18} Q ${w*.25} ${hy-48} ${w*.5} ${hy-22} T ${w} ${hy-30} V ${hy} H0Z" fill="var(--hill)" opacity=".55"/>
+    <rect x="0" y="${hy}" width="${w}" height="${h-hy}" fill="var(--sea)"/>
+    <rect x="0" y="${hy+(h-hy)*.55}" width="${w}" height="${h-hy}" fill="var(--sea2)"/>
+    <rect x="0" y="${hy-6}" width="${w}" height="8" fill="#DCD3BE"/>
+    <rect x="${bx}" y="${hy-bh}" width="${bw}" height="${bh}" fill="#F7F7F4" stroke="rgba(0,0,0,.08)"/>
+    ${roof}${wins}<rect x="${bx+bw*.42}" y="${hy-bh*.42}" width="${bw*.16}" height="${bh*.42}" fill="#243B52"/>
+  </svg>`;
+}
+function photo(p, i, w, h){
+  const src = p.photos[i] ? IMG + p.photos[i] + ".webp" : "";
+  const fb = encodeURIComponent(scene(p.type, w, h, p.code % 97 + i));
+  return src ? `<img src="${src}" alt="" loading="lazy" onerror="this.outerHTML=decodeURIComponent('${fb}')">` : scene(p.type, w, h, p.code % 97 + i);
+}
+
+const $ = s => document.querySelector(s);
+let lang = "bg", place = "all", type = "all";
+(function initLang(){
+  const h = location.hash.replace("#","");
+  if (LANGS.includes(h)) { lang = h; return; }
+  try { const s = localStorage.getItem("vh-lang"); if (LANGS.includes(s)) { lang = s; return; } } catch(e){}
+  const nav = (navigator.language||"").slice(0,2);
+  if (LANGS.includes(nav)) lang = nav;
+})();
+const money = n => new Intl.NumberFormat(LOCALE[lang]).format(n) + " €";
+const seaText = (p,t) => p.sea===0 ? t.seafront : p.sea>=1000 ? (p.sea/1000)+" "+t.km : p.sea+" m";
+
+function render(){
+  const t = T[lang];
+  document.documentElement.lang = lang;
+  document.title = t.name + " · Imoti Premier";
+  document.querySelectorAll("[data-i]").forEach(el=>{
+    const v = t[el.dataset.i]; if (v==null) return;
+    if (el.hasAttribute("data-html")) el.innerHTML = v; else el.textContent = v;
+  });
+  $("#langs").innerHTML = LANGS.map(l=>`<button data-lang="${l}" aria-pressed="${l===lang}">${l.toUpperCase()}</button>`).join("");
+  $("#factCount").textContent = LISTINGS.length;
+  $("#updated").textContent = t.updated + ": " + new Date(UPDATED).toLocaleDateString(LOCALE[lang]);
+
+  const places = [...new Set(LISTINGS.map(p=>p.place))];
+  const types = [...new Set(LISTINGS.map(p=>p.type))];
+  $("#filters").innerHTML = [["all",t.all],...places.map(k=>[k,PLACES[k][lang]])]
+    .map(([k,l])=>`<button class="chip" data-place="${k}" aria-pressed="${place===k}">${l}</button>`).join("")
+    + `<select id="type-select" aria-label="type"><option value="all">${t.typeAll}</option>${types.map(k=>`<option value="${k}">${t[k]}</option>`).join("")}</select>`;
+  $("#type-select").value = type;
+
+  const list = LISTINGS.filter(p=>(place==="all"||p.place===place)&&(type==="all"||p.type===type));
+  $("#grid").innerHTML = list.length ? list.map(p=>`
+    <button class="card" data-code="${p.code}">
+      <div class="pic">${photo(p,0,600,400)}<span class="tag">${t[p.type]}</span><span class="count">${p.photos.length} ${t.photos}</span></div>
+      <div class="body">
+        <div class="loc">${PLACES[p.place][lang]} · ${p.code}</div>
+        <h3>${p.title[lang]}</h3>
+        <div class="price">${money(p.price)}</div>
+        <div class="specs"><span>${p.area} м²</span>${p.bedrooms?`<span>${t.bedrooms}: ${p.bedrooms}</span>`:""}${p.sea!=null?`<span>${t.sea}: ${seaText(p,t)}</span>`:""}${p.floor?`<span>${t.floor}: ${p.floor}</span>`:""}</div>
+      </div>
+    </button>`).join("") : `<p class="empty">${t.none}</p>`;
+
+  $("#steps").innerHTML = t.steps.map((s,i)=>`<div class="step"><div class="n">0${i+1}</div><h3>${s[0]}</h3><p>${s[1]}</p></div>`).join("");
+  $("#aboutList").innerHTML = t.aboutList.map(x=>`<li>${x}</li>`).join("");
+  const sel = $("#f-obj"), cur = sel.value;
+  sel.innerHTML = `<option value="">${t.anyObj}</option>` + LISTINGS.map(p=>`<option value="${p.code}">${p.code} · ${p.title[lang]}</option>`).join("");
+  sel.value = cur || "";
+}
+
+$("#heroArt").innerHTML = scene("villa", 400, 500, 7);
+(function(){ const img=new Image(); img.onload=()=>{ $("#portrait").innerHTML=""; $("#portrait").appendChild(img); };
+  img.alt=""; img.src="https://imotipremier.com/webfactor-images/venera-hasanova-broker-na-nedvijimi-imoti1221828-522x642-top-1221828.webp"; })();
+
+document.addEventListener("click", e=>{
+  const lb = e.target.closest("#langs button");
+  if (lb){ lang = lb.dataset.lang; try{localStorage.setItem("vh-lang",lang)}catch(_){}; track("language",{lang}); render(); return; }
+  const chip = e.target.closest(".chip");
+  if (chip){ place = chip.dataset.place; render(); return; }
+  const card = e.target.closest(".card");
+  if (card) openModal(+card.dataset.code);
+});
+document.addEventListener("change", e=>{ if (e.target.id==="type-select"){ type=e.target.value; render(); } });
+
+const modal = $("#modal"); let cur = null, idx = 0;
+function showPhoto(){ $("#galImg").innerHTML = photo(cur, idx, 900, 600); $("#gCount").textContent = (idx+1)+" / "+cur.photos.length; const many=cur.photos.length>1; $("#gPrev").hidden=!many; $("#gNext").hidden=!many; }
+function openModal(code){
+  const t = T[lang]; cur = LISTINGS.find(p=>p.code===code); idx = 0;
+  showPhoto();
+  $("#mLoc").textContent = `${t[cur.type]} · ${PLACES[cur.place][lang]}`;
+  $("#mTitle").textContent = cur.title[lang];
+  $("#mPrice").textContent = money(cur.price);
+  const specs = [[t.area, cur.area+" м²"]];
+  if (cur.bedrooms) specs.push([t.bedrooms, cur.bedrooms]);
+  if (cur.floor) specs.push([t.floor, cur.floor]);
+  if (cur.sea!=null) specs.push([t.sea, seaText(cur,t)]);
+  specs.push(["€/м²", new Intl.NumberFormat(LOCALE[lang]).format(Math.round(cur.price/cur.area))]);
+  $("#mSpecs").innerHTML = specs.slice(0,4).map(([a,b])=>`<div><span>${a}</span><b>${b}</b></div>`).join("");
+  $("#mDesc").textContent = cur.desc[lang];
+  $("#mFeat").innerHTML = (cur.feat[lang]||[]).map(f=>`<li>${f}</li>`).join("");
+  const a = $("#mAsk"); a.textContent = t.ask;
+  a.onclick = ()=>{ $("#f-obj").value = cur.code; modal.close(); track("ask_property",{code:cur.code}); };
+  const s = $("#mSrc"); s.href = cur.url; s.textContent = `${t.source} ${cur.code} ↗`;
+  track("view_property",{code:code});
+  modal.showModal();
+}
+$("#gPrev").onclick = ()=>{ idx = (idx-1+cur.photos.length)%cur.photos.length; showPhoto(); };
+$("#gNext").onclick = ()=>{ idx = (idx+1)%cur.photos.length; showPhoto(); };
+$("#mClose").onclick = ()=>modal.close();
+modal.addEventListener("click", e=>{ if (e.target===modal) modal.close(); });
+document.addEventListener("keydown", e=>{ if(!modal.open) return; if(e.key==="ArrowRight") $("#gNext").click(); if(e.key==="ArrowLeft") $("#gPrev").click(); });
+
+$("#form").addEventListener("submit", e=>{
+  e.preventDefault();
+  const t = T[lang], code = $("#f-obj").value, p = LISTINGS.find(x=>String(x.code)===code);
+  const txt = `${t.fName}: ${$("#f-name").value}\n${t.fPhone}: ${$("#f-phone").value}\n${t.fObj}: ${p ? p.code+" · "+p.title[lang]+" · "+money(p.price) : t.anyObj}\n${t.fMsg} ${$("#f-msg").value}`;
+  $("#doneText").textContent = txt; $("#done").hidden = false; track("lead_prepared",{code:code||"general"});
+});
+$("#copy").addEventListener("click", ()=>{
+  const b = $("#copy");
+  navigator.clipboard.writeText($("#doneText").textContent).then(()=>{ b.textContent = T[lang].copied; }, ()=>{
+    const r=document.createRange(); r.selectNodeContents($("#doneText")); const s=getSelection(); s.removeAllRanges(); s.addRange(r);
+  });
+});
+
+render();
+</script>
+</body>
+</html>
