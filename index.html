@@ -102,20 +102,16 @@
   <button class="close" onclick="history.back()">← В каталог</button>
   <div class="detail-hero"><img id="detailImg" alt=""></div>
   <div class="detail-body" id="detailBody"></div>
-  <div class="detail-bar"><b id="detailPrice"></b><a class="primary" id="detailBook" target="_blank" rel="noopener">Хочу посмотреть ↗</a></div>
+  <div class="detail-bar"><b id="detailPrice"></b><button class="primary" type="button" onclick="contact(opened)">Хочу посмотреть ↗</button></div>
 </section>
 
-<dialog id="contactDialog">
+<dialog id="contactDialog" aria-labelledby="contactTitle">
   <span class="small">Связь с Венерой</span>
-  <h2>Найдём ваш новый дом.</h2>
+  <h2 id="contactTitle">Найдём ваш новый дом.</h2>
+  <p class="contact-for" id="contactFor" hidden></p>
   <p class="muted">Позвоните или напишите — отвечу лично.</p>
-  <ul class="contacts">
-    <li><span>Телефон</span><a href="tel:+359879590026">+359 879 590 026</a></li>
-    <li><span>WhatsApp</span><a href="https://wa.me/359882593077" target="_blank" rel="noopener">+359 882 593 077</a></li>
-    <li><span>Viber</span><a href="viber://chat?number=%2B359882593077">+359 882 593 077</a></li>
-    <li><span>Email</span><a href="mailto:hasanova@imotipremier.com">hasanova@imotipremier.com</a></li>
-  </ul>
-  <button class="primary" onclick="document.getElementById('contactDialog').close()">Закрыть</button>
+  <ul class="contacts" id="contactList"></ul>
+  <button class="primary" type="button" onclick="document.getElementById('contactDialog').close()">Закрыть</button>
 </dialog>
 
 <script src="./assets/listings.js"></script>

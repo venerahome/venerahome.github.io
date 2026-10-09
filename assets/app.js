@@ -1,5 +1,17 @@
 /* VENI — каталог объектов. Данные объектов: assets/listings.js (обновляется автоматически). */
-const WHATSAPP = '359882593077';
+/* ===== КОНТАКТЫ — меняйте здесь ===== */
+const CONTACTS = {
+  phones: [
+    // отдельный номер для каждого языка: {lang: 'Русский', number: '+359...'}
+    {lang: 'Основной', number: '+359879590026'}
+  ],
+  whatsapp: '+359882593077',
+  viber: '+359882593077',
+  telegram: '',            // имя в Telegram без @, например 'venera_greece'
+  email: 'hasanova@imotipremier.com'
+};
+const WHATSAPP = CONTACTS.whatsapp.replace(/\D/g, '');
+const fmtPhone = n => n.replace(/^\+359(\d{3})(\d{3})(\d{3})$/, '+359 $1 $2 $3');
 const TYPES = {apt: 'Квартира', house: 'Дом', villa: 'Вилла', plot: 'Участок', commercial: 'Коммерческая'};
 const TYPES_PL = {apt: 'Квартиры', house: 'Дома', villa: 'Виллы', plot: 'Участки', commercial: 'Коммерческие'};
 const D = window.LISTINGS_DATA || {listings: [], places: {}};
@@ -39,7 +51,21 @@ function render() {
 function toggleFav(id) { fav.has(id) ? fav.delete(id) : fav.add(id); localStorage.setItem('veni-fav', JSON.stringify([...fav])); render(); }
 function explore() { onlyFav = false; render(); document.querySelector('.hero').classList.add('zoom'); $('catalog').scrollIntoView({behavior: 'smooth'}); }
 function showFav() { onlyFav = !onlyFav; render(); $('catalog').scrollIntoView({behavior: 'smooth'}); }
-function contact() { $('contactDialog').showModal(); }
+function contact(id) {
+  const p = id ? byId(id) : null;
+  const link = p ? location.origin + location.pathname + '#object-' + p.id : '';
+  const msg = p ? `Здравствуйте! Меня интересует этот объект. Хочу узнать подробности и записаться на просмотр.\n${p.title} (№ ${p.id})\n${link}` : 'Здравствуйте, Венера! Хочу обсудить поиск недвижимости в Греции.';
+  $('contactFor').hidden = !p;
+  if (p) $('contactFor').textContent = `Объект № ${p.id} · ${p.title} · ${money(p.price)}`;
+  const rows = [];
+  CONTACTS.phones.filter(x => x.number).forEach(x => rows.push([`Телефон · ${x.lang}`, `tel:${x.number}`, fmtPhone(x.number)]));
+  if (CONTACTS.whatsapp) rows.push(['WhatsApp', `https://wa.me/${WHATSAPP}?text=${encodeURIComponent(msg)}`, fmtPhone(CONTACTS.whatsapp)]);
+  if (CONTACTS.viber) rows.push(['Viber', `viber://chat?number=${encodeURIComponent(CONTACTS.viber)}`, fmtPhone(CONTACTS.viber)]);
+  if (CONTACTS.telegram) rows.push(['Telegram', `https://t.me/${CONTACTS.telegram}`, '@' + CONTACTS.telegram]);
+  if (CONTACTS.email) rows.push(['Email', `mailto:${CONTACTS.email}?subject=${encodeURIComponent(p ? 'Объект № ' + p.id : 'Недвижимость в Греции')}&body=${encodeURIComponent(msg)}`, CONTACTS.email]);
+  $('contactList').innerHTML = rows.map(([k, h, v]) => `<li><span>${esc(k)}</span><a href="${esc(h)}"${h.startsWith('http') ? ' target="_blank" rel="noopener"' : ''}>${esc(v)}</a></li>`).join('');
+  $('contactDialog').showModal();
+}
 function setPhoto(i) { const p = byId(opened); if (!p) return; $('detailImg').src = p.photos[i]; document.querySelectorAll('.thumbs button').forEach((b, k) => b.classList.toggle('on', k === i)); $('detail').scrollTo({top: 0, behavior: 'smooth'}); }
 
 function openItem(id, el, push = true) {
@@ -53,15 +79,14 @@ function openItem(id, el, push = true) {
     p.sea === 0 ? ['На берегу', 'Море'] : p.sea ? [(p.sea >= 1000 ? p.sea / 1000 + ' км' : p.sea + ' м'), 'До моря'] : null,
     p.furnished != null ? [p.furnished ? 'Есть' : 'Нет', 'Мебель'] : null
   ].filter(Boolean);
-  $('detailBody').innerHTML = `<span class="small" style="color:var(--gold)">SELECTED BY VENI · № ${p.id}</span><h2>${esc(p.title)}</h2><p class="muted">${esc([p.city, p.district].filter(Boolean).join(', '))}</p>
+  $('detailBody').innerHTML = `<div class="detail-head"><div><span class="small" style="color:var(--gold)">SELECTED BY VENI · № ${p.id}</span><h2>${esc(p.title)}</h2><p class="muted">${esc([p.city, p.district].filter(Boolean).join(', '))}</p></div>
+    <aside class="price-box"><span class="small">Цена</span><strong>${money(p.price)}</strong>${p.area ? `<span class="ppm">${money(Math.round(p.price / p.area))} за м²</span>` : ''}<button class="primary" type="button" onclick="contact(${p.id})">Хочу посмотреть ↗</button></aside></div>
     <div class="specs">${specs.map(s => `<div><strong>${esc(s[0])}</strong><span>${esc(s[1])}</span></div>`).join('')}</div>
     <h3 style="font:25px Georgia">Об этом объекте</h3><p class="muted">${esc(p.text)}</p>
     ${p.feat.length ? `<ul class="feat">${p.feat.map(f => `<li>${esc(f)}</li>`).join('')}</ul>` : ''}
     ${p.photos.length > 1 ? `<h3 style="font:25px Georgia;margin-top:34px">Фотографии · ${p.photos.length}</h3><div class="thumbs">${p.photos.map((ph, i) => `<button class="${i ? '' : 'on'}" onclick="setPhoto(${i})" aria-label="Фото ${i + 1}"><img loading="lazy" src="${esc(ph)}" alt=""></button>`).join('')}</div>` : ''}
     ${p.url ? `<p style="margin-top:28px"><a class="src" href="${esc(p.url)}" target="_blank" rel="noopener">Объявление в Imoti Premier ↗</a></p>` : ''}`;
   $('detailPrice').textContent = money(p.price);
-  const link = location.origin + location.pathname + '#object-' + p.id;
-  $('detailBook').href = `https://wa.me/${WHATSAPP}?text=` + encodeURIComponent(`Здравствуйте! Меня интересует этот объект. Хочу узнать подробности и записаться на просмотр.\n${p.title} (№ ${p.id})\n${link}`);
   $('detail').classList.add('open'); $('detail').scrollTop = 0; document.body.style.overflow = 'hidden';
   document.title = p.title + ' · VENI';
   if (push) history.pushState({id}, '', '#object-' + id);
