@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-Disallow: /favorites/
-Sitemap: https://venerahome.github.io/sitemap.xml
