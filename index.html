@@ -64,7 +64,6 @@
     <div class="chips" id="chips"></div>
     <div class="count" id="count"></div>
     <div class="grid" id="grid"></div>
-    <div class="note" id="updated"></div>
   </section>
 
   <section class="steps-block" id="how">
@@ -146,11 +145,13 @@
     </div>
     <label for="s-msg" data-i="sMsg">Комментарий</label><textarea id="s-msg" rows="3"></textarea>
     <p class="form-error" id="sellErr" hidden data-i="sErr">Укажите имя и телефон.</p>
+    <p class="form-ok" id="sellOk" hidden role="status"></p>
     <div class="sell-actions">
-      <button class="primary" type="submit" data-i="sSend">Отправить в WhatsApp ↗</button>
+      <button class="primary" type="submit" id="sellSend" data-i="sSend">Отправить заявку</button>
       <button class="ghost" type="button" onclick="document.getElementById('sellDialog').close()" data-i="sCancel">Отмена</button>
     </div>
-    <p class="form-note" data-i="sNote">Заявка откроется в WhatsApp — нажмите там «Отправить».</p>
+    <button class="ghost wa-alt" type="button" id="sellWa" data-i="sWa">или отправить в WhatsApp ↗</button>
+    <p class="form-note" data-i="sNote">Заявка придёт Венере на почту, она свяжется с вами.</p>
   </form>
 </dialog>
 

@@ -71,7 +71,6 @@ function applyTexts() {
   const sc = $('s-country').selectedIndex, st = $('s-type').selectedIndex;
   $('s-country').innerHTML = T.sCountries.map(c => `<option>${esc(c)}</option>`).join(''); $('s-country').selectedIndex = Math.max(0, sc);
   $('s-type').innerHTML = T.sTypes.map(c => `<option>${esc(c)}</option>`).join(''); $('s-type').selectedIndex = Math.max(0, st);
-  $('updated').textContent = D.updated ? T.updated(new Date(D.updated).toLocaleDateString(T.locale)) : '';
 }
 function setLang(l) {
   lang = l; T = I18N[l]; store.set('veni-lang', l); track('language', {language: l});
@@ -185,16 +184,35 @@ window.addEventListener('popstate', () => {
 });
 
 /* ===== Заявка на продажу ===== */
-function sellForm() { track('sell_form_open'); $('sellErr').hidden = true; $('sellDialog').showModal(); }
-$('sellFormEl').addEventListener('submit', e => {
-  e.preventDefault();
+function sellForm() { track('sell_form_open'); $('sellErr').hidden = true; $('sellOk').hidden = true; $('sellDialog').showModal(); }
+const LEADS_EMAIL = 'khassanovapremier@gmail.com'; // куда приходят заявки
+function sellLines() {
   const v = id => $(id).value.trim();
-  if (!v('s-name') || !v('s-phone')) { $('sellErr').hidden = false; (v('s-name') ? $('s-phone') : $('s-name')).focus(); return; }
-  const lines = [T.sellHello, `${T.sName}: ${v('s-name')}`, `${T.sPhone}: ${v('s-phone')}`,
-    `${T.sCountry}: ${v('s-country')}`, `${T.sType}: ${v('s-type')}`, v('s-city') && `${T.sCity}: ${v('s-city')}`,
-    v('s-area') && `${T.sArea}: ${v('s-area')}`, v('s-price') && `${T.sPrice}: ${v('s-price')}`, v('s-msg') && `${T.sellCommentL}: ${v('s-msg')}`].filter(Boolean);
-  track('sell_request_sent');
-  window.open(`https://wa.me/${WHATSAPP}?text=` + encodeURIComponent(lines.join('\n')), '_blank', 'noopener');
+  if (!v('s-name') || !v('s-phone')) { $('sellErr').textContent = T.sErr; $('sellErr').hidden = false; (v('s-name') ? $('s-phone') : $('s-name')).focus(); return null; }
+  $('sellErr').hidden = true;
+  return [[T.sName, v('s-name')], [T.sPhone, v('s-phone')], [T.sCountry, v('s-country')], [T.sType, v('s-type')],
+    [T.sCity, v('s-city')], [T.sArea, v('s-area')], [T.sPrice, v('s-price')], [T.sellCommentL, v('s-msg')]].filter(r => r[1]);
+}
+$('sellFormEl').addEventListener('submit', async e => {
+  e.preventDefault();
+  const rows = sellLines(); if (!rows) return;
+  const btn = $('sellSend'); btn.disabled = true; btn.textContent = T.sSending; $('sellOk').hidden = true;
+  const body = {_subject: `Заявка на продажу с сайта VENI — ${$('s-name').value.trim()}`, _template: 'table', _captcha: 'false', 'Язык сайта': lang.toUpperCase()};
+  rows.forEach(([k, v]) => body[k] = v);
+  try {
+    const r = await fetch('https://formsubmit.co/ajax/' + LEADS_EMAIL, {method: 'POST', headers: {'Content-Type': 'application/json', Accept: 'application/json'}, body: JSON.stringify(body)});
+    const j = await r.json().catch(() => ({}));
+    if (!r.ok || String(j.success) !== 'true') throw new Error(j.message || r.status);
+    track('sell_request_sent', {method: 'email'});
+    $('sellOk').textContent = T.sOk; $('sellOk').hidden = false; $('sellFormEl').reset(); applyTexts();
+  } catch (err) {
+    $('sellErr').textContent = T.sFail; $('sellErr').hidden = false;
+  } finally { btn.disabled = false; btn.textContent = T.sSend; }
+});
+$('sellWa').addEventListener('click', () => {
+  const rows = sellLines(); if (!rows) return;
+  track('sell_request_sent', {method: 'whatsapp'});
+  window.open(`https://wa.me/${WHATSAPP}?text=` + encodeURIComponent([T.sellHello, ...rows.map(([k, v]) => `${k}: ${v}`)].join('\n')), '_blank', 'noopener');
 });
 
 /* ===== События ===== */
