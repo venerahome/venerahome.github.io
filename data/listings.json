@@ -598,6 +598,104 @@
      "Alquilado: 400 €/mes"
     ]
    }
+  },
+  {
+   "code": 21015461,
+   "slug": "kavala-apt-21015461",
+   "country": "gr",
+   "source": "katoiko",
+   "type": "apt",
+   "deal": "sale",
+   "status": "sale",
+   "featured": true,
+   "place": "kavala",
+   "district": {
+    "bg": "Агиос Йоанис",
+    "ru": "Агиос Иоаннис",
+    "en": "Agios Ioannis",
+    "de": "Agios Ioannis",
+    "es": "Agios Ioannis"
+   },
+   "price": 110000,
+   "area": 83,
+   "plot": null,
+   "bedrooms": 2,
+   "bathrooms": 1,
+   "floor": "1",
+   "sea": null,
+   "furnished": null,
+   "lift": true,
+   "url": "https://www.katoiko.gr/bg/propertyDetails/21015461",
+   "photos": [
+    "https://m1.spitogatos.gr/371489088_900x675.jpg",
+    "https://m1.spitogatos.gr/371489097_900x675.jpg",
+    "https://m2.spitogatos.gr/371489332_900x675.jpg",
+    "https://m2.spitogatos.gr/371492152_900x675.jpg",
+    "https://m3.spitogatos.gr/371488904_900x675.jpg",
+    "https://m1.spitogatos.gr/371491902_900x675.jpg",
+    "https://m1.spitogatos.gr/371488497_900x675.jpg",
+    "https://m3.spitogatos.gr/371492213_900x675.jpg",
+    "https://m2.spitogatos.gr/371488504_900x675.jpg",
+    "https://m3.spitogatos.gr/371492264_900x675.jpg",
+    "https://m1.spitogatos.gr/371488617_900x675.jpg",
+    "https://m3.spitogatos.gr/371488607_900x675.jpg"
+   ],
+   "title": {
+    "ru": "Солнечная квартира с 2 спальнями и балконами, Агиос Иоаннис",
+    "bg": "Слънчев апартамент с 2 спални и балкони, Агиос Йоанис",
+    "en": "Sunny two-bedroom apartment with balconies, Agios Ioannis",
+    "de": "Sonnige Wohnung mit 2 Schlafzimmern und Balkonen, Agios Ioannis",
+    "es": "Piso soleado de 2 dormitorios con balcones, Agios Ioannis"
+   },
+   "desc": {
+    "ru": "Светлая квартира 83 м² (95 м² общей площади) на первом этаже в районе Агиос Иоаннис в Кавале. Окна выходят на две стороны, на юго-восток, поэтому солнце здесь весь день, а из каждой комнаты есть выход на балкон. Две спальни, гостиная со столовой, отдельная кухня и ванная, кондиционер на обогрев и охлаждение, лифт. Рядом автобусная остановка и школы — удобно для жизни, выгодно как инвестиция или жильё для студентов. Дом 1972 года, квартира частично обновлена; окна стоит заменить — хорошая возможность сделать ремонт под себя.",
+    "bg": "Светъл апартамент от 83 м² (95 м² обща площ) на първия етаж в квартал Агиос Йоанис в Кавала. Прозорците гледат на две страни, на югоизток, затова слънцето е тук през целия ден, а всяка стая има излаз към балкон. Две спални, дневна с трапезария, отделна кухня и баня, климатик за отопление и охлаждане, асансьор. Наблизо са автобусна спирка и училища — удобно за живеене и изгодно като инвестиция или жилище за студенти. Сградата е от 1972 г., апартаментът е частично реновиран; дограмата е добре да се смени — чудесна възможност да го обновите по свой вкус.",
+    "en": "A bright 83 m² apartment (95 m² gross) on the first floor in Agios Ioannis, Kavala. Windows face two sides to the south-east, so the sun is here all day, and every room opens onto a balcony. Two bedrooms, a living and dining room, a separate kitchen and bathroom, air conditioning for heating and cooling, and a lift. A bus stop and schools are close by, so it suits everyday living and works well as an investment or student let. The building dates from 1972 and the flat is partly renovated; the windows are due for replacement, a good chance to finish it to your own taste.",
+    "de": "Helle Wohnung mit 83 m² (95 m² brutto) im ersten Stock im Viertel Agios Ioannis in Kavala. Die Fenster gehen nach zwei Seiten Richtung Südosten, daher scheint hier den ganzen Tag die Sonne, und jedes Zimmer hat Zugang zu einem Balkon. Zwei Schlafzimmer, Wohn- und Essbereich, separate Küche und Bad, Klimaanlage zum Heizen und Kühlen, Aufzug. Bushaltestelle und Schulen liegen in der Nähe – angenehm zum Wohnen und attraktiv als Investition oder Studentenwohnung. Das Haus ist von 1972, die Wohnung teilweise renoviert; die Fenster sollten erneuert werden – eine gute Gelegenheit, sie nach eigenem Geschmack zu gestalten.",
+    "es": "Piso luminoso de 83 m² (95 m² construidos) en primera planta en el barrio de Agios Ioannis, Kavala. Las ventanas dan a dos lados, orientación sureste, así que hay sol todo el día y cada habitación tiene salida a un balcón. Dos dormitorios, salón comedor, cocina independiente y baño, aire acondicionado frío/calor y ascensor. Cerca hay parada de autobús y colegios: cómodo para vivir y una buena inversión o alquiler para estudiantes. El edificio es de 1972 y el piso está parcialmente reformado; conviene cambiar las ventanas, una buena ocasión para terminarlo a su gusto."
+   },
+   "feat": {
+    "ru": [
+     "Окна на две стороны",
+     "Балкон из каждой комнаты",
+     "Лифт",
+     "Кондиционер",
+     "Бронированная дверь",
+     "Рядом школы и остановка"
+    ],
+    "bg": [
+     "Прозорци на две страни",
+     "Балкон от всяка стая",
+     "Асансьор",
+     "Климатик",
+     "Блиндирана врата",
+     "Близо до училища и спирка"
+    ],
+    "en": [
+     "Dual aspect",
+     "Balcony from every room",
+     "Lift",
+     "Air conditioning",
+     "Security door",
+     "Near schools and bus stop"
+    ],
+    "de": [
+     "Zweiseitige Ausrichtung",
+     "Balkon von jedem Zimmer",
+     "Aufzug",
+     "Klimaanlage",
+     "Sicherheitstür",
+     "Schulen und Bus in der Nähe"
+    ],
+    "es": [
+     "Doble orientación",
+     "Balcón en cada habitación",
+     "Ascensor",
+     "Aire acondicionado",
+     "Puerta blindada",
+     "Cerca de colegios y autobús"
+    ]
+   }
   }
  ]
 }
