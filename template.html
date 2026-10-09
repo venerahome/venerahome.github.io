@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="%%LANG%%">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>%%TITLE%%</title>
+<meta name="description" content="%%DESC%%">
+<link rel="canonical" href="%%CANONICAL%%">
+<meta property="og:type" content="website">
+<meta property="og:title" content="%%TITLE%%">
+<meta property="og:description" content="%%DESC%%">
+<meta property="og:image" content="%%OG_IMAGE%%">
+<meta property="og:url" content="%%CANONICAL%%">
+<meta name="theme-color" content="#F6F3ED">
+%%ROBOTS%%
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Manrope:wght@400;500;600;700&display=swap">
+<link rel="preload" as="image" href="%%HERO_IMAGE%%" fetchpriority="high">
+<link rel="stylesheet" href="/assets/app.css?v=%%VERSION%%">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="topbar" id="topbar">
+  <div class="topbar-in">
+    <a class="logo" href="/" data-link="home" aria-label="VENI Real Estate">
+      <span class="logo-main">VENI</span>
+      <span class="logo-sub">REAL ESTATE</span>
+    </a>
+    <nav class="topnav" aria-label="Main">
+      <a href="/#catalog" data-link="catalog" data-i="navCatalog"></a>
+      <a href="/#about" data-link="about" data-i="navAbout"></a>
+      <a href="/#contact" data-link="contact" data-i="navContact"></a>
+      <a href="/favorites/" data-link="favorites" class="fav-link"><span data-i="navFav"></span> <span class="fav-count" data-fav-count></span></a>
+    </nav>
+    <div class="lang" id="lang" role="group" aria-label="Language"></div>
+  </div>
+</header>
+
+<main id="main">
+  <!-- HOME -->
+  <div id="view-home" class="view">
+    <section class="hero" id="hero">
+      <div class="hero-media"><img id="heroImg" src="%%HERO_IMAGE%%" alt="" fetchpriority="high"></div>
+      <div class="hero-shade"></div>
+      <div class="hero-in">
+        <p class="hero-eyebrow" data-i="heroEyebrow"></p>
+        <h1 class="hero-title"><span data-i="heroH1a"></span><br><em data-i="heroH1b"></em></h1>
+        <p class="hero-sub" data-i="heroSub"></p>
+        <a class="btn btn-light" href="#catalog" id="heroCta" data-i="heroCta"></a>
+      </div>
+      <p class="hero-scroll" data-i="heroScroll"></p>
+    </section>
+
+    <section class="section" id="catalog" aria-labelledby="catTitle">
+      <div class="wrap">
+        <div class="sec-head">
+          <p class="eyebrow" data-i="catEyebrow"></p>
+          <h2 id="catTitle" data-i="catTitle"></h2>
+          <p class="lead" data-i="catLead"></p>
+        </div>
+
+        <div class="filterbar" id="filterbar">
+          <div class="chips" id="typeChips" role="group"></div>
+          <div class="fb-row">
+            <label class="search"><span class="sr" data-i="searchLabel"></span>
+              <input id="q" type="search" autocomplete="off" data-ph="searchPh">
+            </label>
+            <button class="btn btn-outline only-mobile" id="openFilters" type="button" aria-haspopup="dialog"><span data-i="filters"></span> <span class="badge" id="filterBadge" hidden></span></button>
+            <label class="sort"><span class="sr" data-i="sortLabel"></span><select id="sort"></select></label>
+          </div>
+          <div class="fb-adv only-desktop" id="advDesktop"></div>
+        </div>
+
+        <div class="result-line"><span id="resultCount" aria-live="polite"></span><button class="link-btn" id="resetBtn" type="button" data-i="reset"></button></div>
+        <div class="grid" id="grid"></div>
+        <div class="empty" id="empty" hidden>
+          <h3 data-i="noneTitle"></h3>
+          <p data-i="noneText"></p>
+          <button class="btn btn-dark" type="button" id="emptyReset" data-i="reset"></button>
+        </div>
+        <div class="more-wrap"><button class="btn btn-outline" id="moreBtn" type="button" hidden data-i="showMore"></button></div>
+      </div>
+    </section>
+
+    <section class="section section-tint" id="quiz">
+      <div class="wrap quiz">
+        <div class="sec-head">
+          <p class="eyebrow" data-i="quizEyebrow"></p>
+          <h2 data-i="quizTitle"></h2>
+          <p class="lead" data-i="quizLead"></p>
+        </div>
+        <form id="quizForm" class="quiz-form"></form>
+      </div>
+    </section>
+
+    <section class="section" id="how">
+      <div class="wrap">
+        <div class="sec-head">
+          <p class="eyebrow" data-i="howEyebrow"></p>
+          <h2 data-i="howTitle"></h2>
+        </div>
+        <ol class="steps" id="steps"></ol>
+      </div>
+    </section>
+
+    <section class="section section-tint" id="about">
+      <div class="wrap about">
+        <div class="portrait"><img src="/assets/venera.jpg" alt="" width="900" height="1125" loading="lazy" data-alt="portraitAlt"></div>
+        <div class="about-text">
+          <p class="eyebrow" data-i="aboutEyebrow"></p>
+          <h2 data-i="aboutTitle"></h2>
+          <p class="lead" data-i="aboutText"></p>
+          <ul class="about-list" id="aboutList"></ul>
+          <a class="btn btn-dark" href="#contact" data-i="aboutBtn"></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="wrap contact">
+        <div>
+          <p class="eyebrow" data-i="contactEyebrow"></p>
+          <h2 data-i="contactTitle"></h2>
+          <p class="lead" data-i="contactLead"></p>
+          <ul class="contact-list" id="contactList"></ul>
+        </div>
+        <form class="contact-form" id="contactForm" novalidate>
+          <label for="cf-name" data-i="fName"></label>
+          <input id="cf-name" name="name" autocomplete="name" required>
+          <label for="cf-contact" data-i="fContact"></label>
+          <input id="cf-contact" name="contact" autocomplete="tel" required>
+          <label for="cf-msg" data-i="fMsg"></label>
+          <textarea id="cf-msg" name="message" rows="4"></textarea>
+          <p class="form-error" id="formError" role="alert" hidden></p>
+          <button class="btn btn-dark" type="submit" data-i="fSend"></button>
+          <p class="form-note" data-i="fNote"></p>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="wrap footer-in">
+        <span data-i="copyright"></span>
+        <span id="updated"></span>
+      </div>
+    </footer>
+  </div>
+
+  <!-- PROPERTY -->
+  <div id="view-prop" class="view" hidden></div>
+
+  <!-- FAVORITES -->
+  <div id="view-fav" class="view" hidden>
+    <section class="section fav-section">
+      <div class="wrap">
+        <div class="sec-head">
+          <p class="eyebrow" data-i="favEyebrow"></p>
+          <h2 data-i="favTitle"></h2>
+          <p class="lead" id="favCountLine"></p>
+        </div>
+        <div class="grid" id="favGrid"></div>
+        <div class="empty" id="favEmpty" hidden>
+          <h3 data-i="favEmptyTitle"></h3>
+          <p data-i="favEmptyText"></p>
+          <a class="btn btn-dark" href="/#catalog" data-link="catalog" data-i="toCatalog"></a>
+        </div>
+      </div>
+    </section>
+  </div>
+</main>
+
+<nav class="bottomnav" id="bottomnav" aria-label="Mobile">
+  <a href="/#catalog" data-link="catalog" data-nav="catalog"><span data-i="navCatalog"></span></a>
+  <a href="/favorites/" data-link="favorites" data-nav="favorites"><span data-i="navFav"></span> <span class="fav-count" data-fav-count></span></a>
+  <a href="/#contact" data-link="contact" data-nav="contact"><span data-i="navContactShort"></span></a>
+</nav>
+
+<dialog class="sheet" id="filterSheet" aria-labelledby="sheetTitle">
+  <form method="dialog" class="sheet-in" id="sheetForm">
+    <div class="sheet-head"><h3 id="sheetTitle" data-i="filters"></h3><button class="icon-btn" value="cancel" data-i-aria="close">✕</button></div>
+    <div id="advMobile"></div>
+    <div class="sheet-foot">
+      <button class="btn btn-outline" type="button" id="sheetReset" data-i="reset"></button>
+      <button class="btn btn-dark" type="button" id="sheetApply"></button>
+    </div>
+  </form>
+</dialog>
+
+<dialog class="lightbox" id="lightbox" aria-label="Gallery">
+  <div class="lb-stage" id="lbStage"><img id="lbImg" alt=""></div>
+  <button class="lb-btn lb-close" id="lbClose" type="button" data-i-aria="close">✕</button>
+  <button class="lb-btn lb-prev" id="lbPrev" type="button" data-i-aria="prev">‹</button>
+  <button class="lb-btn lb-next" id="lbNext" type="button" data-i-aria="next">›</button>
+  <div class="lb-count" id="lbCount"></div>
+</dialog>
+
+<script>window.SITE_DATA = %%DATA%%; window.INITIAL_ROUTE = %%ROUTE%%;</script>
+<script src="/assets/i18n.js?v=%%VERSION%%"></script>
+<script src="/assets/app.js?v=%%VERSION%%"></script>
+</body>
+</html>
