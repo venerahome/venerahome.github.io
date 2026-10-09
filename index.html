@@ -4,9 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#f6f3ed">
-<title>VENI — Пространство вашей жизни</title>
+<title>VENI — ваш личный консультант по недвижимости</title>
 <meta name="description" content="Венера Хасанова — квартиры, дома и виллы в Греции. Личный подход от выбора до ключей.">
-<meta property="og:title" content="VENI — Пространство вашей жизни">
+<meta property="og:title" content="VENI — ваш личный консультант по недвижимости">
 <meta property="og:description" content="Квартиры, дома и виллы в Греции. Личный подход Венеры — от выбора до ключей.">
 <meta property="og:image" content="https://venerahome.github.io/assets/hero.jpg">
 <meta property="og:url" content="https://venerahome.github.io/">
@@ -77,10 +77,10 @@
     <img class="portrait" src="./assets/venera.jpg" alt="Венера Хасанова" loading="lazy" width="800" height="1067">
     <div>
       <span class="small">Лично. Внимательно. На каждом шаге.</span>
-      <h2>Меня зовут Венера.</h2>
+      <h2>Меня зовут Венера Хасанова.</h2>
       <p class="muted">Помогаю подобрать недвижимость в Греции и сопровождаю покупку. Я сама купила дом в Греции и восстанавливаю его, поэтому знаю этот путь изнутри.</p>
       <ul class="about-list">
-        <li>Риэлтор Imoti Premier, офис в Бургасе</li>
+        <li>Консультант по недвижимости Imoti Premier, офис в Бургасе</li>
         <li>Консультации на болгарском, русском, английском</li>
         <li>Живу между Болгарией и Грецией</li>
         <li>Работаю с проверенными адвокатами и нотариусами</li>
@@ -100,10 +100,19 @@
 
 <section class="detail" id="detail" aria-label="Страница объекта">
   <button class="close" onclick="history.back()">← В каталог</button>
-  <div class="detail-hero"><img id="detailImg" alt=""></div>
+  <div class="detail-hero"><img id="detailImg" alt="" onclick="openGallery(0)" style="cursor:zoom-in"><button class="gal-open" id="galOpen" type="button" onclick="openGallery(0)"></button></div>
   <div class="detail-body" id="detailBody"></div>
   <div class="detail-bar"><b id="detailPrice"></b><button class="primary" type="button" onclick="contact(opened)">Хочу посмотреть ↗</button></div>
 </section>
+
+<dialog class="gallery" id="gallery" aria-label="Фотографии объекта">
+  <div class="g-stage" id="gStage"><img id="gImg" alt=""></div>
+  <button class="g-btn g-close" type="button" onclick="closeGallery()" aria-label="Закрыть">✕</button>
+  <button class="g-btn g-prev" id="gPrev" type="button" onclick="stepGallery(-1)" aria-label="Предыдущее фото">‹</button>
+  <button class="g-btn g-next" id="gNext" type="button" onclick="stepGallery(1)" aria-label="Следующее фото">›</button>
+  <div class="g-count" id="gCount"></div>
+  <div class="g-strip" id="gStrip"></div>
+</dialog>
 
 <dialog id="contactDialog" aria-labelledby="contactTitle">
   <span class="small">Связь с Венерой</span>

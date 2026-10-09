@@ -66,12 +66,38 @@ function contact(id) {
   $('contactList').innerHTML = rows.map(([k, h, v]) => `<li><span>${esc(k)}</span><a href="${esc(h)}"${h.startsWith('http') ? ' target="_blank" rel="noopener"' : ''}>${esc(v)}</a></li>`).join('');
   $('contactDialog').showModal();
 }
-function setPhoto(i) { const p = byId(opened); if (!p) return; $('detailImg').src = p.photos[i]; document.querySelectorAll('.thumbs button').forEach((b, k) => b.classList.toggle('on', k === i)); $('detail').scrollTo({top: 0, behavior: 'smooth'}); }
+/* ===== Галерея на весь экран ===== */
+let gIdx = 0, gx = null, gy = null;
+function gShow() {
+  const p = byId(opened); if (!p) return;
+  const n = p.photos.length; gIdx = (gIdx + n) % n;
+  $('gImg').src = p.photos[gIdx]; $('gImg').alt = `${p.title} — фото ${gIdx + 1}`;
+  $('gCount').textContent = `${gIdx + 1} / ${n}`;
+  $('gPrev').hidden = $('gNext').hidden = n < 2;
+  document.querySelectorAll('#gStrip button').forEach((b, k) => { b.classList.toggle('on', k === gIdx); if (k === gIdx) b.scrollIntoView({block: 'nearest', inline: 'center'}); });
+}
+function openGallery(i) {
+  const p = byId(opened); if (!p || !p.photos.length) return;
+  gIdx = i;
+  $('gStrip').innerHTML = p.photos.length > 1 ? p.photos.map((ph, k) => `<button type="button" onclick="gIdx=${k};gShow()" aria-label="Фото ${k + 1}"><img src="${esc(ph)}" alt="" loading="lazy"></button>`).join('') : '';
+  $('gallery').showModal(); gShow();
+}
+function closeGallery() { $('gallery').close(); }
+function stepGallery(d) { gIdx += d; gShow(); }
+$('gallery').addEventListener('keydown', e => { if (e.key === 'ArrowLeft') stepGallery(-1); if (e.key === 'ArrowRight') stepGallery(1); });
+$('gStage').addEventListener('pointerdown', e => { gx = e.clientX; gy = e.clientY; });
+$('gStage').addEventListener('pointerup', e => {
+  if (gx == null) return; const dx = e.clientX - gx, dy = e.clientY - gy; gx = null;
+  if (Math.abs(dx) > 40 && Math.abs(dx) > Math.abs(dy)) stepGallery(dx < 0 ? 1 : -1);
+  else if (Math.abs(dy) > 90 && dy > 0) closeGallery();
+});
+$('gStage').addEventListener('click', e => { if (e.target.id === 'gStage') closeGallery(); });
 
 function openItem(id, el, push = true) {
   const p = byId(id); if (!p) return;
   opened = id;
   $('detailImg').src = p.img; $('detailImg').alt = p.title;
+  $('galOpen').textContent = `Все фото · ${p.photos.length}`; $('galOpen').hidden = !p.photos.length;
   const specs = [
     [p.area + ' м²', 'Площадь'], [p.type, 'Тип объекта'],
     p.bedrooms ? [p.bedrooms, 'Спальни'] : null, p.bathrooms ? [p.bathrooms, 'Санузлы'] : null,
@@ -84,7 +110,7 @@ function openItem(id, el, push = true) {
     <div class="specs">${specs.map(s => `<div><strong>${esc(s[0])}</strong><span>${esc(s[1])}</span></div>`).join('')}</div>
     <h3 style="font:25px Georgia">Об этом объекте</h3><p class="muted">${esc(p.text)}</p>
     ${p.feat.length ? `<ul class="feat">${p.feat.map(f => `<li>${esc(f)}</li>`).join('')}</ul>` : ''}
-    ${p.photos.length > 1 ? `<h3 style="font:25px Georgia;margin-top:34px">Фотографии · ${p.photos.length}</h3><div class="thumbs">${p.photos.map((ph, i) => `<button class="${i ? '' : 'on'}" onclick="setPhoto(${i})" aria-label="Фото ${i + 1}"><img loading="lazy" src="${esc(ph)}" alt=""></button>`).join('')}</div>` : ''}
+    ${p.photos.length > 1 ? `<h3 style="font:25px Georgia;margin-top:34px">Фотографии · ${p.photos.length}</h3><div class="thumbs">${p.photos.map((ph, i) => `<button class="${i ? '' : 'on'}" onclick="openGallery(${i})" aria-label="Фото ${i + 1}"><img loading="lazy" src="${esc(ph)}" alt=""></button>`).join('')}</div>` : ''}
     ${p.url ? `<p style="margin-top:28px"><a class="src" href="${esc(p.url)}" target="_blank" rel="noopener">Объявление в Imoti Premier ↗</a></p>` : ''}`;
   $('detailPrice').textContent = money(p.price);
   $('detail').classList.add('open'); $('detail').scrollTop = 0; document.body.style.overflow = 'hidden';
@@ -104,7 +130,7 @@ function openItem(id, el, push = true) {
 }
 window.addEventListener('popstate', () => {
   if (location.hash.startsWith('#object-')) openItem(+location.hash.slice(8), null, false);
-  else { $('detail').classList.remove('open'); document.body.style.overflow = ''; opened = null; document.title = 'VENI — Пространство вашей жизни'; }
+  else { $('detail').classList.remove('open'); document.body.style.overflow = ''; opened = null; document.title = 'VENI — ваш личный консультант по недвижимости'; }
 });
 ['search', 'city', 'budget', 'sort'].forEach(id => $(id).addEventListener('input', render));
 document.querySelectorAll('.chips button').forEach(b => b.onclick = () => { type = b.dataset.type; document.querySelectorAll('.chips button').forEach(x => x.classList.toggle('active', x === b)); render(); });
