@@ -92,3 +92,10 @@ header .small{font-weight:bold}
 .form-error{color:#8b3a2e;font-size:13px;margin:4px 0 0}
 #sellDialog{max-height:92vh;overflow:auto}
 @media(max-width:850px){header .head-links a:first-child{display:none}.sell-block{display:block;padding:26px}.sell-block .primary{margin-top:18px}}
+/* главный экран: текст никогда не заезжает на логотип */
+.hero{height:auto;min-height:94svh;display:flex;flex-direction:column;justify-content:flex-end;padding:140px 8% 96px}
+.hero-content{position:relative;left:auto;right:auto;bottom:auto;z-index:1;max-width:760px}
+.hero-content h1{margin:18px 0}
+@media(max-width:850px){.hero{padding:120px 6% 84px}}
+@media(max-width:520px){.hero{min-height:88svh;padding:110px 6% 76px}.hero-content{bottom:auto}}
+.hero>img{top:0;left:0;right:0;bottom:0}
