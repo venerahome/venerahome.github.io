@@ -10,6 +10,13 @@ const CONTACTS = {
   telegram: 'venera_kh_happy', // имя в Telegram без @
   email: 'hasanova@imotipremier.com'
 };
+/* ===== GOOGLE ANALYTICS — вставьте ID вида 'G-XXXXXXXXXX' ===== */
+const GA_ID = '';
+if (GA_ID) {
+  const g = document.createElement('script'); g.async = true; g.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA_ID; document.head.appendChild(g);
+  window.dataLayer = window.dataLayer || []; window.gtag = function () { dataLayer.push(arguments); }; gtag('js', new Date()); gtag('config', GA_ID);
+}
+const track = (name, params) => { try { if (window.gtag) gtag('event', name, params || {}); } catch (e) {} };
 const LANGS = ['bg', 'ru', 'en', 'de', 'es'];
 const WHATSAPP = CONTACTS.whatsapp.replace(/\D/g, '');
 const fmtPhone = n => n.replace(/^\+359(\d{3})(\d{3})(\d{3})$/, '+359 $1 $2 $3');
@@ -67,7 +74,7 @@ function applyTexts() {
   $('updated').textContent = D.updated ? T.updated(new Date(D.updated).toLocaleDateString(T.locale)) : '';
 }
 function setLang(l) {
-  lang = l; T = I18N[l]; store.set('veni-lang', l);
+  lang = l; T = I18N[l]; store.set('veni-lang', l); track('language', {language: l});
   const u = new URL(location.href); if (u.searchParams.has('lang')) { u.searchParams.set('lang', l); history.replaceState(history.state, '', u); }
   buildItems(); applyTexts(); render();
   if (opened) openItem(opened, null, false);
@@ -84,7 +91,7 @@ function render() {
   $('grid').innerHTML = data.map(p => `<article class="card"><div class="picture" role="button" tabindex="0" aria-label="${esc(T.open)}: ${esc(p.title)}" onclick="openItem(${p.id},this)" onkeydown="if(event.key==='Enter')openItem(${p.id},this)"><img loading="lazy" src="${esc(p.img)}" alt="${esc(p.title)}"><span class="tag">${esc(p.type.toUpperCase())}</span><button class="heart ${fav.has(p.id) ? 'on' : ''}" aria-label="${esc(fav.has(p.id) ? T.removeFav : T.addFav)}" aria-pressed="${fav.has(p.id)}" onclick="event.stopPropagation();toggleFav(${p.id})">${fav.has(p.id) ? '♥' : '♡'}</button></div><h3>${esc(p.title)}</h3><div class="row"><span>${esc(p.city)}${p.desc ? ' · ' + esc(p.desc) : ''}</span><span>${p.area ? p.area + ' ' + T.m + '²' : ''}</span></div><div class="price">${money(p.price)}</div><button class="more" onclick="openItem(${p.id},this.closest('.card').querySelector('.picture'))">${esc(T.more)}</button></article>`).join('')
     || `<p class="muted">${esc(onlyFav ? T.favEmpty : T.noneFound)}</p>`;
 }
-function toggleFav(id) { fav.has(id) ? fav.delete(id) : fav.add(id); store.set('veni-fav', [...fav]); render(); }
+function toggleFav(id) { track(fav.has(id) ? 'favorite_remove' : 'favorite_add', {object_id: id}); fav.has(id) ? fav.delete(id) : fav.add(id); store.set('veni-fav', [...fav]); render(); }
 function explore() { onlyFav = false; render(); document.querySelector('.hero').classList.add('zoom'); $('catalog').scrollIntoView({behavior: 'smooth'}); }
 function showFav() { onlyFav = !onlyFav; render(); $('catalog').scrollIntoView({behavior: 'smooth'}); }
 
@@ -101,6 +108,7 @@ function contact(id) {
   if (CONTACTS.telegram) rows.push(['Telegram', `https://t.me/${CONTACTS.telegram}`, '@' + CONTACTS.telegram]);
   if (CONTACTS.email) rows.push(['Email', `mailto:${CONTACTS.email}?subject=${encodeURIComponent(p ? T.mailObj(p.id) : T.mailGen)}&body=${encodeURIComponent(msg)}`, CONTACTS.email]);
   $('contactList').innerHTML = rows.map(([k, h, v]) => `<li><span>${esc(k)}</span><a href="${esc(h)}"${h.startsWith('http') ? ' target="_blank" rel="noopener"' : ''}>${esc(v)}</a></li>`).join('');
+  track('contact_open', {object_id: p ? p.id : 'general'});
   if (!$('contactDialog').open) $('contactDialog').showModal();
 }
 
@@ -156,6 +164,7 @@ function openItem(id, el, push = true) {
   $('detailPrice').textContent = money(p.price);
   document.title = p.title + ' · VENI';
   if (reopen) return;
+  track('view_property', {object_id: p.id, object_title: p.title, price: p.price});
   $('detail').classList.add('open'); $('detail').scrollTop = 0; document.body.style.overflow = 'hidden';
   if (push) history.pushState({id}, '', '#object-' + id);
   if (el && !matchMedia('(prefers-reduced-motion: reduce)').matches) {
@@ -176,7 +185,7 @@ window.addEventListener('popstate', () => {
 });
 
 /* ===== Заявка на продажу ===== */
-function sellForm() { $('sellErr').hidden = true; $('sellDialog').showModal(); }
+function sellForm() { track('sell_form_open'); $('sellErr').hidden = true; $('sellDialog').showModal(); }
 $('sellFormEl').addEventListener('submit', e => {
   e.preventDefault();
   const v = id => $(id).value.trim();
@@ -184,6 +193,7 @@ $('sellFormEl').addEventListener('submit', e => {
   const lines = [T.sellHello, `${T.sName}: ${v('s-name')}`, `${T.sPhone}: ${v('s-phone')}`,
     `${T.sCountry}: ${v('s-country')}`, `${T.sType}: ${v('s-type')}`, v('s-city') && `${T.sCity}: ${v('s-city')}`,
     v('s-area') && `${T.sArea}: ${v('s-area')}`, v('s-price') && `${T.sPrice}: ${v('s-price')}`, v('s-msg') && `${T.sellCommentL}: ${v('s-msg')}`].filter(Boolean);
+  track('sell_request_sent');
   window.open(`https://wa.me/${WHATSAPP}?text=` + encodeURIComponent(lines.join('\n')), '_blank', 'noopener');
 });
 
@@ -191,6 +201,7 @@ $('sellFormEl').addEventListener('submit', e => {
 ['search', 'city', 'budget', 'sort'].forEach(id => $(id).addEventListener('input', render));
 $('chips').addEventListener('click', e => { const b = e.target.closest('button'); if (!b) return; type = b.dataset.type; document.querySelectorAll('#chips button').forEach(x => x.classList.toggle('active', x === b)); render(); });
 $('lang').addEventListener('click', e => { const b = e.target.closest('[data-lang]'); if (b) setLang(b.dataset.lang); });
+$('contactList').addEventListener('click', e => { const a = e.target.closest('a'); if (a) track('contact_click', {method: a.closest('li').firstChild.textContent, object_id: opened || 'general'}); });
 document.addEventListener('error', e => { if (e.target.tagName === 'IMG') e.target.style.visibility = 'hidden'; }, true);
 
 buildItems(); applyTexts(); render();
