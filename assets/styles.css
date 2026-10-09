@@ -9,7 +9,10 @@ a.primary{display:inline-block;text-decoration:none;text-align:center}
 .steps li::before{content:"0" counter(s);display:block;font-size:11px;letter-spacing:2px;color:var(--gold);margin-bottom:8px}
 .steps strong{font:22px Georgia}
 .steps p{margin:8px 0 0;font-size:14px}
-.about .portrait{width:280px;flex:none;aspect-ratio:4/5;object-fit:cover;object-position:50% 20%;border-radius:5px}
+.about .portrait{width:260px;height:auto;flex:none;border-radius:5px;display:block}
+.about{max-width:980px;margin-left:auto;margin-right:auto;padding:32px;gap:36px}
+.about h2{margin:10px 0 14px}
+.about p.muted{margin:0 0 14px}
 .about-list{list-style:none;padding:0;margin:0 0 24px;line-height:1.9}
 .about-list li::before{content:"— ";color:var(--gold)}
 .foot{margin-top:60px;padding-top:20px;border-top:1px solid #d9ddd5;font-size:12px;color:#5f6b64}
@@ -27,5 +30,5 @@ a.primary{display:inline-block;text-decoration:none;text-align:center}
 .card .row span:first-child{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .detail-bar{padding-bottom:calc(16px + env(safe-area-inset-bottom,0px))}
 .muted{color:#5f6b64}
-@media(max-width:850px){.steps{grid-template-columns:repeat(2,1fr)}.about .portrait{width:200px}}
-@media(max-width:520px){.steps{grid-template-columns:1fr}.about .portrait{width:100%;max-width:240px;margin-bottom:20px}.thumbs{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:850px){.steps{grid-template-columns:repeat(2,1fr)}.about .portrait{width:210px}}
+@media(max-width:520px){.steps{grid-template-columns:1fr}.about .portrait{width:100%;max-width:260px;margin:0 auto 20px}.thumbs{grid-template-columns:repeat(3,1fr)}}
