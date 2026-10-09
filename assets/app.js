@@ -11,7 +11,7 @@ const CONTACTS = {
   email: 'hasanova@imotipremier.com'
 };
 /* ===== GOOGLE ANALYTICS — вставьте ID вида 'G-XXXXXXXXXX' ===== */
-const GA_ID = '';
+const GA_ID = 'G-73W576V144';
 if (GA_ID) {
   const g = document.createElement('script'); g.async = true; g.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA_ID; document.head.appendChild(g);
   window.dataLayer = window.dataLayer || []; window.gtag = function () { dataLayer.push(arguments); }; gtag('js', new Date()); gtag('config', GA_ID);
