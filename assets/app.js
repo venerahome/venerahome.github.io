@@ -141,3 +141,15 @@ if (location.hash.startsWith('#object-') && byId(+location.hash.slice(8))) {
   history.replaceState(null, '', location.pathname);
   openItem(initialId, null);
 }
+
+/* ===== Заявка на продажу ===== */
+function sellForm() { $('sellErr').hidden = true; $('sellDialog').showModal(); }
+$('sellFormEl').addEventListener('submit', e => {
+  e.preventDefault();
+  const v = id => $(id).value.trim();
+  if (!v('s-name') || !v('s-phone')) { $('sellErr').hidden = false; (v('s-name') ? $('s-phone') : $('s-name')).focus(); return; }
+  const lines = ['Здравствуйте, Венера! Хочу продать недвижимость.', `Имя: ${v('s-name')}`, `Телефон: ${v('s-phone')}`,
+    `Страна: ${v('s-country')}`, `Тип: ${v('s-type')}`, v('s-city') && `Город, район: ${v('s-city')}`,
+    v('s-area') && `Площадь: ${v('s-area')} м²`, v('s-price') && `Желаемая цена: ${v('s-price')} €`, v('s-msg') && `Комментарий: ${v('s-msg')}`].filter(Boolean);
+  window.open(`https://wa.me/${WHATSAPP}?text=` + encodeURIComponent(lines.join('\n')), '_blank', 'noopener');
+});

@@ -16,7 +16,7 @@
 <header>
   <a href="#" class="logo">VENI<span style="display:block;font:9px Arial;letter-spacing:3px;margin-top:7px">REAL ESTATE</span></a>
   <span class="small">Личный каталог · Греция</span>
-  <a href="#catalog">Объекты ↗</a>
+  <span class="head-links"><a href="#" onclick="sellForm();return false">Продать ↗</a><a href="#catalog">Объекты ↗</a></span>
 </header>
 
 <section class="hero" id="home">
@@ -27,6 +27,7 @@
     <h1>Пространство<br><em>вашей жизни.</em></h1>
     <p>Квартиры, дома и виллы в Греции.<br>Личный подход Венеры — от выбора до ключей.</p>
     <button class="primary" onclick="explore()">Найти свой дом &nbsp; ↗</button>
+    <button class="sell-link" type="button" onclick="sellForm()">Хотите продать недвижимость? Оставьте заявку ↗</button>
   </div>
   <div class="down">↓ &nbsp; ПРОКРУТИТЕ, ЧТОБЫ ОТКРЫТЬ</div>
 </section>
@@ -77,7 +78,7 @@
     <img class="portrait" src="./assets/venera.jpg" alt="Венера Хасанова" loading="lazy" width="800" height="1067">
     <div>
       <span class="small">Лично. Внимательно. На каждом шаге.</span>
-      <h2>Меня зовут Венера Хасанова.</h2>
+      <h2>Меня зовут Венера Хасанова</h2>
       <p class="muted">Помогаю подобрать недвижимость в Греции и сопровождаю покупку. Я сама купила дом в Греции и восстанавливаю его, поэтому знаю этот путь изнутри.</p>
       <ul class="about-list">
         <li>Консультант по недвижимости Imoti Premier, офис в Бургасе</li>
@@ -87,6 +88,15 @@
       </ul>
       <button class="primary" onclick="contact()">Обсудить ваш поиск ↗</button>
     </div>
+  </section>
+
+  <section class="sell-block" id="sell">
+    <div>
+      <span class="small" style="color:var(--gold)">Для собственников</span>
+      <h2>Продаёте недвижимость?</h2>
+      <p class="muted">Оставьте заявку — я свяжусь с вами, обсудим объект, цену и как лучше его продать.</p>
+    </div>
+    <button class="primary" type="button" onclick="sellForm()">Заявка на продажу ↗</button>
   </section>
 
   <footer class="foot">© 2026 Венера Хасанова</footer>
@@ -112,6 +122,31 @@
   <button class="g-btn g-next" id="gNext" type="button" onclick="stepGallery(1)" aria-label="Следующее фото">›</button>
   <div class="g-count" id="gCount"></div>
   <div class="g-strip" id="gStrip"></div>
+</dialog>
+
+<dialog id="sellDialog" aria-labelledby="sellTitle">
+  <span class="small">Заявка на продажу</span>
+  <h2 id="sellTitle">Расскажите о вашем объекте</h2>
+  <form id="sellFormEl" class="sell-form" novalidate>
+    <label for="s-name">Имя</label><input id="s-name" autocomplete="name" required>
+    <label for="s-phone">Телефон</label><input id="s-phone" autocomplete="tel" inputmode="tel" required>
+    <div class="two">
+      <div><label for="s-country">Страна</label><select id="s-country"><option>Греция</option><option>Болгария</option></select></div>
+      <div><label for="s-type">Тип</label><select id="s-type"><option>Квартира</option><option>Дом</option><option>Вилла</option><option>Участок</option><option>Коммерческая</option></select></div>
+    </div>
+    <label for="s-city">Город, район</label><input id="s-city">
+    <div class="two">
+      <div><label for="s-area">Площадь, м²</label><input id="s-area" inputmode="numeric"></div>
+      <div><label for="s-price">Желаемая цена, €</label><input id="s-price" inputmode="numeric"></div>
+    </div>
+    <label for="s-msg">Комментарий</label><textarea id="s-msg" rows="3"></textarea>
+    <p class="form-error" id="sellErr" hidden>Укажите имя и телефон.</p>
+    <div class="sell-actions">
+      <button class="primary" type="submit">Отправить в WhatsApp ↗</button>
+      <button class="ghost" type="button" onclick="document.getElementById('sellDialog').close()">Отмена</button>
+    </div>
+    <p class="form-note">Заявка откроется в WhatsApp — нажмите там «Отправить».</p>
+  </form>
 </dialog>
 
 <dialog id="contactDialog" aria-labelledby="contactTitle">

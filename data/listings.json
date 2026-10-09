@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-09",
+ "updated": "2026-10-10",
  "places": {
   "kavala": {
    "bg": "Кавала",
@@ -108,7 +108,8 @@
      "Ventanas de PVC",
      "Terraza"
     ]
-   }
+   },
+   "country": "gr"
   },
   {
    "code": 397759,
@@ -190,7 +191,8 @@
      "Aire acondicionado",
      "Ventanas de PVC"
     ]
-   }
+   },
+   "country": "gr"
   },
   {
    "code": 395048,
@@ -279,7 +281,8 @@
      "Alarma",
      "Trastero"
     ]
-   }
+   },
+   "country": "gr"
   },
   {
    "code": 398245,
@@ -356,7 +359,8 @@
      "Divisible en viviendas",
      "Potencial de alquiler"
     ]
-   }
+   },
+   "country": "gr"
   },
   {
    "code": 398248,
@@ -421,7 +425,8 @@
      "Alquiler de temporada",
      "Para reformar"
     ]
-   }
+   },
+   "country": "gr"
   },
   {
    "code": 395919,
@@ -502,6 +507,55 @@
      "Chimenea",
      "Aparcamiento",
      "2 baños"
+    ]
+   },
+   "country": "gr"
+  },
+  {
+   "code": 397508,
+   "slug": "kavala-apt-397508",
+   "country": "gr",
+   "type": "apt",
+   "deal": "sale",
+   "status": "sale",
+   "featured": false,
+   "place": "kavala",
+   "district": {
+    "ru": "Центр"
+   },
+   "price": 89000,
+   "area": 60,
+   "plot": null,
+   "bedrooms": 1,
+   "bathrooms": 1,
+   "floor": null,
+   "sea": null,
+   "furnished": true,
+   "lift": null,
+   "url": "https://imotipremier.com/prodava/dvustaen-apartament/burgas/akatsiite/397508/",
+   "photos": [
+    "https://imotipremier.com/webfactor-images/31886b91-c7c8-4c5c-b6b9-b4ad00bc9943-1200x800-center-1240301.webp",
+    "https://imotipremier.com/webfactor-images/8e3c7de5-57f0-451d-8214-b4ad00bc994c-1200x800-center-1240302.webp",
+    "https://imotipremier.com/webfactor-images/d6a8d8b9-8443-41bd-8bdd-b4ad00bc993e-1200x800-center-1240303.webp",
+    "https://imotipremier.com/webfactor-images/0be056e6-5d2f-45ca-9956-b4ad00bc9930-1200x800-center-1240304.webp",
+    "https://imotipremier.com/webfactor-images/87f05474-c1b5-47f8-b783-b4ad00bc9930-1200x800-center-1240305.webp",
+    "https://imotipremier.com/webfactor-images/c492f042-0c1e-479a-84c8-b4ad00bc9955-1200x800-center-1240306.webp",
+    "https://imotipremier.com/webfactor-images/2dcd75a8-e530-4250-a0ff-b4ad00bc9968-1200x800-center-1240307.webp",
+    "https://imotipremier.com/webfactor-images/b793c223-c8fa-4db9-88c1-b4ad00bc9955-1200x800-center-1240308.webp"
+   ],
+   "title": {
+    "ru": "Квартира с 1 спальней, 60 м², в центре Кавалы"
+   },
+   "desc": {
+    "ru": "Полностью отремонтированная (2022) и меблированная квартира в центре Кавалы, рядом с улицей Венизелу. Спальня, гостиная с открытой кухней, санузел, бытовая техника и кондиционер. Сейчас сдаётся за 400 € в месяц, подходит для долгосрочной и летней аренды."
+   },
+   "feat": {
+    "ru": [
+     "Центр города",
+     "Ремонт 2022 года",
+     "Полностью меблирована",
+     "Кондиционер",
+     "Сдаётся: 400 €/мес."
     ]
    }
   }

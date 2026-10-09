@@ -1,0 +1,1758 @@
+{
+ "note": "Объекты по Болгарии — сейчас не показываются на сайте",
+ "listings": [
+  {
+   "code": 398894,
+   "slug": "burgas-apt-398894",
+   "country": "bg",
+   "type": "apt",
+   "deal": "sale",
+   "status": "sale",
+   "featured": true,
+   "place": "burgas",
+   "district": {
+    "ru": "Центр"
+   },
+   "price": 420000,
+   "area": 184,
+   "plot": null,
+   "bedrooms": 2,
+   "bathrooms": 2,
+   "floor": "5/5",
+   "sea": null,
+   "furnished": true,
+   "lift": null,
+   "url": "https://imotipremier.com/prodava/tristaen-apartament/burgas/tsentar-burgas/398894/",
+   "photos": [
+    "https://imotipremier.com/webfactor-images/b303d923-d764-4ecf-b86e-b4dc00df2e32-1200x800-center-1251305.webp",
+    "https://imotipremier.com/webfactor-images/a8f2b31a-dd76-4e09-b489-b4dc00df2e2d-1200x800-center-1251306.webp",
+    "https://imotipremier.com/webfactor-images/2f15006a-55df-4a88-986f-b4dc00df2e2d-1200x800-center-1251307.webp",
+    "https://imotipremier.com/webfactor-images/c567c090-635c-466f-86a5-b4dc00df2f00-1200x800-center-1251308.webp",
+    "https://imotipremier.com/webfactor-images/7fcc7c96-1837-48a1-af9f-b4dc00df2e6a-1200x800-center-1251309.webp",
+    "https://imotipremier.com/webfactor-images/d9e3454c-0d3d-4e25-87b0-b4dc00df2e78-1200x800-center-1251310.webp",
+    "https://imotipremier.com/webfactor-images/f7a07034-d1ee-4098-a8a9-b4dc00df2ebe-1200x800-center-1251311.webp",
+    "https://imotipremier.com/webfactor-images/9c00ee32-302d-424e-b4b2-b4dc00df2e1a-1200x800-center-1251312.webp",
+    "https://imotipremier.com/webfactor-images/0cdaf7ca-033f-4339-b714-b4dc00df2db8-1200x800-center-1251313.webp",
+    "https://imotipremier.com/webfactor-images/184c7f9c-12bf-492e-af7f-b4dc00df2e6f-1200x800-center-1251314.webp",
+    "https://imotipremier.com/webfactor-images/60afd65c-a43b-4f7a-b836-b4dc00df2e2d-1200x800-center-1251315.webp",
+    "https://imotipremier.com/webfactor-images/165877c7-ea07-4550-a7e2-b4dc00df2e24-1200x800-center-1251316.webp"
+   ],
+   "title": {
+    "ru": "Люкс 147 м² у Морского сада: просторная квартира с 2 спальнями"
+   },
+   "desc": {
+    "ru": "Просторная трёхкомнатная квартира 184 м² на 5-м этаже в центре Бургаса, в нескольких минутах ходьбы от Морского сада и моря. Жилая площадь 147 м², ремонт люкс-класса 2025 года. Две большие спальни, просторная гостиная, кухня-столовая и кладовые. Возможны парковочное место и покупка в ипотеку."
+   },
+   "feat": {
+    "ru": [
+     "Ремонт люкс-класса",
+     "2 спальни, 2 санузла",
+     "Охранная сигнализация",
+     "Возможна парковка",
+     "Возможна ипотека"
+    ]
+   }
+  },
+  {
+   "code": 398886,
+   "slug": "burgas-house-398886",
+   "country": "bg",
+   "type": "house",
+   "deal": "sale",
+   "status": "sale",
+   "featured": false,
+   "place": "burgas",
+   "district": {
+    "ru": "Победа"
+   },
+   "price": 125000,
+   "area": 150,
+   "plot": 500,
+   "bedrooms": 7,
+   "bathrooms": 3,
+   "floor": null,
+   "sea": null,
+   "furnished": true,
+   "lift": null,
+   "url": "https://imotipremier.com/prodava/kashta/burgas/pobeda-varna/398886/",
+   "photos": [
+    "https://imotipremier.com/webfactor-images/6d997727-1912-4251-8a52-b4dc00b12b2e-1200x800-center-1251225.webp",
+    "https://imotipremier.com/webfactor-images/78c23835-1a4b-4ef1-a06d-b4dc00b12900-1200x800-center-1251228.webp",
+    "https://imotipremier.com/webfactor-images/cd7115d4-4ab2-4821-8629-b4dc00b12983-1200x800-center-1251229.webp",
+    "https://imotipremier.com/webfactor-images/856baf08-780d-4a38-aa5f-b4dc00b129e6-1200x800-center-1251230.webp",
+    "https://imotipremier.com/webfactor-images/484ad300-81ab-4e4d-9804-b4dc00b12d8b-1200x800-center-1251231.webp",
+    "https://imotipremier.com/webfactor-images/7393e407-6050-468d-8a6e-b4dc00b12dfb-1200x800-center-1251232.webp",
+    "https://imotipremier.com/webfactor-images/0f6a24cc-839e-4dc6-97d1-b4dc00b12a64-1200x800-center-1251233.webp",
+    "https://imotipremier.com/webfactor-images/faaee425-205f-442d-aad5-b4dc00b12ad9-1200x800-center-1251234.webp",
+    "https://imotipremier.com/webfactor-images/49175c2f-3cf5-4cc4-b640-b4dc00b12b87-1200x800-center-1251235.webp",
+    "https://imotipremier.com/webfactor-images/2e6f9511-38c3-4aa5-a0cd-b4dc00b12bee-1200x800-center-1251236.webp",
+    "https://imotipremier.com/webfactor-images/887e79b1-ac3a-413c-b681-b4dc00b12e54-1200x800-center-1251237.webp",
+    "https://imotipremier.com/webfactor-images/106f09d7-d970-4767-90ab-b4dc00b12c4c-1200x800-center-1251238.webp"
+   ],
+   "title": {
+    "ru": "Дом на 2 семьи с участком 500 м², студией и возможностью надстройки"
+   },
+   "desc": {
+    "ru": "Двухэтажный дом на участке 500 м² в районе Победа в Бургасе. Два отдельных входа и одинаковые этажи позволяют разместить две семьи или совместить жильё с бизнесом. На первом этаже отдельная студия, есть гараж около 30 м², который можно переделать под магазин или офис. Есть Акт 16 и проект надстройки ещё двух этажей."
+   },
+   "feat": {
+    "ru": [
+     "Участок 500 м²",
+     "Два отдельных входа",
+     "Студия на первом этаже",
+     "Гараж около 30 м²",
+     "Акт 16 и проект надстройки",
+     "Три счётчика электроэнергии"
+    ]
+   }
+  },
+  {
+   "code": 398331,
+   "slug": "burgas-apt-398331",
+   "country": "bg",
+   "type": "apt",
+   "deal": "sale",
+   "status": "sale",
+   "featured": false,
+   "place": "burgas",
+   "district": {
+    "ru": "Мадика"
+   },
+   "price": 71300,
+   "area": 62,
+   "plot": null,
+   "bedrooms": 1,
+   "bathrooms": 1,
+   "floor": "4/10",
+   "sea": null,
+   "furnished": null,
+   "lift": null,
+   "url": "https://imotipremier.com/prodava/dvustaen-apartament/burgas/398331/",
+   "photos": [
+    "https://imotipremier.com/webfactor-images/18e5c4ca-6872-4628-bbba-b4cc00971218-1200x800-center-1247270.webp",
+    "https://imotipremier.com/webfactor-images/0417421d-db06-4fa5-bfdb-b4db007ca6cb-1200x800-center-1250348.webp",
+    "https://imotipremier.com/webfactor-images/c324f79d-7ca0-4730-b1c7-b4cc0097122f-1200x800-center-1247271.webp",
+    "https://imotipremier.com/webfactor-images/b0c5c852-a47e-40b0-94aa-b4cc0097122f-1200x800-center-1247272.webp",
+    "https://imotipremier.com/webfactor-images/b4762353-f363-4f3b-85a6-b4c900e42b51-1200x800-center-1247273.webp",
+    "https://imotipremier.com/webfactor-images/4aa987ce-d084-4a80-a746-b4cc0097122a-1200x800-center-1247274.webp",
+    "https://imotipremier.com/webfactor-images/02d7615b-8f20-4798-b6fd-b4cc0097122a-1200x800-center-1247275.webp"
+   ],
+   "title": {
+    "ru": "Двухкомнатная квартира в новостройке ATLAS 2, Мадика"
+   },
+   "desc": {
+    "ru": "Квартира с одной спальней в новом жилом комплексе ATLAS 2 в районе Мадика, Бургас, от застройщика АЗИМУТ. Здание построено до 10-го этажа, Акт 14 ожидается примерно через месяц. Гостиная с кухонной зоной, спальня, санузел и терраса. Подходит для жизни и для сдачи в аренду."
+   },
+   "feat": {
+    "ru": [
+     "Новостройка, застройщик АЗИМУТ",
+     "Акт 14 скоро",
+     "Газифицированное здание",
+     "Терраса",
+     "Подходит для аренды"
+    ]
+   }
+  },
+  {
+   "code": 398288,
+   "slug": "burgas-apt-398288",
+   "country": "bg",
+   "type": "apt",
+   "deal": "sale",
+   "status": "sale",
+   "featured": false,
+   "place": "burgas",
+   "district": {
+    "ru": "Лазур"
+   },
+   "price": 135000,
+   "area": 62,
+   "plot": null,
+   "bedrooms": 1,
+   "bathrooms": 1,
+   "floor": "1/5",
+   "sea": null,
+   "furnished": true,
+   "lift": null,
+   "url": "https://imotipremier.com/prodava/dvustaen-apartament/burgas/lazur/398288/",
+   "photos": [
+    "https://imotipremier.com/webfactor-images/64ea4597-e095-42e6-8f89-b4c800d620fc-1200x800-center-1246809.webp",
+    "https://imotipremier.com/webfactor-images/824ba00f-4a36-4da2-ac90-b4c800d6215e-1200x800-center-1246810.webp",
+    "https://imotipremier.com/webfactor-images/13836187-b9f6-46d7-b3d8-b4c800d621ae-1200x800-center-1246811.webp",
+    "https://imotipremier.com/webfactor-images/9c811545-fd41-4e25-88e2-b4c800d62236-1200x800-center-1246812.webp",
+    "https://imotipremier.com/webfactor-images/8f0d8183-6ec5-4c0e-b87f-b4c800d622b9-1200x800-center-1246813.webp",
+    "https://imotipremier.com/webfactor-images/ba2f55be-2de1-4972-af2d-b4c800d62312-1200x800-center-1246814.webp",
+    "https://imotipremier.com/webfactor-images/2cc3fb72-2a48-4c47-acdc-b4c800d623a8-1200x800-center-1246815.webp",
+    "https://imotipremier.com/webfactor-images/e3753d83-4083-40f2-8fd4-b4c800d62430-1200x800-center-1246816.webp"
+   ],
+   "title": {
+    "ru": "Двухкомнатная квартира с южной стороной в Лазуре"
+   },
+   "desc": {
+    "ru": "Квартира 62 м² на первом этаже кирпичного дома в районе Лазур в Бургасе. Южная сторона даёт много солнца, есть большая остеклённая Г-образная терраса. Квартира требует ремонта и продаётся с мебелью. Планировку можно изменить, например объединить кухню с гостиной."
+   },
+   "feat": {
+    "ru": [
+     "Южная сторона",
+     "Кирпичный дом 1996 г.",
+     "Большая остеклённая терраса",
+     "Подвал 8,7 м²",
+     "Парковка во дворе",
+     "Требуется ремонт"
+    ]
+   }
+  },
+  {
+   "code": 397552,
+   "slug": "burgas-apt-397552",
+   "country": "bg",
+   "type": "apt",
+   "deal": "rent",
+   "status": "rent",
+   "featured": false,
+   "place": "burgas",
+   "district": {
+    "ru": "Сарафово"
+   },
+   "price": 400,
+   "area": 57,
+   "plot": null,
+   "bedrooms": 1,
+   "bathrooms": 1,
+   "floor": "2/5",
+   "sea": null,
+   "furnished": true,
+   "lift": null,
+   "url": "https://imotipremier.com/prodava/dvustaen-apartament/burgas/sarafovo/397552/",
+   "photos": [
+    "https://imotipremier.com/webfactor-images/fa96c9d9-4f9e-4623-94b0-b4b000ed2cd8-1200x800-center-1240785.webp",
+    "https://imotipremier.com/webfactor-images/2c941d03-1802-4ed2-871f-b4b000ed2cd4-1200x800-center-1240786.webp",
+    "https://imotipremier.com/webfactor-images/03aac9d1-66f6-441b-9130-b4b000ed2cd8-1200x800-center-1240787.webp",
+    "https://imotipremier.com/webfactor-images/a1707a17-2f5c-45f1-8c1a-b4b000ed2cbc-1200x800-center-1240788.webp",
+    "https://imotipremier.com/webfactor-images/538c82b7-31f4-41f1-b4e7-b4b000ed2cd8-1200x800-center-1240789.webp",
+    "https://imotipremier.com/webfactor-images/4bdd841a-c991-4510-8f42-b4b000ed2cd8-1200x800-center-1240790.webp",
+    "https://imotipremier.com/webfactor-images/2b670c0e-692d-44a7-833c-b4b000ed2cd4-1200x800-center-1240791.webp",
+    "https://imotipremier.com/webfactor-images/647440ff-f623-4617-939c-b4b000ed2cd8-1200x800-center-1240792.webp",
+    "https://imotipremier.com/webfactor-images/b2f11871-aaf7-4f2e-bbd6-b4b000ed2cf0-1200x800-center-1240793.webp",
+    "https://imotipremier.com/webfactor-images/05061930-af40-46dd-9788-b4b000ed2ce2-1200x800-center-1240794.webp",
+    "https://imotipremier.com/webfactor-images/090daa70-4d4d-4741-9511-b4b000ed2ceb-1200x800-center-1240795.webp",
+    "https://imotipremier.com/webfactor-images/c494d2d2-1486-47f3-9958-b4b000ed2cd4-1200x800-center-1240796.webp"
+   ],
+   "title": {
+    "ru": "Двухкомнатная квартира в аренду в Сарафово, 50 м от моря"
+   },
+   "desc": {
+    "ru": "Уютная квартира с одной спальней на 2-м этаже кирпичного дома в Сарафово, в 50 метрах от моря. Полностью меблирована и оснащена техникой: гостиная, спальня, кухня, ванная и небольшой балкон. Сдаётся на длительный срок, подходит для круглогодичного проживания."
+   },
+   "feat": {
+    "ru": [
+     "50 м до моря",
+     "Полностью меблирована",
+     "Бытовая техника",
+     "Балкон",
+     "Кондиционер",
+     "Долгосрочная аренда"
+    ]
+   }
+  },
+  {
+   "code": 397459,
+   "slug": "solnechnyy-bereg-apt-397459",
+   "country": "bg",
+   "type": "apt",
+   "deal": "sale",
+   "status": "sale",
+   "featured": false,
+   "place": "solnechnyy-bereg",
+   "district": null,
+   "price": 78000,
+   "area": 41,
+   "plot": null,
+   "bedrooms": 1,
+   "bathrooms": null,
+   "floor": "2/5",
+   "sea": null,
+   "furnished": true,
+   "lift": null,
+   "url": "https://imotipremier.com/prodava/dvustaen-apartament/burgas-oblast/k-k-slanchev-bryag/397459/",
+   "photos": [
+    "https://imotipremier.com/webfactor-images/66042d67-8a77-480f-b696-b4ab00dc2210-1200x800-center-1239852.webp",
+    "https://imotipremier.com/webfactor-images/f9396a0f-c36b-4cc1-a9e0-b4ab00dc2210-1200x800-center-1239853.webp",
+    "https://imotipremier.com/webfactor-images/84788195-0d00-4bae-bcdc-b4ab00dc2206-1200x800-center-1239854.webp",
+    "https://imotipremier.com/webfactor-images/2ead6c3d-485a-4c98-a029-b4ab00dc21d7-1200x800-center-1239855.webp",
+    "https://imotipremier.com/webfactor-images/0f01f03e-f266-4c06-abb4-b4ab00dc2214-1200x800-center-1239856.webp",
+    "https://imotipremier.com/webfactor-images/d716b928-1a51-4ed0-919e-b4ab00dc21e1-1200x800-center-1239857.webp",
+    "https://imotipremier.com/webfactor-images/4e019780-f71a-4832-a16f-b4ab00dc21ea-1200x800-center-1239858.webp",
+    "https://imotipremier.com/webfactor-images/729f751f-e4db-4b5e-b412-b4ab00dc21ef-1200x800-center-1239859.webp",
+    "https://imotipremier.com/webfactor-images/a2e1c6e4-6be7-456a-b9d4-b4ab00dc21dc-1200x800-center-1239860.webp",
+    "https://imotipremier.com/webfactor-images/6f998f5f-a547-442f-91e1-b4ab00dc222c-1200x800-center-1239869.webp",
+    "https://imotipremier.com/webfactor-images/63ef1f0f-906f-4744-a1d1-b4ab00dc222c-1200x800-center-1239862.webp",
+    "https://imotipremier.com/webfactor-images/5554afd1-a60d-4d0b-868a-b4ab00dc2210-1200x800-center-1239863.webp"
+   ],
+   "title": {
+    "ru": "Квартира с отдельной спальней в Sweet Homes 3, Солнечный Берег"
+   },
+   "desc": {
+    "ru": "Функциональная квартира 41 м² на 2-м этаже комплекса Sweet Homes 3 в Солнечном Береге. Студия с выделенной небольшой спальней даёт больше уединения, чем обычная студия. Комплекс круглосуточно охраняется. Подходит для собственного отдыха и для инвестиции."
+   },
+   "feat": {
+    "ru": [
+     "Круглосуточная охрана",
+     "Отдельная спальня",
+     "Кирпичное здание",
+     "Такса обслуживания 850 €/год"
+    ]
+   }
+  },
+  {
+   "code": 394995,
+   "slug": "ravda-apt-394995",
+   "country": "bg",
+   "type": "apt",
+   "deal": "sale",
+   "status": "sale",
+   "featured": false,
+   "place": "ravda",
+   "district": null,
+   "price": 101000,
+   "area": 79,
+   "plot": null,
+   "bedrooms": 1,
+   "bathrooms": null,
+   "floor": "4",
+   "sea": null,
+   "furnished": true,
+   "lift": null,
+   "url": "https://imotipremier.com/prodava/dvustaen-apartament/burgas-oblast/s-ravda/394995/",
+   "photos": [
+    "https://imotipremier.com/webfactor-images/ee700ccc-804a-4d31-bea9-b45f00ea84b9-1200x800-center-1236934.webp",
+    "https://imotipremier.com/webfactor-images/924db8ff-8762-4d3b-ab43-b45f00ea8463-1200x800-center-1236946.webp",
+    "https://imotipremier.com/webfactor-images/d58a4e10-afd8-4c87-901b-b45f00ea84b0-1200x800-center-1236947.webp",
+    "https://imotipremier.com/webfactor-images/4d704076-6702-462e-91f0-b45f00ea8494-1200x800-center-1236948.webp",
+    "https://imotipremier.com/webfactor-images/2d1935cc-1dcb-4016-8b55-b45f00ea845e-1200x800-center-1236949.webp",
+    "https://imotipremier.com/webfactor-images/df7ad58f-c35d-4fa8-8d58-b45f00ea8463-1200x800-center-1236950.webp",
+    "https://imotipremier.com/webfactor-images/e4ca7f7f-dddf-4056-868d-b45f00ea845e-1200x800-center-1236951.webp",
+    "https://imotipremier.com/webfactor-images/e1fcec0c-a724-4683-bbc6-b45f00ea8463-1200x800-center-1236952.webp",
+    "https://imotipremier.com/webfactor-images/e6fdd7da-2781-475b-9499-b45f00ea8497-1200x800-center-1236953.webp",
+    "https://imotipremier.com/webfactor-images/4da80971-2f17-4126-84f8-b45f00ea84a0-1200x800-center-1236954.webp"
+   ],
+   "title": {
+    "ru": "Квартира в Равде с видом на море и бассейн"
+   },
+   "desc": {
+    "ru": "Просторная светлая квартира 79 м² в комплексе Fort Nox Riviera в Равде, в 50 метрах от моря. Четвёртый этаж, из окон вид на море и бассейн. Ухоженный комплекс с контролируемым доступом и зелёными зонами. Подходит для жизни, отдыха и инвестиции."
+   },
+   "feat": {
+    "ru": [
+     "50 м до моря",
+     "Вид на море и бассейн",
+     "Контролируемый доступ",
+     "Ремонт и мебель",
+     "Подходит для аренды"
+    ]
+   }
+  },
+  {
+   "code": 396907,
+   "slug": "bata-house-396907",
+   "country": "bg",
+   "type": "house",
+   "deal": "sale",
+   "status": "sale",
+   "featured": false,
+   "place": "bata",
+   "district": null,
+   "price": 84000,
+   "area": 200,
+   "plot": 700,
+   "bedrooms": 2,
+   "bathrooms": 1,
+   "floor": null,
+   "sea": null,
+   "furnished": null,
+   "lift": null,
+   "url": "https://imotipremier.com/prodava/kashta/burgas-oblast/s-bata/396907/",
+   "photos": [
+    "https://imotipremier.com/webfactor-images/e6cbd2d6-4f90-4793-b2f4-b4980092ca23-1200x800-center-1235139.webp",
+    "https://imotipremier.com/webfactor-images/b793b227-cca7-43e0-bb49-b4980092ca10-1200x800-center-1235140.webp",
+    "https://imotipremier.com/webfactor-images/dd77ae44-c448-4049-a1ec-b4980092ca14-1200x800-center-1235141.webp",
+    "https://imotipremier.com/webfactor-images/287da6b6-a1be-45fb-8c26-b4980092ca11-1200x800-center-1235142.webp",
+    "https://imotipremier.com/webfactor-images/80e6c436-3c10-40e1-991d-b4980092ca29-1200x800-center-1235143.webp",
+    "https://imotipremier.com/webfactor-images/133cdf9d-43ee-4a5f-ac77-b4980092ca13-1200x800-center-1235144.webp",
+    "https://imotipremier.com/webfactor-images/71bf2903-ca68-41e6-9789-b4980092ca1a-1200x800-center-1235145.webp"
+   ],
+   "title": {
+    "ru": "Двухэтажный дом с участком 700 м², с. Бата"
+   },
+   "desc": {
+    "ru": "Отдельно стоящий двухэтажный дом 200 м² в тихой части села Бата, в нескольких минутах от моря; рядом Несебр, Солнечный Берег и Бургас. На участке около 700 м² есть гараж и большой склад. Подходит для постоянной жизни, как дача или инвестиция."
+   },
+   "feat": {
+    "ru": [
+     "Дом 200 м²",
+     "Участок около 700 м²",
+     "Гараж и склад",
+     "Акт 16",
+     "Все коммуникации",
+     "Близко к морю"
+    ]
+   }
+  },
+  {
+   "code": 396316,
+   "slug": "nesebr-plot-396316",
+   "country": "bg",
+   "type": "plot",
+   "deal": "sale",
+   "status": "sale",
+   "featured": false,
+   "place": "nesebr",
+   "district": {
+    "ru": "Кокалу"
+   },
+   "price": 195000,
+   "area": null,
+   "plot": 600,
+   "bedrooms": null,
+   "bathrooms": null,
+   "floor": null,
+   "sea": null,
+   "furnished": null,
+   "lift": null,
+   "url": "https://imotipremier.com/prodava/partsel/burgas-oblast/gr-nesebar/396316/",
+   "photos": [
+    "https://imotipremier.com/webfactor-images/ea304740-e526-4af5-8d03-b48700f4f5b3-1200x800-center-1230792.webp",
+    "https://imotipremier.com/webfactor-images/3ae71a48-c574-4af8-af60-b48700f50a18-1200x800-center-1230793.webp",
+    "https://imotipremier.com/webfactor-images/999b67b6-97e2-437d-a942-b48700f50a18-1200x800-center-1230794.webp",
+    "https://imotipremier.com/webfactor-images/abad3e53-d537-43fc-829c-b48700f52016-1200x800-center-1230795.webp",
+    "https://imotipremier.com/webfactor-images/a472d31d-786a-4a29-aeeb-b48700f52016-1200x800-center-1230796.webp"
+   ],
+   "title": {
+    "ru": "Участок под жилое строительство в местности Кокалу, Несебр"
+   },
+   "desc": {
+    "ru": "Урегулированный участок около 600 м² под жилое строительство в местности Кокалу в Несебре. На участке есть электричество и вода, разрешено строительство до трёх этажей. Ровный участок правильной формы с асфальтовым подъездом, в нескольких минутах от пляжа, Равды и Солнечного Берега."
+   },
+   "feat": {
+    "ru": [
+     "Статус УПИ",
+     "Электричество и вода",
+     "До 3 этажей",
+     "Ровный, правильной формы",
+     "Асфальтовый подъезд"
+    ]
+   }
+  },
+  {
+   "code": 396145,
+   "slug": "solnechnyy-bereg-apt-396145",
+   "country": "bg",
+   "type": "apt",
+   "deal": "sale",
+   "status": "sale",
+   "featured": false,
+   "place": "solnechnyy-bereg",
+   "district": {
+    "ru": "Gerber Residence 3"
+   },
+   "price": 52000,
+   "area": 31,
+   "plot": null,
+   "bedrooms": null,
+   "bathrooms": null,
+   "floor": "4",
+   "sea": null,
+   "furnished": true,
+   "lift": null,
+   "url": "https://imotipremier.com/prodava/ednostaen-apartament/burgas-oblast/gr-nesebar/396145/",
+   "photos": [
+    "https://imotipremier.com/webfactor-images/c23f464a-1bf9-4978-87f9-b48000e2b3e3-1200x800-center-1229400.webp",
+    "https://imotipremier.com/webfactor-images/7a372ada-e2b5-4aef-aff3-b48000e2b3c3-1200x800-center-1229401.webp",
+    "https://imotipremier.com/webfactor-images/06726d71-b12e-40c7-a341-b48000e2b3c3-1200x800-center-1229402.webp",
+    "https://imotipremier.com/webfactor-images/05330caa-e377-4c93-921a-b48000e2b3c6-1200x800-center-1229403.webp",
+    "https://imotipremier.com/webfactor-images/e030571b-70c1-44d6-a2bc-b48000e2b3c5-1200x800-center-1229404.webp",
+    "https://imotipremier.com/webfactor-images/eed5bce8-3753-4ff2-8ab0-b48000e2b3c3-1200x800-center-1229405.webp",
+    "https://imotipremier.com/webfactor-images/1f87ac44-46d6-44b4-8f80-b48000e2b3d7-1200x800-center-1229406.webp"
+   ],
+   "title": {
+    "ru": "Студия в Солнечном Береге с видом на бассейн"
+   },
+   "desc": {
+    "ru": "Уютная студия 31 м² в комплексе Gerber Residence 3 на курорте Солнечный Берег. Четвёртый этаж, южная сторона, окна выходят на бассейн комплекса. Практичная планировка, подходит для собственного отдыха и для сдачи в аренду."
+   },
+   "feat": {
+    "ru": [
+     "Вид на бассейн",
+     "Южная сторона",
+     "Кондиционер",
+     "После ремонта",
+     "Такса 12 €/м² в год"
+    ]
+   }
+  },
+  {
+   "code": 396139,
+   "slug": "burgas-apt-396139",
+   "country": "bg",
+   "type": "apt",
+   "deal": "sale",
+   "status": "sale",
+   "featured": false,
+   "place": "burgas",
+   "district": {
+    "ru": "Изгрев"
+   },
+   "price": 123000,
+   "area": 66,
+   "plot": null,
+   "bedrooms": 1,
+   "bathrooms": null,
+   "floor": "9",
+   "sea": null,
+   "furnished": false,
+   "lift": null,
+   "url": "https://imotipremier.com/prodava/dvustaen-apartament/burgas/izgrev-burgas/396139/",
+   "photos": [
+    "https://imotipremier.com/webfactor-images/8b6173e7-984a-41c1-803e-b48000c882d7-1200x800-center-1229390.webp",
+    "https://imotipremier.com/webfactor-images/5512cd55-c8e2-4aa3-9316-b48000c8cbeb-1200x800-center-1229395.webp"
+   ],
+   "title": {
+    "ru": "Двухкомнатная квартира в комплексе «Смокините 3»"
+   },
+   "desc": {
+    "ru": "Квартира 66 м² на 9-м этаже секции В нового комплекса «Смокините 3» в районе Изгрев. Южная сторона, много дневного света, функциональная планировка. Акт 16 ожидается в ноябре, можно купить парковочное место."
+   },
+   "feat": {
+    "ru": [
+     "Новостройка",
+     "Южная сторона",
+     "9-й этаж",
+     "Возможна парковка",
+     "Акт 16 в ноябре"
+    ]
+   }
+  },
+  {
+   "code": 395918,
+   "slug": "tvyrditsa-plot-395918",
+   "country": "bg",
+   "type": "plot",
+   "deal": "sale",
+   "status": "sale",
+   "featured": false,
+   "place": "tvyrditsa",
+   "district": null,
+   "price": 55000,
+   "area": null,
+   "plot": 545,
+   "bedrooms": null,
+   "bathrooms": null,
+   "floor": null,
+   "sea": null,
+   "furnished": null,
+   "lift": null,
+   "url": "https://imotipremier.com/prodava/partsel/burgas-oblast/s-tvarditsa-burgas-oblast/395918/",
+   "photos": [
+    "https://imotipremier.com/webfactor-images/8f8de05b-fa19-4531-b29f-b47900e08973-1200x800-center-1227639.webp",
+    "https://imotipremier.com/webfactor-images/71c5fcce-3ce8-48e2-9015-b47900e09645-1200x800-center-1227640.webp",
+    "https://imotipremier.com/webfactor-images/d3983792-d505-48fb-a8f1-b47900e09660-1200x800-center-1227641.webp",
+    "https://imotipremier.com/webfactor-images/ebc7ea8f-a624-4269-aaa8-b47900e09658-1200x800-center-1227642.webp",
+    "https://imotipremier.com/webfactor-images/261651c0-4e15-4267-8af7-b47900e09658-1200x800-center-1227643.webp"
+   ],
+   "title": {
+    "ru": "Участки под строительство в селе Твырдица"
+   },
+   "desc": {
+    "ru": "Четыре урегулированных участка под жилое строительство в селе Твырдица, в нескольких минутах от Бургаса. Участки 520–545 м², ровные и правильной формы, подходят для одноэтажного дома или инвестиции. Электричество и вода примерно в 100 метрах."
+   },
+   "feat": {
+    "ru": [
+     "4 участка на выбор",
+     "520–545 м²",
+     "Ровный рельеф",
+     "Коммуникации в 100 м",
+     "Близко к Бургасу"
+    ]
+   }
+  },
+  {
+   "code": 395700,
+   "slug": "burgas-house-395700",
+   "country": "bg",
+   "type": "house",
+   "deal": "sale",
+   "status": "sale",
+   "featured": false,
+   "place": "burgas",
+   "district": {
+    "ru": "Рудник"
+   },
+   "price": 400000,
+   "area": 320,
+   "plot": 800,
+   "bedrooms": 6,
+   "bathrooms": 3,
+   "floor": null,
+   "sea": null,
+   "furnished": true,
+   "lift": null,
+   "url": "https://imotipremier.com/prodava/kashta/burgas/395700/",
+   "photos": [
+    "https://imotipremier.com/webfactor-images/5b80fa23-d35d-4a29-96c7-b47500677b22-1200x800-center-1226612.webp",
+    "https://imotipremier.com/webfactor-images/3fef7fff-4284-47b2-a0a8-b47500677b31-1200x800-center-1226613.webp",
+    "https://imotipremier.com/webfactor-images/a16599fc-e76b-43a1-8bf5-b4750069a337-1200x800-center-1226614.webp",
+    "https://imotipremier.com/webfactor-images/89891b65-9315-4342-affe-b47500677b25-1200x800-center-1226615.webp",
+    "https://imotipremier.com/webfactor-images/458f5c57-71c9-41e9-aed4-b47500699da8-1200x800-center-1226616.webp",
+    "https://imotipremier.com/webfactor-images/966106bb-30c8-492d-a6ba-b47500699d81-1200x800-center-1226617.webp",
+    "https://imotipremier.com/webfactor-images/70cc2488-cd5e-4914-a771-b47500699bb8-1200x800-center-1226618.webp",
+    "https://imotipremier.com/webfactor-images/cee2cfa2-a794-49cf-a5e2-b47500699b55-1200x800-center-1226619.webp",
+    "https://imotipremier.com/webfactor-images/8363a549-3408-41fb-ae51-b47500677b13-1200x800-center-1226620.webp",
+    "https://imotipremier.com/webfactor-images/918e14ed-e56a-4980-abfc-b47500699b64-1200x800-center-1226621.webp",
+    "https://imotipremier.com/webfactor-images/94a07e9a-362f-4aeb-8ce3-b47500699d41-1200x800-center-1226622.webp",
+    "https://imotipremier.com/webfactor-images/2d0e5b4e-1539-41c5-a37f-b47500699d71-1200x800-center-1226623.webp"
+   ],
+   "title": {
+    "ru": "Роскошный дом с 6 спальнями и сауной, квартал Рудник"
+   },
+   "desc": {
+    "ru": "Двухэтажный дом 320 м² на участке 800 м² в тихом квартале Рудник в Бургасе. Шесть спален, три санузла, гостиная с камином, тёплые полы, пеллетное отопление и кондиционеры. Во дворе летняя кухня с сауной, гараж и зона отдыха; дом готов к заселению."
+   },
+   "feat": {
+    "ru": [
+     "Тёплые полы",
+     "Камин",
+     "Летняя кухня с сауной",
+     "Гараж",
+     "Участок 800 м²"
+    ]
+   }
+  },
+  {
+   "code": 395699,
+   "slug": "burgas-plot-395699",
+   "country": "bg",
+   "type": "plot",
+   "deal": "sale",
+   "status": "sale",
+   "featured": false,
+   "place": "burgas",
+   "district": {
+    "ru": "Рудник"
+   },
+   "price": 80000,
+   "area": null,
+   "plot": 983,
+   "bedrooms": null,
+   "bathrooms": null,
+   "floor": null,
+   "sea": null,
+   "furnished": null,
+   "lift": null,
+   "url": "https://imotipremier.com/prodava/partsel/burgas/395699/",
+   "photos": [
+    "https://imotipremier.com/webfactor-images/db4e4724-5964-4524-a8b3-b48000ec1ace-1200x800-center-1229420.webp",
+    "https://imotipremier.com/webfactor-images/32d0bf45-c080-4ec6-a4e4-b47400ece521-1200x800-center-1226693.webp",
+    "https://imotipremier.com/webfactor-images/4039d715-9c5e-4d9e-b6c9-b47400ece3b2-1200x800-center-1226694.webp",
+    "https://imotipremier.com/webfactor-images/f67cd6d0-5130-4efc-90c1-b47400ece50f-1200x800-center-1226695.webp",
+    "https://imotipremier.com/webfactor-images/ff927d8b-f41c-4784-8e4f-b47400ece450-1200x800-center-1226696.webp",
+    "https://imotipremier.com/webfactor-images/fb5ae6e5-e3f9-4a1c-832a-b47400ece4d8-1200x800-center-1226697.webp",
+    "https://imotipremier.com/webfactor-images/d7d67f4d-9f6b-4994-891d-b47400ece33c-1200x800-center-1226698.webp",
+    "https://imotipremier.com/webfactor-images/c8d3ef21-2126-4cc5-bf3c-b47400ece341-1200x800-center-1226699.webp",
+    "https://imotipremier.com/webfactor-images/586d313f-2eb3-4666-b09e-b47400ece432-1200x800-center-1226700.webp",
+    "https://imotipremier.com/webfactor-images/8c4bdb77-0290-4b9b-8916-b47400ece406-1200x800-center-1226701.webp"
+   ],
+   "title": {
+    "ru": "Три участка (УПИ) в квартале Рудник"
+   },
+   "desc": {
+    "ru": "Три ровных участка под застройку в квартале Рудник в Бургасе: 983, 963 и 922 м². Солнечные, правильной формы, с выходом на основную дорогу и подъездом круглый год. На двух участках есть старые дома, которые можно отремонтировать или снести."
+   },
+   "feat": {
+    "ru": [
+     "Статус УПИ",
+     "Электричество и вода",
+     "Канализация",
+     "Выход на основную дорогу"
+    ]
+   }
+  },
+  {
+   "code": 395685,
+   "slug": "bata-plot-395685",
+   "country": "bg",
+   "type": "plot",
+   "deal": "sale",
+   "status": "sale",
+   "featured": false,
+   "place": "bata",
+   "district": {
+    "ru": "местность «Летище»"
+   },
+   "price": 28000,
+   "area": null,
+   "plot": 5020,
+   "bedrooms": null,
+   "bathrooms": null,
+   "floor": null,
+   "sea": null,
+   "furnished": null,
+   "lift": null,
+   "url": "https://imotipremier.com/prodava/partsel/burgas-oblast/s-bata/395685/",
+   "photos": [
+    "https://imotipremier.com/webfactor-images/f0aa75fe-61b2-4fe1-9041-b47400d748fa-1200x800-center-1226519.webp"
+   ],
+   "title": {
+    "ru": "Участок 5000 м² возле села Бата"
+   },
+   "desc": {
+    "ru": "Участок около 5000 м² в местности «Летище» возле села Бата, община Поморие. Сейчас идёт процедура смены статуса, что даёт хорошие перспективы роста стоимости. Быстро добраться до Поморие, Солнечного Берега и Бургаса."
+   },
+   "feat": {
+    "ru": [
+     "5020 м²",
+     "Смена статуса в процессе",
+     "Близко к Поморие и Бургасу",
+     "Для инвестиции"
+    ]
+   }
+  },
+  {
+   "code": 395677,
+   "slug": "malyy-preslavets-house-395677",
+   "country": "bg",
+   "type": "house",
+   "deal": "sale",
+   "status": "sale",
+   "featured": false,
+   "place": "malyy-preslavets",
+   "district": {
+    "ru": "Силистренская область"
+   },
+   "price": 30000,
+   "area": 61,
+   "plot": 1485,
+   "bedrooms": null,
+   "bathrooms": null,
+   "floor": null,
+   "sea": null,
+   "furnished": null,
+   "lift": null,
+   "url": "https://imotipremier.com/prodava/kashta/silistra-oblast/s-malak-preslavets/395677/",
+   "photos": [
+    "https://imotipremier.com/webfactor-images/9f62b820-6372-41f1-823d-b47200c00e00-1200x800-center-1226488.webp",
+    "https://imotipremier.com/webfactor-images/9a078feb-021d-47c1-a828-b47200c00e28-1200x800-center-1226498.webp",
+    "https://imotipremier.com/webfactor-images/983a608e-9ffa-49bb-8618-b47200c00df2-1200x800-center-1226499.webp",
+    "https://imotipremier.com/webfactor-images/13e8160a-016d-4549-88a7-b47200c00dda-1200x800-center-1226500.webp",
+    "https://imotipremier.com/webfactor-images/47a5d728-6a79-4451-a7bf-b47200c00dda-1200x800-center-1226501.webp",
+    "https://imotipremier.com/webfactor-images/34710ebc-5fcb-43a9-a5ae-b47200c00dca-1200x800-center-1226502.webp",
+    "https://imotipremier.com/webfactor-images/a4f5f241-b8d2-428e-b5c6-b47200c00ddf-1200x800-center-1226503.webp",
+    "https://imotipremier.com/webfactor-images/a6075913-4f1b-4830-a379-b47200c00df7-1200x800-center-1226504.webp",
+    "https://imotipremier.com/webfactor-images/2bf23a74-013a-4d2e-a889-b47200c00dda-1200x800-center-1226505.webp",
+    "https://imotipremier.com/webfactor-images/828bdae1-4a43-4180-980f-b47200c00ded-1200x800-center-1226506.webp"
+   ],
+   "title": {
+    "ru": "Дом с участком 1485 м² в селе Малый Преславец у Дуная"
+   },
+   "desc": {
+    "ru": "Дом в живописном селе Малый Преславец рядом с Дунаем, для тех, кто ценит природу и тишину. Урегулированный участок 1485 м², на нём полукаменный дом 61 м². Подходит для сезонного отдыха, а после ремонта и для круглогодичной жизни."
+   },
+   "feat": {
+    "ru": [
+     "Участок 1485 м²",
+     "Электричество, вода, септик",
+     "Большой двор",
+     "Тихое место"
+    ]
+   }
+  },
+  {
+   "code": 395674,
+   "slug": "izvorovo-house-395674",
+   "country": "bg",
+   "type": "house",
+   "deal": "sale",
+   "status": "sale",
+   "featured": false,
+   "place": "izvorovo",
+   "district": {
+    "ru": "Добричская область"
+   },
+   "price": 31000,
+   "area": 75,
+   "plot": 2700,
+   "bedrooms": null,
+   "bathrooms": null,
+   "floor": null,
+   "sea": null,
+   "furnished": null,
+   "lift": null,
+   "url": "https://imotipremier.com/prodava/kashta/dobrich-oblast/s-izvorovo-dobrich-oblast/395674/",
+   "photos": [
+    "https://imotipremier.com/webfactor-images/1e9f627b-3dca-4de9-bb5e-b47200b84f04-1200x800-center-1226672.webp",
+    "https://imotipremier.com/webfactor-images/07a6aac0-8dcc-4dc1-bfc3-b47200b84f4d-1200x800-center-1226675.webp",
+    "https://imotipremier.com/webfactor-images/80cf8898-32a2-40af-9b4d-b47200b84f72-1200x800-center-1226676.webp",
+    "https://imotipremier.com/webfactor-images/0e1c83b4-04c9-4bc3-a027-b47200b84f72-1200x800-center-1226677.webp",
+    "https://imotipremier.com/webfactor-images/d10f91d6-bf5b-4a3a-a814-b47200b84ef7-1200x800-center-1226678.webp",
+    "https://imotipremier.com/webfactor-images/c7325e02-1816-4252-b396-b47200b84ec7-1200x800-center-1226679.webp",
+    "https://imotipremier.com/webfactor-images/40490c7a-1a68-4d1c-9778-b47200b84eeb-1200x800-center-1226680.webp",
+    "https://imotipremier.com/webfactor-images/e588b454-2ff2-4bd7-abb3-b47200b84ed0-1200x800-center-1226681.webp"
+   ],
+   "title": {
+    "ru": "Дом с большим двором в селе Изворово"
+   },
+   "desc": {
+    "ru": "Дом 75 м² в тихом селе Изворово, в 15 км от Генерал-Тошево. Участок 2700 м² позволяет устроить сад, огород, хозпостройки или зону отдыха. Подходит для постоянной жизни, дачи или инвестиции."
+   },
+   "feat": {
+    "ru": [
+     "Участок 2700 м²",
+     "Большой двор",
+     "Тихое место",
+     "Круглый год"
+    ]
+   }
+  },
+  {
+   "code": 395646,
+   "slug": "solnechnyy-bereg-apt-395646",
+   "country": "bg",
+   "type": "apt",
+   "deal": "sale",
+   "status": "sale",
+   "featured": false,
+   "place": "solnechnyy-bereg",
+   "district": {
+    "ru": "Гренада"
+   },
+   "price": 108000,
+   "area": 74,
+   "plot": null,
+   "bedrooms": 2,
+   "bathrooms": 1,
+   "floor": "3",
+   "sea": null,
+   "furnished": true,
+   "lift": null,
+   "url": "https://imotipremier.com/prodava/dvustaen-apartament/burgas-oblast/gr-nesebar/395646/",
+   "photos": [
+    "https://imotipremier.com/webfactor-images/f3171394-0920-424d-bccf-b49000fbe978-1200x800-center-1233381.webp",
+    "https://imotipremier.com/webfactor-images/078fe34e-4026-4335-a008-b49000fbe936-1200x800-center-1233389.webp",
+    "https://imotipremier.com/webfactor-images/8a32fad1-2098-4909-98be-b49000fbe936-1200x800-center-1233390.webp",
+    "https://imotipremier.com/webfactor-images/6a206429-7952-43c7-9145-b49000fbe978-1200x800-center-1233391.webp",
+    "https://imotipremier.com/webfactor-images/61f1e40b-9321-4316-a002-b49000fbe96f-1200x800-center-1233392.webp",
+    "https://imotipremier.com/webfactor-images/68accb8c-5eac-4768-81bf-b49000fbe978-1200x800-center-1233393.webp",
+    "https://imotipremier.com/webfactor-images/c1ce9b41-4059-4b11-9b9c-b49000fbe946-1200x800-center-1233394.webp",
+    "https://imotipremier.com/webfactor-images/7378cf17-3a46-4a00-9bf8-b49000fbe969-1200x800-center-1233395.webp",
+    "https://imotipremier.com/webfactor-images/c2699f8f-c686-43de-a83a-b49000fbe950-1200x800-center-1233396.webp",
+    "https://imotipremier.com/webfactor-images/17a64f3c-f8b9-4da9-8e8b-b49000fbe978-1200x800-center-1233397.webp"
+   ],
+   "title": {
+    "ru": "Квартира с 2 спальнями на первой линии, комплекс «Гренада»"
+   },
+   "desc": {
+    "ru": "Просторная квартира на третьем этаже комплекса «Гренада» в южной части Солнечного Берега, с видом на море и бассейн. После качественного ремонта, полностью меблирована и готова к заселению. Комплекс в нескольких шагах от пляжа, недалеко от Несебра."
+   },
+   "feat": {
+    "ru": [
+     "Первая линия",
+     "Вид на море и бассейн",
+     "После ремонта",
+     "Полностью меблирована"
+    ]
+   }
+  },
+  {
+   "code": 395641,
+   "slug": "burgas-apt-395641",
+   "country": "bg",
+   "type": "apt",
+   "deal": "sale",
+   "status": "sale",
+   "featured": false,
+   "place": "burgas",
+   "district": {
+    "ru": "Меден Рудник"
+   },
+   "price": 59850,
+   "area": 75,
+   "plot": null,
+   "bedrooms": 1,
+   "bathrooms": null,
+   "floor": null,
+   "sea": null,
+   "furnished": false,
+   "lift": null,
+   "url": "https://imotipremier.com/prodava/dvustaen-apartament/burgas/395641/",
+   "photos": [
+    "https://imotipremier.com/webfactor-images/b057dd65-bcf4-4f0e-b391-b4720070c9de-1200x800-center-1225513.webp",
+    "https://imotipremier.com/webfactor-images/c001c90c-2851-497d-976d-b47200711714-1200x800-center-1225514.webp",
+    "https://imotipremier.com/webfactor-images/c4e5c5e9-61d9-4fbb-a301-b47200711711-1200x800-center-1225515.webp",
+    "https://imotipremier.com/webfactor-images/f4106efb-0be0-4925-9838-b47200711725-1200x800-center-1225516.webp",
+    "https://imotipremier.com/webfactor-images/b8816ebf-f5fc-4bef-9be4-b4720071171f-1200x800-center-1225517.webp"
+   ],
+   "title": {
+    "ru": "Квартира в новом комплексе Silver Valley 2, Меден Рудник"
+   },
+   "desc": {
+    "ru": "Квартира в новом жилом комплексе Silver Valley 2 в тихой части района Меден Рудник в Бургасе. Современная архитектура, продуманные планировки, качественная отделка фасада и общих зон. Продаётся без внутренней отделки, интерьер можно сделать по своему вкусу."
+   },
+   "feat": {
+    "ru": [
+     "Новостройка",
+     "Лифт",
+     "Контролируемый доступ",
+     "Парковка",
+     "Озеленённая территория"
+    ]
+   }
+  },
+  {
+   "code": 395497,
+   "slug": "kableshkovo-plot-395497",
+   "country": "bg",
+   "type": "plot",
+   "deal": "sale",
+   "status": "sale",
+   "featured": false,
+   "place": "kableshkovo",
+   "district": null,
+   "price": 30000,
+   "area": null,
+   "plot": 560,
+   "bedrooms": null,
+   "bathrooms": null,
+   "floor": null,
+   "sea": null,
+   "furnished": null,
+   "lift": null,
+   "url": "https://imotipremier.com/prodava/partsel/burgas-oblast/gr-kableshkovo/395497/",
+   "photos": [
+    "https://imotipremier.com/webfactor-images/23deadc6-f9c4-409e-8c46-b472005a446a-1200x800-center-1225462.webp"
+   ],
+   "title": {
+    "ru": "Урегулированные участки в нескольких минутах от Каблешково"
+   },
+   "desc": {
+    "ru": "Участки с утверждённым статусом (УПИ) по 560 м² в перспективном районе в нескольких минутах от Каблешково и моря. Подходят под частный дом, отдых или инвестиционный проект. Тихо, чистый воздух и природа, при этом быстро добраться до города и курортов."
+   },
+   "feat": {
+    "ru": [
+     "Статус УПИ",
+     "560 м²",
+     "Вода и электричество рядом",
+     "Под жилое строительство"
+    ]
+   }
+  },
+  {
+   "code": 395617,
+   "slug": "pomorie-apt-395617",
+   "country": "bg",
+   "type": "apt",
+   "deal": "sale",
+   "status": "sale",
+   "featured": true,
+   "place": "pomorie",
+   "district": null,
+   "price": 147340,
+   "area": 74,
+   "plot": null,
+   "bedrooms": 1,
+   "bathrooms": null,
+   "floor": null,
+   "sea": null,
+   "furnished": true,
+   "lift": null,
+   "url": "https://imotipremier.com/prodava/dvustaen-apartament/burgas-oblast/gr-pomorie/395617/",
+   "photos": [
+    "https://imotipremier.com/webfactor-images/417fe57e-a6a0-49e4-aa9f-b47100e1ea6f-1200x800-center-1225353.webp",
+    "https://imotipremier.com/webfactor-images/e42bc142-daf0-4e82-88ef-b47100e1ea6f-1200x800-center-1225356.webp",
+    "https://imotipremier.com/webfactor-images/965d9d62-892c-473a-9368-b47100e1ea6f-1200x800-center-1225357.webp",
+    "https://imotipremier.com/webfactor-images/7884f410-6f03-4a9f-9663-b47100e1ea73-1200x800-center-1225358.webp",
+    "https://imotipremier.com/webfactor-images/92f5cb49-6a96-4d62-9d5e-b47100e1ea73-1200x800-center-1225359.webp",
+    "https://imotipremier.com/webfactor-images/975d14c0-6c14-4152-a2dd-b47100e1ea73-1200x800-center-1225360.webp",
+    "https://imotipremier.com/webfactor-images/166964d0-a41d-45d9-ab42-b47100e1f901-1200x800-center-1225361.webp",
+    "https://imotipremier.com/webfactor-images/b1c9e211-bd5a-47a5-b0d7-b47100e1f906-1200x800-center-1225362.webp",
+    "https://imotipremier.com/webfactor-images/a0051c30-a26a-4a02-826c-b47100e1f8ee-1200x800-center-1225363.webp",
+    "https://imotipremier.com/webfactor-images/88b07f98-1179-4e0a-8782-b47100e1f8e3-1200x800-center-1225364.webp"
+   ],
+   "title": {
+    "ru": "Квартира на первой линии с видом на море, Penelope Palace"
+   },
+   "desc": {
+    "ru": "Квартира 74 м² в комплексе Penelope Palace на первой линии, рядом с центральным пляжем Поморие. После ремонта, полностью меблирована, панорамный вид на море и парк. Комплекс работает круглый год, подходит для жизни и для сдачи в аренду."
+   },
+   "feat": {
+    "ru": [
+     "Первая линия, выход на пляж",
+     "Вид на море",
+     "Бассейн и SPA",
+     "Охрана",
+     "Круглогодичный комплекс"
+    ]
+   }
+  },
+  {
+   "code": 395516,
+   "slug": "ravda-house-395516",
+   "country": "bg",
+   "type": "house",
+   "deal": "sale",
+   "status": "sale",
+   "featured": false,
+   "place": "ravda",
+   "district": {
+    "ru": "Adiba Houses"
+   },
+   "price": 135000,
+   "area": 135,
+   "plot": 270,
+   "bedrooms": 2,
+   "bathrooms": 2,
+   "floor": null,
+   "sea": null,
+   "furnished": false,
+   "lift": null,
+   "url": "https://imotipremier.com/prodava/kashta/burgas-oblast/s-ravda/395516/",
+   "photos": [
+    "https://imotipremier.com/webfactor-images/05d162a0-dd17-4524-a4e6-b47100f34bdb-1200x800-center-1225464.webp",
+    "https://imotipremier.com/webfactor-images/3f4c2b60-ef27-49aa-86e0-b47100f34bdb-1200x800-center-1225465.webp",
+    "https://imotipremier.com/webfactor-images/d15b616f-adbb-41fd-84c5-b47100f34bdb-1200x800-center-1225466.webp",
+    "https://imotipremier.com/webfactor-images/51b00ee6-c4d7-492a-ab08-b471010043da-1200x800-center-1225467.webp",
+    "https://imotipremier.com/webfactor-images/7e434df3-fcdf-4c12-8d28-b471010043e8-1200x800-center-1225468.webp",
+    "https://imotipremier.com/webfactor-images/9f6c3c0d-4f5b-4998-b246-b471010043df-1200x800-center-1225469.webp"
+   ],
+   "title": {
+    "ru": "Таунхаус в комплексе Adiba Houses, Равда"
+   },
+   "desc": {
+    "ru": "Двухэтажный таунхаус в комплексе Adiba Houses в Равде, продаётся в незавершённом состоянии. Внизу гостиная, кухня, столовая с выходом на террасу и ванная; наверху две спальни, терраса и ванная. До моря 600 метров, в комплексе осталось три свободных дома."
+   },
+   "feat": {
+    "ru": [
+     "600 м до моря",
+     "Две террасы",
+     "Камин",
+     "Без таксы обслуживания"
+    ]
+   }
+  },
+  {
+   "code": 395512,
+   "slug": "burgas-apt-395512",
+   "country": "bg",
+   "type": "apt",
+   "deal": "sale",
+   "status": "sale",
+   "featured": false,
+   "place": "burgas",
+   "district": {
+    "ru": "Зорница"
+   },
+   "price": 155000,
+   "area": 64,
+   "plot": null,
+   "bedrooms": 1,
+   "bathrooms": 1,
+   "floor": "1",
+   "sea": null,
+   "furnished": true,
+   "lift": null,
+   "url": "https://imotipremier.com/prodava/dvustaen-apartament/burgas/zornitsa-burgas/395512/",
+   "photos": [
+    "https://imotipremier.com/webfactor-images/78eef36b-9a04-42b3-aced-b4720077d37f-1200x800-center-1251491.webp",
+    "https://imotipremier.com/webfactor-images/9e51fda7-575b-4ec6-bba6-b4720077d341-1200x800-center-1251492.webp",
+    "https://imotipremier.com/webfactor-images/83ba6afb-a437-413a-a652-b4720077d3af-1200x800-center-1251493.webp",
+    "https://imotipremier.com/webfactor-images/72eb6063-b15f-403f-879d-b4720077d2f5-1200x800-center-1251494.webp",
+    "https://imotipremier.com/webfactor-images/b82485a4-46c5-4cba-98ca-b4720077d4d6-1200x800-center-1251495.webp",
+    "https://imotipremier.com/webfactor-images/7e4d195a-d749-4927-9b37-b4720077d335-1200x800-center-1251496.webp",
+    "https://imotipremier.com/webfactor-images/6de34ce0-1763-4930-b654-b4720077d32f-1200x800-center-1251497.webp",
+    "https://imotipremier.com/webfactor-images/85924479-b619-41c8-8fab-b4720077d3cd-1200x800-center-1251498.webp",
+    "https://imotipremier.com/webfactor-images/794c7450-1e0c-4a30-ad49-b4720077d351-1200x800-center-1251499.webp",
+    "https://imotipremier.com/webfactor-images/88abf750-061c-4bcc-8ca8-b4720077d278-1200x800-center-1251500.webp"
+   ],
+   "title": {
+    "ru": "Квартира в Зорнице, 50 м от Морского сада"
+   },
+   "desc": {
+    "ru": "Квартира около 64 м² на высоком первом этаже в районе Зорница, в 50 метрах от Морского сада и пляжа. Гостиная, спальня, кухня, санузел, коридор и терраса; центральное отопление. Продаётся полностью меблированной, готова к жизни или сдаче в аренду."
+   },
+   "feat": {
+    "ru": [
+     "50 м до Морского сада",
+     "Центральное отопление",
+     "Полностью меблирована",
+     "Терраса",
+     "Возможна ипотека"
+    ]
+   }
+  },
+  {
+   "code": 395298,
+   "slug": "ustrem-house-395298",
+   "country": "bg",
+   "type": "house",
+   "deal": "sale",
+   "status": "sale",
+   "featured": false,
+   "place": "ustrem",
+   "district": {
+    "ru": "Хасковская область"
+   },
+   "price": 38000,
+   "area": 130,
+   "plot": 500,
+   "bedrooms": null,
+   "bathrooms": null,
+   "floor": null,
+   "sea": null,
+   "furnished": null,
+   "lift": null,
+   "url": "https://imotipremier.com/prodava/kashta/haskovo-oblast/s-ustrem/395298/",
+   "photos": [
+    "https://imotipremier.com/webfactor-images/0fc7604a-d701-4457-9dbd-b47400b77e36-1200x800-center-1226399.webp",
+    "https://imotipremier.com/webfactor-images/1c703187-0236-4a96-967b-b47400b77cee-1200x800-center-1226429.webp",
+    "https://imotipremier.com/webfactor-images/c74a87e7-a18c-495c-92e0-b47400b77ed7-1200x800-center-1226434.webp",
+    "https://imotipremier.com/webfactor-images/57656315-1898-464e-a9b2-b47400b77dd4-1200x800-center-1226425.webp",
+    "https://imotipremier.com/webfactor-images/ee7a01c9-74f3-4a2c-adf7-b47400b77926-1200x800-center-1226400.webp",
+    "https://imotipremier.com/webfactor-images/a22b68c8-8afe-4e0c-8561-b47400b7799c-1200x800-center-1226406.webp",
+    "https://imotipremier.com/webfactor-images/0de21891-4215-45c7-8278-b47400b77b3d-1200x800-center-1226419.webp",
+    "https://imotipremier.com/webfactor-images/3c3e12e6-9af3-4118-9d3b-b47400b77bde-1200x800-center-1226407.webp"
+   ],
+   "title": {
+    "ru": "Дом с большим потенциалом в селе Устрем"
+   },
+   "desc": {
+    "ru": "Одноэтажный дом 130 м² в селе Устрем, недалеко от центра. Частично отремонтирован, крыша в хорошем состоянии, можно обустроить мансарду. Участок около 500 м² с фруктовыми деревьями."
+   },
+   "feat": {
+    "ru": [
+     "Вода и канализация",
+     "Частичный ремонт",
+     "Возможна мансарда",
+     "Фруктовый сад"
+    ]
+   }
+  },
+  {
+   "code": 395232,
+   "slug": "solnechnyy-bereg-apt-395232",
+   "country": "bg",
+   "type": "apt",
+   "deal": "sale",
+   "status": "sale",
+   "featured": false,
+   "place": "solnechnyy-bereg",
+   "district": {
+    "ru": "Гренада"
+   },
+   "price": 62500,
+   "area": 52,
+   "plot": null,
+   "bedrooms": null,
+   "bathrooms": null,
+   "floor": "2",
+   "sea": null,
+   "furnished": null,
+   "lift": null,
+   "url": "https://imotipremier.com/prodava/ednostaen-apartament/burgas-oblast/gr-nesebar/395232/",
+   "photos": [
+    "https://imotipremier.com/webfactor-images/3ab745b1-ed61-4bf6-9d41-b465009840ae-1200x800-center-1222313.webp",
+    "https://imotipremier.com/webfactor-images/17bc4deb-ea40-4a43-a4ad-b4650098408d-1200x800-center-1222314.webp",
+    "https://imotipremier.com/webfactor-images/012040df-f828-4f9d-89cc-b46500984066-1200x800-center-1222315.webp",
+    "https://imotipremier.com/webfactor-images/73f51194-bf7b-4d65-9095-b46500984081-1200x800-center-1222316.webp",
+    "https://imotipremier.com/webfactor-images/a4ed6124-4682-420f-939c-b46500984013-1200x800-center-1222317.webp",
+    "https://imotipremier.com/webfactor-images/72020571-77f3-4798-986c-b46500984013-1200x800-center-1222318.webp",
+    "https://imotipremier.com/webfactor-images/63071402-e390-4240-b260-b46500984065-1200x800-center-1222319.webp",
+    "https://imotipremier.com/webfactor-images/1f1d5601-d736-473b-ae16-b4650098402a-1200x800-center-1222320.webp"
+   ],
+   "title": {
+    "ru": "Уютная студия на первой линии, комплекс «Гренада»"
+   },
+   "desc": {
+    "ru": "Студия 52 м² на втором этаже комплекса «Гренада» в Солнечном Береге, в 50 метрах от моря. Подходит для собственного отдыха и для сезонной сдачи в аренду. Рядом пляж, рестораны и магазины; такса обслуживания 11 € за м² в год."
+   },
+   "feat": {
+    "ru": [
+     "Первая линия",
+     "50 м до моря",
+     "Акт 16",
+     "Сезонная аренда"
+    ]
+   }
+  },
+  {
+   "code": 395189,
+   "slug": "burgas-commercial-395189",
+   "country": "bg",
+   "type": "commercial",
+   "deal": "sale",
+   "status": "sale",
+   "featured": false,
+   "place": "burgas",
+   "district": {
+    "ru": "Меден Рудник"
+   },
+   "price": 114000,
+   "area": 103,
+   "plot": null,
+   "bedrooms": null,
+   "bathrooms": null,
+   "floor": null,
+   "sea": null,
+   "furnished": null,
+   "lift": null,
+   "url": "https://imotipremier.com/prodava/ofis/burgas/395189/",
+   "photos": [
+    "https://imotipremier.com/webfactor-images/81f4f036-aae2-4493-8a72-b46500836751-1200x800-center-1222224.webp",
+    "https://imotipremier.com/webfactor-images/43ae3c4a-0cf6-43c8-9f42-b46500836765-1200x800-center-1222225.webp",
+    "https://imotipremier.com/webfactor-images/eaebcf3f-3b88-4bb1-8339-b465007e197c-1200x800-center-1222213.webp",
+    "https://imotipremier.com/webfactor-images/847db4d6-e658-4ae3-99a3-b465007e198e-1200x800-center-1222214.webp",
+    "https://imotipremier.com/webfactor-images/4135903b-ae22-4ed4-bd13-b465007e198e-1200x800-center-1222215.webp",
+    "https://imotipremier.com/webfactor-images/22b20d86-4080-489c-9ec8-b465007e1985-1200x800-center-1222216.webp",
+    "https://imotipremier.com/webfactor-images/73176427-76ce-4469-9b61-b465007e199a-1200x800-center-1222217.webp",
+    "https://imotipremier.com/webfactor-images/7032afbc-25dd-4b83-a05a-b465007e1995-1200x800-center-1222218.webp"
+   ],
+   "title": {
+    "ru": "Помещение со статусом магазина, Меден Рудник — зона А"
+   },
+   "desc": {
+    "ru": "Коммерческое помещение 103 м² со статусом магазина в районе Меден Рудник, зона А. Витрина шириной 4,4 м выходит на улицу и хорошо видна прохожим. Подходит под магазин, офис, салон красоты, склад или шоурум."
+   },
+   "feat": {
+    "ru": [
+     "Статус магазина",
+     "Витрина 4,4 м",
+     "Оживлённое место",
+     "103 м²"
+    ]
+   }
+  },
+  {
+   "code": 395172,
+   "slug": "burgas-plot-395172",
+   "country": "bg",
+   "type": "plot",
+   "deal": "sale",
+   "status": "sale",
+   "featured": false,
+   "place": "burgas",
+   "district": {
+    "ru": "Банево"
+   },
+   "price": 40000,
+   "area": null,
+   "plot": 500,
+   "bedrooms": null,
+   "bathrooms": null,
+   "floor": null,
+   "sea": null,
+   "furnished": null,
+   "lift": null,
+   "url": "https://imotipremier.com/prodava/partsel/burgas/395172/",
+   "photos": [
+    "https://imotipremier.com/webfactor-images/37b5d231-8347-4d47-b3e3-b46400cb91ed-1200x800-center-1221870.webp"
+   ],
+   "title": {
+    "ru": "Участок у Минеральных бань, квартал Банево"
+   },
+   "desc": {
+    "ru": "Участок 500 м² в квартале Банево, недалеко от Минеральных бань Бургаса. Чистый воздух, тишина и зелень. Подходит под семейный дом или для инвестиции."
+   },
+   "feat": {
+    "ru": [
+     "500 м²",
+     "Тихий зелёный район",
+     "Рядом Аква Калиде",
+     "Быстрый выезд на трассы"
+    ]
+   }
+  },
+  {
+   "code": 395169,
+   "slug": "solnechnyy-bereg-apt-395169",
+   "country": "bg",
+   "type": "apt",
+   "deal": "sale",
+   "status": "sale",
+   "featured": false,
+   "place": "solnechnyy-bereg",
+   "district": null,
+   "price": 70000,
+   "area": 136,
+   "plot": null,
+   "bedrooms": 4,
+   "bathrooms": 3,
+   "floor": null,
+   "sea": null,
+   "furnished": true,
+   "lift": null,
+   "url": "https://imotipremier.com/prodava/chetiristaen-apartament/burgas-oblast/gr-nesebar/395169/",
+   "photos": [
+    "https://imotipremier.com/webfactor-images/44109f14-7d30-4cf8-9038-b4720087107f-1200x800-center-1225659.webp",
+    "https://imotipremier.com/webfactor-images/87d0b60b-fb8d-45be-b23c-b49000fe1c94-1200x800-center-1233382.webp",
+    "https://imotipremier.com/webfactor-images/ff5f2d1e-3ca5-44ff-aa3e-b4720086bb03-1200x800-center-1225661.webp",
+    "https://imotipremier.com/webfactor-images/74acc50e-7d48-4f32-b162-b49000fe1cb2-1200x800-center-1233383.webp",
+    "https://imotipremier.com/webfactor-images/aaa12ceb-6ae0-42ee-aada-b49000fe1cac-1200x800-center-1233384.webp",
+    "https://imotipremier.com/webfactor-images/c1bb0edb-57f3-4fd6-9a7c-b49000fe1c96-1200x800-center-1233385.webp",
+    "https://imotipremier.com/webfactor-images/382efee2-5c25-467f-ab6d-b49000fe1cb5-1200x800-center-1233386.webp",
+    "https://imotipremier.com/webfactor-images/b90b6d10-a46e-4c7e-9b7c-b49000fe1c93-1200x800-center-1233387.webp"
+   ],
+   "title": {
+    "ru": "Просторная квартира с 4 спальнями у пляжа Какао Бийч"
+   },
+   "desc": {
+    "ru": "Просторная квартира 136 м² в районе с развитой инфраструктурой, в нескольких минутах от пляжа Какао Бийч. Подходит для постоянной жизни и для сдачи в аренду. Можно использовать и под офис или салон."
+   },
+   "feat": {
+    "ru": [
+     "4 спальни, 3 санузла",
+     "Бассейн в комплексе",
+     "Кондиционер",
+     "Такса всего 500 € в год"
+    ]
+   }
+  },
+  {
+   "code": 395102,
+   "slug": "trostikovo-house-395102",
+   "country": "bg",
+   "type": "house",
+   "deal": "sale",
+   "status": "sale",
+   "featured": false,
+   "place": "trostikovo",
+   "district": null,
+   "price": 120000,
+   "area": 50,
+   "plot": null,
+   "bedrooms": 1,
+   "bathrooms": 1,
+   "floor": null,
+   "sea": null,
+   "furnished": true,
+   "lift": null,
+   "url": "https://imotipremier.com/prodava/kashta/burgas/395102/",
+   "photos": [
+    "https://imotipremier.com/webfactor-images/a30c138d-95e4-430b-b2d1-b46300a5d7b9-1200x800-center-1221589.webp",
+    "https://imotipremier.com/webfactor-images/504afce4-6ac8-4e25-923a-b46300a5d7bf-1200x800-center-1221590.webp",
+    "https://imotipremier.com/webfactor-images/815a6ea3-9661-4542-bd22-b46300a5d7a3-1200x800-center-1221591.webp",
+    "https://imotipremier.com/webfactor-images/514ece38-ce96-4462-a4bf-b46300a5d78e-1200x800-center-1221592.webp",
+    "https://imotipremier.com/webfactor-images/8d85c7de-1d8b-4d9b-a5e1-b46300a5d7a3-1200x800-center-1221593.webp",
+    "https://imotipremier.com/webfactor-images/4db1acb0-9b12-44ca-b395-b46300a5d7aa-1200x800-center-1221594.webp",
+    "https://imotipremier.com/webfactor-images/10a014cf-300d-4788-85af-b46300a5d7c8-1200x800-center-1221595.webp",
+    "https://imotipremier.com/webfactor-images/9075ba04-14cb-40aa-a5df-b46300a5d7aa-1200x800-center-1221596.webp"
+   ],
+   "title": {
+    "ru": "Уютный дом после ремонта в селе Тростиково, 15 км от Бургаса"
+   },
+   "desc": {
+    "ru": "Уютный дом в живописном селе Тростиково, в 15 км от Бургаса, после капитального ремонта. Просторная гостиная с кухней, спальня и санузел. Полностью обставлен и готов к заселению."
+   },
+   "feat": {
+    "ru": [
+     "После капремонта",
+     "Полностью меблирован",
+     "Тихое место",
+     "Готов к заселению"
+    ]
+   }
+  },
+  {
+   "code": 381460,
+   "slug": "burgas-apt-381460",
+   "country": "bg",
+   "type": "apt",
+   "deal": "sale",
+   "status": "sale",
+   "featured": false,
+   "place": "burgas",
+   "district": {
+    "ru": "Лазур"
+   },
+   "price": 66000,
+   "area": 31,
+   "plot": null,
+   "bedrooms": null,
+   "bathrooms": 1,
+   "floor": null,
+   "sea": null,
+   "furnished": false,
+   "lift": null,
+   "url": "https://imotipremier.com/prodava/ednostaen-apartament/burgas/lazur/381460/",
+   "photos": [
+    "https://imotipremier.com/webfactor-images/3e60f987-1126-48e5-9283-b46101068b87-1200x800-center-1221213.webp",
+    "https://imotipremier.com/webfactor-images/33f67b53-481f-44ce-9282-b46101056b1c-1200x800-center-1221218.webp",
+    "https://imotipremier.com/webfactor-images/3b127e07-6ce6-42f8-ad59-b46101056b21-1200x800-center-1221219.webp",
+    "https://imotipremier.com/webfactor-images/7328afb9-3954-488a-8ec1-b46101068b5f-1200x800-center-1221220.webp",
+    "https://imotipremier.com/webfactor-images/0548092e-28e9-4abf-83c7-b46101068b7e-1200x800-center-1221221.webp",
+    "https://imotipremier.com/webfactor-images/94353c2b-29a4-4288-90cb-b46101068b7e-1200x800-center-1221222.webp",
+    "https://imotipremier.com/webfactor-images/cf23efbb-24c9-44a9-9b34-b46101068b50-1200x800-center-1221223.webp",
+    "https://imotipremier.com/webfactor-images/358373e4-b9de-4f8b-8708-b46101068b7b-1200x800-center-1221224.webp"
+   ],
+   "title": {
+    "ru": "Студия в Лазуре, готова к заселению"
+   },
+   "desc": {
+    "ru": "Светлая однокомнатная квартира 31 м² в районе Лазур в Бургасе, на улице Перущица. Продаётся с полной отделкой и готова к обустройству и заселению. Подходит для жизни и для сдачи в аренду."
+   },
+   "feat": {
+    "ru": [
+     "С отделкой «под ключ»",
+     "Отделанная ванная",
+     "Готова к заселению",
+     "Для аренды"
+    ]
+   }
+  },
+  {
+   "code": 378426,
+   "slug": "sozopol-apt-378426",
+   "country": "bg",
+   "type": "apt",
+   "deal": "sale",
+   "status": "sale",
+   "featured": false,
+   "place": "sozopol",
+   "district": null,
+   "price": 170000,
+   "area": 117,
+   "plot": null,
+   "bedrooms": null,
+   "bathrooms": null,
+   "floor": "2/4",
+   "sea": null,
+   "furnished": true,
+   "lift": null,
+   "url": "https://imotipremier.com/prodava/dvustaen-apartament/burgas-oblast/gr-sozopol/378426/",
+   "photos": [
+    "https://imotipremier.com/webfactor-images/d33ec56d-e116-4451-af4b-b3d000c5c8e8-1200x800-center-1159546.webp",
+    "https://imotipremier.com/webfactor-images/8dd1bf31-25c8-4e03-b96d-b3d000c5c8c3-1200x800-center-1159547.webp",
+    "https://imotipremier.com/webfactor-images/054305c5-7664-465e-a6ba-b3d000c5c8f1-1200x800-center-1159548.webp",
+    "https://imotipremier.com/webfactor-images/ddde737b-511d-4f5f-8b36-b3d000c5c895-1200x800-center-1159549.webp",
+    "https://imotipremier.com/webfactor-images/7457f7bd-b180-4502-8bd4-b3d000c5c8e4-1200x800-center-1159550.webp",
+    "https://imotipremier.com/webfactor-images/2adc87d1-5b6a-4bdb-bf8b-b3d000c5c912-1200x800-center-1159551.webp",
+    "https://imotipremier.com/webfactor-images/e737186c-9fe4-42be-8d6c-b3d000c5c92a-1200x800-center-1159552.webp",
+    "https://imotipremier.com/webfactor-images/1bbff45e-a549-4876-8cf0-b3d000c5c927-1200x800-center-1159553.webp"
+   ],
+   "title": {
+    "ru": "Квартира с большой террасой в 20 м от пляжа Харманы"
+   },
+   "desc": {
+    "ru": "Полностью меблированная квартира 117 м² в Созополе, в 20 метрах от пляжа Харманы. Большая терраса, вся мебель остаётся, поэтому квартирой можно сразу пользоваться или сдавать. Подходит для жизни и для инвестиции."
+   },
+   "feat": {
+    "ru": [
+     "20 м до пляжа",
+     "Большая терраса",
+     "Кондиционер",
+     "Без таксы обслуживания"
+    ]
+   }
+  },
+  {
+   "code": 372237,
+   "slug": "burgas-apt-372237",
+   "country": "bg",
+   "type": "apt",
+   "deal": "sale",
+   "status": "sale",
+   "featured": false,
+   "place": "burgas",
+   "district": {
+    "ru": "Зона Д"
+   },
+   "price": 102830,
+   "area": 103,
+   "plot": null,
+   "bedrooms": 2,
+   "bathrooms": 1,
+   "floor": "3/7",
+   "sea": null,
+   "furnished": null,
+   "lift": null,
+   "url": "https://imotipremier.com/prodava/tristaen-apartament/burgas/372237/",
+   "photos": [
+    "https://imotipremier.com/webfactor-images/e0c3ceb7-ea08-4757-916e-b33900bf680c-1200x800-center-1056765.webp",
+    "https://imotipremier.com/webfactor-images/e391b334-8fb5-47df-97e3-b33900bf6cca-1200x800-center-1056766.webp"
+   ],
+   "title": {
+    "ru": "Квартира с 2 спальнями и видом на залив, Зона Д"
+   },
+   "desc": {
+    "ru": "Просторная трёхкомнатная квартира в строящемся доме в Зоне Д Бургаса: гостиная с кухонной зоной, две спальни и южная лоджия с панорамным видом на залив и город. Цена 1000 € за м² действует при покупке до Акта 14. Можно докупить паркоместо (15 000 или 20 000 €)."
+   },
+   "feat": {
+    "ru": [
+     "Панорамный вид на залив",
+     "Южная сторона",
+     "Лоджия",
+     "1000 €/м² до Акта 14",
+     "Новостройка"
+    ]
+   }
+  },
+  {
+   "code": 372235,
+   "slug": "burgas-apt-372235",
+   "country": "bg",
+   "type": "apt",
+   "deal": "sale",
+   "status": "sale",
+   "featured": false,
+   "place": "burgas",
+   "district": {
+    "ru": "Зона Д"
+   },
+   "price": 95510,
+   "area": 96,
+   "plot": null,
+   "bedrooms": 2,
+   "bathrooms": 2,
+   "floor": "7/7",
+   "sea": null,
+   "furnished": null,
+   "lift": null,
+   "url": "https://imotipremier.com/prodava/tristaen-apartament/burgas/372235/",
+   "photos": [
+    "https://imotipremier.com/webfactor-images/0f0ade5e-eba4-4e7e-9476-b33900ba0fb6-1200x800-center-1056762.webp",
+    "https://imotipremier.com/webfactor-images/c68426b6-5adb-4b4f-a88a-b33900ba1521-1200x800-center-1056763.webp"
+   ],
+   "title": {
+    "ru": "Квартира с 2 спальнями и видом на залив, Зона Д"
+   },
+   "desc": {
+    "ru": "Просторная трёхкомнатная квартира в строящемся доме в Зоне Д Бургаса: гостиная с кухонной зоной, две спальни и южная лоджия с панорамным видом на залив и город. Цена 1000 € за м² действует при покупке до Акта 14. Можно докупить паркоместо (15 000 или 20 000 €)."
+   },
+   "feat": {
+    "ru": [
+     "Панорамный вид на залив",
+     "Южная сторона",
+     "Лоджия",
+     "1000 €/м² до Акта 14",
+     "Новостройка"
+    ]
+   }
+  },
+  {
+   "code": 372232,
+   "slug": "burgas-apt-372232",
+   "country": "bg",
+   "type": "apt",
+   "deal": "sale",
+   "status": "sale",
+   "featured": false,
+   "place": "burgas",
+   "district": {
+    "ru": "Зона Д"
+   },
+   "price": 106460,
+   "area": 106,
+   "plot": null,
+   "bedrooms": 2,
+   "bathrooms": 2,
+   "floor": "5/7",
+   "sea": null,
+   "furnished": null,
+   "lift": null,
+   "url": "https://imotipremier.com/prodava/tristaen-apartament/burgas/372232/",
+   "photos": [
+    "https://imotipremier.com/webfactor-images/c283c71e-af88-45f1-bb6e-b33900b80a15-1200x800-center-1056758.webp",
+    "https://imotipremier.com/webfactor-images/a31d29c8-96df-40fa-a76a-b33900b810c0-1200x800-center-1056759.webp"
+   ],
+   "title": {
+    "ru": "Квартира с 2 спальнями и видом на залив, Зона Д"
+   },
+   "desc": {
+    "ru": "Просторная трёхкомнатная квартира в строящемся доме в Зоне Д Бургаса: гостиная с кухонной зоной, две спальни и южная лоджия с панорамным видом на залив и город. Цена 1000 € за м² действует при покупке до Акта 14. Можно докупить паркоместо (15 000 или 20 000 €)."
+   },
+   "feat": {
+    "ru": [
+     "Панорамный вид на залив",
+     "Южная сторона",
+     "Лоджия",
+     "1000 €/м² до Акта 14",
+     "Новостройка"
+    ]
+   }
+  },
+  {
+   "code": 372227,
+   "slug": "burgas-apt-372227",
+   "country": "bg",
+   "type": "apt",
+   "deal": "sale",
+   "status": "sale",
+   "featured": false,
+   "place": "burgas",
+   "district": {
+    "ru": "Зона Д"
+   },
+   "price": 102830,
+   "area": 103,
+   "plot": null,
+   "bedrooms": 2,
+   "bathrooms": 1,
+   "floor": "2/7",
+   "sea": null,
+   "furnished": null,
+   "lift": null,
+   "url": "https://imotipremier.com/prodava/tristaen-apartament/burgas/372227/",
+   "photos": [
+    "https://imotipremier.com/webfactor-images/0449ad36-9fbc-488f-86ae-b33900b33eaa-1200x800-center-1056755.webp",
+    "https://imotipremier.com/webfactor-images/6ebc663f-f689-40e3-a276-b33900b34156-1200x800-center-1056757.webp"
+   ],
+   "title": {
+    "ru": "Квартира с 2 спальнями и видом на залив, Зона Д"
+   },
+   "desc": {
+    "ru": "Просторная трёхкомнатная квартира в строящемся доме в Зоне Д Бургаса: гостиная с кухонной зоной, две спальни и южная лоджия с панорамным видом на залив и город. Цена 1000 € за м² действует при покупке до Акта 14. Можно докупить паркоместо (15 000 или 20 000 €)."
+   },
+   "feat": {
+    "ru": [
+     "Панорамный вид на залив",
+     "Южная сторона",
+     "Лоджия",
+     "1000 €/м² до Акта 14",
+     "Новостройка"
+    ]
+   }
+  },
+  {
+   "code": 372198,
+   "slug": "burgas-apt-372198",
+   "country": "bg",
+   "type": "apt",
+   "deal": "sale",
+   "status": "sale",
+   "featured": false,
+   "place": "burgas",
+   "district": {
+    "ru": "Зона Д"
+   },
+   "price": 106460,
+   "area": 106,
+   "plot": null,
+   "bedrooms": 2,
+   "bathrooms": 2,
+   "floor": "1/7",
+   "sea": null,
+   "furnished": null,
+   "lift": null,
+   "url": "https://imotipremier.com/prodava/tristaen-apartament/burgas/372198/",
+   "photos": [
+    "https://imotipremier.com/webfactor-images/f9674a28-e159-47f1-a975-b339008c622d-1200x800-center-1124422.webp",
+    "https://imotipremier.com/webfactor-images/e3b3de08-88ea-4a18-ae1b-b33900907a7d-1200x800-center-1124423.webp"
+   ],
+   "title": {
+    "ru": "Квартира с 2 спальнями и видом на залив, Зона Д"
+   },
+   "desc": {
+    "ru": "Просторная трёхкомнатная квартира в строящемся доме в Зоне Д Бургаса: гостиная с кухонной зоной, две спальни и южная лоджия с панорамным видом на залив и город. Цена 1000 € за м² действует при покупке до Акта 14. Можно докупить паркоместо (15 000 или 20 000 €)."
+   },
+   "feat": {
+    "ru": [
+     "Панорамный вид на залив",
+     "Южная сторона",
+     "Лоджия",
+     "1000 €/м² до Акта 14",
+     "Новостройка"
+    ]
+   }
+  },
+  {
+   "code": 371689,
+   "slug": "sveti-vlas-apt-371689",
+   "country": "bg",
+   "type": "apt",
+   "deal": "sale",
+   "status": "sale",
+   "featured": false,
+   "place": "sveti-vlas",
+   "district": null,
+   "price": 280000,
+   "area": 208,
+   "plot": null,
+   "bedrooms": 4,
+   "bathrooms": 3,
+   "floor": "5/5",
+   "sea": null,
+   "furnished": true,
+   "lift": null,
+   "url": "https://imotipremier.com/prodava/mnogostaen-apartament/burgas-oblast/s-sveti-vlas/371689/",
+   "photos": [
+    "https://imotipremier.com/webfactor-images/cac92b1f-1456-49b4-ae3b-b3c9007ed449-1200x800-center-1160905.webp",
+    "https://imotipremier.com/webfactor-images/6c3eb00a-b45a-42b6-8e4e-b3c9007ed45b-1200x800-center-1154609.webp",
+    "https://imotipremier.com/webfactor-images/f1df0a59-29b0-42f9-8962-b3c9007ed1d1-1200x800-center-1154592.webp",
+    "https://imotipremier.com/webfactor-images/7711242d-ef8a-4592-aab8-b3c9007ed0b7-1200x800-center-1154593.webp",
+    "https://imotipremier.com/webfactor-images/96559ade-fe4a-433e-9445-b3c9007ed222-1200x800-center-1154594.webp",
+    "https://imotipremier.com/webfactor-images/09e0f948-6f66-43e6-a945-b3c9007ed3c1-1200x800-center-1154595.webp",
+    "https://imotipremier.com/webfactor-images/5ddda79d-960d-4114-9aa5-b3c9007ed43d-1200x800-center-1154596.webp",
+    "https://imotipremier.com/webfactor-images/8511a425-b063-437a-8f84-b3c9007ed37e-1200x800-center-1154597.webp"
+   ],
+   "title": {
+    "ru": "Панорамная квартира 208 м² с видом на море, Свети Влас"
+   },
+   "desc": {
+    "ru": "Просторная квартира на последнем, пятом этаже закрытого элитного комплекса в Свети Власе. Панорамный вид на море и широкие террасы около 150 м². Подойдёт большой семье или как представительный второй дом у моря."
+   },
+   "feat": {
+    "ru": [
+     "Панорамный вид на море",
+     "Террасы около 150 м²",
+     "Последний этаж",
+     "Закрытый комплекс",
+     "Лифт"
+    ]
+   }
+  },
+  {
+   "code": 370926,
+   "slug": "burgas-apt-370926",
+   "country": "bg",
+   "type": "apt",
+   "deal": "sale",
+   "status": "sale",
+   "featured": true,
+   "place": "burgas",
+   "district": {
+    "ru": "Лазур"
+   },
+   "price": 195000,
+   "area": 61,
+   "plot": null,
+   "bedrooms": null,
+   "bathrooms": 1,
+   "floor": "6/6",
+   "sea": null,
+   "furnished": true,
+   "lift": null,
+   "url": "https://imotipremier.com/prodava/tristaen-apartament/burgas/lazur/370926/",
+   "photos": [
+    "https://imotipremier.com/webfactor-images/14398e17-5cb8-4eab-861e-b32f0099b52e-1200x800-center-1222271.webp",
+    "https://imotipremier.com/webfactor-images/8fad0948-4b80-46c7-bd16-b32f0099b53c-1200x800-center-1222282.webp",
+    "https://imotipremier.com/webfactor-images/0cf9b913-e307-4c8e-8762-b32f0099b53c-1200x800-center-1222283.webp",
+    "https://imotipremier.com/webfactor-images/62fcf3c4-78fe-423c-9521-b32f0099b541-1200x800-center-1222284.webp",
+    "https://imotipremier.com/webfactor-images/cca79b77-5181-4fe3-a807-b32f0099b538-1200x800-center-1222285.webp",
+    "https://imotipremier.com/webfactor-images/ab1e5d45-b0db-4913-a860-b32f0099b4e3-1200x800-center-1222286.webp",
+    "https://imotipremier.com/webfactor-images/4c3f9fe2-a7b0-4022-a676-b32f0099b53c-1200x800-center-1222287.webp",
+    "https://imotipremier.com/webfactor-images/bc5e4e50-c28a-411a-a319-b32f0099b53c-1200x800-center-1222288.webp"
+   ],
+   "title": {
+    "ru": "Трёхкомнатная квартира в Лазуре, дом 2015 года"
+   },
+   "desc": {
+    "ru": "Трёхкомнатная квартира 61 м² в популярном районе Лазур в Бургасе, недалеко от моря. Шестой этаж кирпичного дома 2015 года, полностью меблирована. К квартире прилагаются терраса, подвал и небольшой чердачный склад."
+   },
+   "feat": {
+    "ru": [
+     "Лифт",
+     "Кондиционер",
+     "Терраса",
+     "Подвал и чердак",
+     "Меблирована"
+    ]
+   }
+  }
+ ]
+}
