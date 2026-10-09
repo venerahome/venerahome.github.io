@@ -207,7 +207,9 @@ $('sellFormEl').addEventListener('submit', async e => {
     track('sell_request_sent', {method: 'email'});
     $('sellOk').textContent = T.sOk; $('sellOk').hidden = false; $('sellFormEl').reset(); applyTexts();
   } catch (err) {
-    $('sellErr').textContent = T.sFail; $('sellErr').hidden = false;
+    console.warn('FormSubmit:', err && err.message);
+    $('sellErr').textContent = /activat/i.test(String(err && err.message)) ? 'Форма ещё не активирована: откройте письмо от FormSubmit на почте khassanovapremier@gmail.com и нажмите «Activate Form».' : T.sFail;
+    $('sellErr').hidden = false;
   } finally { btn.disabled = false; btn.textContent = T.sSend; }
 });
 $('sellWa').addEventListener('click', () => {
@@ -248,6 +250,6 @@ $('leadForm').addEventListener('submit', async e => {
     if (!r.ok || String(j.success) !== 'true') throw new Error(j.message || r.status);
     track('lead_sent', {object_id: p ? p.id : 'general'});
     $('leadForm').reset(); $('leadOk').textContent = T.lOk; $('leadOk').hidden = false;
-  } catch (err) { $('leadErr').textContent = T.sFail; $('leadErr').hidden = false; }
+  } catch (err) { console.warn('FormSubmit:', err && err.message); $('leadErr').textContent = /activat/i.test(String(err && err.message)) ? 'Форма ещё не активирована: откройте письмо от FormSubmit на почте khassanovapremier@gmail.com и нажмите «Activate Form».' : T.sFail; $('leadErr').hidden = false; }
   finally { btn.disabled = false; btn.textContent = T.lSend; }
 });
