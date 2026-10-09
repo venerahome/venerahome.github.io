@@ -108,6 +108,7 @@ function contact(id) {
   if (CONTACTS.email) rows.push(['Email', `mailto:${CONTACTS.email}?subject=${encodeURIComponent(p ? T.mailObj(p.id) : T.mailGen)}&body=${encodeURIComponent(msg)}`, CONTACTS.email]);
   $('contactList').innerHTML = rows.map(([k, h, v]) => `<li><span>${esc(k)}</span><a href="${esc(h)}"${h.startsWith('http') ? ' target="_blank" rel="noopener"' : ''}>${esc(v)}</a></li>`).join('');
   track('contact_open', {object_id: p ? p.id : 'general'});
+  leadFor = p; $('leadOk').hidden = true; $('leadErr').hidden = true; $('leadForm').hidden = false;
   if (!$('contactDialog').open) $('contactDialog').showModal();
 }
 
@@ -228,3 +229,25 @@ if (location.hash.startsWith('#object-') && byId(+location.hash.slice(8))) {
   history.replaceState(null, '', location.pathname + location.search);
   openItem(initialId, null);
 }
+
+/* ===== Заявка из окна контактов (просмотр / вопрос) → на почту ===== */
+let leadFor = null;
+$('leadForm').addEventListener('submit', async e => {
+  e.preventDefault();
+  const name = $('l-name').value.trim(), ph = $('l-phone').value.trim(), msg = $('l-msg').value.trim();
+  if (!name || !ph) { $('leadErr').textContent = T.lErr; $('leadErr').hidden = false; (name ? $('l-phone') : $('l-name')).focus(); return; }
+  $('leadErr').hidden = true;
+  const btn = $('leadSend'); btn.disabled = true; btn.textContent = T.sSending;
+  const p = leadFor;
+  const body = {_subject: `${p ? 'Заявка на просмотр № ' + p.id : 'Заявка с сайта VENI'} — ${name}`, _template: 'table', _captcha: 'false',
+    'Имя': name, 'Телефон / email': ph, 'Сообщение': msg || '—', 'Язык сайта': lang.toUpperCase()};
+  if (p) { body['Объект'] = `№ ${p.id} · ${p.title} · ${money(p.price)}`; body['Ссылка'] = location.origin + location.pathname + '#object-' + p.id; }
+  try {
+    const r = await fetch('https://formsubmit.co/ajax/' + LEADS_EMAIL, {method: 'POST', headers: {'Content-Type': 'application/json', Accept: 'application/json'}, body: JSON.stringify(body)});
+    const j = await r.json().catch(() => ({}));
+    if (!r.ok || String(j.success) !== 'true') throw new Error(j.message || r.status);
+    track('lead_sent', {object_id: p ? p.id : 'general'});
+    $('leadForm').reset(); $('leadOk').textContent = T.lOk; $('leadOk').hidden = false;
+  } catch (err) { $('leadErr').textContent = T.sFail; $('leadErr').hidden = false; }
+  finally { btn.disabled = false; btn.textContent = T.lSend; }
+});

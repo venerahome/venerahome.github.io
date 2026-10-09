@@ -160,6 +160,15 @@
   <h2 id="contactTitle" data-i="cTitle">Найдём ваш новый дом</h2>
   <p class="contact-for" id="contactFor" hidden></p>
   <p class="muted" data-i="cLead">Позвоните или напишите — отвечу лично.</p>
+  <form id="leadForm" class="sell-form lead-form" novalidate>
+    <label for="l-name" data-i="sName">Имя</label><input id="l-name" autocomplete="name" required>
+    <label for="l-phone" data-i="lPhone">Телефон или email</label><input id="l-phone" autocomplete="tel" required>
+    <label for="l-msg" data-i="sMsg">Комментарий</label><textarea id="l-msg" rows="2"></textarea>
+    <p class="form-error" id="leadErr" hidden></p>
+    <p class="form-ok" id="leadOk" hidden role="status"></p>
+    <button class="primary" type="submit" id="leadSend" data-i="lSend">Отправить</button>
+  </form>
+  <p class="small or-line" data-i="lOr">или свяжитесь напрямую</p>
   <ul class="contacts" id="contactList"></ul>
   <button class="primary" type="button" onclick="document.getElementById('contactDialog').close()" data-i="close">Закрыть</button>
 </dialog>

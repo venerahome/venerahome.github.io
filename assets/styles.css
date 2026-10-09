@@ -109,3 +109,7 @@ header .small{font-weight:bold}
 .form-ok{background:#e3eadf;color:#263a36;border-radius:4px;padding:12px 14px;font-size:14px;margin:6px 0 0}
 .wa-alt{align-self:flex-start;font-size:14px;padding:6px 0;margin-top:2px}
 #sellSend[disabled]{opacity:.7;cursor:wait}
+.lead-form{margin:6px 0 4px}
+.lead-form .primary{align-self:flex-start;margin-top:10px}
+.or-line{margin:18px 0 0;color:#5f6b64}
+#contactDialog{max-height:92vh;overflow:auto}
