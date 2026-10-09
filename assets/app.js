@@ -7,7 +7,7 @@ const CONTACTS = {
   ],
   whatsapp: '+359882593077',
   viber: '+359882593077',
-  telegram: '',            // имя в Telegram без @, например 'venera_greece'
+  telegram: 'venera_kh_happy', // имя в Telegram без @
   email: 'hasanova@imotipremier.com'
 };
 const WHATSAPP = CONTACTS.whatsapp.replace(/\D/g, '');
