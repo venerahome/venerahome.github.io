@@ -137,7 +137,7 @@ en: {
   sType: 'Type', sTypes: ['Apartment', 'House', 'Villa', 'Plot', 'Commercial'], sCity: 'Town, area', sArea: 'Area, m²', sPrice: 'Asking price, €', sMsg: 'Comment',
   sErr: 'Please enter your name and phone.', sSend: 'Send via WhatsApp ↗', sCancel: 'Cancel', sNote: 'The request opens in WhatsApp — tap “Send” there.',
   sellHello: 'Hello Venera! I would like to sell a property.', sellCommentL: 'Comment',
-  cEyebrow: 'Contact Venera', cTitle: 'Let\'s find your new home.', cLead: 'Call or message me — I reply personally.', cPhone: 'Phone',
+  cEyebrow: 'Contact Venera', cTitle: 'Let\'s find your new home', cLead: 'Call or message me — I reply personally.', cPhone: 'Phone',
   objLine: (id, t, p) => `Property No. ${id} · ${t} · ${p}`,
   waProp: 'Hello! I am interested in this property. I would like to know more and book a viewing.',
   waGeneral: 'Hello Venera! I would like to discuss buying property in Greece.', mailObj: id => `Property No. ${id}`, mailGen: 'Property in Greece'
