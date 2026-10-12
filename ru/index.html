@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#f6f3ed">
+<title>VENI — ваш личный консультант по недвижимости</title>
+<meta name="description" content="Квартиры, дома и виллы в Греции. Личный подход Венеры Хасановой — от выбора до ключей.">
+<meta property="og:title" content="VENI — ваш личный консультант по недвижимости">
+<meta property="og:description" content="Квартиры, дома и виллы в Греции. Личный подход Венеры Хасановой — от выбора до ключей.">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:image" content="https://venerahome.github.io/assets/hero.jpg">
+<meta property="og:url" content="https://venerahome.github.io/ru/">
+<link rel="canonical" href="https://venerahome.github.io/ru/">
+<link rel="alternate" hreflang="ru" href="https://venerahome.github.io/ru/">
+<link rel="alternate" hreflang="bg" href="https://venerahome.github.io/bg/">
+<link rel="alternate" hreflang="en" href="https://venerahome.github.io/en/">
+<link rel="alternate" hreflang="de" href="https://venerahome.github.io/de/">
+<link rel="alternate" hreflang="es" href="https://venerahome.github.io/es/">
+<link rel="alternate" hreflang="x-default" href="https://venerahome.github.io/">
+<link rel="stylesheet" href="../assets/styles.css?v=202610100126">
+</head>
+<body>
+<header>
+  <a href="#" class="logo">VENI<span style="display:block;font:9px Arial;letter-spacing:3px;margin-top:7px">REAL ESTATE</span></a>
+  <span class="small" data-i="headSmall">Личный каталог · Греция</span>
+  <span class="head-links"><a href="#" onclick="sellForm();return false" data-i="headSell">Продать ↗</a><a href="#catalog" data-i="headObjects">Объекты ↗</a><span class="lang" id="lang" role="group" aria-label="Language"></span></span>
+</header>
+
+<section class="hero" id="home">
+  <img alt="Светлый интерьер с панорамными окнами" data-i-alt="heroImgAlt" src="../assets/hero.jpg">
+  <div class="shade"></div>
+  <div class="hero-content">
+    <span class="small" data-i="heroEyebrow">Новый адрес. Новая история.</span>
+    <h1 data-i-html="heroH1">Пространство<br><em>вашей жизни</em></h1>
+    <p data-i-html="heroSub">Квартиры, дома и виллы в Греции.<br>Личный подход Венеры — от выбора до ключей.</p>
+    <button class="primary" onclick="explore()" data-i-html="heroCta">Найти свой дом &nbsp; ↗</button>
+    <button class="sell-link" type="button" onclick="sellForm()" data-i="heroSell">Хотите продать недвижимость? Оставьте заявку ↗</button>
+  </div>
+  <div class="down" data-i-html="heroDown">↓ &nbsp; ПРОКРУТИТЕ, ЧТОБЫ ОТКРЫТЬ</div>
+</section>
+
+<main>
+  <section id="catalog">
+    <div class="intro">
+      <div>
+        <span class="small" style="color:var(--gold)" data-i="catEyebrow">01 / Мой каталог</span>
+        <h2 data-i="catTitle">Дом начинается с выбора</h2>
+      </div>
+      <p class="muted" data-i-html="catLead">Для всех, кто оставил своё сердце в Греции.<br>Новые объекты каждый день.</p>
+    </div>
+    <div class="filters">
+      <input id="search" aria-label="Поиск объектов" data-i-aria="searchAria" data-i-ph="searchPh" placeholder="Город, район или номер объекта…">
+      <select id="city" aria-label="Город" data-i-aria="cityAria"><option value="" data-i="cityAll">Все локации</option></select>
+      <select id="budget" aria-label="Бюджет" data-i-aria="budgetAria">
+        <option value="9999999" data-i="budgetAny">Любой бюджет</option>
+        <option value="100000">До 100 000 €</option>
+        <option value="200000">До 200 000 €</option>
+        <option value="350000">До 350 000 €</option>
+      </select>
+      <select id="sort" aria-label="Сортировка" data-i-aria="sortAria">
+        <option value="default" data-i="sortRec">Рекомендуемые</option>
+        <option value="asc" data-i="sortAsc">Цена ↑</option>
+        <option value="desc" data-i="sortDesc">Цена ↓</option>
+      </select>
+    </div>
+    <div class="chips" id="chips"></div>
+    <div class="count" id="count"></div>
+    <div class="grid" id="grid"></div>
+  </section>
+
+  <section class="steps-block" id="how">
+    <span class="small" style="color:var(--gold)" data-i="howEyebrow">02 / Как я работаю</span>
+    <h2 data-i="howTitle">От первого звонка до ключей</h2>
+    <ol class="steps" id="steps">
+      <li><strong>Подбор</strong><p class="muted">Обсуждаем бюджет, район и цель: отдых, жизнь или сдача в аренду.</p></li>
+      <li><strong>Показ</strong><p class="muted">Вас встретят в Греции и покажут лучшее под ваш бюджет. Я много лет работаю с проверенными агентствами.</p></li>
+      <li><strong>ΑΦΜ и счёт</strong><p class="muted">Помогаю получить греческий налоговый номер ΑΦΜ и открыть счёт в Греции (при необходимости).</p></li>
+      <li><strong>Проверка</strong><p class="muted">Адвокат проверяет собственность, обременения и разрешения.</p></li>
+      <li><strong>Нотариус</strong><p class="muted">Подписание у нотариуса и регистрация в Κτηματολόγιο.</p></li>
+    </ol>
+  </section>
+
+  <section class="about" id="about">
+    <img class="portrait" src="../assets/venera.jpg" alt="Венера Хасанова" data-i-alt="portraitAlt" loading="lazy" width="800" height="1067">
+    <div>
+      <span class="small" data-i="aboutEyebrow">Лично. Внимательно. На каждом шаге.</span>
+      <h2 data-i="aboutTitle">Меня зовут Венера Хасанова</h2>
+      <p class="muted" data-i="aboutText">Помогаю подобрать недвижимость в Греции и сопровождаю покупку. Я сама купила дом в Греции и восстанавливаю его, поэтому знаю этот путь изнутри.</p>
+      <ul class="about-list" id="aboutList">
+        <li>Консультант по недвижимости Imoti Premier, офис в Бургасе</li>
+        <li>Консультации на болгарском, русском, английском</li>
+        <li>Живу между Болгарией и Грецией</li>
+        <li>Работаю с проверенными адвокатами и нотариусами</li>
+      </ul>
+      <button class="primary" onclick="contact()" data-i="aboutBtn">Обсудить ваш поиск ↗</button>
+    </div>
+  </section>
+
+  <section class="sell-block" id="sell">
+    <div>
+      <span class="small" style="color:var(--gold)" data-i="sellEyebrow">Для собственников</span>
+      <h2 data-i="sellTitle">Продаёте недвижимость?</h2>
+      <p class="muted" data-i="sellText">Оставьте заявку — я свяжусь с вами, обсудим объект, цену и как лучше его продать.</p>
+    </div>
+    <button class="primary" type="button" onclick="sellForm()" data-i="sellBtn">Заявка на продажу ↗</button>
+  </section>
+
+  <footer class="foot" data-i="footer">© 2026 Венера Хасанова</footer>
+</main>
+
+<nav class="nav" aria-label="Основное меню" data-i-aria="navAria">
+  <button onclick="explore()" data-i="navCatalog">⌂ Каталог</button>
+  <button onclick="showFav()" id="favBtn">♡ Избранное</button>
+  <button onclick="contact()" data-i="navContact">↗ Связаться</button>
+</nav>
+
+<section class="detail" id="detail" aria-label="Страница объекта" data-i-aria="detailAria">
+  <button class="close" onclick="history.back()" data-i="back">← В каталог</button>
+  <div class="detail-hero"><img id="detailImg" alt="" onclick="openGallery(0)" style="cursor:zoom-in"><button class="gal-open" id="galOpen" type="button" onclick="openGallery(0)"></button></div>
+  <div class="detail-body" id="detailBody"></div>
+  <div class="detail-bar"><b id="detailPrice"></b><button class="primary" type="button" onclick="contact(opened)" data-i="wantView">Хочу посмотреть ↗</button></div>
+</section>
+
+<dialog class="gallery" id="gallery" aria-label="Фотографии объекта" data-i-aria="galleryAria">
+  <div class="g-stage" id="gStage"><img id="gImg" alt=""></div>
+  <button class="g-btn g-close" type="button" onclick="closeGallery()" aria-label="Закрыть" data-i-aria="close">✕</button>
+  <button class="g-btn g-prev" id="gPrev" type="button" onclick="stepGallery(-1)" aria-label="Предыдущее фото" data-i-aria="prev">‹</button>
+  <button class="g-btn g-next" id="gNext" type="button" onclick="stepGallery(1)" aria-label="Следующее фото" data-i-aria="next">›</button>
+  <div class="g-count" id="gCount"></div>
+  <div class="g-strip" id="gStrip"></div>
+</dialog>
+
+<dialog id="sellDialog" aria-labelledby="sellTitle">
+  <span class="small" data-i="sEyebrow">Заявка на продажу</span>
+  <h2 id="sellTitle" data-i="sTitle">Расскажите о вашем объекте</h2>
+  <form id="sellFormEl" class="sell-form" novalidate>
+    <label for="s-name" data-i="sName">Имя</label><input id="s-name" autocomplete="name" required>
+    <label for="s-phone" data-i="sPhone">Телефон</label><input id="s-phone" autocomplete="tel" inputmode="tel" required>
+    <div class="two">
+      <div><label for="s-country" data-i="sCountry">Страна</label><select id="s-country"></select></div>
+      <div><label for="s-type" data-i="sType">Тип</label><select id="s-type"></select></div>
+    </div>
+    <label for="s-city" data-i="sCity">Город, район</label><input id="s-city">
+    <div class="two">
+      <div><label for="s-area" data-i="sArea">Площадь, м²</label><input id="s-area" inputmode="numeric"></div>
+      <div><label for="s-price" data-i="sPrice">Желаемая цена, €</label><input id="s-price" inputmode="numeric"></div>
+    </div>
+    <label for="s-msg" data-i="sMsg">Комментарий</label><textarea id="s-msg" rows="3"></textarea>
+    <p class="form-error" id="sellErr" hidden data-i="sErr">Укажите имя и телефон.</p>
+    <p class="form-ok" id="sellOk" hidden role="status"></p>
+    <div class="sell-actions">
+      <button class="primary" type="submit" id="sellSend" data-i="sSend">Отправить заявку</button>
+      <button class="ghost" type="button" onclick="document.getElementById('sellDialog').close()" data-i="sCancel">Отмена</button>
+    </div>
+    <button class="ghost wa-alt" type="button" id="sellWa" data-i="sWa">или отправить в WhatsApp ↗</button>
+    <p class="form-note" data-i="sNote">Заявка придёт Венере на почту, она свяжется с вами.</p>
+  </form>
+</dialog>
+
+<dialog id="contactDialog" aria-labelledby="contactTitle">
+  <span class="small" data-i="cEyebrow">Связь с Венерой</span>
+  <h2 id="contactTitle" data-i="cTitle">Найдём ваш новый дом</h2>
+  <p class="contact-for" id="contactFor" hidden></p>
+  <p class="muted" data-i="cLead">Позвоните или напишите — отвечу лично.</p>
+  <form id="leadForm" class="sell-form lead-form" novalidate>
+    <label for="l-name" data-i="sName">Имя</label><input id="l-name" autocomplete="name" required>
+    <label for="l-phone" data-i="lPhone">Телефон или email</label><input id="l-phone" autocomplete="tel" required>
+    <label for="l-msg" data-i="sMsg">Комментарий</label><textarea id="l-msg" rows="2"></textarea>
+    <p class="form-error" id="leadErr" hidden></p>
+    <p class="form-ok" id="leadOk" hidden role="status"></p>
+    <button class="primary" type="submit" id="leadSend" data-i="lSend">Отправить</button>
+  </form>
+  <p class="small or-line" data-i="lOr">или свяжитесь напрямую</p>
+  <ul class="contacts" id="contactList"></ul>
+  <button class="primary" type="button" onclick="document.getElementById('contactDialog').close()" data-i="close">Закрыть</button>
+</dialog>
+
+<script>window.PAGE_LANG="ru"</script>
+<script src="../assets/listings.js?v=202610122105"></script>
+<script src="../assets/i18n.js?v=202610100126"></script>
+<script src="../assets/app.js?v=202610122150" defer></script>
+</body>
+</html>

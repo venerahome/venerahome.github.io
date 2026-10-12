@@ -8,3 +8,6 @@ with open(os.path.join(R, "assets", "listings.js"), "w", encoding="utf-8") as f:
     f.write(json.dumps(data, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/"))
     f.write(";\n")
 print(len(data["listings"]), "listings")
+
+# языковые страницы /bg/, /ru/… (свои заголовки для превью ссылок)
+exec(open(os.path.join(R, "build_pages.py"), encoding="utf-8").read())

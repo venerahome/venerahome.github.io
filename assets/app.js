@@ -29,6 +29,7 @@ const store = {get(k, d) { try { return JSON.parse(localStorage.getItem(k)) ?? d
 let lang = (() => {
   const q = new URLSearchParams(location.search).get('lang');
   if (LANGS.includes(q)) { store.set('veni-lang', q); return q; }
+  if (LANGS.includes(window.PAGE_LANG)) { store.set('veni-lang', window.PAGE_LANG); return window.PAGE_LANG; }
   const s = store.get('veni-lang', null); if (LANGS.includes(s)) return s;
   const n = (navigator.language || '').slice(0, 2); return LANGS.includes(n) ? n : 'ru';
 })();
@@ -72,9 +73,15 @@ function applyTexts() {
   $('s-country').innerHTML = T.sCountries.map(c => `<option>${esc(c)}</option>`).join(''); $('s-country').selectedIndex = Math.max(0, sc);
   $('s-type').innerHTML = T.sTypes.map(c => `<option>${esc(c)}</option>`).join(''); $('s-type').selectedIndex = Math.max(0, st);
 }
+/* Адрес страницы всегда на языке сайта (/bg/, /ru/…): превью ссылки в мессенджерах будет на этом языке */
+function langPath() {
+  const u = new URL(location.href); u.searchParams.delete('lang');
+  u.pathname = u.pathname.replace(/\/(bg|ru|en|de|es)\/(index\.html)?$/, '/').replace(/\/index\.html$/, '/').replace(/\/$/, '') + '/' + lang + '/';
+  if (u.href !== location.href) history.replaceState(history.state, '', u);
+}
 function setLang(l) {
   lang = l; T = I18N[l]; store.set('veni-lang', l); track('language', {language: l});
-  const u = new URL(location.href); if (u.searchParams.has('lang')) { u.searchParams.set('lang', l); history.replaceState(history.state, '', u); }
+  langPath();
   buildItems(); applyTexts(); render();
   if (opened) openItem(opened, null, false);
 }
@@ -225,7 +232,7 @@ $('lang').addEventListener('click', e => { const b = e.target.closest('[data-lan
 $('contactList').addEventListener('click', e => { const a = e.target.closest('a'); if (a) track('contact_click', {method: a.closest('li').firstChild.textContent, object_id: opened || 'general'}); });
 document.addEventListener('error', e => { if (e.target.tagName === 'IMG') e.target.style.visibility = 'hidden'; }, true);
 
-buildItems(); applyTexts(); render();
+buildItems(); applyTexts(); render(); langPath();
 if (location.hash.startsWith('#object-') && byId(+location.hash.slice(8))) {
   const initialId = +location.hash.slice(8);
   history.replaceState(null, '', location.pathname + location.search);
