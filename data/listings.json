@@ -8016,6 +8016,1378 @@
      "Construida en 2004"
     ]
    }
+  },
+  {
+   "code": 17036292,
+   "slug": "kavala-apt-17036292",
+   "country": "gr",
+   "source": "katoiko",
+   "type": "apt",
+   "deal": "sale",
+   "status": "sale",
+   "featured": true,
+   "place": "kavala",
+   "district": {
+    "bg": "Център",
+    "ru": "Центр",
+    "en": "Centre",
+    "de": "Zentrum",
+    "es": "Centro"
+   },
+   "price": 70000,
+   "area": 80,
+   "plot": null,
+   "bedrooms": 2,
+   "bathrooms": 1,
+   "floor": "0",
+   "sea": null,
+   "furnished": null,
+   "lift": null,
+   "url": "https://www.katoiko.gr/bg/propertyDetails/17036292",
+   "photos": [
+    "https://m3.spitogatos.gr/306392315_900x675.jpg",
+    "https://m3.spitogatos.gr/306392285_900x675.jpg",
+    "https://m1.spitogatos.gr/306392286_900x675.jpg",
+    "https://m2.spitogatos.gr/306392287_900x675.jpg",
+    "https://m3.spitogatos.gr/306392294_900x675.jpg",
+    "https://m3.spitogatos.gr/306392300_900x675.jpg",
+    "https://m3.spitogatos.gr/306392306_900x675.jpg",
+    "https://m1.spitogatos.gr/306392310_900x675.jpg",
+    "https://m3.spitogatos.gr/306392282_900x675.jpg",
+    "https://m3.spitogatos.gr/306392276_900x675.jpg",
+    "https://m3.spitogatos.gr/306392279_900x675.jpg",
+    "https://m1.spitogatos.gr/306392319_900x675.jpg"
+   ],
+   "title": {
+    "bg": "Апартамент 80 м² в центъра с възможност за 2 студиа",
+    "ru": "Квартира 80 м² в центре с возможностью сделать 2 студии",
+    "en": "80 m² flat in the centre that can become two studios",
+    "de": "80 m² Wohnung im Zentrum, teilbar in zwei Studios",
+    "es": "Piso de 80 m² en el centro divisible en dos estudios"
+   },
+   "desc": {
+    "bg": "Отлична локация в центъра на цена под 75 000 €: апартамент от 80 м², от едната страна партер, от другата повдигнат. Две спални, хол, кухня, коридор и баня. Няма отопление и има нужда от ремонт, но може да се раздели на две студиа за отдаване на студенти.",
+    "ru": "Отличное место в центре дешевле 75 000 €: квартира 80 м², с одной стороны первый этаж, с другой — приподнятый. Две спальни, гостиная, кухня, коридор и ванная. Отопления нет, нужен ремонт, зато её можно разделить на две студии для сдачи студентам.",
+    "en": "A great central location for under €75,000: an 80 m² flat, ground floor on one side and raised on the other. Two bedrooms, living room, kitchen, hallway and bathroom. No heating and renovation needed, but it can be split into two studios to let to students.",
+    "de": "Top-Lage im Zentrum für unter 75.000 €: 80 m² Wohnung, auf einer Seite Erdgeschoss, auf der anderen Hochparterre. Zwei Schlafzimmer, Wohnzimmer, Küche, Flur und Bad. Keine Heizung, renovierungsbedürftig, aber teilbar in zwei Studios zur Vermietung an Studenten.",
+    "es": "Ubicación céntrica excelente por menos de 75.000 €: piso de 80 m², planta baja por un lado y elevada por el otro. Dos dormitorios, salón, cocina, pasillo y baño. Sin calefacción y para reformar, pero se puede dividir en dos estudios para alquilar a estudiantes."
+   },
+   "feat": {
+    "bg": [
+     "Център на града",
+     "Възможни 2 студиа",
+     "2 спални",
+     "За ремонт"
+    ],
+    "ru": [
+     "Центр города",
+     "Можно сделать 2 студии",
+     "2 спальни",
+     "Под ремонт"
+    ],
+    "en": [
+     "City centre",
+     "Can become 2 studios",
+     "2 bedrooms",
+     "To renovate"
+    ],
+    "de": [
+     "Stadtzentrum",
+     "Teilbar in 2 Studios",
+     "2 Schlafzimmer",
+     "Zu renovieren"
+    ],
+    "es": [
+     "Centro de la ciudad",
+     "Divisible en 2 estudios",
+     "2 dormitorios",
+     "Para reformar"
+    ]
+   }
+  },
+  {
+   "code": 10166513,
+   "slug": "kavala-apt-10166513",
+   "country": "gr",
+   "source": "katoiko",
+   "type": "apt",
+   "deal": "sale",
+   "status": "sale",
+   "featured": true,
+   "place": "kavala",
+   "district": {
+    "bg": "Пентакосия",
+    "ru": "Пентакосия",
+    "en": "Pentakosia",
+    "de": "Pentakosia",
+    "es": "Pentakosia"
+   },
+   "price": 75000,
+   "area": 75,
+   "plot": null,
+   "bedrooms": 1,
+   "bathrooms": 1,
+   "floor": "0",
+   "sea": null,
+   "furnished": null,
+   "lift": null,
+   "url": "https://www.katoiko.gr/bg/propertyDetails/10166513",
+   "photos": [
+    "https://m2.spitogatos.gr/197653237_900x675.jpg",
+    "https://m1.spitogatos.gr/259771005_900x675.jpg",
+    "https://m1.spitogatos.gr/259771014_900x675.jpg",
+    "https://m1.spitogatos.gr/259771020_900x675.jpg",
+    "https://m3.spitogatos.gr/259771061_900x675.jpg",
+    "https://m1.spitogatos.gr/259771092_900x675.jpg",
+    "https://m3.spitogatos.gr/259771094_900x675.jpg",
+    "https://m3.spitogatos.gr/259771097_900x675.jpg",
+    "https://m3.spitogatos.gr/259771064_900x675.jpg",
+    "https://m2.spitogatos.gr/259771066_900x675.jpg",
+    "https://m3.spitogatos.gr/259771133_900x675.jpg",
+    "https://m3.spitogatos.gr/259771157_900x675.jpg"
+   ],
+   "title": {
+    "bg": "Партерен апартамент с градина и склад, Пентакосия",
+    "ru": "Квартира на первом этаже с садом и кладовой, Пентакосия",
+    "en": "Ground-floor flat with garden and storeroom, Pentakosia",
+    "de": "Erdgeschosswohnung mit Garten und Lager, Pentakosia",
+    "es": "Piso en planta baja con jardín y trastero, Pentakosia"
+   },
+   "desc": {
+    "bg": "Собствена градина и без общи такси: апартамент от 75 м² на партера на къща близнак, с балкон и малка гледка. Спалня, хол, кухня, коридор и баня, просторни стаи и склад от 15 м² в мазето. Няма отопление и има нужда от ремонт.",
+    "ru": "Свой сад и никаких общих расходов: квартира 75 м² на первом этаже дома-близнеца, с балконом и небольшим видом. Спальня, гостиная, кухня, коридор и ванная, просторные комнаты и кладовая 15 м² в подвале. Отопления нет, нужен ремонт.",
+    "en": "Your own garden and no shared costs: a 75 m² ground-floor flat in a semi-detached house, with a balcony and a small view. Bedroom, living room, kitchen, hallway and bathroom, spacious rooms and a 15 m² basement storeroom. No heating; renovation needed.",
+    "de": "Eigener Garten und keine Nebenkosten: 75 m² Erdgeschosswohnung in einem Doppelhaus, mit Balkon und kleiner Aussicht. Schlafzimmer, Wohnzimmer, Küche, Flur und Bad, geräumige Zimmer und 15 m² Kellerlager. Keine Heizung; renovierungsbedürftig.",
+    "es": "Jardín propio y sin gastos comunes: piso de 75 m² en planta baja de una casa pareada, con balcón y pequeñas vistas. Dormitorio, salón, cocina, pasillo y baño, estancias amplias y trastero de 15 m² en el sótano. Sin calefacción; necesita reforma."
+   },
+   "feat": {
+    "bg": [
+     "Градина",
+     "Склад 15 м²",
+     "Без общи такси",
+     "За ремонт"
+    ],
+    "ru": [
+     "Сад",
+     "Кладовая 15 м²",
+     "Без общих расходов",
+     "Под ремонт"
+    ],
+    "en": [
+     "Garden",
+     "15 m² storeroom",
+     "No shared costs",
+     "To renovate"
+    ],
+    "de": [
+     "Garten",
+     "15 m² Lager",
+     "Keine Nebenkosten",
+     "Zu renovieren"
+    ],
+    "es": [
+     "Jardín",
+     "Trastero de 15 m²",
+     "Sin gastos comunes",
+     "Para reformar"
+    ]
+   }
+  },
+  {
+   "code": 15801446,
+   "slug": "kavala-house-15801446",
+   "country": "gr",
+   "source": "katoiko",
+   "type": "house",
+   "deal": "sale",
+   "status": "sale",
+   "featured": true,
+   "place": "kavala",
+   "district": {
+    "bg": "Доматия",
+    "ru": "Доматия",
+    "en": "Domatia",
+    "de": "Domatia",
+    "es": "Domatia"
+   },
+   "price": 70000,
+   "area": 40,
+   "plot": 343,
+   "bedrooms": 2,
+   "bathrooms": 1,
+   "floor": "0",
+   "sea": null,
+   "furnished": null,
+   "lift": null,
+   "url": "https://www.katoiko.gr/bg/propertyDetails/15801446",
+   "photos": [
+    "https://m2.spitogatos.gr/286002235_900x675.jpg",
+    "https://m2.spitogatos.gr/286002058_900x675.jpg",
+    "https://m1.spitogatos.gr/286002036_900x675.jpg",
+    "https://m1.spitogatos.gr/286002051_900x675.jpg",
+    "https://m3.spitogatos.gr/286002092_900x675.jpg",
+    "https://m3.spitogatos.gr/286002041_900x675.jpg",
+    "https://m1.spitogatos.gr/286002045_900x675.jpg"
+   ],
+   "title": {
+    "bg": "Малка ремонтирана къща с двор 343 м², Доматия",
+    "ru": "Небольшой дом после ремонта с участком 343 м², Доматия",
+    "en": "Small renovated house on a 343 m² plot, Domatia",
+    "de": "Kleines renoviertes Haus auf 343 m² Grundstück, Domatia",
+    "es": "Pequeña casa reformada en parcela de 343 m², Domatia"
+   },
+   "desc": {
+    "bg": "Собствена къща с двор на цена на студио: самостоятелна къща от 40 м² върху ъглов парцел от 343 м². Две спални, кухня, баня и малък склад, ремонтирана през 2015 г. Няма отопление; подходяща за вила или инвестиция.",
+    "ru": "Свой дом с двором по цене студии: отдельный дом 40 м² на угловом участке 343 м². Две спальни, кухня, ванная и небольшая кладовая, ремонт 2015 года. Отопления нет; подойдёт как дача или инвестиция.",
+    "en": "Your own house and garden for the price of a studio: a detached 40 m² house on a 343 m² corner plot. Two bedrooms, kitchen, bathroom and a small storeroom, renovated in 2015. No heating; works as a holiday home or investment.",
+    "de": "Ein eigenes Haus mit Garten zum Preis eines Studios: freistehendes 40 m² Haus auf 343 m² Eckgrundstück. Zwei Schlafzimmer, Küche, Bad und kleiner Abstellraum, 2015 renoviert. Keine Heizung; als Ferienhaus oder Investition.",
+    "es": "Casa propia con jardín al precio de un estudio: casa independiente de 40 m² en parcela esquinera de 343 m². Dos dormitorios, cocina, baño y pequeño trastero, reformada en 2015. Sin calefacción; ideal como casa de vacaciones o inversión."
+   },
+   "feat": {
+    "bg": [
+     "Парцел 343 м²",
+     "Ремонт 2015 г.",
+     "2 спални",
+     "Самостоятелна"
+    ],
+    "ru": [
+     "Участок 343 м²",
+     "Ремонт 2015 года",
+     "2 спальни",
+     "Отдельный дом"
+    ],
+    "en": [
+     "343 m² plot",
+     "Renovated 2015",
+     "2 bedrooms",
+     "Detached"
+    ],
+    "de": [
+     "343 m² Grundstück",
+     "Renoviert 2015",
+     "2 Schlafzimmer",
+     "Freistehend"
+    ],
+    "es": [
+     "Parcela de 343 m²",
+     "Reformada en 2015",
+     "2 dormitorios",
+     "Independiente"
+    ]
+   }
+  },
+  {
+   "code": 15656298,
+   "slug": "kavala-apt-15656298",
+   "country": "gr",
+   "source": "katoiko",
+   "type": "apt",
+   "deal": "sale",
+   "status": "sale",
+   "featured": true,
+   "place": "kavala",
+   "district": {
+    "bg": "Перигиали",
+    "ru": "Перигиали",
+    "en": "Perigiali",
+    "de": "Perigiali",
+    "es": "Perigiali"
+   },
+   "price": 330000,
+   "area": 150,
+   "plot": null,
+   "bedrooms": 3,
+   "bathrooms": 1,
+   "floor": "3",
+   "sea": true,
+   "furnished": null,
+   "lift": true,
+   "url": "https://www.katoiko.gr/bg/propertyDetails/15656298",
+   "photos": [
+    "https://m2.spitogatos.gr/283793086_900x675.jpg",
+    "https://m2.spitogatos.gr/283791601_900x675.jpg",
+    "https://m1.spitogatos.gr/283791684_900x675.jpg",
+    "https://m3.spitogatos.gr/283791821_900x675.jpg",
+    "https://m3.spitogatos.gr/283791851_900x675.jpg",
+    "https://m3.spitogatos.gr/283792295_900x675.jpg",
+    "https://m1.spitogatos.gr/283791993_900x675.jpg",
+    "https://m1.spitogatos.gr/283793670_900x675.jpg",
+    "https://m3.spitogatos.gr/283792121_900x675.jpg",
+    "https://m2.spitogatos.gr/283793239_900x675.jpg",
+    "https://m2.spitogatos.gr/283793488_900x675.jpg",
+    "https://m1.spitogatos.gr/283793436_900x675.jpg"
+   ],
+   "title": {
+    "bg": "Луксозен апартамент 150 м² с открита гледка към морето, Перигиали",
+    "ru": "Роскошная квартира 150 м² с открытым видом на море, Перигиали",
+    "en": "Luxury 150 m² flat with open sea views, Perigiali",
+    "de": "Luxuswohnung mit 150 m² und freiem Meerblick, Perigiali",
+    "es": "Piso de lujo de 150 m² con vistas abiertas al mar, Perigiali"
+   },
+   "desc": {
+    "bg": "Морето пред вас от всяка стая: луксозно и изцяло реновиран апартамент от 150 м² на трети етаж с неограничена гледка към морето. Три спални, хол, кухня, баня и тоалетна, южно изложение и много слънце. Климатици, блиндирана врата, асансьор; продава се без мебели, за да го подредите по свой вкус.",
+    "ru": "Море перед глазами из каждой комнаты: роскошная квартира 150 м² после полного ремонта, третий этаж, ничем не закрытый вид на море. Три спальни, гостиная, кухня, ванная и туалет, окна на юг и много солнца. Кондиционеры, бронированная дверь, лифт; продаётся без мебели — обставите по своему вкусу.",
+    "en": "The sea in front of you from every room: a luxury, fully renovated 150 m² third-floor flat with uninterrupted sea views. Three bedrooms, living room, kitchen, bathroom and WC, south-facing and full of sun. Air conditioning, security door, lift; sold unfurnished so you can make it your own.",
+    "de": "Das Meer vor Augen aus jedem Zimmer: luxuriöse, komplett renovierte 150 m² Wohnung im dritten Stock mit unverbautem Meerblick. Drei Schlafzimmer, Wohnzimmer, Küche, Bad und Gäste-WC, Südausrichtung und viel Sonne. Klimaanlagen, Sicherheitstür, Aufzug; unmöbliert, zum Einrichten nach eigenem Geschmack.",
+    "es": "El mar delante desde cada estancia: piso de lujo de 150 m² totalmente reformado en tercera planta con vistas despejadas al mar. Tres dormitorios, salón, cocina, baño y aseo, orientación sur y mucho sol. Aire acondicionado, puerta blindada, ascensor; se vende sin muebles para decorarlo a su gusto."
+   },
+   "feat": {
+    "bg": [
+     "Открита гледка към морето",
+     "Луксозен ремонт",
+     "3 спални",
+     "Асансьор"
+    ],
+    "ru": [
+     "Открытый вид на море",
+     "Роскошный ремонт",
+     "3 спальни",
+     "Лифт"
+    ],
+    "en": [
+     "Open sea views",
+     "Luxury renovation",
+     "3 bedrooms",
+     "Lift"
+    ],
+    "de": [
+     "Freier Meerblick",
+     "Luxusrenovierung",
+     "3 Schlafzimmer",
+     "Aufzug"
+    ],
+    "es": [
+     "Vistas abiertas al mar",
+     "Reforma de lujo",
+     "3 dormitorios",
+     "Ascensor"
+    ]
+   }
+  },
+  {
+   "code": 15509506,
+   "slug": "kavala-house-15509506",
+   "country": "gr",
+   "source": "katoiko",
+   "type": "house",
+   "deal": "sale",
+   "status": "sale",
+   "featured": true,
+   "place": "kavala",
+   "district": {
+    "bg": "Неос Зигос",
+    "ru": "Неос Зигос",
+    "en": "Neos Zygos",
+    "de": "Neos Zygos",
+    "es": "Neos Zygos"
+   },
+   "price": 100000,
+   "area": 174,
+   "plot": 400,
+   "bedrooms": 3,
+   "bathrooms": 1,
+   "floor": "0",
+   "sea": null,
+   "furnished": null,
+   "lift": null,
+   "url": "https://www.katoiko.gr/bg/propertyDetails/15509506",
+   "photos": [
+    "https://m2.spitogatos.gr/281503210_900x675.jpg",
+    "https://m1.spitogatos.gr/281502561_900x675.jpg",
+    "https://m2.spitogatos.gr/281503060_900x675.jpg",
+    "https://m3.spitogatos.gr/281503073_900x675.jpg",
+    "https://m3.spitogatos.gr/281502554_900x675.jpg",
+    "https://m2.spitogatos.gr/281502556_900x675.jpg",
+    "https://m1.spitogatos.gr/281502573_900x675.jpg",
+    "https://m1.spitogatos.gr/281503167_900x675.jpg",
+    "https://m1.spitogatos.gr/281503317_900x675.jpg",
+    "https://m2.spitogatos.gr/281503219_900x675.jpg",
+    "https://m3.spitogatos.gr/281503178_900x675.jpg",
+    "https://m2.spitogatos.gr/281503198_900x675.jpg"
+   ],
+   "title": {
+    "bg": "Самостоятелна къща 174 м² с парцел 400 м², Неос Зигос",
+    "ru": "Отдельный дом 174 м² с участком 400 м², Неос Зигос",
+    "en": "Detached 174 m² house on a 400 m² plot, Neos Zygos",
+    "de": "Freistehendes 174 m² Haus auf 400 m² Grundstück, Neos Zygos",
+    "es": "Casa independiente de 174 m² en parcela de 400 m², Neos Zygos"
+   },
+   "desc": {
+    "bg": "Много пространство за семейството на цена 100 000 €: самостоятелна къща от около 2000 г. на две нива по 87 м², върху парцел от 400 м² близо до Амигдалеонас. Горе три спални, хол и баня, долу голям склад, който може да стане още жилище. Собствен котел на нафта и закрито паркомясто; има нужда от вътрешен ремонт.",
+    "ru": "Много места для семьи за 100 000 €: отдельный дом около 2000 года, два уровня по 87 м², участок 400 м² рядом с Амигдалеонасом. Наверху три спальни, гостиная и ванная, внизу большое подсобное помещение, которое можно сделать жилым. Свой котёл на дизеле и крытая парковка; нужен внутренний ремонт.",
+    "en": "Plenty of room for a family at €100,000: a detached house from around 2000 on two 87 m² levels, on a 400 m² plot near Amygdaleonas. Upstairs three bedrooms, living room and bathroom; downstairs a large storage floor that could become more living space. Its own oil boiler and covered parking; interior renovation needed.",
+    "de": "Viel Platz für die Familie für 100.000 €: freistehendes Haus von ca. 2000 auf zwei Ebenen à 87 m², 400 m² Grundstück nahe Amygdaleonas. Oben drei Schlafzimmer, Wohnzimmer und Bad, unten ein großes Lagergeschoss, ausbaubar zu Wohnraum. Eigener Ölkessel und überdachter Stellplatz; innen renovierungsbedürftig.",
+    "es": "Mucho espacio para la familia por 100.000 €: casa independiente de hacia 2000, en dos niveles de 87 m², sobre parcela de 400 m² cerca de Amygdaleonas. Arriba, tres dormitorios, salón y baño; abajo, una gran planta de almacén que puede convertirse en vivienda. Caldera de gasóleo propia y aparcamiento cubierto; reforma interior necesaria."
+   },
+   "feat": {
+    "bg": [
+     "Парцел 400 м²",
+     "3 спални",
+     "Закрито паркомясто",
+     "Построена ~2000 г."
+    ],
+    "ru": [
+     "Участок 400 м²",
+     "3 спальни",
+     "Крытая парковка",
+     "Дом ~2000 года"
+    ],
+    "en": [
+     "400 m² plot",
+     "3 bedrooms",
+     "Covered parking",
+     "Built c. 2000"
+    ],
+    "de": [
+     "400 m² Grundstück",
+     "3 Schlafzimmer",
+     "Überdachter Stellplatz",
+     "Baujahr ca. 2000"
+    ],
+    "es": [
+     "Parcela de 400 m²",
+     "3 dormitorios",
+     "Aparcamiento cubierto",
+     "Construida hacia 2000"
+    ]
+   }
+  },
+  {
+   "code": 10392335,
+   "slug": "kavala-house-10392335",
+   "country": "gr",
+   "source": "katoiko",
+   "type": "house",
+   "deal": "sale",
+   "status": "sale",
+   "featured": true,
+   "place": "kavala",
+   "district": {
+    "bg": "Дексамени",
+    "ru": "Дексамени",
+    "en": "Dexameni",
+    "de": "Dexameni",
+    "es": "Dexameni"
+   },
+   "price": 200000,
+   "area": 215,
+   "plot": 90,
+   "bedrooms": 3,
+   "bathrooms": 2,
+   "floor": "0",
+   "sea": null,
+   "furnished": null,
+   "lift": null,
+   "url": "https://www.katoiko.gr/bg/propertyDetails/10392335",
+   "photos": [
+    "https://m2.spitogatos.gr/200934745_900x675.jpg",
+    "https://m1.spitogatos.gr/200934744_900x675.jpg",
+    "https://m3.spitogatos.gr/200934746_900x675.jpg",
+    "https://m2.spitogatos.gr/200934751_900x675.jpg",
+    "https://m3.spitogatos.gr/200934752_900x675.jpg",
+    "https://m1.spitogatos.gr/200934753_900x675.jpg",
+    "https://m1.spitogatos.gr/200934759_900x675.jpg",
+    "https://m2.spitogatos.gr/200934760_900x675.jpg",
+    "https://m2.spitogatos.gr/200934742_900x675.jpg",
+    "https://m3.spitogatos.gr/200934743_900x675.jpg",
+    "https://m1.spitogatos.gr/200934747_900x675.jpg",
+    "https://m2.spitogatos.gr/200934754_900x675.jpg"
+   ],
+   "title": {
+    "bg": "Самостоятелна къща на две нива със сутерен, Дексамени",
+    "ru": "Отдельный дом на двух уровнях с цоколем, Дексамени",
+    "en": "Detached two-level house with basement, Dexameni",
+    "de": "Freistehendes Haus auf zwei Ebenen mit Souterrain, Dexameni",
+    "es": "Casa independiente de dos niveles con sótano, Dexameni"
+   },
+   "desc": {
+    "bg": "Своя къща в града, удобна за две поколения: 135 м² жилищна площ на две нива плюс сутерен от 65 м². Долу спалня, хол, кухня и баня, горе две спални, кухня, баня и килер; в сутерена склад с още една кухня. Собствен котел за отопление, тераса; в добро състояние.",
+    "ru": "Свой дом в городе, удобный для двух поколений: 135 м² жилой площади на двух уровнях плюс цоколь 65 м². Внизу спальня, гостиная, кухня и ванная, наверху две спальни, кухня, ванная и кладовая; в цоколе подсобка с ещё одной кухней. Свой котёл, терраса; в хорошем состоянии.",
+    "en": "A house of your own in town, suited to two generations: 135 m² of living space on two levels plus a 65 m² basement. Downstairs a bedroom, living room, kitchen and bathroom; upstairs two bedrooms, kitchen, bathroom and pantry; the basement has storage and another kitchen. Its own boiler, terrace; good condition.",
+    "de": "Ein eigenes Haus in der Stadt, ideal für zwei Generationen: 135 m² Wohnfläche auf zwei Ebenen plus 65 m² Souterrain. Unten Schlafzimmer, Wohnzimmer, Küche und Bad, oben zwei Schlafzimmer, Küche, Bad und Speisekammer; im Souterrain Lager mit weiterer Küche. Eigener Heizkessel, Terrasse; guter Zustand.",
+    "es": "Casa propia en la ciudad, ideal para dos generaciones: 135 m² habitables en dos niveles más un sótano de 65 m². Abajo, dormitorio, salón, cocina y baño; arriba, dos dormitorios, cocina, baño y despensa; en el sótano, almacén con otra cocina. Caldera propia, terraza; buen estado."
+   },
+   "feat": {
+    "bg": [
+     "Самостоятелна къща",
+     "2 отделни етажа",
+     "Сутерен 65 м²",
+     "3 спални"
+    ],
+    "ru": [
+     "Отдельный дом",
+     "2 отдельных этажа",
+     "Цоколь 65 м²",
+     "3 спальни"
+    ],
+    "en": [
+     "Detached house",
+     "2 separate floors",
+     "65 m² basement",
+     "3 bedrooms"
+    ],
+    "de": [
+     "Freistehendes Haus",
+     "2 getrennte Etagen",
+     "65 m² Souterrain",
+     "3 Schlafzimmer"
+    ],
+    "es": [
+     "Casa independiente",
+     "2 plantas independientes",
+     "Sótano de 65 m²",
+     "3 dormitorios"
+    ]
+   }
+  },
+  {
+   "code": 14042156,
+   "slug": "kavala-apt-14042156",
+   "country": "gr",
+   "source": "katoiko",
+   "type": "apt",
+   "deal": "sale",
+   "status": "sale",
+   "featured": true,
+   "place": "kavala",
+   "district": {
+    "bg": "Агиос Георгиос",
+    "ru": "Агиос Георгиос",
+    "en": "Agios Georgios",
+    "de": "Agios Georgios",
+    "es": "Agios Georgios"
+   },
+   "price": 230000,
+   "area": 151,
+   "plot": null,
+   "bedrooms": 3,
+   "bathrooms": 1,
+   "floor": "6",
+   "sea": true,
+   "furnished": null,
+   "lift": true,
+   "url": "https://www.katoiko.gr/bg/propertyDetails/14042156",
+   "photos": [
+    "https://m3.spitogatos.gr/257357561_900x675.jpg",
+    "https://m1.spitogatos.gr/257357538_900x675.jpg",
+    "https://m1.spitogatos.gr/257357553_900x675.jpg",
+    "https://m3.spitogatos.gr/257357588_900x675.jpg",
+    "https://m2.spitogatos.gr/257357569_900x675.jpg",
+    "https://m2.spitogatos.gr/257357428_900x675.jpg",
+    "https://m1.spitogatos.gr/257357472_900x675.jpg",
+    "https://m2.spitogatos.gr/257357509_900x675.jpg",
+    "https://m3.spitogatos.gr/257357513_900x675.jpg",
+    "https://m1.spitogatos.gr/257357514_900x675.jpg",
+    "https://m1.spitogatos.gr/257357544_900x675.jpg",
+    "https://m3.spitogatos.gr/257357486_900x675.jpg"
+   ],
+   "title": {
+    "bg": "Цял етаж с панорама 360° в центъра на Кавала",
+    "ru": "Квартира на весь этаж с панорамой 360° в центре Кавалы",
+    "en": "Whole-floor flat with 360° panorama in central Kavala",
+    "de": "Etagenwohnung mit 360°-Panorama im Zentrum von Kavala",
+    "es": "Planta completa con panorámica de 360° en el centro de Kavala"
+   },
+   "desc": {
+    "bg": "Уникална гледка, каквато рядко се продава: цял шести етаж от 151 м² в сърцето на града, с тераси и панорама на 360° към морето и стария град. Три спални (възможна и четвърта), хол, трапезария, кухня, баня и тоалетна, асансьор. Има нужда от цялостно обновяване — платното е ваше.",
+    "ru": "Вид, который редко продаётся: целый шестой этаж 151 м² в самом центре, с террасами и панорамой 360° на море и старый город. Три спальни (можно сделать четвёртую), гостиная, столовая, кухня, ванная и туалет, лифт. Нужно полное обновление — сделаете всё под себя.",
+    "en": "A view that rarely comes up for sale: the entire 151 m² sixth floor in the heart of town, with terraces and a 360° panorama over the sea and old town. Three bedrooms (a fourth is possible), living room, dining room, kitchen, bathroom and WC, lift. It needs a complete makeover — a blank canvas for you.",
+    "de": "Ein Ausblick, der selten zu haben ist: die gesamte sechste Etage mit 151 m² im Herzen der Stadt, mit Terrassen und 360°-Panorama über Meer und Altstadt. Drei Schlafzimmer (ein viertes möglich), Wohnzimmer, Esszimmer, Küche, Bad und Gäste-WC, Aufzug. Komplett renovierungsbedürftig – Ihre Leinwand.",
+    "es": "Unas vistas que rara vez salen a la venta: la sexta planta entera de 151 m² en pleno centro, con terrazas y panorámica de 360° sobre el mar y el casco antiguo. Tres dormitorios (posible un cuarto), salón, comedor, cocina, baño y aseo, ascensor. Necesita una reforma total: un lienzo en blanco."
+   },
+   "feat": {
+    "bg": [
+     "Панорама 360°",
+     "Цял етаж",
+     "Център на града",
+     "За ремонт"
+    ],
+    "ru": [
+     "Панорама 360°",
+     "Весь этаж",
+     "Центр города",
+     "Под ремонт"
+    ],
+    "en": [
+     "360° panorama",
+     "Whole floor",
+     "City centre",
+     "To renovate"
+    ],
+    "de": [
+     "360°-Panorama",
+     "Ganze Etage",
+     "Stadtzentrum",
+     "Zu renovieren"
+    ],
+    "es": [
+     "Panorámica de 360°",
+     "Planta completa",
+     "Centro de la ciudad",
+     "Para reformar"
+    ]
+   }
+  },
+  {
+   "code": 13805405,
+   "slug": "kavala-house-13805405",
+   "country": "gr",
+   "source": "katoiko",
+   "type": "house",
+   "deal": "sale",
+   "status": "sale",
+   "featured": true,
+   "place": "kavala",
+   "district": {
+    "bg": "Крионери (Орино)",
+    "ru": "Крионери (Орино)",
+    "en": "Krioneri (Oreino)",
+    "de": "Krioneri (Oreino)",
+    "es": "Krioneri (Oreino)"
+   },
+   "price": 37000,
+   "area": 70,
+   "plot": 350,
+   "bedrooms": 2,
+   "bathrooms": 1,
+   "floor": "1",
+   "sea": null,
+   "furnished": null,
+   "lift": null,
+   "url": "https://www.katoiko.gr/bg/propertyDetails/13805405",
+   "photos": [
+    "https://m1.spitogatos.gr/253634796_900x675.jpg",
+    "https://m3.spitogatos.gr/253634795_900x675.jpg",
+    "https://m2.spitogatos.gr/253634812_900x675.jpg",
+    "https://m3.spitogatos.gr/253634801_900x675.jpg",
+    "https://m2.spitogatos.gr/253634806_900x675.jpg",
+    "https://m3.spitogatos.gr/253634810_900x675.jpg"
+   ],
+   "title": {
+    "bg": "Къща с гледка и парцел 350 м², Крионери (Орино)",
+    "ru": "Дом с видом и участком 350 м², Крионери (Орино)",
+    "en": "House with views on a 350 m² plot, Krioneri (Oreino)",
+    "de": "Haus mit Aussicht auf 350 m² Grundstück, Krioneri (Oreino)",
+    "es": "Casa con vistas en parcela de 350 m², Krioneri (Oreino)"
+   },
+   "desc": {
+    "bg": "Проект за ценители на тишината: самостоятелна къща от 70 м² с гледка, върху парцел от 350 м². На приземния етаж има още 70 м² склад, който може да стане жилище. Без месечни такси; има нужда от основен ремонт.",
+    "ru": "Проект для ценителей тишины: отдельный дом 70 м² с видом, на участке 350 м². На нижнем этаже ещё 70 м² подсобного помещения, которое можно сделать жилым. Без ежемесячных взносов; нужен капитальный ремонт.",
+    "en": "A project for lovers of peace and quiet: a detached 70 m² house with views on a 350 m² plot. The ground floor has another 70 m² of storage that can be turned into living space. No monthly fees; major renovation needed.",
+    "de": "Ein Projekt für Liebhaber der Ruhe: freistehendes 70 m² Haus mit Aussicht auf 350 m² Grundstück. Im Erdgeschoss weitere 70 m² Lager, ausbaubar zu Wohnraum. Keine Nebenkosten; umfassend renovierungsbedürftig.",
+    "es": "Un proyecto para amantes de la tranquilidad: casa independiente de 70 m² con vistas en parcela de 350 m². En la planta baja, otros 70 m² de almacén convertibles en vivienda. Sin gastos mensuales; necesita reforma integral."
+   },
+   "feat": {
+    "bg": [
+     "Цена 37 000 €",
+     "Гледка",
+     "Парцел 350 м²",
+     "За ремонт"
+    ],
+    "ru": [
+     "Цена 37 000 €",
+     "Вид",
+     "Участок 350 м²",
+     "Под ремонт"
+    ],
+    "en": [
+     "Price €37,000",
+     "Views",
+     "350 m² plot",
+     "To renovate"
+    ],
+    "de": [
+     "Preis 37.000 €",
+     "Aussicht",
+     "350 m² Grundstück",
+     "Zu renovieren"
+    ],
+    "es": [
+     "Precio 37.000 €",
+     "Vistas",
+     "Parcela de 350 m²",
+     "Para reformar"
+    ]
+   }
+  },
+  {
+   "code": 13095786,
+   "slug": "kavala-house-13095786",
+   "country": "gr",
+   "source": "katoiko",
+   "type": "house",
+   "deal": "sale",
+   "status": "sale",
+   "featured": true,
+   "place": "kavala",
+   "district": {
+    "bg": "Зигос",
+    "ru": "Зигос",
+    "en": "Zygos",
+    "de": "Zygos",
+    "es": "Zygos"
+   },
+   "price": 50000,
+   "area": 55,
+   "plot": 160,
+   "bedrooms": 1,
+   "bathrooms": 1,
+   "floor": "0",
+   "sea": null,
+   "furnished": null,
+   "lift": null,
+   "url": "https://www.katoiko.gr/bg/propertyDetails/13095786",
+   "photos": [
+    "https://m2.spitogatos.gr/242724007_900x675.jpg",
+    "https://m3.spitogatos.gr/242724026_900x675.jpg",
+    "https://m2.spitogatos.gr/242724061_900x675.jpg",
+    "https://m3.spitogatos.gr/242724005_900x675.jpg",
+    "https://m2.spitogatos.gr/242724058_900x675.jpg",
+    "https://m2.spitogatos.gr/242724103_900x675.jpg",
+    "https://m1.spitogatos.gr/242724150_900x675.jpg",
+    "https://m3.spitogatos.gr/242724119_900x675.jpg",
+    "https://m1.spitogatos.gr/242724033_900x675.jpg",
+    "https://m3.spitogatos.gr/242724029_900x675.jpg"
+   ],
+   "title": {
+    "bg": "Ремонтирана къщичка с двор, Зигос",
+    "ru": "Домик после ремонта с двором, Зигос",
+    "en": "Renovated cottage with a yard, Zygos",
+    "de": "Renoviertes Häuschen mit Hof, Zygos",
+    "es": "Casita reformada con patio, Zygos"
+   },
+   "desc": {
+    "bg": "Готова за живеене малка къща в селото Зигос край Филипи: 55 м² върху парцел от 160 м², ремонтирана. Спалня, хол с кухня и баня, тераса с тента и двор. Климатик за отопление, без месечни такси; удобна за вила или постоянно живеене.",
+    "ru": "Готовый к жизни небольшой дом в деревне Зигос рядом с Филиппами: 55 м² на участке 160 м², после ремонта. Спальня, гостиная с кухней и ванная, терраса с навесом и двор. Кондиционер для отопления, без ежемесячных взносов; подойдёт как дача или для постоянной жизни.",
+    "en": "A small move-in-ready house in the village of Zygos near Philippi: 55 m² on a 160 m² plot, renovated. Bedroom, living room with kitchen and bathroom, a terrace with awning and a yard. Air conditioning for heating, no monthly fees; good as a holiday home or for year-round living.",
+    "de": "Ein kleines bezugsfertiges Haus im Dorf Zygos bei Philippi: 55 m² auf 160 m² Grundstück, renoviert. Schlafzimmer, Wohnzimmer mit Küche und Bad, Terrasse mit Markise und Hof. Klimaanlage zum Heizen, keine Nebenkosten; als Ferienhaus oder zum ganzjährigen Wohnen.",
+    "es": "Una pequeña casa lista para entrar a vivir en el pueblo de Zygos, cerca de Filipos: 55 m² en parcela de 160 m², reformada. Dormitorio, salón con cocina y baño, terraza con toldo y patio. Aire acondicionado como calefacción, sin gastos mensuales; para vacaciones o vivir todo el año."
+   },
+   "feat": {
+    "bg": [
+     "Ремонтирана",
+     "Двор и тераса",
+     "Без месечни такси",
+     "Цена 50 000 €"
+    ],
+    "ru": [
+     "После ремонта",
+     "Двор и терраса",
+     "Без ежемесячных взносов",
+     "Цена 50 000 €"
+    ],
+    "en": [
+     "Renovated",
+     "Yard and terrace",
+     "No monthly fees",
+     "Price €50,000"
+    ],
+    "de": [
+     "Renoviert",
+     "Hof und Terrasse",
+     "Keine Nebenkosten",
+     "Preis 50.000 €"
+    ],
+    "es": [
+     "Reformada",
+     "Patio y terraza",
+     "Sin gastos mensuales",
+     "Precio 50.000 €"
+    ]
+   }
+  },
+  {
+   "code": 11961204,
+   "slug": "kavala-house-11961204",
+   "country": "gr",
+   "source": "katoiko",
+   "type": "house",
+   "deal": "sale",
+   "status": "sale",
+   "featured": true,
+   "place": "kavala",
+   "district": {
+    "bg": "Неа Перамос",
+    "ru": "Неа Перамос",
+    "en": "Nea Peramos",
+    "de": "Nea Peramos",
+    "es": "Nea Peramos"
+   },
+   "price": 380000,
+   "area": 170,
+   "plot": 2200,
+   "bedrooms": 2,
+   "bathrooms": 2,
+   "floor": "0",
+   "sea": true,
+   "furnished": true,
+   "lift": null,
+   "url": "https://www.katoiko.gr/bg/propertyDetails/11961204",
+   "photos": [
+    "https://m2.spitogatos.gr/224528290_900x675.jpg",
+    "https://m1.spitogatos.gr/224528115_900x675.jpg",
+    "https://m3.spitogatos.gr/224528117_900x675.jpg",
+    "https://m3.spitogatos.gr/224528120_900x675.jpg",
+    "https://m1.spitogatos.gr/224528124_900x675.jpg",
+    "https://m3.spitogatos.gr/224528129_900x675.jpg",
+    "https://m2.spitogatos.gr/224528173_900x675.jpg",
+    "https://m1.spitogatos.gr/224528199_900x675.jpg",
+    "https://m2.spitogatos.gr/224528284_900x675.jpg",
+    "https://m2.spitogatos.gr/224528293_900x675.jpg",
+    "https://m3.spitogatos.gr/224528168_900x675.jpg",
+    "https://m3.spitogatos.gr/224528216_900x675.jpg"
+   ],
+   "title": {
+    "bg": "Къща с 2 апартамента и гледка към морето, на 300 м от плажа, Неа Перамос",
+    "ru": "Дом из 2 квартир с видом на море, 300 м до пляжа, Неа Перамос",
+    "en": "House with two flats and sea views, 300 m from the beach, Nea Peramos",
+    "de": "Haus mit zwei Wohnungen und Meerblick, 300 m zum Strand, Nea Peramos",
+    "es": "Casa con dos pisos y vistas al mar, a 300 m de la playa, Nea Peramos"
+   },
+   "desc": {
+    "bg": "Морето е на 300 метра и се вижда от двата етажа: самостоятелна къща с два отделни апартамента (90 и 80 м²) върху парцел от 2200 м² с градина и ограда. Долу спалня, хол, голяма кухня и баня, горе спалня, хол, голяма баня и склад; камини, климатици, слънчев бойлер и барбекю на терасата. Продава се напълно обзаведена — за ваше ползване и за отдаване под наем.",
+    "ru": "Море в 300 метрах и видно с обоих этажей: отдельный дом с двумя самостоятельными квартирами (90 и 80 м²) на участке 2200 м² с садом и забором. Внизу спальня, гостиная, большая кухня и ванная, наверху спальня, гостиная, большая ванная и кладовая; камины, кондиционеры, солнечный бойлер и барбекю на террасе. Продаётся полностью с мебелью — жить самим и сдавать.",
+    "en": "The sea is 300 metres away and visible from both floors: a detached house with two independent flats (90 and 80 m²) on a fenced 2,200 m² plot with garden. Downstairs a bedroom, living room, large kitchen and bathroom; upstairs a bedroom, living room, large bathroom and storeroom; fireplaces, air conditioning, solar water heater and a terrace barbecue. Sold fully furnished — live in one, let the other.",
+    "de": "Das Meer ist 300 m entfernt und von beiden Etagen zu sehen: freistehendes Haus mit zwei separaten Wohnungen (90 und 80 m²) auf eingezäuntem 2.200 m² Grundstück mit Garten. Unten Schlafzimmer, Wohnzimmer, große Küche und Bad, oben Schlafzimmer, Wohnzimmer, großes Bad und Abstellraum; Kamine, Klimaanlagen, Solar-Warmwasser und Grill auf der Terrasse. Komplett möbliert – selbst wohnen und vermieten.",
+    "es": "El mar a 300 metros y visible desde ambas plantas: casa independiente con dos pisos separados (90 y 80 m²) en parcela vallada de 2.200 m² con jardín. Abajo, dormitorio, salón, cocina grande y baño; arriba, dormitorio, salón, baño grande y trastero; chimeneas, aire acondicionado, termo solar y barbacoa en la terraza. Se vende totalmente amueblada: vivir en uno y alquilar el otro."
+   },
+   "feat": {
+    "bg": [
+     "300 м до морето",
+     "Гледка към морето",
+     "Парцел 2200 м²",
+     "2 отделни апартамента"
+    ],
+    "ru": [
+     "300 м до моря",
+     "Вид на море",
+     "Участок 2200 м²",
+     "2 отдельные квартиры"
+    ],
+    "en": [
+     "300 m to the sea",
+     "Sea views",
+     "2,200 m² plot",
+     "2 separate flats"
+    ],
+    "de": [
+     "300 m zum Meer",
+     "Meerblick",
+     "2.200 m² Grundstück",
+     "2 separate Wohnungen"
+    ],
+    "es": [
+     "A 300 m del mar",
+     "Vistas al mar",
+     "Parcela de 2.200 m²",
+     "2 pisos independientes"
+    ]
+   }
+  },
+  {
+   "code": 11409231,
+   "slug": "kavala-house-11409231",
+   "country": "gr",
+   "source": "katoiko",
+   "type": "house",
+   "deal": "sale",
+   "status": "sale",
+   "featured": true,
+   "place": "kavala",
+   "district": {
+    "bg": "Доматия",
+    "ru": "Доматия",
+    "en": "Domatia",
+    "de": "Domatia",
+    "es": "Domatia"
+   },
+   "price": 120000,
+   "area": 120,
+   "plot": 534,
+   "bedrooms": 4,
+   "bathrooms": 2,
+   "floor": "0",
+   "sea": null,
+   "furnished": true,
+   "lift": null,
+   "url": "https://www.katoiko.gr/bg/propertyDetails/11409231",
+   "photos": [
+    "https://m2.spitogatos.gr/216863791_900x675.jpg",
+    "https://m1.spitogatos.gr/216863751_900x675.jpg",
+    "https://m3.spitogatos.gr/216863759_900x675.jpg",
+    "https://m1.spitogatos.gr/216863763_900x675.jpg",
+    "https://m1.spitogatos.gr/216863796_900x675.jpg",
+    "https://m1.spitogatos.gr/216863805_900x675.jpg",
+    "https://m2.spitogatos.gr/216863806_900x675.jpg",
+    "https://m3.spitogatos.gr/216863816_900x675.jpg",
+    "https://m1.spitogatos.gr/216863820_900x675.jpg",
+    "https://m2.spitogatos.gr/216863824_900x675.jpg",
+    "https://m1.spitogatos.gr/216863823_900x675.jpg",
+    "https://m1.spitogatos.gr/216863826_900x675.jpg"
+   ],
+   "title": {
+    "bg": "Обзаведена каменна къща с парцел 534 м², Доматия",
+    "ru": "Каменный дом с мебелью и участком 534 м², Доматия",
+    "en": "Furnished stone house on a 534 m² plot, Domatia",
+    "de": "Möbliertes Steinhaus auf 534 m² Grundstück, Domatia",
+    "es": "Casa de piedra amueblada en parcela de 534 m², Domatia"
+   },
+   "desc": {
+    "bg": "Каменна къща с характер и много пространство: 120 м² на два етажа върху ограден парцел от 534 м². Долу две спални, хол, кухня, баня и килер, горе още две спални и бани; в двора лятна кухня с тоалетна, затворен гараж и голям склад. Продава се ремонтирана и напълно обзаведена, а в цената влиза и отделна сграда от 250 м² (бивша детска ясла).",
+    "ru": "Каменный дом с характером и большим простором: 120 м² на двух этажах, огороженный участок 534 м². Внизу две спальни, гостиная, кухня, ванная и кладовая, наверху ещё две спальни и санузлы; во дворе летняя кухня с туалетом, закрытый гараж и большой склад. Продаётся после ремонта и полностью с мебелью, а в цену входит отдельное здание 250 м² (бывшие ясли).",
+    "en": "A stone house full of character and space: 120 m² on two floors on a fenced 534 m² plot. Downstairs two bedrooms, living room, kitchen, bathroom and pantry; upstairs two more bedrooms and bathrooms; in the yard a summer kitchen with WC, a closed garage and a large storeroom. Sold renovated and fully furnished, and the price includes a separate 250 m² building (a former nursery).",
+    "de": "Ein Steinhaus mit Charakter und viel Platz: 120 m² auf zwei Etagen, eingezäuntes 534 m² Grundstück. Unten zwei Schlafzimmer, Wohnzimmer, Küche, Bad und Speisekammer, oben zwei weitere Schlafzimmer und Bäder; im Hof Sommerküche mit WC, geschlossene Garage und großes Lager. Renoviert und komplett möbliert; im Preis enthalten ist ein separates 250 m² Gebäude (ehemalige Kita).",
+    "es": "Una casa de piedra con carácter y mucho espacio: 120 m² en dos plantas sobre parcela vallada de 534 m². Abajo, dos dormitorios, salón, cocina, baño y despensa; arriba, otros dos dormitorios y baños; en el patio, cocina de verano con aseo, garaje cerrado y gran almacén. Se vende reformada y amueblada, e incluye un edificio aparte de 250 m² (antigua guardería)."
+   },
+   "feat": {
+    "bg": [
+     "Каменна къща",
+     "4 спални",
+     "Гараж",
+     "+ сграда 250 м²"
+    ],
+    "ru": [
+     "Каменный дом",
+     "4 спальни",
+     "Гараж",
+     "+ здание 250 м²"
+    ],
+    "en": [
+     "Stone house",
+     "4 bedrooms",
+     "Garage",
+     "+ 250 m² building"
+    ],
+    "de": [
+     "Steinhaus",
+     "4 Schlafzimmer",
+     "Garage",
+     "+ 250 m² Gebäude"
+    ],
+    "es": [
+     "Casa de piedra",
+     "4 dormitorios",
+     "Garaje",
+     "+ edificio de 250 m²"
+    ]
+   }
+  },
+  {
+   "code": 10643149,
+   "slug": "kavala-house-10643149",
+   "country": "gr",
+   "source": "katoiko",
+   "type": "house",
+   "deal": "sale",
+   "status": "sale",
+   "featured": true,
+   "place": "kavala",
+   "district": {
+    "bg": "Крионери",
+    "ru": "Крионери",
+    "en": "Krioneri",
+    "de": "Krioneri",
+    "es": "Krioneri"
+   },
+   "price": 50000,
+   "area": 140,
+   "plot": 640,
+   "bedrooms": 2,
+   "bathrooms": 1,
+   "floor": null,
+   "sea": null,
+   "furnished": null,
+   "lift": null,
+   "url": "https://www.katoiko.gr/bg/propertyDetails/10643149",
+   "photos": [
+    "https://m1.spitogatos.gr/204477480_900x675.jpg",
+    "https://m1.spitogatos.gr/204477489_900x675.jpg",
+    "https://m1.spitogatos.gr/204477501_900x675.jpg",
+    "https://m1.spitogatos.gr/204477510_900x675.jpg",
+    "https://m1.spitogatos.gr/204477513_900x675.jpg"
+   ],
+   "title": {
+    "bg": "Недовършена къща с неограничена гледка, Крионери",
+    "ru": "Недостроенный дом с панорамным видом, Крионери",
+    "en": "Unfinished house with unlimited views, Krioneri",
+    "de": "Unfertiges Haus mit unverbauter Aussicht, Krioneri",
+    "es": "Casa sin terminar con vistas despejadas, Krioneri"
+   },
+   "desc": {
+    "bg": "Довършете къщата по свой вкус: самостоятелна сграда от 140 м² в груб строеж върху парцел от 640 м² с неограничена гледка. Приземен етаж от 70 м² и склад от 70 м² в сутерена, плюс разрешение за още един етаж. Без месечни такси.",
+    "ru": "Достройте дом под себя: отдельный дом 140 м² в бетонном каркасе на участке 640 м² с ничем не закрытым видом. Первый этаж 70 м² и подсобка 70 м² в цоколе, есть разрешение надстроить ещё этаж. Без ежемесячных взносов.",
+    "en": "Finish the house your way: a detached 140 m² concrete shell on a 640 m² plot with unlimited views. A 70 m² ground floor and a 70 m² basement storeroom, plus a permit to add another floor. No monthly fees.",
+    "de": "Bauen Sie das Haus nach Ihren Wünschen fertig: freistehender 140 m² Rohbau auf 640 m² Grundstück mit unverbauter Aussicht. 70 m² Erdgeschoss und 70 m² Kellerlager, dazu Genehmigung für ein weiteres Stockwerk. Keine Nebenkosten.",
+    "es": "Termine la casa a su gusto: estructura independiente de 140 m² en parcela de 640 m² con vistas despejadas. Planta baja de 70 m² y almacén de 70 m² en el sótano, más permiso para una planta adicional. Sin gastos mensuales."
+   },
+   "feat": {
+    "bg": [
+     "Парцел 640 м²",
+     "Неограничена гледка",
+     "Разрешение за още етаж",
+     "Груб строеж"
+    ],
+    "ru": [
+     "Участок 640 м²",
+     "Панорамный вид",
+     "Разрешение на этаж",
+     "Бетонный каркас"
+    ],
+    "en": [
+     "640 m² plot",
+     "Unlimited views",
+     "Permit for another floor",
+     "Concrete shell"
+    ],
+    "de": [
+     "640 m² Grundstück",
+     "Unverbaute Aussicht",
+     "Genehmigung für Etage",
+     "Rohbau"
+    ],
+    "es": [
+     "Parcela de 640 m²",
+     "Vistas despejadas",
+     "Permiso para otra planta",
+     "Estructura en bruto"
+    ]
+   }
+  },
+  {
+   "code": 7057691,
+   "slug": "kavala-house-7057691",
+   "country": "gr",
+   "source": "katoiko",
+   "type": "house",
+   "deal": "sale",
+   "status": "sale",
+   "featured": true,
+   "place": "kavala",
+   "district": {
+    "bg": "Профитис Илиас",
+    "ru": "Профитис Илиас",
+    "en": "Profitis Ilias",
+    "de": "Profitis Ilias",
+    "es": "Profitis Ilias"
+   },
+   "price": 360000,
+   "area": 220,
+   "plot": 220,
+   "bedrooms": 4,
+   "bathrooms": 2,
+   "floor": null,
+   "sea": true,
+   "furnished": null,
+   "lift": null,
+   "url": "https://www.katoiko.gr/bg/propertyDetails/7057691",
+   "photos": [
+    "https://m2.spitogatos.gr/140751427_900x675.jpg",
+    "https://m1.spitogatos.gr/140751399_900x675.jpg",
+    "https://m2.spitogatos.gr/140751403_900x675.jpg",
+    "https://m2.spitogatos.gr/140751406_900x675.jpg",
+    "https://m3.spitogatos.gr/140751407_900x675.jpg",
+    "https://m2.spitogatos.gr/140751409_900x675.jpg",
+    "https://m1.spitogatos.gr/140751411_900x675.jpg",
+    "https://m3.spitogatos.gr/140751413_900x675.jpg",
+    "https://m1.spitogatos.gr/140751414_900x675.jpg",
+    "https://m1.spitogatos.gr/140751435_900x675.jpg",
+    "https://m3.spitogatos.gr/140751422_900x675.jpg",
+    "https://m3.spitogatos.gr/140751404_900x675.jpg"
+   ],
+   "title": {
+    "bg": "Луксозна къща на 3 етажа с неограничена гледка, Профитис Илиас",
+    "ru": "Роскошный дом на 3 этажа с панорамным видом, Профитис Илиас",
+    "en": "Luxury three-storey house with unlimited views, Profitis Ilias",
+    "de": "Luxushaus auf 3 Etagen mit unverbautem Blick, Profitis Ilias",
+    "es": "Casa de lujo de tres plantas con vistas despejadas, Profitis Ilias"
+   },
+   "desc": {
+    "bg": "Гледка към морето и града от всяка стая: луксозна самостоятелна къща от 2007 г., 220 м² на три етажа. Три големи спални и баня с хидромасаж, хол с кухня и норвежка камина, горе още една спалня с огромна веранда; всяка стая с балкон, южно изложение. Два склада по 100 м², три паркоместа и подготовка за асансьор; в безупречно състояние.",
+    "ru": "Вид на море и город из каждой комнаты: роскошный отдельный дом 2007 года, 220 м² на трёх этажах. Три большие спальни и ванная с гидромассажем, гостиная с кухней и норвежским камином, наверху ещё спальня с огромной верандой; в каждой комнате балкон, окна на юг. Два склада по 100 м², три парковочных места и подготовка под лифт; в безупречном состоянии.",
+    "en": "Sea and city views from every room: a luxury detached house built in 2007, 220 m² over three floors. Three large bedrooms and a whirlpool bathroom, living room with kitchen and Norwegian fireplace, and another bedroom upstairs with a huge veranda; every room has a balcony, south-facing. Two 100 m² storerooms, three parking spaces and provision for a lift; immaculate condition.",
+    "de": "Meer- und Stadtblick aus jedem Zimmer: freistehendes Luxushaus von 2007, 220 m² auf drei Etagen. Drei große Schlafzimmer und Bad mit Whirlpool, Wohnzimmer mit Küche und norwegischem Kamin, oben ein weiteres Schlafzimmer mit riesiger Veranda; jedes Zimmer mit Balkon, Südausrichtung. Zwei Lager à 100 m², drei Stellplätze und Vorbereitung für einen Aufzug; tadelloser Zustand.",
+    "es": "Vistas al mar y a la ciudad desde cada estancia: casa independiente de lujo de 2007, 220 m² en tres plantas. Tres dormitorios grandes y baño con hidromasaje, salón con cocina y chimenea noruega, y arriba otro dormitorio con una enorme terraza; todas las estancias con balcón, orientación sur. Dos almacenes de 100 m², tres plazas de aparcamiento y preinstalación de ascensor; estado impecable."
+   },
+   "feat": {
+    "bg": [
+     "Неограничена гледка",
+     "3 паркоместа",
+     "Построена 2007 г.",
+     "Огромна веранда"
+    ],
+    "ru": [
+     "Панорамный вид",
+     "3 парковочных места",
+     "Дом 2007 года",
+     "Огромная веранда"
+    ],
+    "en": [
+     "Unlimited views",
+     "3 parking spaces",
+     "Built in 2007",
+     "Huge veranda"
+    ],
+    "de": [
+     "Unverbaute Aussicht",
+     "3 Stellplätze",
+     "Baujahr 2007",
+     "Riesige Veranda"
+    ],
+    "es": [
+     "Vistas despejadas",
+     "3 plazas de aparcamiento",
+     "Construida en 2007",
+     "Terraza enorme"
+    ]
+   }
+  },
+  {
+   "code": 6816863,
+   "slug": "kavala-house-6816863",
+   "country": "gr",
+   "source": "katoiko",
+   "type": "house",
+   "deal": "sale",
+   "status": "sale",
+   "featured": true,
+   "place": "kavala",
+   "district": {
+    "bg": "Зигос",
+    "ru": "Зигос",
+    "en": "Zygos",
+    "de": "Zygos",
+    "es": "Zygos"
+   },
+   "price": 45000,
+   "area": 140,
+   "plot": null,
+   "bedrooms": 2,
+   "bathrooms": 1,
+   "floor": "0",
+   "sea": null,
+   "furnished": null,
+   "lift": null,
+   "url": "https://www.katoiko.gr/bg/propertyDetails/6816863",
+   "photos": [
+    "https://m2.spitogatos.gr/136153159_900x675.jpg",
+    "https://m1.spitogatos.gr/136153158_900x675.jpg",
+    "https://m1.spitogatos.gr/136153161_900x675.jpg",
+    "https://m2.spitogatos.gr/136153162_900x675.jpg",
+    "https://m3.spitogatos.gr/136153163_900x675.jpg",
+    "https://m1.spitogatos.gr/136153164_900x675.jpg"
+   ],
+   "title": {
+    "bg": "Стара къща 140 м² с двор, Зигос",
+    "ru": "Старый дом 140 м² с двором, Зигос",
+    "en": "Older 140 m² house with a yard, Zygos",
+    "de": "Älteres 140 m² Haus mit Hof, Zygos",
+    "es": "Casa antigua de 140 m² con patio, Zygos"
+   },
+   "desc": {
+    "bg": "Много пространство за малко пари: къща от 140 м² от 1960 г. с двор в селото Зигос край Филипи. Две спални и баня; основа за реставрация в селски стил или за ваканционен дом. Цената от 45 000 € оставя бюджет за ремонт.",
+    "ru": "Много пространства за небольшие деньги: дом 140 м² 1960 года с двором в деревне Зигос рядом с Филиппами. Две спальни и ванная; основа для реставрации в деревенском стиле или для дома для отдыха. Цена 45 000 € оставляет бюджет на ремонт.",
+    "en": "Lots of space for little money: a 140 m² house from 1960 with a yard in the village of Zygos near Philippi. Two bedrooms and a bathroom; a base for a rustic-style restoration or a holiday home. At €45,000 there is budget left for renovation.",
+    "de": "Viel Platz für wenig Geld: 140 m² Haus von 1960 mit Hof im Dorf Zygos bei Philippi. Zwei Schlafzimmer und Bad; Basis für eine Restaurierung im Landhausstil oder ein Ferienhaus. Bei 45.000 € bleibt Budget für die Renovierung.",
+    "es": "Mucho espacio por poco dinero: casa de 140 m² de 1960 con patio en el pueblo de Zygos, cerca de Filipos. Dos dormitorios y baño; base para una restauración rústica o una casa de vacaciones. Con 45.000 € queda presupuesto para la reforma."
+   },
+   "feat": {
+    "bg": [
+     "140 м²",
+     "Двор",
+     "Цена 45 000 €",
+     "За реставрация"
+    ],
+    "ru": [
+     "140 м²",
+     "Двор",
+     "Цена 45 000 €",
+     "Под реставрацию"
+    ],
+    "en": [
+     "140 m²",
+     "Yard",
+     "Price €45,000",
+     "To restore"
+    ],
+    "de": [
+     "140 m²",
+     "Hof",
+     "Preis 45.000 €",
+     "Zu restaurieren"
+    ],
+    "es": [
+     "140 m²",
+     "Patio",
+     "Precio 45.000 €",
+     "Para restaurar"
+    ]
+   }
+  },
+  {
+   "code": 1876269,
+   "slug": "kavala-villa-1876269",
+   "country": "gr",
+   "source": "katoiko",
+   "type": "villa",
+   "deal": "sale",
+   "status": "sale",
+   "featured": true,
+   "place": "kavala",
+   "district": {
+    "bg": "Тасос, Астрис",
+    "ru": "Тасос, Астрис",
+    "en": "Thassos, Astris",
+    "de": "Thassos, Astris",
+    "es": "Tasos, Astris"
+   },
+   "price": 600000,
+   "area": 300,
+   "plot": 6000,
+   "bedrooms": 5,
+   "bathrooms": 3,
+   "floor": null,
+   "sea": null,
+   "furnished": null,
+   "lift": null,
+   "url": "https://www.katoiko.gr/bg/propertyDetails/1876269",
+   "photos": [
+    "https://m1.spitogatos.gr/24569409_900x675.jpg",
+    "https://m2.spitogatos.gr/24569422_900x675.jpg",
+    "https://m3.spitogatos.gr/24569435_900x675.jpg",
+    "https://m3.spitogatos.gr/24569453_900x675.jpg",
+    "https://m2.spitogatos.gr/24569467_900x675.jpg",
+    "https://m3.spitogatos.gr/24569480_900x675.jpg",
+    "https://m3.spitogatos.gr/24569501_900x675.jpg",
+    "https://m1.spitogatos.gr/24569517_900x675.jpg",
+    "https://m2.spitogatos.gr/24569527_900x675.jpg"
+   ],
+   "title": {
+    "bg": "Вила 300 м² с парцел 6000 м², остров Тасос",
+    "ru": "Вилла 300 м² с участком 6000 м², остров Тасос",
+    "en": "300 m² villa on a 6,000 m² plot, Thassos island",
+    "de": "Villa mit 300 m² auf 6.000 m² Grundstück, Insel Thassos",
+    "es": "Villa de 300 m² en parcela de 6.000 m², isla de Tasos"
+   },
+   "desc": {
+    "bg": "Собствен свят на остров Тасос: луксозна вила от 2002 г. на три нива по 100 м², върху парцел от 6000 м² в селото Астрис, на 10 минути от морето и с гледка към планината. Пет спални, три бани, два хола с кухни и камина, плюс сутерен с хол, баня и гараж. Барбекю, алармена система, пет климатика и големи резервоари за вода за пълна автономност; възможна покупка с мебелите.",
+    "ru": "Свой мир на острове Тасос: роскошная вилла 2002 года на трёх уровнях по 100 м², участок 6000 м² в деревне Астрис, 10 минут до моря и вид на горы. Пять спален, три ванные, две гостиные с кухнями и камин, плюс цоколь с гостиной, ванной и гаражом. Барбекю, сигнализация, пять кондиционеров и большие резервуары воды для полной автономии; можно купить с мебелью.",
+    "en": "Your own world on Thassos: a luxury 2002 villa on three 100 m² levels, set on a 6,000 m² plot in the village of Astris, 10 minutes from the sea with mountain views. Five bedrooms, three bathrooms, two living rooms with kitchens and a fireplace, plus a basement with lounge, bathroom and garage. Barbecue, alarm, five air conditioners and large water tanks for full autonomy; available furnished if desired.",
+    "de": "Eine eigene Welt auf Thassos: Luxusvilla von 2002 auf drei Ebenen à 100 m², 6.000 m² Grundstück im Dorf Astris, 10 Minuten zum Meer, mit Bergblick. Fünf Schlafzimmer, drei Bäder, zwei Wohnzimmer mit Küchen und Kamin, dazu Souterrain mit Lounge, Bad und Garage. Grill, Alarmanlage, fünf Klimaanlagen und große Wassertanks für volle Autarkie; auf Wunsch möbliert.",
+    "es": "Su propio mundo en Tasos: villa de lujo de 2002 en tres niveles de 100 m², en parcela de 6.000 m² en el pueblo de Astris, a 10 minutos del mar y con vistas a la montaña. Cinco dormitorios, tres baños, dos salones con cocina y chimenea, y sótano con salón, baño y garaje. Barbacoa, alarma, cinco aires acondicionados y grandes depósitos de agua para plena autonomía; opcionalmente amueblada."
+   },
+   "feat": {
+    "bg": [
+     "Остров Тасос",
+     "Парцел 6000 м²",
+     "5 спални, 3 бани",
+     "Гараж и барбекю"
+    ],
+    "ru": [
+     "Остров Тасос",
+     "Участок 6000 м²",
+     "5 спален, 3 ванные",
+     "Гараж и барбекю"
+    ],
+    "en": [
+     "Thassos island",
+     "6,000 m² plot",
+     "5 bedrooms, 3 bathrooms",
+     "Garage and barbecue"
+    ],
+    "de": [
+     "Insel Thassos",
+     "6.000 m² Grundstück",
+     "5 Schlafzimmer, 3 Bäder",
+     "Garage und Grill"
+    ],
+    "es": [
+     "Isla de Tasos",
+     "Parcela de 6.000 m²",
+     "5 dormitorios, 3 baños",
+     "Garaje y barbacoa"
+    ]
+   }
+  },
+  {
+   "code": 1785838,
+   "slug": "kavala-house-1785838",
+   "country": "gr",
+   "source": "katoiko",
+   "type": "house",
+   "deal": "sale",
+   "status": "sale",
+   "featured": true,
+   "place": "kavala",
+   "district": {
+    "bg": "Левки",
+    "ru": "Левки",
+    "en": "Lefki",
+    "de": "Lefki",
+    "es": "Lefki"
+   },
+   "price": 90000,
+   "area": 120,
+   "plot": 3800,
+   "bedrooms": 3,
+   "bathrooms": 1,
+   "floor": "0",
+   "sea": null,
+   "furnished": null,
+   "lift": null,
+   "url": "https://www.katoiko.gr/bg/propertyDetails/1785838",
+   "photos": [
+    "https://m2.spitogatos.gr/20233342_900x675.jpg",
+    "https://m1.spitogatos.gr/20233263_900x675.jpg",
+    "https://m2.spitogatos.gr/20233282_900x675.jpg",
+    "https://m1.spitogatos.gr/20233302_900x675.jpg",
+    "https://m3.spitogatos.gr/20233322_900x675.jpg"
+   ],
+   "title": {
+    "bg": "Къща 120 м² с маслини на парцел 3800 м², Левки",
+    "ru": "Дом 120 м² с оливами на участке 3800 м², Левки",
+    "en": "120 m² house with olive trees on a 3,800 m² plot, Lefki",
+    "de": "120 m² Haus mit Olivenbäumen auf 3.800 m² Grundstück, Lefki",
+    "es": "Casa de 120 m² con olivos en parcela de 3.800 m², Lefki"
+   },
+   "desc": {
+    "bg": "Собствена маслинова градина в селото: къща от 120 м² върху парцел от 3800 м² в Левки, Кавала, с маслинови и овощни дървета. Три спални, хол, кухня, баня и тоалетна, плюс отделен склад от 35 м². Мястото е в чертите на селото; къщата е от 1985 г.",
+    "ru": "Своя оливковая роща в деревне: дом 120 м² на участке 3800 м² в Левки (Кавала), с оливковыми и фруктовыми деревьями. Три спальни, гостиная, кухня, ванная и туалет, плюс отдельная кладовая 35 м². Участок в черте деревни; дом 1985 года.",
+    "en": "Your own olive grove in the village: a 120 m² house on a 3,800 m² plot in Lefki, Kavala, with olive and fruit trees. Three bedrooms, living room, kitchen, bathroom and WC, plus a separate 35 m² storeroom. The land is within the village limits; the house dates from 1985.",
+    "de": "Ein eigener Olivenhain im Dorf: 120 m² Haus auf 3.800 m² Grundstück in Lefki, Kavala, mit Oliven- und Obstbäumen. Drei Schlafzimmer, Wohnzimmer, Küche, Bad und Gäste-WC, dazu ein separates 35 m² Lager. Das Grundstück liegt innerhalb des Dorfes; Baujahr 1985.",
+    "es": "Su propio olivar en el pueblo: casa de 120 m² en parcela de 3.800 m² en Lefki, Kavala, con olivos y frutales. Tres dormitorios, salón, cocina, baño y aseo, además de un almacén independiente de 35 m². El terreno está dentro del pueblo; casa de 1985."
+   },
+   "feat": {
+    "bg": [
+     "Парцел 3800 м²",
+     "Маслини и овощни дървета",
+     "3 спални",
+     "Отделен склад"
+    ],
+    "ru": [
+     "Участок 3800 м²",
+     "Оливы и фруктовые деревья",
+     "3 спальни",
+     "Отдельная кладовая"
+    ],
+    "en": [
+     "3,800 m² plot",
+     "Olive and fruit trees",
+     "3 bedrooms",
+     "Separate storeroom"
+    ],
+    "de": [
+     "3.800 m² Grundstück",
+     "Oliven- und Obstbäume",
+     "3 Schlafzimmer",
+     "Separates Lager"
+    ],
+    "es": [
+     "Parcela de 3.800 m²",
+     "Olivos y frutales",
+     "3 dormitorios",
+     "Almacén independiente"
+    ]
+   }
   }
  ]
 }
