@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-10",
+ "updated": "2026-10-12",
  "places": {
   "kavala": {
    "bg": "Кавала",
@@ -597,6 +597,90 @@
      "Amueblado"
     ]
    }
+  },
+  {
+   "code": 397723,
+   "slug": "kavala-apartment-397723",
+   "type": "apt",
+   "deal": "sale",
+   "status": "sale",
+   "featured": true,
+   "place": "kavala",
+   "district": {
+    "bg": "Център",
+    "ru": "Центр",
+    "en": "Centre",
+    "de": "Zentrum",
+    "es": "Centro"
+   },
+   "price": 105000,
+   "area": 83,
+   "plot": null,
+   "bedrooms": 2,
+   "bathrooms": 1,
+   "floor": null,
+   "sea": null,
+   "furnished": null,
+   "lift": null,
+   "url": "https://imotipremier.com/prodava/tristaen-apartament/397723/",
+   "photos": [
+    "https://imotipremier.com/webfactor-images/1483c345-6952-4124-929c-b4b700eea26e-1200x800-center-1252130.webp",
+    "https://imotipremier.com/webfactor-images/893fb159-10d9-410a-aa11-b4b700eea281-1200x800-center-1252131.webp",
+    "https://imotipremier.com/webfactor-images/07a2471b-1901-4a7a-9492-b4b700eea285-1200x800-center-1252132.webp",
+    "https://imotipremier.com/webfactor-images/53475461-4003-4961-9728-b4b700eea27c-1200x800-center-1252133.webp"
+   ],
+   "title": {
+    "ru": "Большая квартира 83 м² после ремонта в центре Кавалы",
+    "bg": "Голям апартамент от 83 м² след ремонт в центъра на Кавала",
+    "en": "Spacious renovated 83 m² apartment in central Kavala",
+    "de": "Großzügige renovierte 83-m²-Wohnung im Zentrum von Kavala",
+    "es": "Amplio piso reformado de 83 m² en el centro de Kavala"
+   },
+   "desc": {
+    "ru": "Престижное место в самом центре Кавалы и квартира, где уже всё сделано: полный ремонт, просторные комнаты, отличное состояние. 83 м² с двумя спальнями, открытой гостиной с кухонной зоной и ванной; есть кондиционер и отопление, частично с мебелью. Подойдёт и для жизни, и как вложение под аренду.",
+    "bg": "Престижно местоположение в самия център на Кавала и апартамент, в който всичко вече е направено: пълен ремонт, просторни стаи, отлично състояние. 83 м² с две спални, отворена дневна с кухненски бокс и баня; има климатик и отопление, частично обзаведен. Подходящ както за живеене, така и като инвестиция за отдаване под наем.",
+    "en": "A prestigious address in the very centre of Kavala, in an apartment where the work is already done: fully renovated, spacious rooms, excellent condition. 83 m² with two bedrooms, an open-plan living room with kitchenette and a bathroom, plus air conditioning and heating, partly furnished. Suits both living in and investing for rental income.",
+    "de": "Eine begehrte Lage mitten im Zentrum von Kavala und eine Wohnung, in der schon alles gemacht ist: komplett renoviert, großzügige Räume, ausgezeichneter Zustand. 83 m² mit zwei Schlafzimmern, offenem Wohnraum mit Küchenzeile und Bad, dazu Klimaanlage und Heizung, teilmöbliert. Ideal zum Selbstbewohnen oder als Investition zur Vermietung.",
+    "es": "Una ubicación privilegiada en pleno centro de Kavala y un piso donde ya está todo hecho: reforma integral, estancias amplias y excelente estado. 83 m² con dos dormitorios, salón abierto con cocina office y baño, además de aire acondicionado y calefacción, parcialmente amueblado. Ideal para vivir o como inversión para alquilar."
+   },
+   "feat": {
+    "ru": [
+     "Центр города",
+     "Полный ремонт",
+     "Просторные комнаты",
+     "Кондиционер и отопление",
+     "Частично с мебелью"
+    ],
+    "bg": [
+     "Центъра на града",
+     "Пълен ремонт",
+     "Просторни стаи",
+     "Климатик и отопление",
+     "Частично обзаведен"
+    ],
+    "en": [
+     "City centre",
+     "Fully renovated",
+     "Spacious rooms",
+     "Air conditioning & heating",
+     "Partly furnished"
+    ],
+    "de": [
+     "Stadtzentrum",
+     "Komplett renoviert",
+     "Großzügige Räume",
+     "Klimaanlage & Heizung",
+     "Teilmöbliert"
+    ],
+    "es": [
+     "Centro de la ciudad",
+     "Reforma integral",
+     "Estancias amplias",
+     "Aire acondicionado y calefacción",
+     "Parcialmente amueblado"
+    ]
+   },
+   "country": "gr"
   },
   {
    "code": 21015461,
