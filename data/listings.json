@@ -6014,6 +6014,446 @@
      "Calefacción propia"
     ]
    }
+  },
+  {
+   "code": 19248138,
+   "slug": "kavala-apt-19248138",
+   "country": "gr",
+   "source": "katoiko",
+   "type": "apt",
+   "deal": "sale",
+   "status": "sale",
+   "featured": true,
+   "place": "kavala",
+   "district": {
+    "bg": "Хорафа",
+    "ru": "Хорафа",
+    "en": "Chorafa",
+    "de": "Chorafa",
+    "es": "Chorafa"
+   },
+   "price": 130000,
+   "area": 95,
+   "plot": null,
+   "bedrooms": 2,
+   "bathrooms": 1,
+   "floor": "1",
+   "sea": true,
+   "furnished": null,
+   "lift": null,
+   "url": "https://www.katoiko.gr/bg/propertyDetails/19248138",
+   "photos": [
+    "https://m1.spitogatos.gr/342636339_900x675.jpg",
+    "https://m3.spitogatos.gr/342636341_900x675.jpg",
+    "https://m2.spitogatos.gr/342636343_900x675.jpg",
+    "https://m3.spitogatos.gr/342636344_900x675.jpg",
+    "https://m3.spitogatos.gr/342636347_900x675.jpg",
+    "https://m2.spitogatos.gr/342636346_900x675.jpg",
+    "https://m1.spitogatos.gr/342636348_900x675.jpg",
+    "https://m2.spitogatos.gr/342636340_900x675.jpg",
+    "https://m2.spitogatos.gr/342636352_900x675.jpg",
+    "https://m3.spitogatos.gr/342636353_900x675.jpg",
+    "https://m2.spitogatos.gr/342636349_900x675.jpg",
+    "https://m1.spitogatos.gr/342636351_900x675.jpg"
+   ],
+   "title": {
+    "bg": "Светъл апартамент с голям балкон и гледка към морето, Хорафа",
+    "ru": "Светлая квартира с большим балконом и видом на море, Хорафа",
+    "en": "Bright flat with a large balcony and sea views, Chorafa",
+    "de": "Helle Wohnung mit großem Balkon und Meerblick, Chorafa",
+    "es": "Piso luminoso con gran balcón y vistas al mar, Chorafa"
+   },
+   "desc": {
+    "bg": "Сутрешно кафе с гледка към морето: светъл апартамент от 95 м² на първи етаж в тих квартал, с голям балкон. Две спални, хол, кухня, баня и малък склад. Собствен котел на нафта, блиндирана врата и комарници; в много добро състояние.",
+    "ru": "Утренний кофе с видом на море: светлая квартира 95 м² на первом этаже в тихом районе, с большим балконом. Две спальни, гостиная, кухня, ванная и небольшая кладовая. Собственный котёл на дизеле, бронированная дверь и москитные сетки; в очень хорошем состоянии.",
+    "en": "Morning coffee with a sea view: a bright 95 m² first-floor flat in a quiet area, with a large balcony. Two bedrooms, living room, kitchen, bathroom and a small storeroom. Its own oil boiler, a security door and insect screens; very good condition.",
+    "de": "Morgenkaffee mit Meerblick: helle 95 m² Wohnung im ersten Stock in ruhiger Lage, mit großem Balkon. Zwei Schlafzimmer, Wohnzimmer, Küche, Bad und kleiner Abstellraum. Eigener Ölkessel, Sicherheitstür und Fliegengitter; sehr guter Zustand.",
+    "es": "Café por la mañana con vistas al mar: piso luminoso de 95 m² en primera planta, en zona tranquila, con gran balcón. Dos dormitorios, salón, cocina, baño y pequeño trastero. Caldera de gasóleo propia, puerta blindada y mosquiteras; muy buen estado."
+   },
+   "feat": {
+    "bg": [
+     "Гледка към морето",
+     "Голям балкон",
+     "Тих квартал",
+     "2 спални"
+    ],
+    "ru": [
+     "Вид на море",
+     "Большой балкон",
+     "Тихий район",
+     "2 спальни"
+    ],
+    "en": [
+     "Sea views",
+     "Large balcony",
+     "Quiet area",
+     "2 bedrooms"
+    ],
+    "de": [
+     "Meerblick",
+     "Großer Balkon",
+     "Ruhige Lage",
+     "2 Schlafzimmer"
+    ],
+    "es": [
+     "Vistas al mar",
+     "Gran balcón",
+     "Zona tranquila",
+     "2 dormitorios"
+    ]
+   }
+  },
+  {
+   "code": 8446030,
+   "slug": "kavala-apt-8446030",
+   "country": "gr",
+   "source": "katoiko",
+   "type": "apt",
+   "deal": "sale",
+   "status": "sale",
+   "featured": true,
+   "place": "kavala",
+   "district": {
+    "bg": "Потамудия",
+    "ru": "Потамудия",
+    "en": "Potamoudia",
+    "de": "Potamoudia",
+    "es": "Potamoudia"
+   },
+   "price": 150000,
+   "area": 125,
+   "plot": null,
+   "bedrooms": 2,
+   "bathrooms": 1,
+   "floor": "1",
+   "sea": null,
+   "furnished": null,
+   "lift": null,
+   "url": "https://www.katoiko.gr/bg/propertyDetails/8446030",
+   "photos": [
+    "https://m1.spitogatos.gr/170681901_900x675.jpg",
+    "https://m3.spitogatos.gr/170681906_900x675.jpg",
+    "https://m2.spitogatos.gr/170681908_900x675.jpg",
+    "https://m1.spitogatos.gr/170681910_900x675.jpg",
+    "https://m2.spitogatos.gr/170681911_900x675.jpg",
+    "https://m1.spitogatos.gr/170681913_900x675.jpg",
+    "https://m2.spitogatos.gr/170681914_900x675.jpg",
+    "https://m3.spitogatos.gr/170681915_900x675.jpg",
+    "https://m2.spitogatos.gr/170681917_900x675.jpg",
+    "https://m3.spitogatos.gr/170681918_900x675.jpg",
+    "https://m1.spitogatos.gr/170681919_900x675.jpg",
+    "https://m3.spitogatos.gr/170681921_900x675.jpg"
+   ],
+   "title": {
+    "bg": "Етажен апартамент 125 м² с тераси наоколо, Потамудия",
+    "ru": "Квартира на весь этаж 125 м² с террасами по периметру, Потамудия",
+    "en": "Whole-floor 125 m² flat with wraparound terraces, Potamoudia",
+    "de": "Etagenwohnung mit 125 m² und umlaufenden Terrassen, Potamoudia",
+    "es": "Piso de planta completa de 125 m² con terrazas perimetrales, Potamoudia"
+   },
+   "desc": {
+    "bg": "Цял етаж само за вас: слънчев апартамент от 125 м² на първи етаж с тераси по целия периметър. Две спални, хол, отделна трапезария, кухня, баня, тоалетна и склад. Собствен котел, PVC дограма; ремонтиран и в отлично състояние, допускат се домашни любимци.",
+    "ru": "Целый этаж только для вас: солнечная квартира 125 м² на первом этаже с террасами по всему периметру. Две спальни, гостиная, отдельная столовая, кухня, ванная, туалет и кладовая. Собственный котёл, окна ПВХ; после ремонта, в отличном состоянии, можно с домашними животными.",
+    "en": "A whole floor to yourself: a sunny 125 m² first-floor flat with terraces all the way round. Two bedrooms, living room, separate dining room, kitchen, bathroom, WC and storeroom. Its own boiler, PVC windows; renovated and in excellent condition, pets allowed.",
+    "de": "Eine ganze Etage für Sie: sonnige 125 m² Wohnung im ersten Stock mit umlaufenden Terrassen. Zwei Schlafzimmer, Wohnzimmer, separates Esszimmer, Küche, Bad, Gäste-WC und Abstellraum. Eigener Heizkessel, PVC-Fenster; renoviert, hervorragender Zustand, Haustiere erlaubt.",
+    "es": "Una planta entera para usted: piso soleado de 125 m² en primera planta con terrazas en todo el perímetro. Dos dormitorios, salón, comedor independiente, cocina, baño, aseo y trastero. Caldera propia, ventanas de PVC; reformado y en excelente estado, se admiten mascotas."
+   },
+   "feat": {
+    "bg": [
+     "Цял етаж",
+     "Тераси наоколо",
+     "Отделна трапезария",
+     "Ремонтиран"
+    ],
+    "ru": [
+     "Весь этаж",
+     "Террасы по периметру",
+     "Отдельная столовая",
+     "После ремонта"
+    ],
+    "en": [
+     "Whole floor",
+     "Wraparound terraces",
+     "Separate dining room",
+     "Renovated"
+    ],
+    "de": [
+     "Ganze Etage",
+     "Umlaufende Terrassen",
+     "Separates Esszimmer",
+     "Renoviert"
+    ],
+    "es": [
+     "Planta completa",
+     "Terrazas perimetrales",
+     "Comedor independiente",
+     "Reformado"
+    ]
+   }
+  },
+  {
+   "code": 18531137,
+   "slug": "kavala-house-18531137",
+   "country": "gr",
+   "source": "katoiko",
+   "type": "house",
+   "deal": "sale",
+   "status": "sale",
+   "featured": true,
+   "place": "kavala",
+   "district": {
+    "bg": "Агиос Георгиос",
+    "ru": "Агиос Георгиос",
+    "en": "Agios Georgios",
+    "de": "Agios Georgios",
+    "es": "Agios Georgios"
+   },
+   "price": 150000,
+   "area": 190,
+   "plot": null,
+   "bedrooms": 3,
+   "bathrooms": 2,
+   "floor": null,
+   "sea": true,
+   "furnished": null,
+   "lift": null,
+   "url": "https://www.katoiko.gr/bg/propertyDetails/18531137",
+   "photos": [
+    "https://m3.spitogatos.gr/332594516_900x675.jpg",
+    "https://m3.spitogatos.gr/332594537_900x675.jpg",
+    "https://m3.spitogatos.gr/332593691_900x675.jpg",
+    "https://m2.spitogatos.gr/332593696_900x675.jpg",
+    "https://m2.spitogatos.gr/332594236_900x675.jpg",
+    "https://m1.spitogatos.gr/332595366_900x675.jpg",
+    "https://m1.spitogatos.gr/332594106_900x675.jpg",
+    "https://m3.spitogatos.gr/332594219_900x675.jpg",
+    "https://m3.spitogatos.gr/332594099_900x675.jpg",
+    "https://m3.spitogatos.gr/344207966_900x675.jpg",
+    "https://m3.spitogatos.gr/332669900_900x675.jpg",
+    "https://m3.spitogatos.gr/332593931_900x675.jpg"
+   ],
+   "title": {
+    "bg": "Цяла сграда с 3 апартамента и открита гледка към морето, Агиос Георгиос",
+    "ru": "Целое здание из 3 квартир с открытым видом на море, Агиос Георгиос",
+    "en": "Whole building with three flats and open sea views, Agios Georgios",
+    "de": "Ganzes Haus mit drei Wohnungen und freiem Meerblick, Agios Georgios",
+    "es": "Edificio completo con tres pisos y vistas abiertas al mar, Agios Georgios"
+   },
+   "desc": {
+    "bg": "Гледка към морето и три апартамента на цената на един: продава се цялата триетажна сграда от 190 м². На всеки етаж апартамент със стая, хол, кухня и баня, плюс склад на партера; изложение югоизток. Сградата е от 1970 г. и има нужда от ремонт, а след него е отлична за отдаване под наем.",
+    "ru": "Вид на море и три квартиры по цене одной: продаётся целое трёхэтажное здание 190 м². На каждом этаже квартира с комнатой, гостиной, кухней и ванной, плюс кладовая на первом этаже; окна на юго-восток. Дом 1970 года, нужен ремонт, после которого он отлично подойдёт под аренду.",
+    "en": "Sea views and three flats for the price of one: the entire three-storey building of 190 m² is for sale. Each floor has a flat with a bedroom, living room, kitchen and bathroom, plus a ground-floor storeroom; south-east facing. Built in 1970 and in need of renovation, after which it is ideal for rentals.",
+    "de": "Meerblick und drei Wohnungen zum Preis von einer: Verkauft wird das gesamte dreistöckige Haus mit 190 m². Auf jeder Etage eine Wohnung mit Zimmer, Wohnzimmer, Küche und Bad, dazu ein Abstellraum im Erdgeschoss; Südost-Ausrichtung. Baujahr 1970, renovierungsbedürftig – danach ideal zur Vermietung.",
+    "es": "Vistas al mar y tres pisos al precio de uno: se vende el edificio completo de tres plantas y 190 m². En cada planta, un piso con habitación, salón, cocina y baño, además de un trastero en la planta baja; orientación sureste. Construido en 1970 y para reformar; después, ideal para alquilar."
+   },
+   "feat": {
+    "bg": [
+     "Цяла сграда",
+     "3 апартамента",
+     "Открита гледка към морето",
+     "За инвестиция"
+    ],
+    "ru": [
+     "Целое здание",
+     "3 квартиры",
+     "Открытый вид на море",
+     "Под инвестицию"
+    ],
+    "en": [
+     "Entire building",
+     "3 flats",
+     "Open sea views",
+     "Investment"
+    ],
+    "de": [
+     "Ganzes Gebäude",
+     "3 Wohnungen",
+     "Freier Meerblick",
+     "Investition"
+    ],
+    "es": [
+     "Edificio completo",
+     "3 pisos",
+     "Vistas abiertas al mar",
+     "Inversión"
+    ]
+   }
+  },
+  {
+   "code": 19051944,
+   "slug": "kavala-house-19051944",
+   "country": "gr",
+   "source": "katoiko",
+   "type": "house",
+   "deal": "sale",
+   "status": "sale",
+   "featured": true,
+   "place": "kavala",
+   "district": {
+    "bg": "Пентакосия",
+    "ru": "Пентакосия",
+    "en": "Pentakosia",
+    "de": "Pentakosia",
+    "es": "Pentakosia"
+   },
+   "price": 85000,
+   "area": 120,
+   "plot": 150,
+   "bedrooms": 2,
+   "bathrooms": 1,
+   "floor": "0",
+   "sea": null,
+   "furnished": null,
+   "lift": null,
+   "url": "https://www.katoiko.gr/bg/propertyDetails/19051944",
+   "photos": [
+    "https://m1.spitogatos.gr/340389300_900x675.jpg",
+    "https://m1.spitogatos.gr/340389183_900x675.jpg",
+    "https://m3.spitogatos.gr/340389185_900x675.jpg",
+    "https://m1.spitogatos.gr/340389186_900x675.jpg",
+    "https://m3.spitogatos.gr/340389188_900x675.jpg",
+    "https://m3.spitogatos.gr/340389119_900x675.jpg",
+    "https://m2.spitogatos.gr/340389130_900x675.jpg",
+    "https://m1.spitogatos.gr/340389192_900x675.jpg",
+    "https://m2.spitogatos.gr/340389190_900x675.jpg",
+    "https://m3.spitogatos.gr/340389194_900x675.jpg",
+    "https://m1.spitogatos.gr/340389306_900x675.jpg",
+    "https://m2.spitogatos.gr/340389268_900x675.jpg"
+   ],
+   "title": {
+    "bg": "Двуетажна къща с възможност за втори апартамент, Пентакосия",
+    "ru": "Двухэтажный дом с возможностью второй квартиры, Пентакосия",
+    "en": "Two-storey house with room for a second flat, Pentakosia",
+    "de": "Zweistöckiges Haus mit Option auf eine zweite Wohnung, Pentakosia",
+    "es": "Casa de dos plantas con opción a un segundo piso, Pentakosia"
+   },
+   "desc": {
+    "bg": "Собствена къща на тихо място на цена под 100 000 €: 120 м² на два етажа по 60 м² върху парцел от 150 м². Горе две спални, хол и баня, а долният етаж може да стане втори апартамент за наем. Има тераса и климатик; нужен е цялостен ремонт.",
+    "ru": "Свой дом в тихом месте дешевле 100 000 €: 120 м² на двух этажах по 60 м², участок 150 м². Наверху две спальни, гостиная и ванная, а нижний этаж можно превратить во вторую квартиру под аренду. Есть терраса и кондиционер; нужен капитальный ремонт.",
+    "en": "Your own house in a quiet spot for under €100,000: 120 m² over two 60 m² floors on a 150 m² plot. Upstairs two bedrooms, living room and bathroom; the lower floor can become a second flat to rent out. Terrace and air conditioning; full renovation needed.",
+    "de": "Ein eigenes Haus in ruhiger Lage für unter 100.000 €: 120 m² auf zwei Etagen à 60 m², Grundstück 150 m². Oben zwei Schlafzimmer, Wohnzimmer und Bad; das Untergeschoss kann zur zweiten Mietwohnung werden. Terrasse und Klimaanlage; komplett renovierungsbedürftig.",
+    "es": "Una casa propia en zona tranquila por menos de 100.000 €: 120 m² en dos plantas de 60 m² sobre parcela de 150 m². Arriba, dos dormitorios, salón y baño; la planta baja puede convertirse en un segundo piso de alquiler. Terraza y aire acondicionado; necesita reforma integral."
+   },
+   "feat": {
+    "bg": [
+     "Самостоятелна къща",
+     "Парцел 150 м²",
+     "Възможен втори апартамент",
+     "За ремонт"
+    ],
+    "ru": [
+     "Отдельный дом",
+     "Участок 150 м²",
+     "Можно сделать вторую квартиру",
+     "Под ремонт"
+    ],
+    "en": [
+     "Detached house",
+     "150 m² plot",
+     "Second flat possible",
+     "To renovate"
+    ],
+    "de": [
+     "Freistehendes Haus",
+     "150 m² Grundstück",
+     "Zweite Wohnung möglich",
+     "Zu renovieren"
+    ],
+    "es": [
+     "Casa independiente",
+     "Parcela de 150 m²",
+     "Posible segundo piso",
+     "Para reformar"
+    ]
+   }
+  },
+  {
+   "code": 18510306,
+   "slug": "kavala-apt-18510306",
+   "country": "gr",
+   "source": "katoiko",
+   "type": "apt",
+   "deal": "sale",
+   "status": "sale",
+   "featured": true,
+   "place": "kavala",
+   "district": {
+    "bg": "Тимиос Ставрос",
+    "ru": "Тимиос Ставрос",
+    "en": "Timios Stavros",
+    "de": "Timios Stavros",
+    "es": "Timios Stavros"
+   },
+   "price": 180000,
+   "area": 60,
+   "plot": null,
+   "bedrooms": 2,
+   "bathrooms": 1,
+   "floor": "2",
+   "sea": null,
+   "furnished": true,
+   "lift": true,
+   "url": "https://www.katoiko.gr/bg/propertyDetails/18510306",
+   "photos": [
+    "https://m3.spitogatos.gr/332255234_900x675.jpg",
+    "https://m2.spitogatos.gr/332255236_900x675.jpg",
+    "https://m3.spitogatos.gr/332255237_900x675.jpg",
+    "https://m1.spitogatos.gr/332255628_900x675.jpg",
+    "https://m3.spitogatos.gr/332255624_900x675.jpg",
+    "https://m1.spitogatos.gr/332255625_900x675.jpg",
+    "https://m2.spitogatos.gr/332255266_900x675.jpg",
+    "https://m3.spitogatos.gr/332255267_900x675.jpg",
+    "https://m1.spitogatos.gr/332255268_900x675.jpg",
+    "https://m1.spitogatos.gr/332255538_900x675.jpg",
+    "https://m1.spitogatos.gr/332255541_900x675.jpg",
+    "https://m1.spitogatos.gr/332255547_900x675.jpg"
+   ],
+   "title": {
+    "bg": "Луксозно реновиран обзаведен апартамент, Тимиос Ставрос",
+    "ru": "Квартира с роскошным ремонтом и мебелью, Тимиос Ставрос",
+    "en": "Luxury-renovated furnished flat, Timios Stavros",
+    "de": "Luxuriös renovierte, möblierte Wohnung, Timios Stavros",
+    "es": "Piso amueblado con reforma de lujo, Timios Stavros"
+   },
+   "desc": {
+    "bg": "Нов живот без нито един ремонт: апартамент на втори етаж с току-що завършен луксозен ремонт и отворен план. Две спални, хол с модерна кухня и баня, продава се обзаведен. Изолирани стени и покрив, три климатика, слънчев бойлер, балкони наоколо и асансьор.",
+    "ru": "Новая жизнь без единого ремонта: квартира на втором этаже, только что сделан роскошный ремонт, открытая планировка. Две спальни, гостиная с современной кухней и ванная, продаётся с мебелью. Утеплённые стены и крыша, три кондиционера, солнечный бойлер, балконы по периметру и лифт.",
+    "en": "A fresh start with nothing left to fix: a second-floor flat with a just-completed luxury renovation and open-plan layout. Two bedrooms, living room with modern kitchen and bathroom, sold furnished. Insulated walls and roof, three air conditioners, solar water heater, balconies all round and a lift.",
+    "de": "Neu anfangen, ohne etwas renovieren zu müssen: Wohnung im zweiten Stock mit gerade abgeschlossener Luxusrenovierung und offenem Grundriss. Zwei Schlafzimmer, Wohnzimmer mit moderner Küche und Bad, möbliert. Gedämmte Wände und Dach, drei Klimaanlagen, Solar-Warmwasser, umlaufende Balkone und Aufzug.",
+    "es": "Empezar de nuevo sin nada que arreglar: piso en segunda planta con una reforma de lujo recién terminada y planta abierta. Dos dormitorios, salón con cocina moderna y baño, se vende amueblado. Paredes y tejado aislados, tres aires acondicionados, termo solar, balcones perimetrales y ascensor."
+   },
+   "feat": {
+    "bg": [
+     "Луксозен ремонт 2025 г.",
+     "Обзаведен",
+     "Топлоизолация",
+     "Асансьор"
+    ],
+    "ru": [
+     "Роскошный ремонт 2025 года",
+     "С мебелью",
+     "Утепление",
+     "Лифт"
+    ],
+    "en": [
+     "Luxury renovation 2025",
+     "Furnished",
+     "Fully insulated",
+     "Lift"
+    ],
+    "de": [
+     "Luxusrenovierung 2025",
+     "Möbliert",
+     "Wärmedämmung",
+     "Aufzug"
+    ],
+    "es": [
+     "Reforma de lujo 2025",
+     "Amueblado",
+     "Aislamiento térmico",
+     "Ascensor"
+    ]
+   }
   }
  ]
 }
