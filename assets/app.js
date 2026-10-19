@@ -8,7 +8,7 @@ const CONTACTS = {
   whatsapp: '+359882593077',
   viber: '+359882593077',
   telegram: 'venera_kh_happy', // имя в Telegram без @
-  email: 'hasanova@imotipremier.com'
+  email: 'khassanovav@gmail.com'
 };
 /* ===== GOOGLE ANALYTICS — вставьте ID вида 'G-XXXXXXXXXX' ===== */
 const GA_ID = 'G-73W576V144';
