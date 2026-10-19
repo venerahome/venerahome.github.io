@@ -924,11 +924,11 @@
     "es": "Casa grande con jardín de 800 m² en Kiria"
    },
    "desc": {
-    "ru": "Простор для большой семьи: два этажа по 120 м², на каждом гостиная, кухня, две спальни и балкон. Летняя кухня, камин и сад 800 м² — жизнь на природе, а до моря всего 20 км. Дом с мебелью, можно въезжать.",
-    "bg": "Простор за голямо семейство: два етажа по 120 м², на всеки дневна, кухня, две спални и балкон. Лятна кухня, камина и двор от 800 м² — живот сред природата, а морето е само на 20 км. Къщата е обзаведена, готова за нанасяне.",
-    "en": "Room for a big family: two floors of 120 m², each with a living room, kitchen, two bedrooms and a balcony. A summer kitchen, fireplace and an 800 m² garden — country living just 20 km from the sea. Furnished and ready to move in.",
-    "de": "Platz für eine große Familie: zwei Etagen à 120 m², jede mit Wohnzimmer, Küche, zwei Schlafzimmern und Balkon. Sommerküche, Kamin und 800 m² Garten — Leben im Grünen, nur 20 km vom Meer. Möbliert und bezugsfertig.",
-    "es": "Espacio para una familia grande: dos plantas de 120 m², cada una con salón, cocina, dos dormitorios y balcón. Cocina de verano, chimenea y jardín de 800 m²: vida en el campo a solo 20 km del mar. Amueblada y lista para entrar."
+    "ru": "Простор для большой семьи: два этажа по 120 м², на каждом гостиная, кухня, две спальни и балкон. Летняя кухня, камин и сад 800 м² — жизнь на природе, а до моря всего 20 км. Дом с мебелью, можно въезжать. Код: ЕГ",
+    "bg": "Простор за голямо семейство: два етажа по 120 м², на всеки дневна, кухня, две спални и балкон. Лятна кухня, камина и двор от 800 м² — живот сред природата, а морето е само на 20 км. Къщата е обзаведена, готова за нанасяне. Код: ЕГ",
+    "en": "Room for a big family: two floors of 120 m², each with a living room, kitchen, two bedrooms and a balcony. A summer kitchen, fireplace and an 800 m² garden — country living just 20 km from the sea. Furnished and ready to move in. Code: ЕГ",
+    "de": "Platz für eine große Familie: zwei Etagen à 120 m², jede mit Wohnzimmer, Küche, zwei Schlafzimmern und Balkon. Sommerküche, Kamin und 800 m² Garten — Leben im Grünen, nur 20 km vom Meer. Möbliert und bezugsfertig. Code: ЕГ",
+    "es": "Espacio para una familia grande: dos plantas de 120 m², cada una con salón, cocina, dos dormitorios y balcón. Cocina de verano, chimenea y jardín de 800 m²: vida en el campo a solo 20 km del mar. Amueblada y lista para entrar. Código: ЕГ"
    },
    "feat": {
     "ru": [
@@ -972,7 +972,8 @@
     "/assets/media/395919-1.mp4",
     "/assets/media/395919-2.mp4",
     "/assets/media/395919-3.mp4"
-   ]
+   ],
+   "keep": true
   },
   {
    "code": 397508,
