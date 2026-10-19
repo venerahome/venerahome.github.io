@@ -45,7 +45,6 @@
    "furnished": null,
    "lift": null,
    "url": null,
-   "video": "/assets/media/kiria-eg.mp4",
    "photos": [
     "/assets/media/kiria-eg-1.jpg",
     "/assets/media/kiria-eg-2.jpg",
@@ -97,7 +96,10 @@
      "Posible segundo piso",
      "~15 km de Drama, ~25 km de Kavala"
     ]
-   }
+   },
+   "videos": [
+    "/assets/media/kiria-eg.mp4"
+   ]
   },
   {
    "code": 900002,
@@ -958,7 +960,12 @@
      "Aparcamiento"
     ]
    },
-   "country": "gr"
+   "country": "gr",
+   "videos": [
+    "/assets/media/395919-1.mp4",
+    "/assets/media/395919-2.mp4",
+    "/assets/media/395919-3.mp4"
+   ]
   },
   {
    "code": 397508,
