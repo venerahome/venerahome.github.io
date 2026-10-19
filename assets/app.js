@@ -194,7 +194,7 @@ window.addEventListener('popstate', () => {
 
 /* ===== Заявка на продажу ===== */
 function sellForm() { track('sell_form_open'); $('sellErr').hidden = true; $('sellOk').hidden = true; $('sellDialog').showModal(); }
-const LEADS_EMAIL = 'khassanovapremier@gmail.com'; // куда приходят заявки
+const LEADS_EMAIL = 'khassanovav@gmail.com'; // куда приходят заявки
 function sellLines() {
   const v = id => $(id).value.trim();
   if (!v('s-name') || !v('s-phone')) { $('sellErr').textContent = T.sErr; $('sellErr').hidden = false; (v('s-name') ? $('s-phone') : $('s-name')).focus(); return null; }
