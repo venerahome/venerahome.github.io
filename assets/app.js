@@ -20,7 +20,7 @@ const track = (name, params) => { try { if (window.gtag) gtag('event', name, par
 const LANGS = ['bg', 'ru', 'en', 'de', 'es'];
 const WHATSAPP = CONTACTS.whatsapp.replace(/\D/g, '');
 const fmtPhone = n => n.replace(/^\+359(\d{3})(\d{3})(\d{3})$/, '+359 $1 $2 $3');
-const D = window.LISTINGS_DATA || {listings: [], places: {}};
+let D = window.LISTINGS_DATA || {listings: [], places: {}};
 const $ = id => document.getElementById(id);
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'}[c]));
 const store = {get(k, d) { try { return JSON.parse(localStorage.getItem(k)) ?? d; } catch (e) { return d; } }, set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} }};
@@ -234,10 +234,20 @@ $('contactList').addEventListener('click', e => { const a = e.target.closest('a'
 document.addEventListener('error', e => { if (e.target.tagName === 'IMG') e.target.style.visibility = 'hidden'; }, true);
 
 buildItems(); applyTexts(); render(); langPath();
-if (location.hash.startsWith('#object-') && byId(+location.hash.slice(8))) {
+/* Открыть объект из ссылки #object-ID. Если объекта нет в закэшированном списке — подгрузить свежий список и открыть */
+function openFromHash() {
   const initialId = +location.hash.slice(8);
   history.replaceState(null, '', location.pathname + location.search);
   openItem(initialId, null);
+}
+if (location.hash.startsWith('#object-')) {
+  if (byId(+location.hash.slice(8))) openFromHash();
+  else {
+    const sc = document.createElement('script');
+    sc.src = new URL('/assets/listings.js?t=' + Date.now(), location.href).href;
+    sc.onload = () => { D = window.LISTINGS_DATA; buildItems(); applyTexts(); render(); if (byId(+location.hash.slice(8))) openFromHash(); };
+    document.head.append(sc);
+  }
 }
 
 /* ===== Заявка из окна контактов (просмотр / вопрос) → на почту ===== */
