@@ -399,6 +399,77 @@
    }
   },
   {
+   "code": 900006,
+   "slug": "kiria-house-900006",
+   "country": "gr",
+   "source": "veni",
+   "type": "house",
+   "deal": "sale",
+   "status": "sale",
+   "featured": true,
+   "place": "kiria",
+   "district": null,
+   "price": 100000,
+   "area": 85,
+   "plot": 500,
+   "bedrooms": null,
+   "bathrooms": null,
+   "floor": null,
+   "sea": null,
+   "furnished": null,
+   "lift": null,
+   "url": null,
+   "photos": [
+    "/assets/media/kiria-eg4.jpg"
+   ],
+   "title": {
+    "bg": "Нова къща 85 м² с чисти документи, Кирия",
+    "ru": "Новый дом 85 м² с чистыми документами, Кирия",
+    "en": "New 85 m² house with clean title, Kiria",
+    "de": "Neues 85 m² Haus mit sauberen Papieren, Kiria",
+    "es": "Casa nueva de 85 m² con papeles en regla, Kiria"
+   },
+   "desc": {
+    "bg": "Нов дом без грижи за ремонт: къща от около 85 м² върху парцел от 500 м² в тихото село Кирия, на около 15 км от Драма и 25 км от Кавала. Има отопление и соларен панел, документите са чисти — готова за живот и сигурна покупка. Снимки и оглед — при запитване. Код: ЕГ",
+    "ru": "Новый дом без забот о ремонте: около 85 м² на участке 500 м² в тихой деревне Кирия, примерно в 15 км от Драмы и в 25 км от Кавалы. Есть отопление и солнечная батарея, документы чистые — готов для жизни и надёжная покупка. Фото и показ — по запросу. Код: ЕГ",
+    "en": "A new home with no renovation worries: about 85 m² on a 500 m² plot in the quiet village of Kiria, about 15 km from Drama and 25 km from Kavala. Heating and a solar panel are in place and the title is clean — ready to live in and a safe purchase. Photos and viewings on request. Code: ЕГ",
+    "de": "Ein neues Haus ohne Renovierungssorgen: ca. 85 m² auf 500 m² Grundstück im ruhigen Dorf Kiria, ca. 15 km von Drama und 25 km von Kavala. Heizung und Solaranlage vorhanden, saubere Papiere – bezugsfertig und ein sicherer Kauf. Fotos und Besichtigung auf Anfrage. Code: ЕГ",
+    "es": "Una casa nueva sin preocuparse por reformas: unos 85 m² en parcela de 500 m² en el tranquilo pueblo de Kiria, a unos 15 km de Drama y 25 km de Kavala. Tiene calefacción y panel solar, y los papeles están en regla: lista para vivir y una compra segura. Fotos y visitas a petición. Código: ЕГ"
+   },
+   "feat": {
+    "bg": [
+     "Нова къща",
+     "Парцел 500 м²",
+     "Отопление и соларен панел",
+     "Чисти документи"
+    ],
+    "ru": [
+     "Новый дом",
+     "Участок 500 м²",
+     "Отопление и солнечная батарея",
+     "Чистые документы"
+    ],
+    "en": [
+     "New house",
+     "500 m² plot",
+     "Heating and solar panel",
+     "Clean title"
+    ],
+    "de": [
+     "Neubau",
+     "500 m² Grundstück",
+     "Heizung und Solaranlage",
+     "Saubere Papiere"
+    ],
+    "es": [
+     "Casa nueva",
+     "Parcela de 500 m²",
+     "Calefacción y panel solar",
+     "Papeles en regla"
+    ]
+   }
+  },
+  {
    "code": 397724,
    "slug": "kavala-apartment-397724",
    "type": "apt",
