@@ -257,6 +257,148 @@
    }
   },
   {
+   "country": "gr",
+   "source": "veni",
+   "deal": "sale",
+   "status": "sale",
+   "featured": true,
+   "place": "kiria",
+   "district": null,
+   "bathrooms": null,
+   "floor": null,
+   "sea": null,
+   "furnished": null,
+   "lift": null,
+   "url": null,
+   "code": 900004,
+   "slug": "kiria-house-900004",
+   "type": "house",
+   "price": 35000,
+   "area": 50,
+   "plot": 200,
+   "bedrooms": null,
+   "photos": [
+    "/assets/media/kiria-eg4.jpg"
+   ],
+   "title": {
+    "bg": "Жилищна къща с каменна лятна кухня и градина, Кирия",
+    "ru": "Жилой дом с каменной кухней и садом, Кирия",
+    "en": "Lived-in house with a stone kitchen and garden, Kiria",
+    "de": "Bewohnbares Haus mit Steinküche und Garten, Kiria",
+    "es": "Casa habitable con cocina de piedra y jardín, Kiria"
+   },
+   "desc": {
+    "bg": "Къща в Гърция, в която може да се живее веднага, за 35 000 €: стара, но жилищна къща от около 50 м² с отделна каменна кухня и малка градина, на парцел от около 200 м². Тихо село на около 15 км от Драма и 25 км от Кавала. Съседният парцел от 1500 м² на същия собственик също се продава. Снимки и оглед — при запитване. Код: ЕГ",
+    "ru": "Дом в Греции, где можно жить сразу, за 35 000 €: старенький, но жилой дом около 50 м² с отдельной каменной кухней и небольшим садом, участок около 200 м². Тихая деревня примерно в 15 км от Драмы и в 25 км от Кавалы. Соседний участок 1500 м² у того же хозяина тоже продаётся. Фото и показ — по запросу. Код: ЕГ",
+    "en": "A home in Greece you can live in right away, for €35,000: an older but lived-in house of about 50 m² with a separate stone kitchen and a small garden, on a plot of about 200 m². A quiet village about 15 km from Drama and 25 km from Kavala. The neighbouring 1,500 m² plot from the same owner is also for sale. Photos and viewings on request. Code: ЕГ",
+    "de": "Ein Zuhause in Griechenland, sofort bewohnbar, für 35.000 €: älteres, aber bewohnbares Haus mit ca. 50 m², separater Steinküche und kleinem Garten, Grundstück ca. 200 m². Ruhiges Dorf ca. 15 km von Drama und 25 km von Kavala. Das Nachbargrundstück mit 1.500 m² desselben Eigentümers steht ebenfalls zum Verkauf. Fotos und Besichtigung auf Anfrage. Code: ЕГ",
+    "es": "Una casa en Grecia para vivir desde ya, por 35.000 €: casa antigua pero habitable de unos 50 m² con cocina de piedra independiente y un pequeño jardín, en parcela de unos 200 m². Pueblo tranquilo a unos 15 km de Drama y 25 km de Kavala. La parcela vecina de 1.500 m² del mismo dueño también está en venta. Fotos y visitas a petición. Código: ЕГ"
+   },
+   "feat": {
+    "bg": [
+     "Цена 35 000 €",
+     "Жилищна",
+     "Каменна кухня",
+     "Малка градина"
+    ],
+    "ru": [
+     "Цена 35 000 €",
+     "Жилой",
+     "Каменная кухня",
+     "Небольшой сад"
+    ],
+    "en": [
+     "Price €35,000",
+     "Habitable",
+     "Stone kitchen",
+     "Small garden"
+    ],
+    "de": [
+     "Preis 35.000 €",
+     "Bewohnbar",
+     "Steinküche",
+     "Kleiner Garten"
+    ],
+    "es": [
+     "Precio 35.000 €",
+     "Habitable",
+     "Cocina de piedra",
+     "Pequeño jardín"
+    ]
+   }
+  },
+  {
+   "country": "gr",
+   "source": "veni",
+   "deal": "sale",
+   "status": "sale",
+   "featured": true,
+   "place": "kiria",
+   "district": null,
+   "bathrooms": null,
+   "floor": null,
+   "sea": null,
+   "furnished": null,
+   "lift": null,
+   "url": null,
+   "code": 900005,
+   "slug": "kiria-plot-900005",
+   "type": "plot",
+   "price": 18000,
+   "area": null,
+   "plot": 1500,
+   "bedrooms": null,
+   "photos": [
+    "/assets/media/kiria-eg5.jpg"
+   ],
+   "title": {
+    "bg": "Парцел 1500 м² в Кирия за 18 000 €",
+    "ru": "Участок 1500 м² в Кирии за 18 000 €",
+    "en": "1,500 m² plot in Kiria for €18,000",
+    "de": "1.500 m² Grundstück in Kiria für 18.000 €",
+    "es": "Parcela de 1.500 m² en Kiria por 18.000 €"
+   },
+   "desc": {
+    "bg": "Много земя на ниска цена: парцел от 1500 м² в тихото село Кирия, на около 15 км от Драма и 25 км от Кавала — за градина, стопанство или бъдещ дом. Възможен е пазарлък. Собственикът продава и съседната жилищна къща с каменна кухня — заедно се получава цяло имение. Снимки и оглед — при запитване. Код: ЕГ",
+    "ru": "Много земли по низкой цене: участок 1500 м² в тихой деревне Кирия, примерно в 15 км от Драмы и в 25 км от Кавалы — под сад, хозяйство или будущий дом. Возможен торг. Хозяин продаёт и соседний жилой дом с каменной кухней — вместе получается целая усадьба. Фото и показ — по запросу. Код: ЕГ",
+    "en": "Lots of land for little money: a 1,500 m² plot in the quiet village of Kiria, about 15 km from Drama and 25 km from Kavala — for a garden, smallholding or a future home. The price is negotiable. The owner is also selling the neighbouring lived-in house with a stone kitchen — together they make a whole estate. Photos and viewings on request. Code: ЕГ",
+    "de": "Viel Land für wenig Geld: 1.500 m² Grundstück im ruhigen Dorf Kiria, ca. 15 km von Drama und 25 km von Kavala – für Garten, Kleinlandwirtschaft oder ein künftiges Haus. Preis verhandelbar. Der Eigentümer verkauft auch das bewohnbare Nachbarhaus mit Steinküche – zusammen ein ganzes Anwesen. Fotos und Besichtigung auf Anfrage. Code: ЕГ",
+    "es": "Mucho terreno a buen precio: parcela de 1.500 m² en el tranquilo pueblo de Kiria, a unos 15 km de Drama y 25 km de Kavala, para huerto, pequeña finca o una futura casa. Precio negociable. El dueño vende también la casa habitable vecina con cocina de piedra: juntas forman toda una finca. Fotos y visitas a petición. Código: ЕГ"
+   },
+   "feat": {
+    "bg": [
+     "1500 м²",
+     "Възможен пазарлък",
+     "До къща за продажба",
+     "~15 км от Драма"
+    ],
+    "ru": [
+     "1500 м²",
+     "Возможен торг",
+     "Рядом дом на продажу",
+     "~15 км до Драмы"
+    ],
+    "en": [
+     "1,500 m²",
+     "Negotiable",
+     "Next to a house for sale",
+     "~15 km to Drama"
+    ],
+    "de": [
+     "1.500 m²",
+     "Verhandelbar",
+     "Neben Haus zum Verkauf",
+     "~15 km nach Drama"
+    ],
+    "es": [
+     "1.500 m²",
+     "Negociable",
+     "Junto a casa en venta",
+     "~15 km de Drama"
+    ]
+   }
+  },
+  {
    "code": 397724,
    "slug": "kavala-apartment-397724",
    "type": "apt",
