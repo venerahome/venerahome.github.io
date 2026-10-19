@@ -21,6 +21,13 @@
    "en": "Kiria",
    "de": "Kiria",
    "es": "Kiria"
+  },
+  "kallifytos": {
+   "bg": "Калифитос",
+   "ru": "Каллифитос",
+   "en": "Kallifytos",
+   "de": "Kallifytos",
+   "es": "Kallifytos"
   }
  },
  "listings": [
@@ -180,14 +187,14 @@
   },
   {
    "code": 900003,
-   "slug": "kiria-house-900003",
+   "slug": "kallifytos-house-900003",
    "country": "gr",
    "source": "veni",
    "type": "house",
    "deal": "sale",
    "status": "sale",
    "featured": true,
-   "place": "kiria",
+   "place": "kallifytos",
    "district": null,
    "price": 50000,
    "area": 90,
@@ -207,54 +214,54 @@
     "/assets/media/mount-eg3-5.jpg"
    ],
    "title": {
-    "bg": "Къща 90 м² в планината с гледка, на 30 минути от Кавала",
-    "ru": "Дом 90 м² в горах с видом, в 30 минутах от Кавалы",
-    "en": "90 m² mountain house with views, 30 minutes from Kavala",
-    "de": "90 m² Haus in den Bergen mit Aussicht, 30 Minuten von Kavala",
-    "es": "Casa de 90 m² en la montaña con vistas, a 30 minutos de Kavala"
+    "bg": "Къща 90 м² в планината с гледка, Калифитос",
+    "ru": "Дом 90 м² в горах с видом, Каллифитос",
+    "en": "90 m² mountain house with views, Kallifytos",
+    "de": "90 m² Haus in den Bergen mit Aussicht, Kallifytos",
+    "es": "Casa de 90 m² en la montaña con vistas, Kallifytos"
    },
    "desc": {
-    "bg": "Къща в планината за 50 000 €, която почти е готова: 90 м² върху парцел от 500 м², на 30 минути от Кавала, с гледка към гората и планината и сух, чист планински въздух. Къщата е измазана, електрическата инсталация и отоплението са прокарани, има покрита веранда. Остава да се положат плочки и да се поставят 4 прозореца и 2 външни врати — и можете да я довършите по свой вкус. Код: ЕГ",
-    "ru": "Дом в горах за 50 000 €, который почти готов: 90 м² на участке 500 м², в 30 минутах от Кавалы, с видом на лес и горы и сухим, чистым горным воздухом. Дом оштукатурен, проводка и отопление проведены, есть крытая веранда. Осталось положить плитку, поставить 4 окна и 2 входные двери — и закончить его на свой вкус. Код: ЕГ",
-    "en": "A mountain house for €50,000 that is nearly finished: 90 m² on a 500 m² plot, 30 minutes from Kavala, with views of the forest and mountains and dry, clean mountain air. The house is plastered, wiring and heating are installed, and there is a covered veranda. All that is left is to lay tiles and fit 4 windows and 2 outer doors — and finish it to your own taste. Code: ЕГ",
-    "de": "Ein fast fertiges Haus in den Bergen für 50.000 €: 90 m² auf 500 m² Grundstück, 30 Minuten von Kavala, mit Blick auf Wald und Berge und trockener, reiner Bergluft. Das Haus ist verputzt, Elektrik und Heizung sind verlegt, eine überdachte Veranda ist vorhanden. Es fehlen nur noch Fliesen, 4 Fenster und 2 Außentüren – und Sie gestalten es nach Ihrem Geschmack fertig. Code: ЕГ",
-    "es": "Una casa en la montaña por 50.000 € casi terminada: 90 m² en parcela de 500 m², a 30 minutos de Kavala, con vistas al bosque y la montaña y un aire de montaña seco y limpio. La casa está enlucida, con instalación eléctrica y calefacción ya hechas, y tiene un porche cubierto. Solo falta poner el suelo, 4 ventanas y 2 puertas exteriores, y terminarla a su gusto. Código: ЕГ"
+    "bg": "Къща в планината за 50 000 €, която почти е готова: 90 м² върху парцел от 500 м² в красивото планинско село Калифитос — само на 2 км от Драма и на 25 минути от Кавала. Отличен, чист и сух планински климат и гледка към гората и планината. Къщата е измазана, електрическата инсталация и отоплението са прокарани, има покрита веранда. Остава да се положат плочки и да се поставят 4 прозореца и 2 външни врати — и можете да я довършите по свой вкус. Код: ЕГ",
+    "ru": "Дом в горах за 50 000 €, который почти готов: 90 м² на участке 500 м² в красивой горной деревне Каллифитос — всего 2 км от Драмы и 25 минут от Кавалы. Отличный чистый и сухой горный климат, вид на лес и горы. Дом оштукатурен, проводка и отопление проведены, есть крытая веранда. Осталось положить плитку, поставить 4 окна и 2 входные двери — и закончить его на свой вкус. Код: ЕГ",
+    "en": "A mountain house for €50,000 that is nearly finished: 90 m² on a 500 m² plot in the beautiful mountain village of Kallifytos — just 2 km from Drama and 25 minutes from Kavala. An excellent clean, dry mountain climate and views of the forest and mountains. The house is plastered, wiring and heating are installed, and there is a covered veranda. All that is left is to lay tiles and fit 4 windows and 2 outer doors — and finish it to your own taste. Code: ЕГ",
+    "de": "Ein fast fertiges Haus in den Bergen für 50.000 €: 90 m² auf 500 m² Grundstück im schönen Bergdorf Kallifytos – nur 2 km von Drama und 25 Minuten von Kavala. Hervorragendes, reines und trockenes Bergklima, Blick auf Wald und Berge. Das Haus ist verputzt, Elektrik und Heizung sind verlegt, eine überdachte Veranda ist vorhanden. Es fehlen nur noch Fliesen, 4 Fenster und 2 Außentüren – und Sie gestalten es nach Ihrem Geschmack fertig. Code: ЕГ",
+    "es": "Una casa en la montaña por 50.000 € casi terminada: 90 m² en parcela de 500 m² en el precioso pueblo de montaña de Kallifytos, a solo 2 km de Drama y 25 minutos de Kavala. Un clima de montaña excelente, limpio y seco, y vistas al bosque y la montaña. La casa está enlucida, con instalación eléctrica y calefacción ya hechas, y tiene un porche cubierto. Solo falta poner el suelo, 4 ventanas y 2 puertas exteriores, y terminarla a su gusto. Código: ЕГ"
    },
    "feat": {
     "bg": [
+     "2 км от Драма",
+     "25 минути от Кавала",
      "Гледка към планината",
      "Парцел 500 м²",
-     "Ток и отопление прокарани",
-     "30 минути от Кавала",
-     "Покрита веранда"
+     "Ток и отопление прокарани"
     ],
     "ru": [
+     "2 км от Драмы",
+     "25 минут от Кавалы",
      "Вид на горы",
      "Участок 500 м²",
-     "Проводка и отопление проведены",
-     "30 минут от Кавалы",
-     "Крытая веранда"
+     "Проводка и отопление проведены"
     ],
     "en": [
+     "2 km from Drama",
+     "25 minutes from Kavala",
      "Mountain views",
      "500 m² plot",
-     "Wiring and heating installed",
-     "30 minutes from Kavala",
-     "Covered veranda"
+     "Wiring and heating installed"
     ],
     "de": [
+     "2 km von Drama",
+     "25 Minuten von Kavala",
      "Bergblick",
      "500 m² Grundstück",
-     "Elektrik und Heizung verlegt",
-     "30 Minuten von Kavala",
-     "Überdachte Veranda"
+     "Elektrik und Heizung verlegt"
     ],
     "es": [
+     "A 2 km de Drama",
+     "A 25 minutos de Kavala",
      "Vistas a la montaña",
      "Parcela de 500 m²",
-     "Electricidad y calefacción instaladas",
-     "A 30 minutos de Kavala",
-     "Porche cubierto"
+     "Electricidad y calefacción instaladas"
     ]
    }
   },
