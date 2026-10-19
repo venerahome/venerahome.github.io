@@ -43,7 +43,7 @@ function buildItems() {
     const city = pick(D.places[p.place]) || p.place, district = pick(p.district);
     const bits = [district, p.bedrooms ? T.bedrooms(p.bedrooms) : '', p.sea === 0 ? T.seafrontShort : ''].filter(Boolean);
     return {id: p.code, title: pick(p.title), city, place: p.place, district, type: T.types[p.type] || p.type, typeKey: p.type, price: p.price, area: p.area,
-      desc: bits.join(' · '), text: pick(p.desc), feat: pick(p.feat) || [], img: p.photos[0], photos: p.photos,
+      desc: bits.join(' · '), text: pick(p.desc), feat: pick(p.feat) || [], img: p.photos[0], photos: p.photos, video: p.video || '',
       url: p.source === 'katoiko' ? '' : p.url, bedrooms: p.bedrooms, bathrooms: p.bathrooms, floor: p.floor, plot: p.plot, sea: p.sea, furnished: p.furnished, featured: p.featured,
       hay: [p.code, ...Object.values(p.title || {}), ...Object.values(D.places[p.place] || {}), ...Object.values(p.district || {})].join(' ').toLowerCase()};
   });
@@ -94,7 +94,7 @@ function render() {
   else data.sort((a, b) => (b.featured - a.featured) || (b.id - a.id));
   $('count').textContent = (onlyFav ? T.favPrefix : '') + T.count(data.length);
   $('favBtn').textContent = fav.size ? T.navFavN(fav.size) : T.navFav;
-  $('grid').innerHTML = data.map(p => `<article class="card"><div class="picture" role="button" tabindex="0" aria-label="${esc(T.open)}: ${esc(p.title)}" onclick="openItem(${p.id},this)" onkeydown="if(event.key==='Enter')openItem(${p.id},this)"><img loading="lazy" src="${esc(p.img)}" alt="${esc(p.title)}"><span class="tag">${esc(p.type.toUpperCase())}</span><button class="heart ${fav.has(p.id) ? 'on' : ''}" aria-label="${esc(fav.has(p.id) ? T.removeFav : T.addFav)}" aria-pressed="${fav.has(p.id)}" onclick="event.stopPropagation();toggleFav(${p.id})">${fav.has(p.id) ? '♥' : '♡'}</button></div><h3>${esc(p.title)}</h3><div class="row"><span>${esc(p.city)}${p.desc ? ' · ' + esc(p.desc) : ''}</span><span>${p.area ? p.area + ' ' + T.m + '²' : ''}</span></div><div class="price">${money(p.price)}</div><button class="more" onclick="openItem(${p.id},this.closest('.card').querySelector('.picture'))">${esc(T.more)}</button></article>`).join('')
+  $('grid').innerHTML = data.map(p => `<article class="card"><div class="picture" role="button" tabindex="0" aria-label="${esc(T.open)}: ${esc(p.title)}" onclick="openItem(${p.id},this)" onkeydown="if(event.key==='Enter')openItem(${p.id},this)"><img loading="lazy" src="${esc(p.img)}" alt="${esc(p.title)}"><span class="tag">${esc(p.type.toUpperCase())}${p.video ? ' · ▶ ' + esc(T.videoT.toUpperCase()) : ''}</span><button class="heart ${fav.has(p.id) ? 'on' : ''}" aria-label="${esc(fav.has(p.id) ? T.removeFav : T.addFav)}" aria-pressed="${fav.has(p.id)}" onclick="event.stopPropagation();toggleFav(${p.id})">${fav.has(p.id) ? '♥' : '♡'}</button></div><h3>${esc(p.title)}</h3><div class="row"><span>${esc(p.city)}${p.desc ? ' · ' + esc(p.desc) : ''}</span><span>${p.area ? p.area + ' ' + T.m + '²' : ''}</span></div><div class="price">${money(p.price)}</div><button class="more" onclick="openItem(${p.id},this.closest('.card').querySelector('.picture'))">${esc(T.more)}</button></article>`).join('')
     || `<p class="muted">${esc(onlyFav ? T.favEmpty : T.noneFound)}</p>`;
 }
 function toggleFav(id) { track(fav.has(id) ? 'favorite_remove' : 'favorite_add', {object_id: id}); fav.has(id) ? fav.delete(id) : fav.add(id); store.set('veni-fav', [...fav]); render(); }
@@ -164,6 +164,7 @@ function openItem(id, el, push = true) {
   $('detailBody').innerHTML = `<div class="detail-head"><div><span class="small" style="color:var(--gold)">SELECTED BY VENI · № ${p.id}</span><h2>${esc(p.title)}</h2><p class="muted">${esc([p.city, p.district].filter(Boolean).join(', '))}</p></div>
     <aside class="price-box"><span class="small">${esc(T.price)}</span><strong>${money(p.price)}</strong>${p.area ? `<span class="ppm">${money(Math.round(p.price / p.area))} ${esc(T.perM2)}</span>` : ''}<button class="primary" type="button" onclick="contact(${p.id})">${esc(T.wantView)}</button></aside></div>
     <div class="specs">${specs.map(s => `<div><strong>${esc(s[0])}</strong><span>${esc(s[1])}</span></div>`).join('')}</div>
+    ${p.video ? `<h3 style="font:25px Georgia">${esc(T.videoT)}</h3><video class="obj-video" src="${esc(p.video)}" poster="${esc(p.img)}" controls playsinline preload="metadata"></video>` : ''}
     <h3 style="font:25px Georgia">${esc(T.aboutObj)}</h3><p class="muted">${esc(p.text)}</p>
     ${p.feat.length ? `<ul class="feat">${p.feat.map(f => `<li>${esc(f)}</li>`).join('')}</ul>` : ''}
     ${p.photos.length > 1 ? `<h3 style="font:25px Georgia;margin-top:34px">${esc(T.photosN(p.photos.length))}</h3><div class="thumbs">${p.photos.map((ph, i) => `<button class="${i ? '' : 'on'}" onclick="openGallery(${i})" aria-label="${esc(T.photoN(i + 1))}"><img loading="lazy" src="${esc(ph)}" alt=""></button>`).join('')}</div>` : ''}

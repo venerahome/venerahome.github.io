@@ -113,3 +113,5 @@ header .small{font-weight:bold}
 .lead-form .primary{align-self:flex-start;margin-top:10px}
 .or-line{margin:18px 0 0;color:#5f6b64}
 #contactDialog{max-height:92vh;overflow:auto}
+
+.obj-video{display:block;width:100%;max-width:420px;max-height:75vh;margin:6px 0 34px;border-radius:6px;background:#000}

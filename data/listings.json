@@ -25,6 +25,81 @@
  },
  "listings": [
   {
+   "code": 900001,
+   "slug": "kiria-house-900001",
+   "country": "gr",
+   "source": "veni",
+   "type": "house",
+   "deal": "sale",
+   "status": "sale",
+   "featured": true,
+   "place": "kiria",
+   "district": null,
+   "price": 100000,
+   "area": 198,
+   "plot": 500,
+   "bedrooms": 2,
+   "bathrooms": null,
+   "floor": null,
+   "sea": null,
+   "furnished": null,
+   "lift": null,
+   "url": null,
+   "video": "assets/media/kiria-eg.mp4",
+   "photos": [
+    "assets/media/kiria-eg-1.jpg",
+    "assets/media/kiria-eg-2.jpg",
+    "assets/media/kiria-eg-3.jpg",
+    "assets/media/kiria-eg-5.jpg"
+   ],
+   "title": {
+    "bg": "Двуетажна къща с парцел 500 м² в Кирия",
+    "ru": "Двухэтажный дом с участком 500 м² в Кирии",
+    "en": "Two-storey house on a 500 m² plot in Kiria",
+    "de": "Zweistöckiges Haus auf 500 m² Grundstück in Kiria",
+    "es": "Casa de dos plantas en parcela de 500 m² en Kiria"
+   },
+   "desc": {
+    "bg": "Два етажа по 99 м² и място за растеж: горе готово жилище с две спални, хол и кухня, а долният етаж е склад, който може да се довърши като отделен апартамент — за роднини или под наем. Парцел от 500 м² с двор, тихо село на около 15 км от Драма и около 25 км от Кавала. Код: ЕГ",
+    "ru": "Два этажа по 99 м² и запас на будущее: наверху жилой этаж с двумя спальнями, гостиной и кухней, а нижний этаж — склад, который можно достроить в отдельную квартиру для родных или под аренду. Участок 500 м² с двором, тихая деревня примерно в 15 км от Драмы и в 25 км от Кавалы. Код: ЕГ",
+    "en": "Two 99 m² floors with room to grow: upstairs is the living floor with two bedrooms, a living room and kitchen, while the ground floor is storage that can be finished as a separate flat for family or to rent out. A 500 m² plot with a yard, in a quiet village about 15 km from Drama and 25 km from Kavala. Code: ЕГ",
+    "de": "Zwei Etagen à 99 m² mit Reserve für die Zukunft: oben die Wohnetage mit zwei Schlafzimmern, Wohnzimmer und Küche, unten ein Lagergeschoss, das zu einer eigenen Wohnung für Familie oder zur Vermietung ausgebaut werden kann. 500 m² Grundstück mit Hof, ruhiges Dorf ca. 15 km von Drama und 25 km von Kavala. Code: ЕГ",
+    "es": "Dos plantas de 99 m² con margen para crecer: arriba, la planta habitable con dos dormitorios, salón y cocina; abajo, un almacén que puede terminarse como piso independiente para familia o para alquilar. Parcela de 500 m² con patio, en un pueblo tranquilo a unos 15 km de Drama y 25 km de Kavala. Código: ЕГ"
+   },
+   "feat": {
+    "bg": [
+     "Парцел 500 м²",
+     "2 етажа по 99 м²",
+     "Възможен втори апартамент",
+     "~15 км от Драма, ~25 км от Кавала"
+    ],
+    "ru": [
+     "Участок 500 м²",
+     "2 этажа по 99 м²",
+     "Можно сделать вторую квартиру",
+     "~15 км до Драмы, ~25 км до Кавалы"
+    ],
+    "en": [
+     "500 m² plot",
+     "2 floors of 99 m²",
+     "Second flat possible",
+     "~15 km to Drama, ~25 km to Kavala"
+    ],
+    "de": [
+     "500 m² Grundstück",
+     "2 Etagen à 99 m²",
+     "Zweite Wohnung möglich",
+     "~15 km nach Drama, ~25 km nach Kavala"
+    ],
+    "es": [
+     "Parcela de 500 m²",
+     "2 plantas de 99 m²",
+     "Posible segundo piso",
+     "~15 km de Drama, ~25 km de Kavala"
+    ]
+   }
+  },
+  {
    "code": 397724,
    "slug": "kavala-apartment-397724",
    "type": "apt",
