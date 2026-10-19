@@ -45,12 +45,12 @@
    "furnished": null,
    "lift": null,
    "url": null,
-   "video": "assets/media/kiria-eg.mp4",
+   "video": "/assets/media/kiria-eg.mp4",
    "photos": [
-    "assets/media/kiria-eg-1.jpg",
-    "assets/media/kiria-eg-2.jpg",
-    "assets/media/kiria-eg-3.jpg",
-    "assets/media/kiria-eg-5.jpg"
+    "/assets/media/kiria-eg-1.jpg",
+    "/assets/media/kiria-eg-2.jpg",
+    "/assets/media/kiria-eg-3.jpg",
+    "/assets/media/kiria-eg-5.jpg"
    ],
    "title": {
     "bg": "Двуетажна къща с парцел 500 м² в Кирия",
