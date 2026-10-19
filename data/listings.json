@@ -100,6 +100,83 @@
    }
   },
   {
+   "code": 900002,
+   "slug": "kiria-house-900002",
+   "country": "gr",
+   "source": "veni",
+   "type": "house",
+   "deal": "sale",
+   "status": "sale",
+   "featured": true,
+   "place": "kiria",
+   "district": null,
+   "price": 25000,
+   "area": 40,
+   "plot": null,
+   "bedrooms": 1,
+   "bathrooms": 1,
+   "floor": null,
+   "sea": null,
+   "furnished": null,
+   "lift": null,
+   "url": null,
+   "photos": [
+    "/assets/media/kiria-eg2-1.jpg",
+    "/assets/media/kiria-eg2-2.jpg"
+   ],
+   "title": {
+    "bg": "Нова къщичка с готови документи за 25 000 €, Кирия",
+    "ru": "Новый домик с готовыми документами за 25 000 €, Кирия",
+    "en": "New cottage with documents ready for €25,000, Kiria",
+    "de": "Neues Häuschen mit fertigen Papieren für 25.000 €, Kiria",
+    "es": "Casita nueva con papeles en regla por 25.000 €, Kiria"
+   },
+   "desc": {
+    "bg": "Собствено място в Гърция с прекрасна гледка за 25 000 €: наскоро построена къщичка от около 40 м² върху парцел от 400–500 м². Антре, спалня, тоалетна, душ и килер под общ покрив — килерът лесно става втора спалня. Документите са готови, а на парцела е разрешено да се построят още няколко къщи. Тихо село на около 15 км от Драма и 25 км от Кавала. Код: ЕГ",
+    "ru": "Своё место в Греции с прекрасным видом за 25 000 €: недавно построенный домик около 40 м² на участке 400–500 м². Прихожая, спальня, туалет, душ и кладовая под общей крышей — из кладовой легко сделать вторую спальню. Документы готовы, а на участке разрешено построить ещё несколько домов. Тихая деревня примерно в 15 км от Драмы и в 25 км от Кавалы. Код: ЕГ",
+    "en": "Your own place in Greece with a lovely view for €25,000: a recently built cottage of about 40 m² on a 400–500 m² plot. Entrance hall, bedroom, WC, shower and storeroom under one roof — the storeroom can easily become a second bedroom. The documents are ready, and the plot allows several more houses to be built. A quiet village about 15 km from Drama and 25 km from Kavala. Code: ЕГ",
+    "de": "Ein eigener Platz in Griechenland mit herrlicher Aussicht für 25.000 €: kürzlich gebautes Häuschen mit ca. 40 m² auf 400–500 m² Grundstück. Diele, Schlafzimmer, WC, Dusche und Abstellraum unter einem Dach – der Abstellraum wird leicht zum zweiten Schlafzimmer. Die Papiere sind fertig, und auf dem Grundstück dürfen weitere Häuser gebaut werden. Ruhiges Dorf ca. 15 km von Drama und 25 km von Kavala. Code: ЕГ",
+    "es": "Su propio rincón en Grecia con unas vistas preciosas por 25.000 €: casita de construcción reciente de unos 40 m² en parcela de 400–500 m². Recibidor, dormitorio, aseo, ducha y trastero bajo un mismo tejado; el trastero puede convertirse fácilmente en un segundo dormitorio. Los papeles están en regla y en la parcela se pueden construir varias casas más. Pueblo tranquilo a unos 15 km de Drama y 25 km de Kavala. Código: ЕГ"
+   },
+   "feat": {
+    "bg": [
+     "Цена 25 000 €",
+     "Нова къщичка",
+     "Готови документи",
+     "Може да се строят още къщи",
+     "Прекрасна гледка"
+    ],
+    "ru": [
+     "Цена 25 000 €",
+     "Новый домик",
+     "Документы готовы",
+     "Можно строить ещё дома",
+     "Прекрасный вид"
+    ],
+    "en": [
+     "Price €25,000",
+     "Newly built",
+     "Documents ready",
+     "More houses can be built",
+     "Lovely view"
+    ],
+    "de": [
+     "Preis 25.000 €",
+     "Neubau",
+     "Papiere fertig",
+     "Weitere Häuser baubar",
+     "Herrliche Aussicht"
+    ],
+    "es": [
+     "Precio 25.000 €",
+     "Obra reciente",
+     "Papeles en regla",
+     "Se pueden construir más casas",
+     "Vistas preciosas"
+    ]
+   }
+  },
+  {
    "code": 397724,
    "slug": "kavala-apartment-397724",
    "type": "apt",
