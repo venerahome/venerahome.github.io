@@ -10,7 +10,8 @@ const CONTACTS = {
   telegram: 'venera_kh_happy', // имя в Telegram без @
   email: 'khassanovav@gmail.com',
   tgChannel: 'home_greece',   // Telegram-канал без @
-  youtube: '@venera_kh_happy' // YouTube-канал
+  youtube: '@venera_kh_happy', // YouTube-канал
+  facebook: 'venera.khassanovav' // Facebook
 };
 /* ===== GOOGLE ANALYTICS — вставьте ID вида 'G-XXXXXXXXXX' ===== */
 const GA_ID = 'G-73W576V144';
@@ -69,7 +70,8 @@ function applyTexts() {
   $('steps').innerHTML = T.steps.map(s => `<li><strong>${esc(s[0])}</strong><p class="muted">${esc(s[1])}</p></li>`).join('');
   $('social').innerHTML = `<span class="small" style="color:var(--gold)">${esc(T.followT)}</span><div>` +
     (CONTACTS.tgChannel ? `<a href="https://t.me/${CONTACTS.tgChannel}" target="_blank" rel="noopener" onclick="track('social_click',{network:'telegram_channel'})">✈ ${esc(T.cTgChannel)} @${CONTACTS.tgChannel}</a>` : '') +
-    (CONTACTS.youtube ? `<a href="https://www.youtube.com/${CONTACTS.youtube}" target="_blank" rel="noopener" onclick="track('social_click',{network:'youtube'})">▶ YouTube ${CONTACTS.youtube}</a>` : '') + `</div>`;
+    (CONTACTS.youtube ? `<a href="https://www.youtube.com/${CONTACTS.youtube}" target="_blank" rel="noopener" onclick="track('social_click',{network:'youtube'})">▶ YouTube ${CONTACTS.youtube}</a>` : '') +
+    (CONTACTS.facebook ? `<a href="https://www.facebook.com/${CONTACTS.facebook}" target="_blank" rel="noopener" onclick="track('social_click',{network:'facebook'})">f Facebook</a>` : '') + `</div>`;
   $('aboutList').innerHTML = T.aboutList.map(s => `<li>${esc(s)}</li>`).join('');
   buildFilters();
   const sc = $('s-country').selectedIndex, st = $('s-type').selectedIndex;
@@ -156,6 +158,7 @@ function contact(id) {
   if (CONTACTS.telegram) rows.push(['Telegram', `https://t.me/${CONTACTS.telegram}`, '@' + CONTACTS.telegram]);
   if (CONTACTS.tgChannel) rows.push([T.cTgChannel, `https://t.me/${CONTACTS.tgChannel}`, '@' + CONTACTS.tgChannel]);
   if (CONTACTS.youtube) rows.push(['YouTube', `https://www.youtube.com/${CONTACTS.youtube}`, CONTACTS.youtube]);
+  if (CONTACTS.facebook) rows.push(['Facebook', `https://www.facebook.com/${CONTACTS.facebook}`, 'Venera Khassanova']);
   if (CONTACTS.email) rows.push(['Email', `mailto:${CONTACTS.email}?subject=${encodeURIComponent(p ? T.mailObj(p.id) : T.mailGen)}&body=${encodeURIComponent(msg)}`, CONTACTS.email]);
   $('contactList').innerHTML = rows.map(([k, h, v]) => `<li><span>${esc(k)}</span><a href="${esc(h)}"${h.startsWith('http') ? ' target="_blank" rel="noopener"' : ''}>${esc(v)}</a></li>`).join('');
   track('contact_open', {object_id: p ? p.id : 'general'});
