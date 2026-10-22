@@ -116,3 +116,5 @@ header .small{font-weight:bold}
 
 .obj-video{display:block;width:100%;max-width:420px;max-height:75vh;margin:6px 0 34px;border-radius:6px;background:#000}
 .obj-videos{display:flex;gap:14px;overflow-x:auto;margin:6px 0 34px;scroll-snap-type:x mandatory}.obj-videos .obj-video{flex:0 0 auto;width:min(80vw,320px);margin:0;scroll-snap-align:start}
+
+.foot-links{margin-top:60px;font-size:14px}.foot-links a{font-weight:bold}.foot-links+.foot{margin-top:14px}

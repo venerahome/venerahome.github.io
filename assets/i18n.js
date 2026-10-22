@@ -4,7 +4,7 @@ window.I18N = {
 ru: {
   locale: 'ru-RU', name: 'Русский',
   title: 'VENI — ваш личный консультант по недвижимости',
-  headSmall: 'Личный каталог · Греция', headSell: 'Продать ↗', headObjects: 'Объекты ↗',
+  headSmall: 'Личный каталог · Греция', headSell: 'Продать ↗', headObjects: 'Объекты ↗', headBlog: 'Блог ↗', footBlog: 'Блог о недвижимости',
   heroImgAlt: 'Светлый интерьер с панорамными окнами',
   heroEyebrow: 'Новый адрес. Новая история.', heroH1: 'Пространство<br><em>вашей жизни</em>',
   heroSub: 'Квартиры, дома и виллы в Греции.<br>Личный подход Венеры — от выбора до ключей.',
@@ -52,7 +52,7 @@ ru: {
 bg: {
   locale: 'bg-BG', name: 'Български',
   title: 'VENI — вашият личен консултант по недвижими имоти',
-  headSmall: 'Личен каталог · Гърция', headSell: 'Продай ↗', headObjects: 'Имоти ↗',
+  headSmall: 'Личен каталог · Гърция', headSell: 'Продай ↗', headObjects: 'Имоти ↗', headBlog: 'Блог ↗', footBlog: 'Блог за недвижими имоти',
   heroImgAlt: 'Светъл интериор с панорамни прозорци',
   heroEyebrow: 'Нов адрес. Нова история.', heroH1: 'Пространство<br><em>за вашия живот</em>',
   heroSub: 'Апартаменти, къщи и вили в Гърция.<br>Личен подход от Венера — от избора до ключовете.',
@@ -100,7 +100,7 @@ bg: {
 en: {
   locale: 'en-GB', name: 'English',
   title: 'VENI — your personal real estate consultant',
-  headSmall: 'Personal catalogue · Greece', headSell: 'Sell ↗', headObjects: 'Properties ↗',
+  headSmall: 'Personal catalogue · Greece', headSell: 'Sell ↗', headObjects: 'Properties ↗', headBlog: 'Blog ↗', footBlog: 'Real estate blog',
   heroImgAlt: 'Bright interior with panoramic windows',
   heroEyebrow: 'A new address. A new story.', heroH1: 'The space<br><em>for your life</em>',
   heroSub: 'Apartments, houses and villas in Greece.<br>Venera\'s personal approach, from choice to keys.',
@@ -148,7 +148,7 @@ en: {
 de: {
   locale: 'de-DE', name: 'Deutsch',
   title: 'VENI — Ihre persönliche Immobilienberaterin',
-  headSmall: 'Persönlicher Katalog · Griechenland', headSell: 'Verkaufen ↗', headObjects: 'Immobilien ↗',
+  headSmall: 'Persönlicher Katalog · Griechenland', headSell: 'Verkaufen ↗', headObjects: 'Immobilien ↗', headBlog: 'Blog ↗', footBlog: 'Immobilien-Blog',
   heroImgAlt: 'Helles Interieur mit Panoramafenstern',
   heroEyebrow: 'Neue Adresse. Neue Geschichte.', heroH1: 'Raum<br><em>für Ihr Leben</em>',
   heroSub: 'Wohnungen, Häuser und Villen in Griechenland.<br>Veneras persönliche Begleitung, von der Auswahl bis zum Schlüssel.',
@@ -196,7 +196,7 @@ de: {
 es: {
   locale: 'es-ES', name: 'Español',
   title: 'VENI — su asesora inmobiliaria personal',
-  headSmall: 'Catálogo personal · Grecia', headSell: 'Vender ↗', headObjects: 'Inmuebles ↗',
+  headSmall: 'Catálogo personal · Grecia', headSell: 'Vender ↗', headObjects: 'Inmuebles ↗', headBlog: 'Blog ↗', footBlog: 'Blog inmobiliario',
   heroImgAlt: 'Interior luminoso con ventanales panorámicos',
   heroEyebrow: 'Nueva dirección. Nueva historia.', heroH1: 'El espacio<br><em>de su vida</em>',
   heroSub: 'Pisos, casas y villas en Grecia.<br>El trato personal de Venera, de la elección a las llaves.',
