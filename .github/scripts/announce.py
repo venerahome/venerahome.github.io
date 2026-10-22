@@ -7,7 +7,7 @@
 Если ключей нет — этот канал просто пропускается. Язык анонса: переменная POST_LANG (ru по умолчанию)."""
 import os, sys, json, html, urllib.request, urllib.parse
 
-SITE = "https://venerahome.github.io"
+SITE = "https://venihomes.eu"
 LANG = (os.environ.get("POST_LANG") or "ru").strip()
 TAGS = {"ru": {"greece": "#Греция", "bulgaria": "#Болгария", "europe": "#Европа"},
         "bg": {"greece": "#Гърция", "bulgaria": "#България", "europe": "#Европа"},

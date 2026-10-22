@@ -1,6 +1,6 @@
 # VENI Real Estate · Венера Хасанова
 
-Сайт: https://venerahome.github.io
+Сайт: https://venihomes.eu
 
 Дизайн — прототип из ChatGPT, наполнен настоящими объектами Венеры в Греции.
 

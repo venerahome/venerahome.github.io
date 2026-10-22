@@ -12,7 +12,7 @@ from urllib.parse import quote
 
 R = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(R)
-SITE = "https://venerahome.github.io"
+SITE = "https://venihomes.eu"
 WA = "359882593077"
 TG = "home_greece"
 LANGS = ["ru", "bg", "en", "de", "es"]
@@ -280,7 +280,7 @@ def og_image(p, lang, force=False):
     if len(lines) > room:
         lines = lines[:room]; lines[-1] = lines[-1].rstrip(",.:;—-") + "…"
     for ln in lines: d.text((x, y), ln, font=ftitle, fill=cream); y += int(ftitle.size * 1.25)
-    d.text((x, H - 70), "venerahome.github.io/blog", font=sans(22), fill=gold)
+    d.text((x, H - 70), "venihomes.eu/blog", font=sans(22), fill=gold)
     os.makedirs(os.path.dirname(out), exist_ok=True)
     im.save(out, "JPEG", quality=86, optimize=True, progressive=True)
     return SITE + "/blog/" + rel
