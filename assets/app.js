@@ -60,6 +60,7 @@ function applyTexts() {
   document.querySelectorAll('[data-i-ph]').forEach(el => el.placeholder = T[el.dataset.iPh]);
   document.querySelectorAll('[data-i-aria]').forEach(el => el.setAttribute('aria-label', T[el.dataset.iAria]));
   document.querySelectorAll('[data-i-alt]').forEach(el => el.alt = T[el.dataset.iAlt]);
+  document.querySelectorAll('.gv-link').forEach(a => a.href = lang === 'ru' ? '/golden-visa/ru/' : '/golden-visa/en/');
   $('lang').innerHTML = LANGS.map(l => `<button type="button" data-lang="${l}" aria-pressed="${l === lang}" title="${I18N[l].name}">${l.toUpperCase()}</button>`).join('');
   $('steps').innerHTML = T.steps.map(s => `<li><strong>${esc(s[0])}</strong><p class="muted">${esc(s[1])}</p></li>`).join('');
   $('aboutList').innerHTML = T.aboutList.map(s => `<li>${esc(s)}</li>`).join('');

@@ -4,7 +4,7 @@ window.I18N = {
 ru: {
   locale: 'ru-RU', name: 'Русский',
   title: 'VENI — ваш личный консультант по недвижимости',
-  headSmall: 'Личный каталог · Греция', headSell: 'Продать ↗', headObjects: 'Объекты ↗',
+  headSmall: 'Личный каталог · Греция', headSell: 'Продать ↗', headObjects: 'Объекты ↗', headGv: 'ВНЖ в Греции ↗', gvEyebrow: 'Golden Visa · Греция', gvTitle: 'ВНЖ в Евросоюзе для всей семьи через недвижимость', gvText: 'Дом у моря в Северной Греции от 400 000 € — и ВНЖ на 5 лет с правом поездок по Шенгену.', gvBtn: 'Проверить, подходите ли вы ↗',
   heroImgAlt: 'Светлый интерьер с панорамными окнами',
   heroEyebrow: 'Новый адрес. Новая история.', heroH1: 'Пространство<br><em>вашей жизни</em>',
   heroSub: 'Квартиры, дома и виллы в Греции.<br>Личный подход Венеры — от выбора до ключей.',
@@ -52,7 +52,7 @@ ru: {
 bg: {
   locale: 'bg-BG', name: 'Български',
   title: 'VENI — вашият личен консултант по недвижими имоти',
-  headSmall: 'Личен каталог · Гърция', headSell: 'Продай ↗', headObjects: 'Имоти ↗',
+  headSmall: 'Личен каталог · Гърция', headSell: 'Продай ↗', headObjects: 'Имоти ↗', headGv: 'Пребиваване в Гърция ↗', gvEyebrow: 'Golden Visa · Гърция', gvTitle: 'Пребиваване в ЕС за цялото семейство чрез имот', gvText: 'Къща край морето в Северна Гърция от 400 000 € — и разрешение за пребиваване за 5 години с пътувания в Шенген.', gvBtn: 'Проверете дали отговаряте ↗',
   heroImgAlt: 'Светъл интериор с панорамни прозорци',
   heroEyebrow: 'Нов адрес. Нова история.', heroH1: 'Пространство<br><em>за вашия живот</em>',
   heroSub: 'Апартаменти, къщи и вили в Гърция.<br>Личен подход от Венера — от избора до ключовете.',
@@ -100,7 +100,7 @@ bg: {
 en: {
   locale: 'en-GB', name: 'English',
   title: 'VENI — your personal real estate consultant',
-  headSmall: 'Personal catalogue · Greece', headSell: 'Sell ↗', headObjects: 'Properties ↗',
+  headSmall: 'Personal catalogue · Greece', headSell: 'Sell ↗', headObjects: 'Properties ↗', headGv: 'Golden Visa ↗', gvEyebrow: 'Golden Visa · Greece', gvTitle: 'EU residency for your whole family through real estate', gvText: 'A seaside home in Northern Greece from €400,000 — and a 5-year residence permit with free Schengen travel.', gvBtn: 'Check if you qualify ↗',
   heroImgAlt: 'Bright interior with panoramic windows',
   heroEyebrow: 'A new address. A new story.', heroH1: 'The space<br><em>for your life</em>',
   heroSub: 'Apartments, houses and villas in Greece.<br>Venera\'s personal approach, from choice to keys.',
@@ -148,7 +148,7 @@ en: {
 de: {
   locale: 'de-DE', name: 'Deutsch',
   title: 'VENI — Ihre persönliche Immobilienberaterin',
-  headSmall: 'Persönlicher Katalog · Griechenland', headSell: 'Verkaufen ↗', headObjects: 'Immobilien ↗',
+  headSmall: 'Persönlicher Katalog · Griechenland', headSell: 'Verkaufen ↗', headObjects: 'Immobilien ↗', headGv: 'Golden Visa ↗', gvEyebrow: 'Golden Visa · Griechenland', gvTitle: 'EU-Aufenthalt für die ganze Familie durch eine Immobilie', gvText: 'Ein Haus am Meer in Nordgriechenland ab 400.000 € — und eine Aufenthaltserlaubnis für 5 Jahre mit Reisen im Schengen-Raum.', gvBtn: 'Prüfen Sie, ob Sie infrage kommen ↗',
   heroImgAlt: 'Helles Interieur mit Panoramafenstern',
   heroEyebrow: 'Neue Adresse. Neue Geschichte.', heroH1: 'Raum<br><em>für Ihr Leben</em>',
   heroSub: 'Wohnungen, Häuser und Villen in Griechenland.<br>Veneras persönliche Begleitung, von der Auswahl bis zum Schlüssel.',
@@ -196,7 +196,7 @@ de: {
 es: {
   locale: 'es-ES', name: 'Español',
   title: 'VENI — su asesora inmobiliaria personal',
-  headSmall: 'Catálogo personal · Grecia', headSell: 'Vender ↗', headObjects: 'Inmuebles ↗',
+  headSmall: 'Catálogo personal · Grecia', headSell: 'Vender ↗', headObjects: 'Inmuebles ↗', headGv: 'Golden Visa ↗', gvEyebrow: 'Golden Visa · Grecia', gvTitle: 'Residencia en la UE para toda la familia a través de un inmueble', gvText: 'Una casa junto al mar en el norte de Grecia desde 400 000 € — y un permiso de residencia de 5 años con viajes por Schengen.', gvBtn: 'Compruebe si cumple los requisitos ↗',
   heroImgAlt: 'Interior luminoso con ventanales panorámicos',
   heroEyebrow: 'Nueva dirección. Nueva historia.', heroH1: 'El espacio<br><em>de su vida</em>',
   heroSub: 'Pisos, casas y villas en Grecia.<br>El trato personal de Venera, de la elección a las llaves.',

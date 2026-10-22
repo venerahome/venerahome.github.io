@@ -116,3 +116,12 @@ header .small{font-weight:bold}
 
 .obj-video{display:block;width:100%;max-width:420px;max-height:75vh;margin:6px 0 34px;border-radius:6px;background:#000}
 .obj-videos{display:flex;gap:14px;overflow-x:auto;margin:6px 0 34px;scroll-snap-type:x mandatory}.obj-videos .obj-video{flex:0 0 auto;width:min(80vw,320px);margin:0;scroll-snap-align:start}
+
+/* блок Golden Visa на главной */
+.gv-banner{display:grid;grid-template-columns:1fr auto;gap:6px 30px;align-items:center;text-decoration:none;background:var(--ink);color:#fff;border-radius:6px;padding:28px 34px;margin:0 0 60px}
+.gv-banner .small{color:#d9c29a;font-weight:bold;grid-column:1}
+.gv-banner strong{font:28px/1.25 Georgia,serif;color:#f3e2c0;grid-column:1}
+.gv-banner .gv-text{color:#e6ebe4;grid-column:1;line-height:1.6}
+.gv-banner .gv-btn{grid-column:2;grid-row:1/4;background:var(--gold);color:#fff;font-weight:bold;padding:16px 26px;border-radius:40px;white-space:nowrap;transition:background .2s}
+.gv-banner:hover .gv-btn{background:#b8986c}
+@media(max-width:850px){.gv-banner{grid-template-columns:1fr;padding:24px}.gv-banner .gv-btn{grid-column:1;grid-row:auto;margin-top:12px;text-align:center;white-space:normal}.gv-banner strong{font-size:24px}}
