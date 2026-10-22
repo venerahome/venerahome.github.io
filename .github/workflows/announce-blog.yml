@@ -1,0 +1,41 @@
+name: Анонс статьи блога (Telegram + Facebook)
+
+on:
+  push:
+    branches: [main]
+    paths: ["blog/posts/*.json"]
+  workflow_dispatch:
+    inputs:
+      file:
+        description: "Файл статьи для повторного анонса, например blog/posts/2026-10-22-burgas-ceny-rost.json"
+        required: true
+
+jobs:
+  announce:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - name: Найти новые статьи
+        id: files
+        run: |
+          if [ -n "${{ github.event.inputs.file }}" ]; then
+            echo "list=${{ github.event.inputs.file }}" >> "$GITHUB_OUTPUT"
+          else
+            BEFORE="${{ github.event.before }}"
+            if git cat-file -e "$BEFORE" 2>/dev/null; then BASE="$BEFORE"; else BASE="HEAD~1"; fi
+            echo "list=$(git diff --name-only --diff-filter=AR "$BASE" HEAD -- 'blog/posts/*.json' | tr '\n' ' ')" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Подождать, пока сайт обновится
+        if: steps.files.outputs.list != ''
+        run: sleep 120
+      - name: Отправить анонс
+        if: steps.files.outputs.list != ''
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+          FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+          POST_LANG: ${{ vars.POST_LANG }}
+        run: python3 .github/scripts/announce.py ${{ steps.files.outputs.list }}
