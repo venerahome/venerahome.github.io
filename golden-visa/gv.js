@@ -28,7 +28,7 @@ ru: {
     ['от 400 000 €', 'Северная Греция, Кавала и большая часть страны', 'Один объект, от 120 м²'],
     ['от 800 000 €', 'Афины, Салоники, Миконос, Санторини, острова с населением более 3 100 человек', 'Один объект, от 120 м²'],
   ],
-  termsFine: 'Объект под Golden Visa нельзя сдавать посуточно, но можно сдавать надолго. Подходит ли конкретный объект, всегда подтверждает адвокат до сделки.',
+  termsFine: 'Объект под Golden Visa нельзя сдавать посуточно, но можно сдавать надолго. Подходит ли конкретный объект, всегда подтверждает адвокат до сделки. Важно: с 1 июля 2027 года Греция планирует поднять налог на покупку жилья для граждан стран вне ЕС с 3% до 15% — до этой даты действует ставка около 3%.',
   k3: '03 / Почему здесь', whyTitle: 'Почему Северная Греция',
   why: [
     ['ВНЖ от 250 000 €', 'объект после перевода в жилое или реставрации — перевод уже завершён, можно подавать'],
@@ -78,7 +78,8 @@ ru: {
     ['Кто из семьи получает ВНЖ?', 'Супруг(а), неженатые дети до 21 года, а также родители обоих супругов (их случай рассматривается отдельно).'],
     ['Можно ли сдавать жильё?', 'Надолго — да. Посуточно (через Airbnb и похожие сервисы) — нельзя, это запрещено для объектов под Golden Visa.'],
     ['Можно ли купить несколько квартир на эту сумму?', 'Нет. Сумма должна быть вложена в один объект площадью от 120 м².'],
-    ['Сколько стоит сверх цены объекта?', 'Налог на передачу собственности около 3%, нотариус, адвокат, госпошлина за ВНЖ, медицинская страховка, переводы документов. Точный расчёт пришлю под конкретный объект.'],
+    ['Сколько стоит сверх цены объекта?', 'Сейчас налог на передачу собственности — около 3%. Плюс нотариус, адвокат, госпошлина за ВНЖ, медицинская страховка, переводы документов. Точный расчёт пришлю под конкретный объект.'],
+    ['Правда, что налог для покупателей не из ЕС вырастет до 15%?', 'Греция объявила, что с 1 июля 2027 года налог на покупку жилья для граждан стран вне ЕС вырастет с 3% до 15%. Это ещё не закон — текст могут изменить, и пока не ясно, как он коснётся инвесторов Golden Visa. До вступления новых правил действует обычная ставка около 3%, поэтому, если покупка в планах, разумно начать заранее. Подробно — в статье в моём блоге: /blog/greece-transfer-tax-15-non-eu/'],
     ['Сколько длится оформление?', 'Зависит от объекта и готовности документов. Обычно несколько месяцев — точный срок назовёт адвокат.'],
   ],
   foot: '© 2026 Венера Хасанова · VENI',
@@ -103,7 +104,7 @@ en: {
     ['from €400,000', 'Northern Greece, Kavala and most of the country', 'One property, at least 120 m²'],
     ['from €800,000', 'Athens, Thessaloniki, Mykonos, Santorini, islands with more than 3,100 residents', 'One property, at least 120 m²'],
   ],
-  termsFine: 'A Golden Visa property cannot be let short-term, but long-term letting is allowed. A lawyer always confirms that a specific property qualifies before the purchase.',
+  termsFine: 'A Golden Visa property cannot be let short-term, but long-term letting is allowed. A lawyer always confirms that a specific property qualifies before the purchase. Important: from 1 July 2027 Greece plans to raise the home purchase tax for non-EU citizens from 3% to 15%; until then the rate is about 3%.',
   k3: '03 / Why here', whyTitle: 'Why Northern Greece',
   why: [
     ['Residency from €250,000', 'a property after conversion to residential use or restoration, already completed and ready for your application'],
@@ -153,7 +154,8 @@ en: {
     ['Which family members are included?', 'Your spouse, unmarried children under 21, and the parents of both spouses (reviewed case by case).'],
     ['Can I rent the property out?', 'Long-term — yes. Short-term (Airbnb and similar) — no, this is not allowed for Golden Visa properties.'],
     ['Can I buy several flats with this amount?', 'No. The amount must be invested in one property of at least 120 m².'],
-    ['What does it cost on top of the price?', 'Property transfer tax of about 3%, notary, lawyer, the permit fee, health insurance and document translations. I will send an exact estimate for a specific property.'],
+    ['What does it cost on top of the price?', 'Today the property transfer tax is about 3%. On top of that: notary, lawyer, the permit fee, health insurance and document translations. I will send an exact estimate for a specific property.'],
+    ['Is it true the tax for non-EU buyers will rise to 15%?', 'Greece has announced that from 1 July 2027 the home purchase tax for citizens of non-EU countries will rise from 3% to 15%. It is not law yet, the text may change, and it is not yet clear how it will apply to Golden Visa investors. Until the new rules take effect, the usual rate of about 3% applies, so if you plan to buy, it makes sense to start early. More in my blog: /blog/en/greece-transfer-tax-15-non-eu/'],
     ['How long does it take?', 'It depends on the property and how ready your documents are. Usually a few months — the lawyer will give you the exact timing.'],
   ],
   foot: '© 2026 Venera Khassanova · VENI',
@@ -177,7 +179,7 @@ $('why').innerHTML = T.why.map(([a, b]) => `<li><b>${esc(a)}</b><span>${esc(b)}<
 $('terms').innerHTML = T.terms.map(([a, b, c], i) => `<div class="term${i === 0 ? ' main' : ''}"><strong>${esc(a)}</strong><p>${esc(b)}</p><span>${esc(c)}</span></div>`).join('');
 $('steps').innerHTML = T.steps.map(([a, b]) => `<li><b>${esc(a)}</b><span>${esc(b)}</span></li>`).join('');
 $('aboutList').innerHTML = T.about.map(a => `<li>${esc(a)}</li>`).join('');
-$('faq').innerHTML = T.faq.map(([q, a]) => `<details><summary>${esc(q)}</summary><p>${esc(a)}</p></details>`).join('');
+$('faq').innerHTML = T.faq.map(([q, a]) => `<details><summary>${esc(q)}</summary><p>${esc(a).replace(/(\/blog\/[\w\/-]+\/)/g, `<a href="$1">${L === 'ru' ? 'читать статью' : 'read the article'} ↗</a>`)}</p></details>`).join('');
 ['eu', 'budget', 'when', 'goal'].forEach(k => {
   $('o-' + k).innerHTML = T[k].map(([v, t]) => `<label class="opt"><input type="radio" name="${k}" value="${v}"><span>${esc(t)}</span></label>`).join('');
 });
