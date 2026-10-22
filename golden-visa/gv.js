@@ -24,19 +24,20 @@ ru: {
   ],
   k2: '02 / Условия', termsTitle: 'Сколько нужно вложить',
   terms: [
+    ['от 250 000 €', 'Самый доступный путь к ВНЖ: здание, переведённое в жилое, или отреставрированный памятник архитектуры', '✓ Перевод или реставрация уже завершены — объект готов к подаче'],
     ['от 400 000 €', 'Северная Греция, Кавала и большая часть страны', 'Один объект, от 120 м²'],
     ['от 800 000 €', 'Афины, Салоники, Миконос, Санторини, острова с населением более 3 100 человек', 'Один объект, от 120 м²'],
-    ['от 250 000 €', 'Особые случаи: здание, переведённое в жилое, или реставрация памятника архитектуры', 'Перевод или реставрация завершены до подачи'],
   ],
   termsFine: 'Объект под Golden Visa нельзя сдавать посуточно, но можно сдавать надолго. Подходит ли конкретный объект, всегда подтверждает адвокат до сделки.',
   k3: '03 / Почему здесь', whyTitle: 'Почему Северная Греция',
   why: [
+    ['ВНЖ от 250 000 €', 'объект после перевода в жилое или реставрации — перевод уже завершён, можно подавать'],
     ['Порог 400 000 €, а не 800 000 €', 'за ту же сумму — дом у моря, а не квартира в Афинах'],
     ['Море, горы и спокойная жизнь', 'Кавала — живой город с набережной, старым городом и пляжами'],
     ['Удобно добираться', 'аэропорты Кавалы и Салоник рядом'],
   ],
   k4: '04 / Подборка', closedTitle: 'Закрытая подборка объектов под Golden Visa',
-  closedLead: 'Многие объекты от 400 000 € агентства не рекламируют открыто. Я пришлю подборку под ваш бюджет после короткой анкеты.',
+  closedLead: 'Многие объекты от 250 000 € агентства не рекламируют открыто. Я пришлю подборку под ваш бюджет после короткой анкеты.',
   t1: 'Дом 250 м² · вид на море · Кавала', t2: 'Дом 257 м² · сад · Кавала', t3: '🔒 Ещё объекты — только по запросу',
   k5: '05 / Как это проходит', stepsTitle: 'От анкеты до ВНЖ',
   steps: [
@@ -58,7 +59,7 @@ ru: {
   formLead: '6 вопросов, около минуты. Я лично отвечу и пришлю закрытую подборку.',
   qName: 'Ваше имя', qCit: 'Гражданство (страна паспорта)',
   qEu: 'Есть ли у вас паспорт страны Евросоюза?', eu: [['no', 'Нет'], ['yes', 'Да']],
-  qBudget: 'Бюджет на покупку', budget: [['lt250', 'до 250 000 €'], ['250-400', '250 000 – 400 000 €'], ['400-800', '400 000 – 800 000 €'], ['800+', 'от 800 000 €']],
+  qBudget: 'Бюджет на покупку', budget: [['250-400', '250 000 – 400 000 €'], ['lt250', 'до 250 000 €'], ['400-800', '400 000 – 800 000 €'], ['800+', 'от 800 000 €']],
   qWhen: 'Когда планируете покупку?', when: [['3m', 'в ближайшие 3 месяца'], ['6m', 'в течение полугода'], ['later', 'пока изучаю']],
   qGoal: 'Главная цель', goal: [['visa', 'ВНЖ для семьи'], ['live', 'жить в Греции'], ['invest', 'вложение']],
   qContact: 'WhatsApp или email для ответа',
@@ -66,7 +67,7 @@ ru: {
   privacy: 'Данные видит только Венера. Без рассылок и спама.',
   errFill: 'Пожалуйста, ответьте на все вопросы.', errSend: 'Не получилось отправить. Напишите мне в WhatsApp:',
   rHotT: 'Спасибо! Вы подходите под Golden Visa.', rHot: 'Я напишу вам в течение 24 часов и пришлю закрытую подборку. Хотите быстрее — напишите мне в WhatsApp прямо сейчас.',
-  rMidT: 'Спасибо, заявка получена!', rMid: 'Для Golden Visa через особые случаи (от 250 000 €) нужна проверка объекта. Я свяжусь с вами и расскажу, какие варианты реальны под ваш бюджет.',
+  rMidT: 'Спасибо! Вы подходите под Golden Visa от 250 000 €.', rMid: 'Это самый доступный путь к ВНЖ: объект после перевода в жилое или реставрации, уже готовый к подаче. Я напишу вам в течение 24 часов и пришлю подборку. Хотите быстрее — напишите мне в WhatsApp прямо сейчас.',
   rLowT: 'Спасибо, заявка получена!', rLow: 'Для Golden Visa нужен бюджет от 250 000 €. Но я с удовольствием подберу вам дом в Греции под ваш бюджет — я напишу вам. А пока посмотрите каталог.',
   rEuT: 'Спасибо, заявка получена!', rEu: 'С паспортом Евросоюза Golden Visa вам не нужен — вы можете жить в Греции и так. Я с удовольствием подберу вам дом и напишу вам.',
   waBtn: 'Написать в WhatsApp ↗', catBtn: 'Смотреть каталог ↗',
@@ -80,6 +81,7 @@ ru: {
     ['Сколько стоит сверх цены объекта?', 'Налог на передачу собственности около 3%, нотариус, адвокат, госпошлина за ВНЖ, медицинская страховка, переводы документов. Точный расчёт пришлю под конкретный объект.'],
     ['Сколько длится оформление?', 'Зависит от объекта и готовности документов. Обычно несколько месяцев — точный срок назовёт адвокат.'],
   ],
+  foot: '© 2026 Венера Хасанова · VENI · Imoti Premier',
   contactTitle: 'Или напишите мне напрямую', catalog: '← Все объекты в каталоге',
 },
 en: {
@@ -97,19 +99,20 @@ en: {
   ],
   k2: '02 / Requirements', termsTitle: 'How much you need to invest',
   terms: [
+    ['from €250,000', 'The most affordable route to residency: a building converted to residential use, or a restored listed building', '✓ Conversion or restoration already completed — the property is ready for your application'],
     ['from €400,000', 'Northern Greece, Kavala and most of the country', 'One property, at least 120 m²'],
     ['from €800,000', 'Athens, Thessaloniki, Mykonos, Santorini, islands with more than 3,100 residents', 'One property, at least 120 m²'],
-    ['from €250,000', 'Special cases: a building converted to residential use, or restoration of a listed building', 'Conversion or restoration completed before applying'],
   ],
   termsFine: 'A Golden Visa property cannot be let short-term, but long-term letting is allowed. A lawyer always confirms that a specific property qualifies before the purchase.',
   k3: '03 / Why here', whyTitle: 'Why Northern Greece',
   why: [
+    ['Residency from €250,000', 'a property after conversion to residential use or restoration, already completed and ready for your application'],
     ['€400,000 threshold, not €800,000', 'the same budget buys a house by the sea instead of a flat in Athens'],
     ['Sea, mountains and a calm life', 'Kavala is a lively city with a seafront, an old town and beaches'],
     ['Easy to reach', 'Kavala and Thessaloniki airports are close by'],
   ],
   k4: '04 / Selection', closedTitle: 'A private selection of Golden Visa properties',
-  closedLead: 'Many properties from €400,000 are not advertised openly. I will send you a selection that fits your budget after a short questionnaire.',
+  closedLead: 'Many properties from €250,000 are not advertised openly. I will send you a selection that fits your budget after a short questionnaire.',
   t1: '250 m² house · sea view · Kavala', t2: '257 m² house · garden · Kavala', t3: '🔒 More properties — on request only',
   k5: '05 / How it works', stepsTitle: 'From questionnaire to residence permit',
   steps: [
@@ -119,7 +122,7 @@ en: {
     ['Purchase', 'a lawyer checks the property; the deal is signed at a notary'],
     ['Residence application', 'documents for you and your family are filed after the purchase'],
   ],
-  k6: 'Your consultant', aboutTitle: 'Venera Hasanova',
+  k6: 'Your consultant', aboutTitle: 'Venera Khassanova',
   about: [
     'Real estate consultant at Imoti Premier',
     'Living in the Balkans since 2013, between Bulgaria and Greece',
@@ -131,7 +134,7 @@ en: {
   formLead: '6 questions, about a minute. I will reply personally and send you the private selection.',
   qName: 'Your name', qCit: 'Citizenship (passport country)',
   qEu: 'Do you hold a passport of an EU country?', eu: [['no', 'No'], ['yes', 'Yes']],
-  qBudget: 'Purchase budget', budget: [['lt250', 'up to €250,000'], ['250-400', '€250,000 – 400,000'], ['400-800', '€400,000 – 800,000'], ['800+', 'from €800,000']],
+  qBudget: 'Purchase budget', budget: [['250-400', '€250,000 – 400,000'], ['lt250', 'up to €250,000'], ['400-800', '€400,000 – 800,000'], ['800+', 'from €800,000']],
   qWhen: 'When do you plan to buy?', when: [['3m', 'within 3 months'], ['6m', 'within 6 months'], ['later', 'just exploring']],
   qGoal: 'Main goal', goal: [['visa', 'residency for my family'], ['live', 'living in Greece'], ['invest', 'investment']],
   qContact: 'WhatsApp or email for my reply',
@@ -139,7 +142,7 @@ en: {
   privacy: 'Only Venera sees your details. No newsletters, no spam.',
   errFill: 'Please answer all the questions.', errSend: 'Something went wrong. Please message me on WhatsApp:',
   rHotT: 'Thank you! You qualify for the Golden Visa.', rHot: 'I will contact you within 24 hours and send you the private selection. Want it faster? Message me on WhatsApp right now.',
-  rMidT: 'Thank you, your request is in!', rMid: 'The €250,000 special cases need the property to be checked first. I will contact you and explain which options are realistic for your budget.',
+  rMidT: 'Thank you! You qualify for the Golden Visa from €250,000.', rMid: 'This is the most affordable route to residency: a property after conversion to residential use or restoration, ready for your application. I will contact you within 24 hours and send you a selection. Want it faster? Message me on WhatsApp right now.',
   rLowT: 'Thank you, your request is in!', rLow: 'The Golden Visa requires a budget from €250,000. I will gladly find you a home in Greece within your budget — I will contact you. Meanwhile, have a look at the catalogue.',
   rEuT: 'Thank you, your request is in!', rEu: 'With an EU passport you do not need a Golden Visa — you can already live in Greece. I will gladly find you a home and get in touch.',
   waBtn: 'Message me on WhatsApp ↗', catBtn: 'View the catalogue ↗',
@@ -153,6 +156,7 @@ en: {
     ['What does it cost on top of the price?', 'Property transfer tax of about 3%, notary, lawyer, the permit fee, health insurance and document translations. I will send an exact estimate for a specific property.'],
     ['How long does it take?', 'It depends on the property and how ready your documents are. Usually a few months — the lawyer will give you the exact timing.'],
   ],
+  foot: '© 2026 Venera Khassanova · VENI · Imoti Premier',
   contactTitle: 'Or message me directly', catalog: '← All properties in the catalogue',
 },
 };
@@ -192,9 +196,9 @@ $('gvForm').addEventListener('submit', async e => {
   if (!name || !cit || !contact || !eu || !budget || !when || !goal) { $('err').textContent = T.errFill; $('err').hidden = false; return; }
   $('err').hidden = true;
 
-  // Сортировка заявки: горячая / особый случай / без Golden Visa / гражданин ЕС
+  // Сортировка заявки: горячая 400k+ / горячая 250k (перевод или реставрация) / без Golden Visa / гражданин ЕС
   const tier = eu === 'yes' ? 'eu' : budget === 'lt250' ? 'low' : budget === '250-400' ? 'mid' : 'hot';
-  const tag = {hot: '🔥 ГОРЯЧАЯ', mid: '⭐ ОСОБЫЙ СЛУЧАЙ 250–400k', low: 'Бюджет до 250k', eu: 'Гражданин ЕС'}[tier];
+  const tag = {hot: '🔥 ГОРЯЧАЯ', mid: '🔥 ГОРЯЧАЯ · 250k (перевод/реставрация)', low: 'Бюджет до 250k', eu: 'Гражданин ЕС'}[tier];
   const body = {
     _subject: `${tag} · Golden Visa · ${name} · ${cit} · ${ruLabel('budget', budget)}`,
     _template: 'table', _captcha: 'false',

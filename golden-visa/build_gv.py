@@ -5,8 +5,8 @@ import os
 R = os.path.dirname(os.path.abspath(__file__))
 SITE = "https://venerahome.github.io/golden-visa/"
 META = {
-  "ru": ("ВНЖ в Греции через недвижимость — Golden Visa | VENI", "ВНЖ в Евросоюзе для всей семьи через дом у моря в Северной Греции. Подбор объекта от 400 000 € и сопровождение до получения ВНЖ."),
-  "en": ("Greece Golden Visa through real estate | VENI", "EU residency for your whole family through a seaside home in Northern Greece. Properties from €400,000 and full support until you get your permit."),
+  "ru": ("ВНЖ в Греции через недвижимость — Golden Visa | VENI", "ВНЖ в Евросоюзе для всей семьи через дом у моря в Северной Греции. Подбор объекта от 250 000 € и сопровождение до получения ВНЖ."),
+  "en": ("Greece Golden Visa through real estate | VENI", "EU residency for your whole family through a seaside home in Northern Greece. Properties from €250,000 and full support until you get your permit."),
 }
 tpl = open(os.path.join(R, "gv-template.html"), encoding="utf-8").read()
 def page(lang, page_lang, url, out):

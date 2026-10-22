@@ -8,9 +8,9 @@ SITE = "https://venerahome.github.io"
 META = {
   "bg": ("VENI — вашият личен консултант по недвижими имоти", "Апартаменти, къщи и вили в Гърция. Личен подход от Венера Хасанова — от избора до ключовете.", "bg_BG"),
   "ru": ("VENI — ваш личный консультант по недвижимости", "Квартиры, дома и виллы в Греции. Личный подход Венеры Хасановой — от выбора до ключей.", "ru_RU"),
-  "en": ("VENI — your personal real estate consultant", "Apartments, houses and villas in Greece. Venera Hasanova's personal approach, from choice to keys.", "en_GB"),
-  "de": ("VENI — Ihre persönliche Immobilienberaterin", "Wohnungen, Häuser und Villen in Griechenland. Persönliche Begleitung von Venera Hasanova, von der Auswahl bis zum Schlüssel.", "de_DE"),
-  "es": ("VENI — su asesora inmobiliaria personal", "Pisos, casas y villas en Grecia. El trato personal de Venera Hasanova, de la elección a las llaves.", "es_ES"),
+  "en": ("VENI — your personal real estate consultant", "Apartments, houses and villas in Greece. Venera Khassanova's personal approach, from choice to keys.", "en_GB"),
+  "de": ("VENI — Ihre persönliche Immobilienberaterin", "Wohnungen, Häuser und Villen in Griechenland. Persönliche Begleitung von Venera Khassanova, von der Auswahl bis zum Schlüssel.", "de_DE"),
+  "es": ("VENI — su asesora inmobiliaria personal", "Pisos, casas y villas en Grecia. El trato personal de Venera Khassanova, de la elección a las llaves.", "es_ES"),
 }
 src = open(os.path.join(R, "index.html"), encoding="utf-8").read()
 for l, (title, desc, loc) in META.items():
