@@ -1,0 +1,40 @@
+name: Новые объекты → Telegram
+
+on:
+  push:
+    branches: [main]
+    paths: ["data/listings.json"]
+  workflow_dispatch:
+    inputs:
+      codes:
+        description: "Номера объектов через пробел для повторной публикации, например 900007 395919"
+        required: true
+
+concurrency:
+  group: announce-listings
+  cancel-in-progress: false
+
+jobs:
+  announce:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - name: Взять список объектов до изменения
+        run: |
+          BEFORE="${{ github.event.before }}"
+          if [ -n "${{ github.event.inputs.codes }}" ]; then echo '{"listings":[]}' > /tmp/old.json
+          elif git cat-file -e "$BEFORE" 2>/dev/null || git fetch --depth=1 origin "$BEFORE" 2>/dev/null; then
+            git show "$BEFORE:data/listings.json" > /tmp/old.json 2>/dev/null || cp data/listings.json /tmp/old.json
+          else
+            git show "HEAD~1:data/listings.json" > /tmp/old.json 2>/dev/null || cp data/listings.json /tmp/old.json
+          fi
+      - name: Подождать, пока сайт обновится
+        if: github.event_name == 'push'
+        run: sleep 120
+      - name: Опубликовать новые объекты
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python3 .github/scripts/announce_listings.py /tmp/old.json data/listings.json ${{ github.event.inputs.codes }}
