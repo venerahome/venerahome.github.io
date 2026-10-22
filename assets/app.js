@@ -95,15 +95,10 @@ const BEDS = [1, 2, 3, 4], AREAS = [50, 80, 120, 200];
 const opt = (v, t, n) => `<option value="${esc(v)}">${esc(t)}${n !== undefined ? ' (' + n + ')' : ''}</option>`;
 function buildFilters() {
   const keep = ['city', 'budget', 'beds', 'area', 'sort'].map(id => [id, $(id).value]);
-  // Локация: Кавала с районами (по числу объектов) + деревни и побережье
+  // Локация: одна строка на город/деревню с числом объектов (районы ищутся через поиск)
   const cnt = f => items.filter(f).length;
-  const kav = items.filter(p => p.place === 'kavala');
-  const dists = [...new Map(kav.filter(p => p.districtKey).map(p => [p.districtKey, p.district])).entries()]
-    .map(([k, n]) => [k, n, cnt(p => p.place === 'kavala' && p.districtKey === k)]).sort((a, b) => b[2] - a[2] || a[1].localeCompare(b[1]));
-  const others = [...new Map(items.filter(p => p.place !== 'kavala').map(p => [p.place, p.city])).entries()];
-  $('city').innerHTML = opt('', T.cityAll) +
-    (kav.length ? `<optgroup label="${esc(T.grpKavala)}">` + opt('kavala', T.kavalaAll, kav.length) + dists.map(([k, n, c]) => opt('kavala|' + k, '— ' + n, c)).join('') + '</optgroup>' : '') +
-    (others.length ? `<optgroup label="${esc(T.grpOther)}">` + others.map(([k, n]) => opt(k, n, cnt(p => p.place === k))).join('') + '</optgroup>' : '');
+  const places = [...new Map(items.map(p => [p.place, p.city])).entries()].map(([k, n]) => [k, n, cnt(p => p.place === k)]).sort((a, b) => b[2] - a[2]);
+  $('city').innerHTML = opt('', T.cityAll) + places.map(([k, n, c]) => opt(k, n, c)).join('');
   $('budget').innerHTML = opt('', T.budgetAny) + BUDGETS.map(([a, b]) => opt(a + '-' + b,
     (!a ? T.budgetUpTo(money(b)) : !b ? T.budgetFrom(money(a)) : money(a).replace(' €', '') + ' – ' + money(b)) + (a >= 250000 ? ' · ' + T.gvMark : ''))).join('');
   $('beds').innerHTML = opt('', T.bedsAny) + BEDS.map(n => opt(n, T.bedsMin(n))).join('');
