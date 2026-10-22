@@ -1,4 +1,4 @@
-name: Новые объекты → Telegram
+name: Новые объекты → Telegram и Facebook
 
 on:
   push:
@@ -37,4 +37,6 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+          FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
         run: python3 .github/scripts/announce_listings.py /tmp/old.json data/listings.json ${{ github.event.inputs.codes }}

@@ -2,7 +2,7 @@
 """Публикует НОВЫЕ объекты (дома, квартиры, виллы) в Telegram-канал на русском.
 Запускается GitHub Action'ом при изменении data/listings.json.
 Сравнивает список объектов до и после push: новые коды = новые объекты.
-Ключи — те же секреты, что и для блога: TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID.
+Ключи — те же секреты, что и для блога: TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID; для Facebook-страницы — FB_PAGE_ID, FB_PAGE_TOKEN.
 Использование: announce_listings.py <старый listings.json> <новый listings.json> [код ...]
 Если переданы коды — публикуются только они (ручной повтор)."""
 import os, sys, json, html, time, urllib.request, urllib.parse, urllib.error
@@ -78,9 +78,29 @@ def publish(p, places):
     print("  текст:", "ok" if r.get("ok") else r)
     return bool(r.get("ok"))
 
+def fb_publish(p, places):
+    """Пост на странице Facebook: первое фото + текст. Ключи FB_PAGE_ID, FB_PAGE_TOKEN."""
+    page, tok = os.environ.get("FB_PAGE_ID"), os.environ.get("FB_PAGE_TOKEN")
+    if not page or not tok: return True
+    import re as _re
+    text = _re.sub(r"<[^>]+>", "", caption(p, places)).replace("&quot;", '"').replace("&amp;", "&").replace("&lt;", "<").replace("&gt;", ">")
+    text = text.replace("👉 Смотреть объект на сайте", "👉 Смотреть объект на сайте: " + f"{SITE}/ru/#object-{p['code']}")
+    photos = [abs_url(u) for u in (p.get("photos") or [])]
+    def post(path, data):
+        req = urllib.request.Request(f"https://graph.facebook.com/v21.0/{page}/{path}",
+                                     data=urllib.parse.urlencode(dict(data, access_token=tok)).encode(), method="POST")
+        try:
+            with urllib.request.urlopen(req, timeout=60) as r: return json.loads(r.read().decode())
+        except urllib.error.HTTPError as e: return {"error": e.read().decode()[:300]}
+    r = post("photos", {"url": photos[0], "caption": text}) if photos else post("feed", {"message": text})
+    print("  Facebook:", "ok" if (r.get("id") or r.get("post_id")) else r)
+    return bool(r.get("id") or r.get("post_id"))
+
 def main():
-    if not os.environ.get("TELEGRAM_BOT_TOKEN") or not os.environ.get("TELEGRAM_CHAT_ID"):
-        print("Telegram: ключи не заданы — пропускаю"); return 0
+    tg_on = bool(os.environ.get("TELEGRAM_BOT_TOKEN") and os.environ.get("TELEGRAM_CHAT_ID"))
+    fb_on = bool(os.environ.get("FB_PAGE_ID") and os.environ.get("FB_PAGE_TOKEN"))
+    print("Telegram:", "вкл" if tg_on else "ключи не заданы", "| Facebook:", "вкл" if fb_on else "ключи не заданы")
+    if not tg_on and not fb_on: return 0
     old, new = load(sys.argv[1]), load(sys.argv[2])
     only = {int(x) for x in sys.argv[3:] if x.strip().isdigit()}
     old_codes = {l["code"] for l in old["listings"]}
@@ -96,7 +116,8 @@ def main():
     ok = True
     for i, p in enumerate(fresh):
         print("Объект", p["code"], (p.get("title") or {}).get("ru", ""))
-        ok = publish(p, new.get("places", {})) and ok
+        if tg_on: ok = publish(p, new.get("places", {})) and ok
+        if fb_on: ok = fb_publish(p, new.get("places", {})) and ok
         if i < len(fresh) - 1: time.sleep(4)
     return 0 if ok else 1
 
