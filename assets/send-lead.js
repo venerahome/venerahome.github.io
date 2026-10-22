@@ -3,7 +3,7 @@
    Сервис 2: FormSubmit — запасной.
    Если сервис не ответил за 15 секунд — ошибка, и на странице появляется кнопка WhatsApp с заполненной заявкой. */
 window.LEADS_EMAIL = 'khassanovav@gmail.com';
-window.WEB3FORMS_KEY = ''; // ← сюда ключ Web3Forms
+window.WEB3FORMS_KEY = '969ec94c-dddd-4af0-abdd-2e14a92cc335'; // ← сюда ключ Web3Forms
 
 window.sendLead = async function (body) {
   const timeout = ms => { const ac = new AbortController(); setTimeout(() => ac.abort(), ms); return ac.signal; };
