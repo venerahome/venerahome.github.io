@@ -210,9 +210,7 @@ $('gvForm').addEventListener('submit', async e => {
   const waText = [T.waHello, `${T.qName}: ${name}`, `${T.qCit}: ${cit}`, `${T.qBudget}: ${labelOf('budget', budget)}`, `${T.qWhen}: ${labelOf('when', when)}`].join('\n');
   const waLink = `https://wa.me/${WHATSAPP}?text=${encodeURIComponent(waText)}`;
   try {
-    const r = await fetch('https://formsubmit.co/ajax/' + LEADS_EMAIL, {method: 'POST', headers: {'Content-Type': 'application/json', Accept: 'application/json'}, body: JSON.stringify(body)});
-    const j = await r.json().catch(() => ({}));
-    if (!r.ok || String(j.success) !== 'true') throw new Error(j.message || r.status);
+    await window.sendLead(body);
     track('gv_lead', {tier, budget, lang: L});
     const t = {hot: [T.rHotT, T.rHot], mid: [T.rMidT, T.rMid], low: [T.rLowT, T.rLow], eu: [T.rEuT, T.rEu]}[tier];
     const second = (tier === 'low' || tier === 'eu') ? `<a class="ghost-btn" href="/${L}/#catalog">${esc(T.catBtn)}</a>` : '';

@@ -211,9 +211,7 @@ $('sellFormEl').addEventListener('submit', async e => {
   const body = {_subject: `Заявка на продажу с сайта VENI — ${$('s-name').value.trim()}`, _template: 'table', _captcha: 'false', 'Язык сайта': lang.toUpperCase()};
   rows.forEach(([k, v]) => body[k] = v);
   try {
-    const r = await fetch('https://formsubmit.co/ajax/' + LEADS_EMAIL, {method: 'POST', headers: {'Content-Type': 'application/json', Accept: 'application/json'}, body: JSON.stringify(body)});
-    const j = await r.json().catch(() => ({}));
-    if (!r.ok || String(j.success) !== 'true') throw new Error(j.message || r.status);
+    await window.sendLead(body);
     track('sell_request_sent', {method: 'email'});
     $('sellOk').textContent = T.sOk; $('sellOk').hidden = false; $('sellFormEl').reset(); applyTexts();
   } catch (err) {
@@ -265,9 +263,7 @@ $('leadForm').addEventListener('submit', async e => {
     'Имя': name, 'Телефон / email': ph, 'Сообщение': msg || '—', 'Язык сайта': lang.toUpperCase()};
   if (p) { body['Объект'] = `№ ${p.id} · ${p.title} · ${money(p.price)}`; body['Ссылка'] = location.origin + location.pathname + '#object-' + p.id; }
   try {
-    const r = await fetch('https://formsubmit.co/ajax/' + LEADS_EMAIL, {method: 'POST', headers: {'Content-Type': 'application/json', Accept: 'application/json'}, body: JSON.stringify(body)});
-    const j = await r.json().catch(() => ({}));
-    if (!r.ok || String(j.success) !== 'true') throw new Error(j.message || r.status);
+    await window.sendLead(body);
     track('lead_sent', {object_id: p ? p.id : 'general'});
     $('leadForm').reset(); $('leadOk').textContent = T.lOk; $('leadOk').hidden = false;
   } catch (err) { console.warn('FormSubmit:', err && err.message); $('leadErr').textContent = /activat/i.test(String(err && err.message)) ? 'Форма ещё не активирована: откройте письмо от FormSubmit на почте ' + LEADS_EMAIL + ' и нажмите «Activate Form».' : T.sFail; $('leadErr').hidden = false; }
