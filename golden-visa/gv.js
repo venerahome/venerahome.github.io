@@ -221,7 +221,10 @@ $('gvForm').addEventListener('submit', async e => {
     $('waAfter').addEventListener('click', () => track('gv_whatsapp', {tier}));
     $('result').scrollIntoView({behavior: 'smooth', block: 'center'});
   } catch (err) {
-    console.warn('FormSubmit:', err && err.message);
-    $('err').innerHTML = `${esc(T.errSend)} <a href="${esc(waLink)}" target="_blank" rel="noopener">WhatsApp ↗</a>`; $('err').hidden = false;
+    const why = String((err && err.message) || err || '');
+    console.warn('FormSubmit:', why);
+    const act = /activat/i.test(why) ? `<br><small>Форма ещё не активирована: откройте письмо от FormSubmit на почте ${LEADS_EMAIL} (проверьте «Спам») и нажмите «Activate Form».</small>`
+      : why ? `<br><small>(${esc(why)})</small>` : '';
+    $('err').innerHTML = `${esc(T.errSend)} <a href="${esc(waLink)}" target="_blank" rel="noopener">WhatsApp ↗</a>${act}`; $('err').hidden = false;
   } finally { btn.disabled = false; btn.textContent = T.send; }
 });
