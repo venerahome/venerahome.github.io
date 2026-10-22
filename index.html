@@ -16,7 +16,7 @@
 <link rel="alternate" hreflang="de" href="https://venerahome.github.io/de/">
 <link rel="alternate" hreflang="es" href="https://venerahome.github.io/es/">
 <link rel="alternate" hreflang="x-default" href="https://venerahome.github.io/">
-<link rel="stylesheet" href="./assets/styles.css?v=202610222150">
+<link rel="stylesheet" href="./assets/styles.css?v=202610222250">
 </head>
 <body>
 <header>
@@ -55,22 +55,15 @@
       <p class="muted" data-i-html="catLead">Для всех, кто оставил своё сердце в Греции.<br>Новые объекты каждый день.</p>
     </div>
     <div class="filters">
-      <input id="search" aria-label="Поиск объектов" data-i-aria="searchAria" data-i-ph="searchPh" placeholder="Город, район или номер объекта…">
+      <input id="search" aria-label="Поиск объектов" data-i-aria="searchAria" data-i-ph="searchPh" placeholder="Район или номер объекта…">
       <select id="city" aria-label="Город" data-i-aria="cityAria"><option value="" data-i="cityAll">Все локации</option></select>
-      <select id="budget" aria-label="Бюджет" data-i-aria="budgetAria">
-        <option value="9999999" data-i="budgetAny">Любой бюджет</option>
-        <option value="100000">До 100 000 €</option>
-        <option value="200000">До 200 000 €</option>
-        <option value="350000">До 350 000 €</option>
-      </select>
-      <select id="sort" aria-label="Сортировка" data-i-aria="sortAria">
-        <option value="default" data-i="sortRec">Рекомендуемые</option>
-        <option value="asc" data-i="sortAsc">Цена ↑</option>
-        <option value="desc" data-i="sortDesc">Цена ↓</option>
-      </select>
+      <select id="budget" aria-label="Бюджет" data-i-aria="budgetAria"><option value="" data-i="budgetAny">Любой бюджет</option></select>
+      <select id="beds" aria-label="Спальни" data-i-aria="bedsAria"><option value="">Любое число спален</option></select>
+      <select id="area" aria-label="Площадь" data-i-aria="areaAria"><option value="">Любая площадь</option></select>
+      <select id="sort" aria-label="Сортировка" data-i-aria="sortAria"><option value="default" data-i="sortRec">Рекомендуемые</option></select>
     </div>
     <div class="chips" id="chips"></div>
-    <div class="count" id="count"></div>
+    <div class="count"><span id="count"></span><button type="button" class="reset" id="reset" hidden></button></div>
     <div class="grid" id="grid"></div>
   </section>
 
@@ -184,8 +177,8 @@
 </dialog>
 
 <script src="./assets/listings.js?v=202610221240"></script>
-<script src="./assets/i18n.js?v=202610222150"></script>
+<script src="./assets/i18n.js?v=202610222250"></script>
 <script src="./assets/send-lead.js?v=202610222150k"></script>
-<script src="./assets/app.js?v=202610221730" defer></script>
+<script src="./assets/app.js?v=202610222250" defer></script>
 </body>
 </html>

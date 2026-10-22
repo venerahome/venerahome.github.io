@@ -44,7 +44,7 @@ function buildItems() {
   items = D.listings.map(p => {
     const city = pick(D.places[p.place]) || p.place, district = pick(p.district);
     const bits = [district, p.bedrooms ? T.bedrooms(p.bedrooms) : '', p.sea === 0 ? T.seafrontShort : ''].filter(Boolean);
-    return {id: p.code, title: pick(p.title), city, place: p.place, district, type: T.types[p.type] || p.type, typeKey: p.type, price: p.price, area: p.area,
+    return {id: p.code, title: pick(p.title), city, place: p.place, district, districtKey: p.district ? (p.district.en || p.district.ru || district) : '', type: T.types[p.type] || p.type, typeKey: p.type, price: p.price, area: p.area,
       desc: bits.join(' · '), text: pick(p.desc), feat: pick(p.feat) || [], img: p.photos[0], photos: p.photos, videos: p.videos || (p.video ? [p.video] : []),
       url: '', bedrooms: p.bedrooms, bathrooms: p.bathrooms, floor: p.floor, plot: p.plot, sea: p.sea, furnished: p.furnished, featured: p.featured,
       hay: [p.code, ...Object.values(p.title || {}), ...Object.values(D.places[p.place] || {}), ...Object.values(p.district || {})].join(' ').toLowerCase()};
@@ -71,12 +71,7 @@ function applyTexts() {
     (CONTACTS.tgChannel ? `<a href="https://t.me/${CONTACTS.tgChannel}" target="_blank" rel="noopener" onclick="track('social_click',{network:'telegram_channel'})">✈ ${esc(T.cTgChannel)} @${CONTACTS.tgChannel}</a>` : '') +
     (CONTACTS.youtube ? `<a href="https://www.youtube.com/${CONTACTS.youtube}" target="_blank" rel="noopener" onclick="track('social_click',{network:'youtube'})">▶ YouTube ${CONTACTS.youtube}</a>` : '') + `</div>`;
   $('aboutList').innerHTML = T.aboutList.map(s => `<li>${esc(s)}</li>`).join('');
-  document.querySelectorAll('#budget option').forEach(o => { if (+o.value < 9999999) o.textContent = T.budgetUpTo(money(+o.value)); });
-  const cityVal = $('city').value;
-  $('city').innerHTML = `<option value="">${esc(T.cityAll)}</option>` + [...new Map(items.map(p => [p.place, p.city])).entries()].map(([k, c]) => `<option value="${esc(k)}">${esc(c)}</option>`).join('');
-  $('city').value = cityVal;
-  $('chips').innerHTML = `<button class="${type ? '' : 'active'}" data-type="">${esc(T.allObjects)}</button>` +
-    [...new Set(items.map(p => p.typeKey))].map(k => `<button class="${type === k ? 'active' : ''}" data-type="${k}">${esc(T.typesPl[k] || k)}</button>`).join('');
+  buildFilters();
   const sc = $('s-country').selectedIndex, st = $('s-type').selectedIndex;
   $('s-country').innerHTML = T.sCountries.map(c => `<option>${esc(c)}</option>`).join(''); $('s-country').selectedIndex = Math.max(0, sc);
   $('s-type').innerHTML = T.sTypes.map(c => `<option>${esc(c)}</option>`).join(''); $('s-type').selectedIndex = Math.max(0, st);
@@ -94,12 +89,56 @@ function setLang(l) {
   if (opened) openItem(opened, null, false);
 }
 
+/* ===== Фильтры каталога ===== */
+const BUDGETS = [[0, 50000], [50000, 100000], [100000, 150000], [150000, 250000], [250000, 400000], [400000, 0]];
+const BEDS = [1, 2, 3, 4], AREAS = [50, 80, 120, 200];
+const opt = (v, t, n) => `<option value="${esc(v)}">${esc(t)}${n !== undefined ? ' (' + n + ')' : ''}</option>`;
+function buildFilters() {
+  const keep = ['city', 'budget', 'beds', 'area', 'sort'].map(id => [id, $(id).value]);
+  // Локация: Кавала с районами (по числу объектов) + деревни и побережье
+  const cnt = f => items.filter(f).length;
+  const kav = items.filter(p => p.place === 'kavala');
+  const dists = [...new Map(kav.filter(p => p.districtKey).map(p => [p.districtKey, p.district])).entries()]
+    .map(([k, n]) => [k, n, cnt(p => p.place === 'kavala' && p.districtKey === k)]).sort((a, b) => b[2] - a[2] || a[1].localeCompare(b[1]));
+  const others = [...new Map(items.filter(p => p.place !== 'kavala').map(p => [p.place, p.city])).entries()];
+  $('city').innerHTML = opt('', T.cityAll) +
+    (kav.length ? `<optgroup label="${esc(T.grpKavala)}">` + opt('kavala', T.kavalaAll, kav.length) + dists.map(([k, n, c]) => opt('kavala|' + k, '— ' + n, c)).join('') + '</optgroup>' : '') +
+    (others.length ? `<optgroup label="${esc(T.grpOther)}">` + others.map(([k, n]) => opt(k, n, cnt(p => p.place === k))).join('') + '</optgroup>' : '');
+  $('budget').innerHTML = opt('', T.budgetAny) + BUDGETS.map(([a, b]) => opt(a + '-' + b,
+    (!a ? T.budgetUpTo(money(b)) : !b ? T.budgetFrom(money(a)) : money(a).replace(' €', '') + ' – ' + money(b)) + (a >= 250000 ? ' · ' + T.gvMark : ''))).join('');
+  $('beds').innerHTML = opt('', T.bedsAny) + BEDS.map(n => opt(n, T.bedsMin(n))).join('');
+  $('area').innerHTML = opt('', T.areaAny) + AREAS.map(n => opt(n, T.areaMin(n))).join('');
+  $('sort').innerHTML = opt('default', T.sortRec) + opt('new', T.sortNew) + opt('asc', T.sortAsc) + opt('desc', T.sortDesc) + opt('area', T.sortArea) + opt('ppm', T.sortPpm);
+  keep.forEach(([id, v]) => { $(id).value = v; if ($(id).selectedIndex < 0) $(id).selectedIndex = 0; });
+  $('reset').textContent = T.reset;
+}
+function matches(p, skipType) {
+  const q = $('search').value.toLowerCase().trim(), loc = $('city').value, [lo, hi] = ($('budget').value || '0-0').split('-').map(Number);
+  const [place, dist] = loc.split('|');
+  return (skipType || !type || p.typeKey === type) && (!onlyFav || fav.has(p.id)) &&
+    (!place || p.place === place) && (!dist || p.districtKey === dist) &&
+    p.price >= lo && (!hi || p.price <= hi) &&
+    (!$('beds').value || (p.bedrooms || 0) >= +$('beds').value) &&
+    (!$('area').value || (p.area || 0) >= +$('area').value) &&
+    (!q || (p.hay + ' ' + p.desc.toLowerCase()).includes(q));
+}
+function renderChips() {
+  const base = items.filter(p => matches(p, true));
+  const keys = [...new Set(items.map(p => p.typeKey))];
+  $('chips').innerHTML = `<button class="${type ? '' : 'active'}" data-type="">${esc(T.allObjects)} <small>${base.length}</small></button>` +
+    keys.map(k => { const n = base.filter(p => p.typeKey === k).length;
+      return `<button class="${type === k ? 'active' : ''}" data-type="${k}"${n || type === k ? '' : ' disabled'}>${esc(T.typesPl[k] || k)} <small>${n}</small></button>`; }).join('');
+}
+function filtersActive() { return !!(type || $('search').value.trim() || ['city', 'budget', 'beds', 'area'].some(id => $(id).value)); }
+function resetFilters() { type = ''; $('search').value = ''; ['city', 'budget', 'beds', 'area'].forEach(id => $(id).value = ''); $('sort').value = 'default'; render(); }
 function render() {
-  const q = $('search').value.toLowerCase().trim();
-  let data = items.filter(p => (!type || p.typeKey === type) && (!onlyFav || fav.has(p.id)) && (!$('city').value || p.place === $('city').value) &&
-    p.price <= +$('budget').value && (!q || (p.hay + ' ' + p.desc.toLowerCase()).includes(q)));
-  if ($('sort').value !== 'default') data.sort((a, b) => ($('sort').value === 'asc' ? 1 : -1) * (a.price - b.price));
-  else data.sort((a, b) => (b.featured - a.featured) || (b.id - a.id));
+  let data = items.filter(p => matches(p));
+  const sv = $('sort').value, ppm = p => p.area ? p.price / p.area : Infinity;
+  data.sort(sv === 'asc' ? (a, b) => a.price - b.price : sv === 'desc' ? (a, b) => b.price - a.price :
+    sv === 'area' ? (a, b) => (b.area || 0) - (a.area || 0) : sv === 'ppm' ? (a, b) => ppm(a) - ppm(b) :
+    sv === 'new' ? (a, b) => b.id - a.id : (a, b) => (b.featured - a.featured) || (b.id - a.id));
+  renderChips();
+  $('reset').hidden = !filtersActive();
   $('count').textContent = (onlyFav ? T.favPrefix : '') + T.count(data.length);
   $('favBtn').textContent = fav.size ? T.navFavN(fav.size) : T.navFav;
   $('grid').innerHTML = data.map(p => `<article class="card"><div class="picture" role="button" tabindex="0" aria-label="${esc(T.open)}: ${esc(p.title)}" onclick="openItem(${p.id},this)" onkeydown="if(event.key==='Enter')openItem(${p.id},this)"><img loading="lazy" src="${esc(p.img)}" alt="${esc(p.title)}"><span class="tag">${esc(p.type.toUpperCase())}${p.videos.length ? ' · ▶ ' + esc(T.videoT.toUpperCase()) : ''}</span><button class="heart ${fav.has(p.id) ? 'on' : ''}" aria-label="${esc(fav.has(p.id) ? T.removeFav : T.addFav)}" aria-pressed="${fav.has(p.id)}" onclick="event.stopPropagation();toggleFav(${p.id})">${fav.has(p.id) ? '♥' : '♡'}</button></div><h3>${esc(p.title)}</h3><div class="row"><span>${esc(p.city)}${p.desc ? ' · ' + esc(p.desc) : ''}</span><span>${p.area ? p.area + ' ' + T.m + '²' : ''}</span></div><div class="price">${money(p.price)}</div><button class="more" onclick="openItem(${p.id},this.closest('.card').querySelector('.picture'))">${esc(T.more)}</button></article>`).join('')
@@ -235,8 +274,9 @@ $('sellWa').addEventListener('click', () => {
 });
 
 /* ===== События ===== */
-['search', 'city', 'budget', 'sort'].forEach(id => $(id).addEventListener('input', render));
-$('chips').addEventListener('click', e => { const b = e.target.closest('button'); if (!b) return; type = b.dataset.type; document.querySelectorAll('#chips button').forEach(x => x.classList.toggle('active', x === b)); render(); });
+['search', 'city', 'budget', 'beds', 'area', 'sort'].forEach(id => $(id).addEventListener('input', () => { render(); track('catalog_filter', {filter: id}); }));
+$('reset').addEventListener('click', () => { resetFilters(); track('catalog_filter_reset'); });
+$('chips').addEventListener('click', e => { const b = e.target.closest('button'); if (!b || b.disabled) return; type = b.dataset.type; render(); });
 $('lang').addEventListener('click', e => { const b = e.target.closest('[data-lang]'); if (b) setLang(b.dataset.lang); });
 $('contactList').addEventListener('click', e => { const a = e.target.closest('a'); if (a) track('contact_click', {method: a.closest('li').firstChild.textContent, object_id: opened || 'general'}); });
 document.addEventListener('error', e => { if (e.target.tagName === 'IMG') e.target.style.visibility = 'hidden'; }, true);

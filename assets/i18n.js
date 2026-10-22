@@ -10,7 +10,7 @@ ru: {
   heroSub: 'Квартиры, дома и виллы в Греции.<br>Личный подход Венеры — от выбора до ключей.',
   heroCta: 'Найти свой дом &nbsp; ↗', heroSell: 'Хотите продать недвижимость? Оставьте заявку ↗', heroDown: '↓ &nbsp; ПРОКРУТИТЕ, ЧТОБЫ ОТКРЫТЬ',
   catEyebrow: '01 / Мой каталог', catTitle: 'Дом начинается с выбора', catLead: 'Для всех, кто оставил своё сердце в Греции.<br>Новые объекты каждый день.',
-  searchPh: 'Город, район или номер объекта…', searchAria: 'Поиск объектов', cityAll: 'Все локации', cityAria: 'Город',
+  searchPh: 'Район или номер объекта…', searchAria: 'Поиск объектов', cityAll: 'Все локации', cityAria: 'Город',
   budgetAny: 'Любой бюджет', budgetUpTo: v => `До ${v}`, budgetAria: 'Бюджет', sortRec: 'Рекомендуемые', sortAsc: 'Цена ↑', sortDesc: 'Цена ↓', sortAria: 'Сортировка',
   allObjects: 'Все объекты',
   types: {apt: 'Квартира', house: 'Дом', villa: 'Вилла', plot: 'Участок', commercial: 'Коммерческая'},
@@ -242,3 +242,25 @@ es: {
   waGeneral: '¡Hola, Venera! Quiero hablar sobre comprar un inmueble en Grecia.', mailObj: id => `Inmueble n.º ${id}`, mailGen: 'Inmuebles en Grecia'
 }
 };
+
+/* Фильтры каталога (локация с районами, бюджет-диапазоны, спальни, площадь, сортировка) */
+Object.assign(I18N.ru, {kavalaAll: 'Вся Кавала', grpKavala: 'Кавала — районы', grpOther: 'Деревни и побережье',
+  budgetFrom: v => `От ${v}`, gvMark: 'Golden Visa', bedsAny: 'Спальни', bedsMin: n => `От ${n} ${ruPlural(n, 'спальни', 'спален', 'спален')}`,
+  areaAny: 'Площадь', areaMin: n => `От ${n} м²`, sortNew: 'Сначала новые', sortArea: 'Площадь ↓', sortPpm: 'Цена за м² ↑',
+  reset: 'Сбросить фильтры ✕', bedsAria: 'Спальни', areaAria: 'Площадь'});
+Object.assign(I18N.bg, {kavalaAll: 'Цяла Кавала', grpKavala: 'Кавала — квартали', grpOther: 'Села и крайбрежие',
+  budgetFrom: v => `От ${v}`, gvMark: 'Golden Visa', bedsAny: 'Спални', bedsMin: n => `От ${n} спални`,
+  areaAny: 'Площ', areaMin: n => `От ${n} м²`, sortNew: 'Първо новите', sortArea: 'Площ ↓', sortPpm: 'Цена на м² ↑',
+  reset: 'Изчисти филтрите ✕', bedsAria: 'Спални', areaAria: 'Площ'});
+Object.assign(I18N.en, {kavalaAll: 'All of Kavala', grpKavala: 'Kavala — areas', grpOther: 'Villages and coast',
+  budgetFrom: v => `From ${v}`, gvMark: 'Golden Visa', bedsAny: 'Bedrooms', bedsMin: n => `${n}+ bedrooms`,
+  areaAny: 'Size', areaMin: n => `From ${n} m²`, sortNew: 'Newest first', sortArea: 'Size ↓', sortPpm: 'Price per m² ↑',
+  reset: 'Clear filters ✕', bedsAria: 'Bedrooms', areaAria: 'Size'});
+Object.assign(I18N.de, {kavalaAll: 'Ganz Kavala', grpKavala: 'Kavala — Stadtteile', grpOther: 'Dörfer und Küste',
+  budgetFrom: v => `Ab ${v}`, gvMark: 'Golden Visa', bedsAny: 'Schlafzimmer', bedsMin: n => `Ab ${n} Schlafzimmer`,
+  areaAny: 'Fläche', areaMin: n => `Ab ${n} m²`, sortNew: 'Neueste zuerst', sortArea: 'Fläche ↓', sortPpm: 'Preis pro m² ↑',
+  reset: 'Filter zurücksetzen ✕', bedsAria: 'Schlafzimmer', areaAria: 'Fläche'});
+Object.assign(I18N.es, {kavalaAll: 'Toda Kavala', grpKavala: 'Kavala — barrios', grpOther: 'Pueblos y costa',
+  budgetFrom: v => `Desde ${v}`, gvMark: 'Golden Visa', bedsAny: 'Dormitorios', bedsMin: n => `Desde ${n} dormitorios`,
+  areaAny: 'Superficie', areaMin: n => `Desde ${n} m²`, sortNew: 'Más nuevos', sortArea: 'Superficie ↓', sortPpm: 'Precio por m² ↑',
+  reset: 'Borrar filtros ✕', bedsAria: 'Dormitorios', areaAria: 'Superficie'});
