@@ -46,7 +46,7 @@ function buildItems() {
     const bits = [district, p.bedrooms ? T.bedrooms(p.bedrooms) : '', p.sea === 0 ? T.seafrontShort : ''].filter(Boolean);
     return {id: p.code, title: pick(p.title), city, place: p.place, district, type: T.types[p.type] || p.type, typeKey: p.type, price: p.price, area: p.area,
       desc: bits.join(' · '), text: pick(p.desc), feat: pick(p.feat) || [], img: p.photos[0], photos: p.photos, videos: p.videos || (p.video ? [p.video] : []),
-      url: p.source === 'katoiko' ? '' : p.url, bedrooms: p.bedrooms, bathrooms: p.bathrooms, floor: p.floor, plot: p.plot, sea: p.sea, furnished: p.furnished, featured: p.featured,
+      url: '', bedrooms: p.bedrooms, bathrooms: p.bathrooms, floor: p.floor, plot: p.plot, sea: p.sea, furnished: p.furnished, featured: p.featured,
       hay: [p.code, ...Object.values(p.title || {}), ...Object.values(D.places[p.place] || {}), ...Object.values(p.district || {})].join(' ').toLowerCase()};
   });
 }
@@ -178,7 +178,7 @@ function openItem(id, el, push = true) {
     <h3 style="font:25px Georgia">${esc(T.aboutObj)}</h3><p class="muted">${esc(p.text)}</p>
     ${p.feat.length ? `<ul class="feat">${p.feat.map(f => `<li>${esc(f)}</li>`).join('')}</ul>` : ''}
     ${p.photos.length > 1 ? `<h3 style="font:25px Georgia;margin-top:34px">${esc(T.photosN(p.photos.length))}</h3><div class="thumbs">${p.photos.map((ph, i) => `<button class="${i ? '' : 'on'}" onclick="openGallery(${i})" aria-label="${esc(T.photoN(i + 1))}"><img loading="lazy" src="${esc(ph)}" alt=""></button>`).join('')}</div>` : ''}
-    ${p.url ? `<p style="margin-top:28px"><a class="src" href="${esc(p.url)}" target="_blank" rel="noopener">${esc(T.source)}</a></p>` : ''}`;
+    `;
   $('detailPrice').textContent = money(p.price);
   document.title = p.title + ' · VENI';
   if (reopen) return;
