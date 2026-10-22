@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12",
+ "updated": "2026-10-22",
  "places": {
   "kavala": {
    "bg": "Кавала",
@@ -31,6 +31,82 @@
   }
  },
  "listings": [
+  {
+   "code": 900007,
+   "slug": "kiria-house-900007",
+   "country": "gr",
+   "source": "veni",
+   "type": "house",
+   "deal": "sale",
+   "status": "sale",
+   "featured": true,
+   "place": "kiria",
+   "district": null,
+   "price": 150000,
+   "area": 150,
+   "plot": 600,
+   "bedrooms": 3,
+   "bathrooms": 1,
+   "floor": null,
+   "sea": null,
+   "furnished": true,
+   "lift": null,
+   "url": null,
+   "photos": [
+    "/assets/media/kiria-eg4.jpg"
+   ],
+   "title": {
+    "bg": "Къща 120 м² с парцел 600 м² и основа за втори етаж, Кирия",
+    "ru": "Дом 120 м² с участком 600 м² и запасом на второй этаж, Кирия",
+    "en": "120 m² house on a 600 m² plot, ready for a second floor, Kiria",
+    "de": "120 m² Haus auf 600 m² Grundstück, vorbereitet für ein zweites Stockwerk, Kiria",
+    "es": "Casa de 120 m² en parcela de 600 m², preparada para una segunda planta, Kiria"
+   },
+   "desc": {
+    "bg": "Просторна семейна къща в тихото село Кирия, точно по средата между Драма (15 км) и Кавала (20 км): 120 м² жилищна площ (150 м² обща) върху парцел от 600 м². Три спални по 11–12 м², голям салон 42 м², кухня, отделена от салона с арка, отделни баня и тоалетна с голямо място за съхранение над тях. Къщата е построена през 2003 г. и е добре изолирана — 5 см стиропор между двата реда тухли, изолирани таван и под; централно отопление на нафта с котел, оразмерен за два етажа. Основите са заложени за два етажа и арматурата за втория етаж е изведена — площта може да се удвои. Продава се с мебелите, свободна е и не е отдавана под наем. Код: 4165",
+    "ru": "Просторный семейный дом в тихой деревне Кирия, ровно посередине между Драмой (15 км) и Кавалой (20 км): жилая площадь 120 м² (общая 150 м²), участок 600 м². Три спальни по 11–12 м², большой салон 42 м², кухня отделена от салона дверным проёмом, раздельные ванная и туалет с большим местом для хранения над ними. Дом построен в 2003 году и хорошо утеплён — пенопласт 5 см между двумя рядами кирпича, утеплены потолок и пол; центральное отопление на дизеле, котёл рассчитан на два этажа. Фундамент заложен под два этажа, арматура для второго этажа выведена — площадь можно удвоить. Продаётся с мебелью, свободен, не сдавался. Код: 4165",
+    "en": "A spacious family home in the quiet village of Kiria, exactly halfway between Drama (15 km) and Kavala (20 km): 120 m² of living space (150 m² in total) on a 600 m² plot. Three bedrooms of 11–12 m², a large 42 m² living room, a kitchen separated from the living room by an archway, and a separate bathroom and WC with generous storage above them. Built in 2003 and well insulated — 5 cm of foam between two layers of brick, plus insulated ceiling and floor; central oil heating with a boiler sized for two floors. The foundations are laid for two storeys and the rebar for the upper floor is already in place, so the space can be doubled. Sold furnished, vacant and never let. Code: 4165",
+    "de": "Ein geräumiges Familienhaus im ruhigen Dorf Kiria, genau zwischen Drama (15 km) und Kavala (20 km): 120 m² Wohnfläche (150 m² gesamt) auf 600 m² Grundstück. Drei Schlafzimmer à 11–12 m², ein großes Wohnzimmer mit 42 m², eine durch einen Durchgang abgetrennte Küche sowie getrenntes Bad und WC mit viel Stauraum darüber. Baujahr 2003, gut gedämmt – 5 cm Dämmung zwischen zwei Ziegelschichten, gedämmte Decke und Boden; Ölzentralheizung mit Kessel für zwei Etagen. Das Fundament ist für zwei Geschosse ausgelegt, die Bewehrung für das Obergeschoss ist bereits vorhanden – die Fläche lässt sich verdoppeln. Möbliert, frei und nie vermietet. Code: 4165",
+    "es": "Una amplia casa familiar en el tranquilo pueblo de Kiria, justo a medio camino entre Drama (15 km) y Kavala (20 km): 120 m² habitables (150 m² en total) en una parcela de 600 m². Tres dormitorios de 11–12 m², un gran salón de 42 m², cocina separada del salón por un arco, y baño y aseo independientes con amplio espacio de almacenaje encima. Construida en 2003 y bien aislada: 5 cm de aislante entre dos capas de ladrillo, techo y suelo aislados; calefacción central de gasóleo con caldera calculada para dos plantas. Los cimientos están hechos para dos plantas y las esperas de armadura para la segunda ya están colocadas, así que se puede duplicar la superficie. Se vende amueblada, libre y nunca alquilada. Código: 4165"
+   },
+   "feat": {
+    "bg": [
+     "Парцел 600 м²",
+     "3 спални и салон 42 м²",
+     "Добре изолирана",
+     "Основа за втори етаж",
+     "15 км от Драма, 20 км от Кавала"
+    ],
+    "ru": [
+     "Участок 600 м²",
+     "3 спальни и салон 42 м²",
+     "Утеплённый дом",
+     "Фундамент под второй этаж",
+     "15 км до Драмы, 20 км до Кавалы"
+    ],
+    "en": [
+     "600 m² plot",
+     "3 bedrooms, 42 m² living room",
+     "Well insulated",
+     "Ready for a second floor",
+     "15 km to Drama, 20 km to Kavala"
+    ],
+    "de": [
+     "600 m² Grundstück",
+     "3 Schlafzimmer, 42 m² Wohnzimmer",
+     "Gut gedämmt",
+     "Vorbereitet für 2. Etage",
+     "15 km nach Drama, 20 km nach Kavala"
+    ],
+    "es": [
+     "Parcela de 600 m²",
+     "3 dormitorios y salón de 42 m²",
+     "Bien aislada",
+     "Preparada para 2.ª planta",
+     "15 km de Drama, 20 km de Kavala"
+    ]
+   }
+  },
   {
    "code": 900001,
    "slug": "kiria-house-900001",
