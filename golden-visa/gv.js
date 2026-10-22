@@ -49,7 +49,7 @@ ru: {
   ],
   k6: 'Ваш консультант', aboutTitle: 'Венера Хасанова',
   about: [
-    'Консультант по недвижимости Imoti Premier',
+    'Консультант по недвижимости, офис в Бургасе',
     'Живу на Балканах с 2013 года, между Болгарией и Грецией',
     'Несколько лет работаю с крупными агентствами Северной Греции',
     'Сама купила и восстанавливаю дом в Греции — знаю этот путь изнутри',
@@ -81,7 +81,7 @@ ru: {
     ['Сколько стоит сверх цены объекта?', 'Налог на передачу собственности около 3%, нотариус, адвокат, госпошлина за ВНЖ, медицинская страховка, переводы документов. Точный расчёт пришлю под конкретный объект.'],
     ['Сколько длится оформление?', 'Зависит от объекта и готовности документов. Обычно несколько месяцев — точный срок назовёт адвокат.'],
   ],
-  foot: '© 2026 Венера Хасанова · VENI · Imoti Premier',
+  foot: '© 2026 Венера Хасанова · VENI',
   contactTitle: 'Или напишите мне напрямую', catalog: '← Все объекты в каталоге',
 },
 en: {
@@ -124,7 +124,7 @@ en: {
   ],
   k6: 'Your consultant', aboutTitle: 'Venera Khassanova',
   about: [
-    'Real estate consultant at Imoti Premier',
+    'Real estate consultant, Burgas office',
     'Living in the Balkans since 2013, between Bulgaria and Greece',
     'Working for several years with leading agencies in Northern Greece',
     'Bought and restoring my own house in Greece — I know this path first-hand',
@@ -156,7 +156,7 @@ en: {
     ['What does it cost on top of the price?', 'Property transfer tax of about 3%, notary, lawyer, the permit fee, health insurance and document translations. I will send an exact estimate for a specific property.'],
     ['How long does it take?', 'It depends on the property and how ready your documents are. Usually a few months — the lawyer will give you the exact timing.'],
   ],
-  foot: '© 2026 Venera Khassanova · VENI · Imoti Premier',
+  foot: '© 2026 Venera Khassanova · VENI',
   contactTitle: 'Or message me directly', catalog: '← All properties in the catalogue',
 },
 };

@@ -116,7 +116,7 @@ def topbar(lang, alt_ru, alt_en):
 
 def foot(lang="ru"):
     name = "Венера Хасанова" if lang == "ru" else "Venera Khassanova"
-    return f'<footer class="foot">© 2026 {name} · VENI · Imoti Premier</footer>'
+    return f'<footer class="foot">© 2026 {name} · VENI</footer>'
 
 def cta(lang, post, url):
     t = TX[lang]
