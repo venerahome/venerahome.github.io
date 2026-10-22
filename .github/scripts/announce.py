@@ -10,11 +10,14 @@ import os, sys, json, html, urllib.request, urllib.parse
 SITE = "https://venerahome.github.io"
 LANG = (os.environ.get("POST_LANG") or "ru").strip()
 TAGS = {"ru": {"greece": "#Греция", "bulgaria": "#Болгария", "europe": "#Европа"},
-        "en": {"greece": "#Greece", "bulgaria": "#Bulgaria", "europe": "#Europe"}}
-MORE = {"ru": "Читать статью →", "en": "Read the article →"}
+        "bg": {"greece": "#Гърция", "bulgaria": "#България", "europe": "#Европа"},
+        "en": {"greece": "#Greece", "bulgaria": "#Bulgaria", "europe": "#Europe"},
+        "de": {"greece": "#Griechenland", "bulgaria": "#Bulgarien", "europe": "#Europa"},
+        "es": {"greece": "#Grecia", "bulgaria": "#Bulgaria", "europe": "#Europa"}}
+MORE = {"ru": "Читать статью →", "bg": "Прочетете статията →", "en": "Read the article →", "de": "Artikel lesen →", "es": "Leer el artículo →"}
 
 def url_for(p):
-    return f"{SITE}/blog/{'' if LANG == 'ru' else 'en/'}{p['slug']}/"
+    return f"{SITE}/blog/{'' if LANG == 'ru' else LANG + '/'}{p['slug']}/"
 
 def post(url, data):
     req = urllib.request.Request(url, data=urllib.parse.urlencode(data).encode(), method="POST")
