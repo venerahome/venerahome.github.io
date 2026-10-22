@@ -64,6 +64,7 @@ function applyTexts() {
   document.querySelectorAll('[data-i-alt]').forEach(el => el.alt = T[el.dataset.iAlt]);
   document.querySelectorAll('.blog-link').forEach(a => a.href = lang === 'ru' ? '/blog/' : '/blog/en/');
   document.querySelectorAll('.gv-link').forEach(a => a.href = lang === 'ru' ? '/golden-visa/ru/' : '/golden-visa/en/');
+  document.querySelectorAll('.gv-banner').forEach(el => el.style.display = (lang === 'ru' || lang === 'en') ? '' : 'none'); // блок ВНЖ — только RU и EN, кнопка в меню — везде
   $('lang').innerHTML = LANGS.map(l => `<button type="button" data-lang="${l}" aria-pressed="${l === lang}" title="${I18N[l].name}">${l.toUpperCase()}</button>`).join('');
   $('steps').innerHTML = T.steps.map(s => `<li><strong>${esc(s[0])}</strong><p class="muted">${esc(s[1])}</p></li>`).join('');
   $('social').innerHTML = `<span class="small" style="color:var(--gold)">${esc(T.followT)}</span><div>` +
