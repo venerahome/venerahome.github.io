@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22",
+ "updated": "2026-10-23",
  "places": {
   "kavala": {
    "bg": "Кавала",
@@ -31,6 +31,101 @@
   }
  },
  "listings": [
+  {
+   "code": 900008,
+   "slug": "kavala-apt-900008",
+   "country": "gr",
+   "source": "veni",
+   "type": "apt",
+   "deal": "sale",
+   "status": "sale",
+   "featured": true,
+   "place": "kavala",
+   "district": {
+    "bg": "до Агиос Павлос",
+    "ru": "рядом с Агиос Павлос",
+    "en": "near Agios Pavlos",
+    "de": "nahe Agios Pavlos",
+    "es": "junto a Agios Pavlos"
+   },
+   "price": 515000,
+   "area": 150,
+   "plot": null,
+   "bedrooms": 3,
+   "bathrooms": null,
+   "floor": "5",
+   "sea": null,
+   "furnished": null,
+   "lift": null,
+   "url": null,
+   "photos": [
+    "/assets/media/kavala-pirin-1.jpg",
+    "/assets/media/kavala-pirin-2.jpg",
+    "/assets/media/kavala-pirin-3.jpg",
+    "/assets/media/kavala-pirin-4.jpg",
+    "/assets/media/kavala-pirin-5.jpg",
+    "/assets/media/kavala-pirin-6.jpg",
+    "/assets/media/kavala-pirin-7.jpg",
+    "/assets/media/kavala-pirin-8.jpg",
+    "/assets/media/kavala-pirin-9.jpg",
+    "/assets/media/kavala-pirin-10.jpg",
+    "/assets/media/kavala-pirin-11.jpg",
+    "/assets/media/kavala-pirin-12.jpg",
+    "/assets/media/kavala-pirin-13.jpg",
+    "/assets/media/kavala-pirin-14.jpg"
+   ],
+   "title": {
+    "bg": "Апартамент 150 м² с тераси и гледка към морето, Кавала — подходящ за Златна виза",
+    "ru": "Квартира 150 м² с террасами и видом на море, Кавала — подходит под Золотую визу",
+    "en": "150 m² apartment with terraces and sea views, Kavala — Golden Visa eligible",
+    "de": "150 m² Wohnung mit Terrassen und Meerblick, Kavala – geeignet für das Golden Visa",
+    "es": "Piso de 150 m² con terrazas y vistas al mar, Kavala — apto para la Golden Visa"
+   },
+   "desc": {
+    "bg": "Морето и цяла Кавала пред вас: просторен апартамент от 150 м² на пети етаж до квартал Агиос Павлос, с големи тераси около жилището — дървен дек с гледка към морето и крепостта, зелена тераса и барбекю. Светъл хол и трапезария с камина и стена от тухла, модерна кухня с бар и панорамен прозорец, три спални, баня с две мивки и гледка. Подово отопление, климатици, дървена дограма и паркет; към апартамента има гараж 17 м² и склад 6 м². Имотът е подходящ за Златна виза — пребиваване в Гърция и ЕС за цялото семейство. Код: ПИРИН",
+    "ru": "Море и вся Кавала перед вами: просторная квартира 150 м² на пятом этаже рядом с районом Агиос Павлос, с большими террасами вокруг — деревянный настил с видом на море и крепость, зелёная терраса и барбекю. Светлая гостиная со столовой, камином и кирпичной стеной, современная кухня с барной стойкой и панорамным окном, три спальни, ванная с двумя раковинами и видом. Тёплый пол, кондиционеры, деревянные окна и паркет; к квартире относятся гараж 17 м² и кладовая 6 м². Объект подходит под Золотую визу — ВНЖ в Греции и ЕС для всей семьи. Код: ПИРИН",
+    "en": "The sea and all of Kavala in front of you: a spacious 150 m² fifth-floor apartment near Agios Pavlos, wrapped in large terraces — a wooden deck with views of the sea and the castle, a green terrace and a barbecue. A bright living and dining room with a fireplace and brick feature wall, a modern kitchen with breakfast bar and panoramic window, three bedrooms and a bathroom with double basins and a view. Underfloor heating, air conditioning, wooden windows and parquet; a 17 m² garage and 6 m² storeroom are included. The property is eligible for the Greek Golden Visa — residency in Greece and the EU for the whole family. Code: ПИРИН",
+    "de": "Das Meer und ganz Kavala vor Augen: großzügige 150 m² Wohnung im fünften Stock nahe Agios Pavlos, umgeben von großen Terrassen – Holzdeck mit Blick auf Meer und Burg, grüne Terrasse und Grill. Heller Wohn- und Essbereich mit Kamin und Ziegelwand, moderne Küche mit Bar und Panoramafenster, drei Schlafzimmer, Bad mit Doppelwaschbecken und Aussicht. Fußbodenheizung, Klimaanlagen, Holzfenster und Parkett; dazu Garage (17 m²) und Abstellraum (6 m²). Die Immobilie eignet sich für das griechische Golden Visa – Aufenthalt in Griechenland und der EU für die ganze Familie. Code: ПИРИН",
+    "es": "El mar y toda Kavala ante usted: amplio piso de 150 m² en quinta planta junto a Agios Pavlos, rodeado de grandes terrazas: tarima de madera con vistas al mar y al castillo, terraza verde y barbacoa. Salón-comedor luminoso con chimenea y pared de ladrillo, cocina moderna con barra y ventana panorámica, tres dormitorios y baño con doble lavabo y vistas. Suelo radiante, aire acondicionado, ventanas de madera y parquet; incluye garaje de 17 m² y trastero de 6 m². El inmueble es apto para la Golden Visa griega: residencia en Grecia y la UE para toda la familia. Código: ПИРИН"
+   },
+   "feat": {
+    "bg": [
+     "Подходящ за Златна виза",
+     "Тераси с гледка към морето",
+     "Камина и подово отопление",
+     "Гараж 17 м² и склад 6 м²",
+     "3 спални"
+    ],
+    "ru": [
+     "Подходит под Золотую визу",
+     "Террасы с видом на море",
+     "Камин и тёплый пол",
+     "Гараж 17 м² и кладовая 6 м²",
+     "3 спальни"
+    ],
+    "en": [
+     "Golden Visa eligible",
+     "Sea-view terraces",
+     "Fireplace and underfloor heating",
+     "17 m² garage and 6 m² storeroom",
+     "3 bedrooms"
+    ],
+    "de": [
+     "Geeignet für Golden Visa",
+     "Terrassen mit Meerblick",
+     "Kamin und Fußbodenheizung",
+     "Garage 17 m² und Abstellraum 6 m²",
+     "3 Schlafzimmer"
+    ],
+    "es": [
+     "Apto para Golden Visa",
+     "Terrazas con vistas al mar",
+     "Chimenea y suelo radiante",
+     "Garaje 17 m² y trastero 6 m²",
+     "3 dormitorios"
+    ]
+   }
+  },
   {
    "code": 900007,
    "slug": "kiria-house-900007",
