@@ -32,6 +32,95 @@
  },
  "listings": [
   {
+   "code": 900009,
+   "slug": "kavala-apt-900009",
+   "country": "gr",
+   "source": "veni",
+   "type": "apt",
+   "deal": "sale",
+   "status": "sale",
+   "featured": true,
+   "place": "kavala",
+   "district": {
+    "bg": "Неа Ираклица",
+    "ru": "Неа Ираклица",
+    "en": "Nea Iraklitsa",
+    "de": "Nea Iraklitsa",
+    "es": "Nea Iraklitsa"
+   },
+   "price": 140000,
+   "area": 58,
+   "plot": null,
+   "bedrooms": 1,
+   "bathrooms": 1,
+   "floor": "1",
+   "sea": null,
+   "furnished": true,
+   "lift": null,
+   "url": null,
+   "photos": [
+    "/assets/media/iraklitsa-pir-1.jpg",
+    "/assets/media/iraklitsa-pir-2.jpg",
+    "/assets/media/iraklitsa-pir-3.jpg",
+    "/assets/media/iraklitsa-pir-4.jpg",
+    "/assets/media/iraklitsa-pir-5.jpg",
+    "/assets/media/iraklitsa-pir-6.jpg",
+    "/assets/media/iraklitsa-pir-7.jpg",
+    "/assets/media/iraklitsa-pir-8.jpg"
+   ],
+   "title": {
+    "bg": "Обзаведен апартамент 58 м² на крачки от морето, Неа Ираклица",
+    "ru": "Квартира 58 м² с мебелью в нескольких шагах от моря, Неа Ираклица",
+    "en": "Furnished 58 m² apartment steps from the sea, Nea Iraklitsa",
+    "de": "Möblierte 58 m² Wohnung nur wenige Schritte vom Meer, Nea Iraklitsa",
+    "es": "Piso amueblado de 58 m² a pasos del mar, Nea Iraklitsa"
+   },
+   "desc": {
+    "bg": "Курортна Неа Ираклица и морето съвсем наблизо: апартамент с чиста площ 58 м² на първи етаж, продава се напълно обзаведен — може веднага да се живее или да се отдава. Светъл хол с излаз на балкон, кухня с трапезна зона, отделна спалня и баня с душ, климатик. Два балкона, единият дълъг по цялата дължина на апартамента, с гледка към морето и зелените хълмове. Подходящ за ваканционен дом край морето или за инвестиция в лятно отдаване под наем. Код: ПИР",
+    "ru": "Курортная Неа Ираклица, и море совсем рядом: квартира чистой площадью 58 м² на первом этаже, продаётся полностью меблированной — можно сразу жить или сдавать. Светлая гостиная с выходом на балкон, кухня с обеденной зоной, отдельная спальня и ванная с душем, кондиционер. Два балкона, один длинный — вдоль всей квартиры, с видом на кусочек моря и зелёные холмы. Подойдёт как дом для отдыха у моря или как вложение под летнюю аренду. Код: ПИР",
+    "en": "The seaside resort of Nea Iraklitsa with the sea just steps away: a first-floor apartment with 58 m² of net living space, sold fully furnished — move in or start letting right away. A bright living room opening onto a balcony, a kitchen with dining area, a separate bedroom and a shower room, air conditioning. Two balconies, one running the full length of the apartment, with a glimpse of the sea and green hills. Ideal as a holiday home by the sea or as a summer-rental investment. Code: ПИР",
+    "de": "Der Badeort Nea Iraklitsa, das Meer ganz in der Nähe: Wohnung im ersten Stock mit 58 m² Nettowohnfläche, komplett möbliert – sofort bewohnbar oder vermietbar. Helles Wohnzimmer mit Balkonzugang, Küche mit Essbereich, separates Schlafzimmer und Duschbad, Klimaanlage. Zwei Balkone, einer über die ganze Länge der Wohnung, mit Blick auf ein Stück Meer und grüne Hügel. Ideal als Ferienwohnung am Meer oder als Investition in die Sommervermietung. Code: ПИР",
+    "es": "La localidad costera de Nea Iraklitsa, con el mar a dos pasos: piso en primera planta con 58 m² útiles, se vende totalmente amueblado; listo para vivir o alquilar. Salón luminoso con salida al balcón, cocina con zona de comedor, dormitorio independiente y baño con ducha, aire acondicionado. Dos balcones, uno a lo largo de todo el piso, con vistas a un trozo de mar y colinas verdes. Ideal como casa de vacaciones junto al mar o como inversión para alquiler de verano. Código: ПИР"
+   },
+   "feat": {
+    "bg": [
+     "На крачки от морето",
+     "Напълно обзаведен",
+     "2 балкона с гледка",
+     "Чиста площ 58 м²",
+     "Подходящ за лятно отдаване"
+    ],
+    "ru": [
+     "Рядом с морем",
+     "Полностью меблирована",
+     "2 балкона с видом",
+     "Чистая площадь 58 м²",
+     "Можно сдавать отдыхающим"
+    ],
+    "en": [
+     "Steps from the sea",
+     "Fully furnished",
+     "2 balconies with views",
+     "58 m² net area",
+     "Holiday-rental ready"
+    ],
+    "de": [
+     "Wenige Schritte zum Meer",
+     "Komplett möbliert",
+     "2 Balkone mit Aussicht",
+     "58 m² Nettowohnfläche",
+     "Ideal zur Ferienvermietung"
+    ],
+    "es": [
+     "A pasos del mar",
+     "Totalmente amueblado",
+     "2 balcones con vistas",
+     "58 m² útiles",
+     "Listo para alquiler vacacional"
+    ]
+   }
+  },
+  {
    "code": 900008,
    "slug": "kavala-apt-900008",
    "country": "gr",
@@ -82,11 +171,11 @@
     "es": "Piso de 150 m² con terrazas y vistas al mar, Kavala — apto para la Golden Visa"
    },
    "desc": {
-    "bg": "Морето и цяла Кавала пред вас: просторен апартамент от 150 м² на пети етаж до квартал Агиос Павлос, с големи тераси около жилището — дървен дек с гледка към морето и крепостта, зелена тераса и барбекю. Светъл хол и трапезария с камина и стена от тухла, модерна кухня с бар и панорамен прозорец, три спални, баня с две мивки и гледка. Подово отопление, климатици, дървена дограма и паркет; към апартамента има гараж 17 м² и склад 6 м². Имотът е подходящ за Златна виза — пребиваване в Гърция и ЕС за цялото семейство. Код: ПИРИН",
-    "ru": "Море и вся Кавала перед вами: просторная квартира 150 м² на пятом этаже рядом с районом Агиос Павлос, с большими террасами вокруг — деревянный настил с видом на море и крепость, зелёная терраса и барбекю. Светлая гостиная со столовой, камином и кирпичной стеной, современная кухня с барной стойкой и панорамным окном, три спальни, ванная с двумя раковинами и видом. Тёплый пол, кондиционеры, деревянные окна и паркет; к квартире относятся гараж 17 м² и кладовая 6 м². Объект подходит под Золотую визу — ВНЖ в Греции и ЕС для всей семьи. Код: ПИРИН",
-    "en": "The sea and all of Kavala in front of you: a spacious 150 m² fifth-floor apartment near Agios Pavlos, wrapped in large terraces — a wooden deck with views of the sea and the castle, a green terrace and a barbecue. A bright living and dining room with a fireplace and brick feature wall, a modern kitchen with breakfast bar and panoramic window, three bedrooms and a bathroom with double basins and a view. Underfloor heating, air conditioning, wooden windows and parquet; a 17 m² garage and 6 m² storeroom are included. The property is eligible for the Greek Golden Visa — residency in Greece and the EU for the whole family. Code: ПИРИН",
-    "de": "Das Meer und ganz Kavala vor Augen: großzügige 150 m² Wohnung im fünften Stock nahe Agios Pavlos, umgeben von großen Terrassen – Holzdeck mit Blick auf Meer und Burg, grüne Terrasse und Grill. Heller Wohn- und Essbereich mit Kamin und Ziegelwand, moderne Küche mit Bar und Panoramafenster, drei Schlafzimmer, Bad mit Doppelwaschbecken und Aussicht. Fußbodenheizung, Klimaanlagen, Holzfenster und Parkett; dazu Garage (17 m²) und Abstellraum (6 m²). Die Immobilie eignet sich für das griechische Golden Visa – Aufenthalt in Griechenland und der EU für die ganze Familie. Code: ПИРИН",
-    "es": "El mar y toda Kavala ante usted: amplio piso de 150 m² en quinta planta junto a Agios Pavlos, rodeado de grandes terrazas: tarima de madera con vistas al mar y al castillo, terraza verde y barbacoa. Salón-comedor luminoso con chimenea y pared de ladrillo, cocina moderna con barra y ventana panorámica, tres dormitorios y baño con doble lavabo y vistas. Suelo radiante, aire acondicionado, ventanas de madera y parquet; incluye garaje de 17 m² y trastero de 6 m². El inmueble es apto para la Golden Visa griega: residencia en Grecia y la UE para toda la familia. Código: ПИРИН"
+    "bg": "Морето и цяла Кавала пред вас: просторен апартамент от 150 м² на пети етаж до квартал Агиос Павлос, с големи тераси около жилището — дървен дек с гледка към морето и крепостта, зелена тераса и барбекю. Светъл хол и трапезария с камина и стена от тухла, модерна кухня с бар и панорамен прозорец, три спални, баня с две мивки и гледка. Подово отопление, климатици, дървена дограма и паркет; към апартамента има гараж 17 м² и склад 6 м². Имотът е подходящ за Златна виза — пребиваване в Гърция и ЕС за цялото семейство. Код: ПИР",
+    "ru": "Море и вся Кавала перед вами: просторная квартира 150 м² на пятом этаже рядом с районом Агиос Павлос, с большими террасами вокруг — деревянный настил с видом на море и крепость, зелёная терраса и барбекю. Светлая гостиная со столовой, камином и кирпичной стеной, современная кухня с барной стойкой и панорамным окном, три спальни, ванная с двумя раковинами и видом. Тёплый пол, кондиционеры, деревянные окна и паркет; к квартире относятся гараж 17 м² и кладовая 6 м². Объект подходит под Золотую визу — ВНЖ в Греции и ЕС для всей семьи. Код: ПИР",
+    "en": "The sea and all of Kavala in front of you: a spacious 150 m² fifth-floor apartment near Agios Pavlos, wrapped in large terraces — a wooden deck with views of the sea and the castle, a green terrace and a barbecue. A bright living and dining room with a fireplace and brick feature wall, a modern kitchen with breakfast bar and panoramic window, three bedrooms and a bathroom with double basins and a view. Underfloor heating, air conditioning, wooden windows and parquet; a 17 m² garage and 6 m² storeroom are included. The property is eligible for the Greek Golden Visa — residency in Greece and the EU for the whole family. Code: ПИР",
+    "de": "Das Meer und ganz Kavala vor Augen: großzügige 150 m² Wohnung im fünften Stock nahe Agios Pavlos, umgeben von großen Terrassen – Holzdeck mit Blick auf Meer und Burg, grüne Terrasse und Grill. Heller Wohn- und Essbereich mit Kamin und Ziegelwand, moderne Küche mit Bar und Panoramafenster, drei Schlafzimmer, Bad mit Doppelwaschbecken und Aussicht. Fußbodenheizung, Klimaanlagen, Holzfenster und Parkett; dazu Garage (17 m²) und Abstellraum (6 m²). Die Immobilie eignet sich für das griechische Golden Visa – Aufenthalt in Griechenland und der EU für die ganze Familie. Code: ПИР",
+    "es": "El mar y toda Kavala ante usted: amplio piso de 150 m² en quinta planta junto a Agios Pavlos, rodeado de grandes terrazas: tarima de madera con vistas al mar y al castillo, terraza verde y barbacoa. Salón-comedor luminoso con chimenea y pared de ladrillo, cocina moderna con barra y ventana panorámica, tres dormitorios y baño con doble lavabo y vistas. Suelo radiante, aire acondicionado, ventanas de madera y parquet; incluye garaje de 17 m² y trastero de 6 m². El inmueble es apto para la Golden Visa griega: residencia en Grecia y la UE para toda la familia. Código: ПИР"
    },
    "feat": {
     "bg": [
