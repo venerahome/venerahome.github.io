@@ -139,4 +139,4 @@ header .small{font-weight:bold}
 .reset:hover{text-decoration:underline}
 @media(max-width:1100px){.filters{grid-template-columns:repeat(3,1fr)}.filters input{grid-column:1/-1}}
 @media(max-width:600px){.filters{grid-template-columns:1fr 1fr;position:static}.filters input,.filters #city{grid-column:1/-1}}
-@media(max-width:850px){header{align-items:flex-start}header .head-links{display:grid;grid-template-columns:auto auto;justify-content:end;justify-items:end;gap:4px 16px}header .head-links .lang{grid-column:1/-1;order:-1}header .head-links a.gv-link,header .head-links a.blog-link{display:inline-block;font-size:12px;letter-spacing:1px;padding:6px 0;white-space:nowrap}}
+@media(max-width:850px){header{align-items:flex-start}header .head-links{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:4px 16px}header .head-links .lang{flex-basis:100%;justify-content:flex-end;order:-1}header .head-links a.gv-link,header .head-links a.blog-link{display:inline-block;font-size:12px;letter-spacing:1px;padding:6px 0;white-space:nowrap}}
