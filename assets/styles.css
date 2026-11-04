@@ -159,3 +159,16 @@ header .small{font-weight:bold}
 @media(max-width:700px){.ctry-grid{grid-template-columns:1fr;gap:16px}.ctry{aspect-ratio:1.25}.ctabs button{flex:1;padding:11px 8px}}
 
 .show-more{display:block;margin:40px auto 0;border:1px solid var(--ink);background:transparent;color:var(--ink);padding:16px 30px;border-radius:3px;font-size:14px;letter-spacing:.5px}.show-more:hover{background:var(--ink);color:white}
+
+/* Первый экран: компактнее, две кнопки стран */
+.hero{min-height:clamp(480px,62svh,640px);padding:130px 8% 64px}
+.hero-content{max-width:680px}
+.hero h1{font-size:clamp(40px,4.4vw,62px);margin:14px 0}
+.hero p{margin:0 0 6px}
+.hero-ctry{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}
+.hero .hero-ctry .primary{margin-top:0;text-decoration:none;display:inline-block;font-size:15px;padding:16px 24px}
+.hero .hero-ctry .primary.alt{background:transparent;color:white;border:1px solid #ffffffb3}
+.hero .hero-ctry .primary.alt:hover{background:#ffffff1f}
+.hero .down{display:none}
+@media(max-width:850px){.hero{padding:120px 6% 56px}}
+@media(max-width:520px){.hero{min-height:0;padding:128px 6% 44px}.hero h1{font-size:40px}.hero-ctry{flex-direction:column;align-items:stretch}.hero .hero-ctry .primary{text-align:center}}

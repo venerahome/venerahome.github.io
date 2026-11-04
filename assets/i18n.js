@@ -244,23 +244,23 @@ es: { ctryGr: 'Grecia', ctryBg: 'Bulgaria', ctryAll: 'Todos los países', ctryEy
 };
 
 /* Фильтры каталога (локация с районами, бюджет-диапазоны, спальни, площадь, сортировка) */
-Object.assign(I18N.ru, {showMore: n => `Показать ещё · осталось ${n}`, kavalaAll: 'Вся Кавала', grpKavala: 'Кавала — районы', grpOther: 'Деревни и побережье',
+Object.assign(I18N.ru, {heroBg: 'Недвижимость в Болгарии ↗', heroGr: 'Недвижимость в Греции ↗', showMore: n => `Показать ещё · осталось ${n}`, kavalaAll: 'Вся Кавала', grpKavala: 'Кавала — районы', grpOther: 'Деревни и побережье',
   budgetFrom: v => `От ${v}`, gvMark: 'Golden Visa', bedsAny: 'Спальни', bedsMin: n => `От ${n} ${ruPlural(n, 'спальни', 'спален', 'спален')}`,
   areaAny: 'Площадь', areaMin: n => `От ${n} м²`, sortNew: 'Сначала новые', sortArea: 'Площадь ↓', sortPpm: 'Цена за м² ↑',
   reset: 'Сбросить фильтры ✕', bedsAria: 'Спальни', areaAria: 'Площадь'});
-Object.assign(I18N.bg, {showMore: n => `Покажи още · остават ${n}`, kavalaAll: 'Цяла Кавала', grpKavala: 'Кавала — квартали', grpOther: 'Села и крайбрежие',
+Object.assign(I18N.bg, {heroBg: 'Имоти в България ↗', heroGr: 'Имоти в Гърция ↗', showMore: n => `Покажи още · остават ${n}`, kavalaAll: 'Цяла Кавала', grpKavala: 'Кавала — квартали', grpOther: 'Села и крайбрежие',
   budgetFrom: v => `От ${v}`, gvMark: 'Golden Visa', bedsAny: 'Спални', bedsMin: n => `От ${n} спални`,
   areaAny: 'Площ', areaMin: n => `От ${n} м²`, sortNew: 'Първо новите', sortArea: 'Площ ↓', sortPpm: 'Цена на м² ↑',
   reset: 'Изчисти филтрите ✕', bedsAria: 'Спални', areaAria: 'Площ'});
-Object.assign(I18N.en, {showMore: n => `Show more · ${n} left`, kavalaAll: 'All of Kavala', grpKavala: 'Kavala — areas', grpOther: 'Villages and coast',
+Object.assign(I18N.en, {heroBg: 'Property in Bulgaria ↗', heroGr: 'Property in Greece ↗', showMore: n => `Show more · ${n} left`, kavalaAll: 'All of Kavala', grpKavala: 'Kavala — areas', grpOther: 'Villages and coast',
   budgetFrom: v => `From ${v}`, gvMark: 'Golden Visa', bedsAny: 'Bedrooms', bedsMin: n => `${n}+ bedrooms`,
   areaAny: 'Size', areaMin: n => `From ${n} m²`, sortNew: 'Newest first', sortArea: 'Size ↓', sortPpm: 'Price per m² ↑',
   reset: 'Clear filters ✕', bedsAria: 'Bedrooms', areaAria: 'Size'});
-Object.assign(I18N.de, {showMore: n => `Mehr anzeigen · noch ${n}`, kavalaAll: 'Ganz Kavala', grpKavala: 'Kavala — Stadtteile', grpOther: 'Dörfer und Küste',
+Object.assign(I18N.de, {heroBg: 'Immobilien in Bulgarien ↗', heroGr: 'Immobilien in Griechenland ↗', showMore: n => `Mehr anzeigen · noch ${n}`, kavalaAll: 'Ganz Kavala', grpKavala: 'Kavala — Stadtteile', grpOther: 'Dörfer und Küste',
   budgetFrom: v => `Ab ${v}`, gvMark: 'Golden Visa', bedsAny: 'Schlafzimmer', bedsMin: n => `Ab ${n} Schlafzimmer`,
   areaAny: 'Fläche', areaMin: n => `Ab ${n} m²`, sortNew: 'Neueste zuerst', sortArea: 'Fläche ↓', sortPpm: 'Preis pro m² ↑',
   reset: 'Filter zurücksetzen ✕', bedsAria: 'Schlafzimmer', areaAria: 'Fläche'});
-Object.assign(I18N.es, {showMore: n => `Mostrar más · quedan ${n}`, kavalaAll: 'Toda Kavala', grpKavala: 'Kavala — barrios', grpOther: 'Pueblos y costa',
+Object.assign(I18N.es, {heroBg: 'Inmuebles en Bulgaria ↗', heroGr: 'Inmuebles en Grecia ↗', showMore: n => `Mostrar más · quedan ${n}`, kavalaAll: 'Toda Kavala', grpKavala: 'Kavala — barrios', grpOther: 'Pueblos y costa',
   budgetFrom: v => `Desde ${v}`, gvMark: 'Golden Visa', bedsAny: 'Dormitorios', bedsMin: n => `Desde ${n} dormitorios`,
   areaAny: 'Superficie', areaMin: n => `Desde ${n} m²`, sortNew: 'Más nuevos', sortArea: 'Superficie ↓', sortPpm: 'Precio por m² ↑',
   reset: 'Borrar filtros ✕', bedsAria: 'Dormitorios', areaAria: 'Superficie'});

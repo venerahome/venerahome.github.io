@@ -68,6 +68,7 @@ function applyTexts() {
   document.querySelectorAll('.blog-link').forEach(a => a.href = (lang === 'ru' ? '/blog/' : '/blog/' + lang + '/') + (country ? CSLUG[country] + '/' : '')); // у каждой страны свой блог
   document.querySelectorAll('.gv-link').forEach(a => a.href = lang === 'ru' ? '/golden-visa/ru/' : '/golden-visa/en/');
   document.querySelectorAll('.gv-banner, .head-links .gv-link').forEach(el => el.style.display = (lang === 'ru' || lang === 'en') ? '' : 'none'); // блок и ссылка ВНЖ в шапке — только RU и EN
+  document.querySelectorAll('.hero-ctry a').forEach(x => x.href = '/' + lang + '/' + CSLUG[x.dataset.country] + '/');
   $('lang').innerHTML = LANGS.map(l => `<button type="button" data-lang="${l}" aria-pressed="${l === lang}" title="${I18N[l].name}">${l.toUpperCase()}</button>`).join('');
   $('steps').innerHTML = T.steps.map(s => `<li><strong>${esc(s[0])}</strong><p class="muted">${esc(s[1])}</p></li>`).join('');
   $('social').innerHTML = `<span class="small" style="color:var(--gold)">${esc(T.followT)}</span><div>` +
@@ -299,7 +300,7 @@ $('sellWa').addEventListener('click', () => {
 $('moreBtn').addEventListener('click', () => { shown += 24; render(true); track('catalog_more'); });
 $('reset').addEventListener('click', () => { resetFilters(); track('catalog_filter_reset'); });
 $('chips').addEventListener('click', e => { const b = e.target.closest('button'); if (!b || b.disabled) return; type = b.dataset.type; render(); });
-document.addEventListener('click', e => { const b = e.target.closest('[data-country]'); if (b) setCountry(b.dataset.country, b.classList.contains('ctry')); });
+document.addEventListener('click', e => { const b = e.target.closest('[data-country]'); if (!b) return; e.preventDefault(); setCountry(b.dataset.country, !!b.closest('.ctry, .hero-ctry')); });
 $('lang').addEventListener('click', e => { const b = e.target.closest('[data-lang]'); if (b) setLang(b.dataset.lang); });
 $('contactList').addEventListener('click', e => { const a = e.target.closest('a'); if (a) track('contact_click', {method: a.closest('li').firstChild.textContent, object_id: opened || 'general'}); });
 document.addEventListener('error', e => { if (e.target.tagName === 'IMG') e.target.style.visibility = 'hidden'; }, true);
