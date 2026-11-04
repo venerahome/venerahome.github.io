@@ -43,7 +43,7 @@ def caption(p, places):
             + ("🎬 Есть видео\n" if (p.get("videos") or p.get("video")) else ""))
     tail = (("\n" + "\n".join("✔️ " + html.escape(f) for f in feats[:4]) + "\n" if feats else "")
             + f"\n👉 <a href=\"{link}\">Смотреть объект на сайте</a>\n"
-            + "📩 Пишите — отвечу лично: @venera_kh_happy\n\n#Греция #недвижимость")
+            + "📩 Пишите — отвечу лично: @venera_kh_happy\n\n" + ("#Болгария" if p.get("country") == "bg" else "#Греция") + " #недвижимость")
     room = 1024 - len(head) - len(tail) - 10          # лимит подписи к фото в Telegram
     if room > 80 and desc:
         d = desc if len(desc) <= room else desc[:room].rsplit(" ", 1)[0] + "…"

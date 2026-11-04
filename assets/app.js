@@ -41,11 +41,13 @@ const pick = o => (o && (o[lang] || o.ru || o.en || Object.values(o)[0])) || '';
 const money = n => new Intl.NumberFormat(T.locale).format(n) + ' €';
 
 let items = [];
+const CSLUG = {gr: 'greece', bg: 'bulgaria'};
+let country = (() => { const c = window.PAGE_COUNTRY || new URLSearchParams(location.search).get('country'); return CSLUG[c] ? c : ''; })();
 function buildItems() {
   items = D.listings.map(p => {
     const city = pick(D.places[p.place]) || p.place, district = pick(p.district);
     const bits = [district, p.bedrooms ? T.bedrooms(p.bedrooms) : '', p.sea === 0 ? T.seafrontShort : ''].filter(Boolean);
-    return {id: p.code, title: pick(p.title), city, place: p.place, district, districtKey: p.district ? (p.district.en || p.district.ru || district) : '', type: T.types[p.type] || p.type, typeKey: p.type, price: p.price, area: p.area,
+    return {id: p.code, country: p.country || 'gr', title: pick(p.title), city, place: p.place, district, districtKey: p.district ? (p.district.en || p.district.ru || district) : '', type: T.types[p.type] || p.type, typeKey: p.type, price: p.price, area: p.area,
       desc: bits.join(' · '), text: pick(p.desc), feat: pick(p.feat) || [], img: p.photos[0], photos: p.photos, videos: p.videos || (p.video ? [p.video] : []),
       url: '', bedrooms: p.bedrooms, bathrooms: p.bathrooms, floor: p.floor, plot: p.plot, sea: p.sea, furnished: p.furnished, featured: p.featured,
       hay: [p.code, ...Object.values(p.title || {}), ...Object.values(D.places[p.place] || {}), ...Object.values(p.district || {})].join(' ').toLowerCase()};
@@ -57,7 +59,7 @@ let fav = new Set(store.get('veni-fav', [])), type = '', onlyFav = false, opened
 
 function applyTexts() {
   document.documentElement.lang = lang;
-  document.title = opened ? (byId(opened)?.title || '') + ' · VENI' : T.title;
+  document.title = opened ? (byId(opened)?.title || '') + ' · VENI' : (country ? (country === 'gr' ? T.ctryGr : T.ctryBg) + ' — ' : '') + T.title;
   document.querySelectorAll('[data-i]').forEach(el => { const v = T[el.dataset.i]; if (typeof v === 'string') el.textContent = v; });
   document.querySelectorAll('[data-i-html]').forEach(el => { const v = T[el.dataset.iHtml]; if (typeof v === 'string') el.innerHTML = v; });
   document.querySelectorAll('[data-i-ph]').forEach(el => el.placeholder = T[el.dataset.iPh]);
@@ -81,7 +83,8 @@ function applyTexts() {
 /* Адрес страницы всегда на языке сайта (/bg/, /ru/…): превью ссылки в мессенджерах будет на этом языке */
 function langPath() {
   const u = new URL(location.href); u.searchParams.delete('lang');
-  u.pathname = u.pathname.replace(/\/(bg|ru|en|de|es)\/(index\.html)?$/, '/').replace(/\/index\.html$/, '/').replace(/\/$/, '') + '/' + lang + '/';
+  u.searchParams.delete('country');
+  u.pathname = '/' + lang + '/' + (country ? CSLUG[country] + '/' : '');
   if (u.href !== location.href) history.replaceState(history.state, '', u);
 }
 function setLang(l) {
@@ -99,7 +102,8 @@ function buildFilters() {
   const keep = ['city', 'budget', 'beds', 'area', 'sort'].map(id => [id, $(id).value]);
   // Локация: одна строка на город/деревню с числом объектов (районы ищутся через поиск)
   const cnt = f => items.filter(f).length;
-  const places = [...new Map(items.map(p => [p.place, p.city])).entries()].map(([k, n]) => [k, n, cnt(p => p.place === k)]).sort((a, b) => b[2] - a[2]);
+  const inC = items.filter(p => !country || p.country === country);
+  const places = [...new Map(inC.map(p => [p.place, p.city])).entries()].map(([k, n]) => [k, n, cnt(p => p.place === k)]).sort((a, b) => b[2] - a[2]);
   $('city').innerHTML = opt('', T.cityAll) + places.map(([k, n, c]) => opt(k, n, c)).join('');
   $('budget').innerHTML = opt('', T.budgetAny) + BUDGETS.map(([a, b]) => opt(a + '-' + b,
     (!a ? T.budgetUpTo(money(b)) : !b ? T.budgetFrom(money(a)) : money(a).replace(' €', '') + ' – ' + money(b)) + (a >= 250000 ? ' · ' + T.gvMark : ''))).join('');
@@ -112,12 +116,26 @@ function buildFilters() {
 function matches(p, skipType) {
   const q = $('search').value.toLowerCase().trim(), loc = $('city').value, [lo, hi] = ($('budget').value || '0-0').split('-').map(Number);
   const [place, dist] = loc.split('|');
-  return (skipType || !type || p.typeKey === type) && (!onlyFav || fav.has(p.id)) &&
+  return (!country || p.country === country) && (skipType || !type || p.typeKey === type) && (!onlyFav || fav.has(p.id)) &&
     (!place || p.place === place) && (!dist || p.districtKey === dist) &&
     p.price >= lo && (!hi || p.price <= hi) &&
     (!$('beds').value || (p.bedrooms || 0) >= +$('beds').value) &&
     (!$('area').value || (p.area || 0) >= +$('area').value) &&
     (!q || (p.hay + ' ' + p.desc.toLowerCase()).includes(q));
+}
+function renderCountries() {
+  const n = c => items.filter(p => !c || p.country === c).length;
+  $('ctabs').innerHTML = [['', T.ctryAll], ['gr', '🇬🇷 ' + T.ctryGr], ['bg', '🇧🇬 ' + T.ctryBg]].map(([c, t]) =>
+    `<button type="button" role="tab" aria-selected="${country === c}" class="${country === c ? 'active' : ''}" data-country="${c}">${esc(t)}<small>${n(c)}</small></button>`).join('');
+  const img = c => (items.find(p => p.country === c && p.featured && p.img) || items.find(p => p.country === c && p.img) || {}).img || '';
+  $('ctryCards').innerHTML = [['gr', T.ctryGr, T.ctryGrText], ['bg', T.ctryBg, T.ctryBgText]].map(([c, t, d]) =>
+    `<button type="button" class="ctry" data-country="${c}"><img referrerpolicy="no-referrer" loading="lazy" src="${esc(img(c))}" alt=""><div><strong>${esc(t)}</strong><p>${esc(d)}</p><span>${esc(T.ctryCta(n(c)))}</span></div></button>`).join('');
+  document.querySelectorAll('.gv-banner').forEach(el => { if (country === 'bg') el.style.display = 'none'; });
+}
+function setCountry(c, scroll) {
+  country = c; $('city').value = ''; track('country', {country: c || 'all'});
+  langPath(); applyTexts(); render();
+  if (scroll) $('catalog').scrollIntoView({behavior: 'smooth'});
 }
 function renderChips() {
   const base = items.filter(p => matches(p, true));
@@ -134,11 +152,11 @@ function render() {
   data.sort(sv === 'asc' ? (a, b) => a.price - b.price : sv === 'desc' ? (a, b) => b.price - a.price :
     sv === 'area' ? (a, b) => (b.area || 0) - (a.area || 0) : sv === 'ppm' ? (a, b) => ppm(a) - ppm(b) :
     sv === 'new' ? (a, b) => b.id - a.id : (a, b) => (b.featured - a.featured) || (b.id - a.id));
-  renderChips();
+  renderCountries(); renderChips();
   $('reset').hidden = !filtersActive();
   $('count').textContent = (onlyFav ? T.favPrefix : '') + T.count(data.length);
   $('favBtn').textContent = fav.size ? T.navFavN(fav.size) : T.navFav;
-  $('grid').innerHTML = data.map(p => `<article class="card"><div class="picture" role="button" tabindex="0" aria-label="${esc(T.open)}: ${esc(p.title)}" onclick="openItem(${p.id},this)" onkeydown="if(event.key==='Enter')openItem(${p.id},this)"><img loading="lazy" src="${esc(p.img)}" alt="${esc(p.title)}"><span class="tag">${esc(p.type.toUpperCase())}${p.videos.length ? ' · ▶ ' + esc(T.videoT.toUpperCase()) : ''}</span><button class="heart ${fav.has(p.id) ? 'on' : ''}" aria-label="${esc(fav.has(p.id) ? T.removeFav : T.addFav)}" aria-pressed="${fav.has(p.id)}" onclick="event.stopPropagation();toggleFav(${p.id})">${fav.has(p.id) ? '♥' : '♡'}</button></div><h3>${esc(p.title)}</h3><div class="row"><span>${esc(p.city)}${p.desc ? ' · ' + esc(p.desc) : ''}</span><span>${p.area ? p.area + ' ' + T.m + '²' : ''}</span></div><div class="price">${money(p.price)}</div><button class="more" onclick="openItem(${p.id},this.closest('.card').querySelector('.picture'))">${esc(T.more)}</button></article>`).join('')
+  $('grid').innerHTML = data.map(p => `<article class="card"><div class="picture" role="button" tabindex="0" aria-label="${esc(T.open)}: ${esc(p.title)}" onclick="openItem(${p.id},this)" onkeydown="if(event.key==='Enter')openItem(${p.id},this)"><img referrerpolicy="no-referrer" loading="lazy" src="${esc(p.img)}" alt="${esc(p.title)}"><span class="tag">${esc(p.type.toUpperCase())}${p.videos.length ? ' · ▶ ' + esc(T.videoT.toUpperCase()) : ''}</span><button class="heart ${fav.has(p.id) ? 'on' : ''}" aria-label="${esc(fav.has(p.id) ? T.removeFav : T.addFav)}" aria-pressed="${fav.has(p.id)}" onclick="event.stopPropagation();toggleFav(${p.id})">${fav.has(p.id) ? '♥' : '♡'}</button></div><h3>${esc(p.title)}</h3><div class="row"><span>${esc(p.city)}${p.desc ? ' · ' + esc(p.desc) : ''}</span><span>${p.area ? p.area + ' ' + T.m + '²' : ''}</span></div><div class="price">${money(p.price)}</div><button class="more" onclick="openItem(${p.id},this.closest('.card').querySelector('.picture'))">${esc(T.more)}</button></article>`).join('')
     || `<p class="muted">${esc(onlyFav ? T.favEmpty : T.noneFound)}</p>`;
 }
 function toggleFav(id) { track(fav.has(id) ? 'favorite_remove' : 'favorite_add', {object_id: id}); fav.has(id) ? fav.delete(id) : fav.add(id); store.set('veni-fav', [...fav]); render(); }
@@ -179,7 +197,7 @@ function gShow() {
 function openGallery(i) {
   const p = byId(opened); if (!p || !p.photos.length) return;
   gIdx = i;
-  $('gStrip').innerHTML = p.photos.length > 1 ? p.photos.map((ph, k) => `<button type="button" onclick="gIdx=${k};gShow()" aria-label="${esc(T.photoN(k + 1))}"><img src="${esc(ph)}" alt="" loading="lazy"></button>`).join('') : '';
+  $('gStrip').innerHTML = p.photos.length > 1 ? p.photos.map((ph, k) => `<button type="button" onclick="gIdx=${k};gShow()" aria-label="${esc(T.photoN(k + 1))}"><img referrerpolicy="no-referrer" src="${esc(ph)}" alt="" loading="lazy"></button>`).join('') : '';
   $('gallery').showModal(); gShow();
 }
 function closeGallery() { $('gallery').close(); }
@@ -214,7 +232,7 @@ function openItem(id, el, push = true) {
     ${p.videos.length ? `<h3 style="font:25px Georgia">${esc(T.videoT)}${p.videos.length > 1 ? ' · ' + p.videos.length : ''}</h3><div class="obj-videos">${p.videos.map(v => `<video class="obj-video" src="${esc(v)}" poster="${esc(v.replace(/\.mp4$/, '.jpg'))}" controls playsinline preload="none"></video>`).join('')}</div>` : ''}
     <h3 style="font:25px Georgia">${esc(T.aboutObj)}</h3><p class="muted">${esc(p.text)}</p>
     ${p.feat.length ? `<ul class="feat">${p.feat.map(f => `<li>${esc(f)}</li>`).join('')}</ul>` : ''}
-    ${p.photos.length > 1 ? `<h3 style="font:25px Georgia;margin-top:34px">${esc(T.photosN(p.photos.length))}</h3><div class="thumbs">${p.photos.map((ph, i) => `<button class="${i ? '' : 'on'}" onclick="openGallery(${i})" aria-label="${esc(T.photoN(i + 1))}"><img loading="lazy" src="${esc(ph)}" alt=""></button>`).join('')}</div>` : ''}
+    ${p.photos.length > 1 ? `<h3 style="font:25px Georgia;margin-top:34px">${esc(T.photosN(p.photos.length))}</h3><div class="thumbs">${p.photos.map((ph, i) => `<button class="${i ? '' : 'on'}" onclick="openGallery(${i})" aria-label="${esc(T.photoN(i + 1))}"><img referrerpolicy="no-referrer" loading="lazy" src="${esc(ph)}" alt=""></button>`).join('')}</div>` : ''}
     `;
   $('detailPrice').textContent = money(p.price);
   document.title = p.title + ' · VENI';
@@ -275,6 +293,7 @@ $('sellWa').addEventListener('click', () => {
 ['search', 'city', 'budget', 'beds', 'area', 'sort'].forEach(id => $(id).addEventListener('input', () => { render(); track('catalog_filter', {filter: id}); }));
 $('reset').addEventListener('click', () => { resetFilters(); track('catalog_filter_reset'); });
 $('chips').addEventListener('click', e => { const b = e.target.closest('button'); if (!b || b.disabled) return; type = b.dataset.type; render(); });
+document.addEventListener('click', e => { const b = e.target.closest('[data-country]'); if (b) setCountry(b.dataset.country, b.classList.contains('ctry')); });
 $('lang').addEventListener('click', e => { const b = e.target.closest('[data-lang]'); if (b) setLang(b.dataset.lang); });
 $('contactList').addEventListener('click', e => { const a = e.target.closest('a'); if (a) track('contact_click', {method: a.closest('li').firstChild.textContent, object_id: opened || 'general'}); });
 document.addEventListener('error', e => { if (e.target.tagName === 'IMG') e.target.style.visibility = 'hidden'; }, true);
