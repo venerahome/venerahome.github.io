@@ -1,0 +1,40 @@
+name: Сверка с прайсом партнёра (ROMAN) — ежедневно
+
+# Каждый день ~08:00 по Софии: новые объекты, цены, снятые с продажи. Фото — из папок Google Drive.
+on:
+  schedule:
+    - cron: "40 5 * * *"
+  workflow_dispatch:
+    inputs:
+      dry:
+        description: "Пробный запуск без сохранения (1)"
+        default: "0"
+
+concurrency:
+  group: site-data
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install openpyxl
+      - name: Сверить с таблицей
+        env:
+          DRY: ${{ github.event.inputs.dry }}
+        run: python3 .github/scripts/partner_sync.py && [ "$DRY" != "1" ]
+      - name: Фото для новых объектов
+        run: python3 .github/scripts/drive_photos.py
+      - name: Пересобрать сайт и сохранить
+        run: |
+          if git diff --quiet data/; then echo "Без изменений"; exit 0; fi
+          python3 update_listings.py
+          git config user.name "VENI bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          git commit -m "Сверка с прайсом партнёра $(date +%F) [no-announce]"
+          git pull --rebase && git push
