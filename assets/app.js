@@ -70,6 +70,7 @@ function applyTexts() {
   document.querySelectorAll('.gv-link').forEach(a => a.href = lang === 'ru' ? '/golden-visa/ru/' : '/golden-visa/en/');
   document.querySelectorAll('.gv-banner, .head-links .gv-link').forEach(el => el.style.display = (lang === 'ru' || lang === 'en') ? '' : 'none'); // блок и ссылка ВНЖ в шапке — только RU и EN
   document.querySelectorAll('.hero-ctry a').forEach(x => x.href = '/' + lang + '/' + CSLUG[x.dataset.country] + '/');
+  $('logo').href = '/' + lang + '/';
   $('lang').innerHTML = LANGS.map(l => `<button type="button" data-lang="${l}" aria-pressed="${l === lang}" title="${I18N[l].name}">${l.toUpperCase()}</button>`).join('');
   $('steps').innerHTML = T.steps.map(s => `<li><strong>${esc(s[0])}</strong><p class="muted">${esc(s[1])}</p></li>`).join('');
   $('social').innerHTML = `<span class="small" style="color:var(--gold)">${esc(T.followT)}</span><div>` +
@@ -259,6 +260,21 @@ function openItem(id, el, push = true) {
     }));
   }
 }
+/* Логотип: сбросить всё (страна, фильтры, избранное, открытый объект) и вернуться в самое начало */
+function goHome(e) {
+  if (e) e.preventDefault();
+  try { $('gallery').close(); } catch (_) {}
+  if ($('contactDialog').open) $('contactDialog').close();
+  $('detail').classList.remove('open'); document.body.style.overflow = ''; opened = null;
+  onlyFav = false; country = ''; type = '';
+  $('search').value = ''; ['city', 'budget', 'beds', 'area'].forEach(id => $(id).value = ''); $('sort').value = 'default';
+  document.querySelector('.hero').classList.remove('zoom');
+  history.replaceState(null, '', '/' + lang + '/');
+  applyTexts(); render();
+  window.scrollTo({top: 0, behavior: 'smooth'});
+  track('logo_home');
+}
+$('logo').addEventListener('click', goHome);
 window.addEventListener('popstate', () => {
   if (location.hash.startsWith('#object-')) openItem(+location.hash.slice(8), null, false);
   else { $('detail').classList.remove('open'); document.body.style.overflow = ''; opened = null; document.title = T.title; }
