@@ -161,3 +161,19 @@ main{max-width:1160px;margin:auto;padding:56px 6% 30px}
 }
 @media(prefers-reduced-motion:reduce){*{transition:none!important}}
 .article>.meta{display:block}
+
+/* два блога */
+.blog-picks{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin:48px 0}
+.blog-pick{display:flex;flex-direction:column;gap:12px;padding:34px 30px;border-radius:8px;color:#f6f3ed;text-decoration:none;min-height:340px;transition:transform .3s,box-shadow .3s}
+.blog-pick:hover{transform:translateY(-3px);box-shadow:0 14px 34px #0002}
+.blog-pick.c-greece{background:var(--greece)}.blog-pick.c-bulgaria{background:var(--bulgaria)}
+.blog-pick .kicker{color:var(--gold-l)}
+.blog-pick strong{font:600 clamp(30px,3.4vw,42px)/1.15 var(--serif)}
+.blog-pick .b-desc{color:#dfe5e0;line-height:1.6}
+.blog-pick .b-last{font-size:15px;color:#cfd8d2;border-top:1px solid #ffffff2b;padding-top:14px;margin-top:auto}
+.blog-pick .b-last b{color:#f6f3ed;font-weight:normal;font-family:var(--serif)}
+.blog-pick .btn{align-self:flex-start;background:#f6f3ed;color:var(--ink)}
+.other-blog{text-align:center;margin:40px 0 0;font:600 20px var(--serif)}
+.other-blog a{text-decoration:none;border-bottom:1px solid var(--gold);padding-bottom:3px}
+main.list>.back{display:inline-block;margin-bottom:22px}
+@media(max-width:760px){.blog-picks{grid-template-columns:1fr;gap:16px;margin:32px 0}.blog-pick{min-height:0;padding:26px 22px}}
