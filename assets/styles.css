@@ -176,3 +176,10 @@ header .small{font-weight:bold}
 .hero img{object-position:62% 50%}
 .hero .shade{background:linear-gradient(90deg,rgba(16,40,38,.72) 0%,rgba(16,40,38,.45) 38%,rgba(16,40,38,.08) 70%),linear-gradient(180deg,rgba(0,0,0,.28),transparent 30%)}
 @media(max-width:520px){.hero img{object-position:68% 50%}.hero .shade{background:linear-gradient(180deg,rgba(16,40,38,.5),rgba(16,40,38,.42) 45%,rgba(16,40,38,.72))}}
+
+/* Каталог сразу под первым экраном: компактнее шапка каталога */
+main{padding-top:40px}
+#catalog .intro h2{font-size:clamp(30px,3.2vw,42px);margin:8px 0 14px}
+#catalog .intro .muted{margin:0 0 10px}
+#catalog+.countries{margin-top:90px}
+@media(max-width:520px){main{padding-top:28px}}
