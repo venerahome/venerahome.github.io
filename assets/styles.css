@@ -147,7 +147,7 @@ header .small{font-weight:bold}
 .ctry{position:relative;display:block;border-radius:6px;overflow:hidden;aspect-ratio:1.45;color:white;text-decoration:none;background:#364b49;border:0;padding:0;text-align:left;width:100%}
 .ctry img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .8s}
 .ctry:hover img{transform:scale(1.05)}
-.ctry::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,#0000 30%,#102c2bd9)}
+.ctry::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,#0000 22%,#102c2b59 50%,#102c2be6)}
 .ctry div{position:absolute;z-index:1;left:26px;right:26px;bottom:24px}
 .ctry strong{display:block;font:clamp(30px,3.4vw,44px) Georgia;margin-bottom:8px}
 .ctry p{margin:0 0 14px;line-height:1.55;color:#eee;font-size:14px}

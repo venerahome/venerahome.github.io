@@ -42,7 +42,7 @@ const money = n => new Intl.NumberFormat(T.locale).format(n) + ' €';
 
 let items = [];
 const CSLUG = {gr: 'greece', bg: 'bulgaria'};
-const CIMG = {gr: '/assets/country-gr.jpg'}; // фото на карточках стран
+const CIMG = {gr: '/assets/country-gr.jpg', bg: '/assets/country-bg.jpg'}; // фото на карточках стран
 let country = (() => { const c = window.PAGE_COUNTRY || new URLSearchParams(location.search).get('country'); return CSLUG[c] ? c : ''; })();
 function buildItems() {
   items = D.listings.map(p => {
