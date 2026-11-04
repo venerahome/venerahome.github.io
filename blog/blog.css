@@ -177,3 +177,18 @@ main{max-width:1160px;margin:auto;padding:56px 6% 30px}
 .other-blog a{text-decoration:none;border-bottom:1px solid var(--gold);padding-bottom:3px}
 main.list>.back{display:inline-block;margin-bottom:22px}
 @media(max-width:760px){.blog-picks{grid-template-columns:1fr;gap:16px;margin:32px 0}.blog-pick{min-height:0;padding:26px 22px}}
+
+/* страница «Переезд и ВНЖ» */
+.r-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin:48px 0}
+.r-country{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:30px 28px;border-top:6px solid var(--greece)}
+.r-country.c-bulgaria{border-top-color:var(--bulgaria)}
+.r-country h2{font:600 34px/1.2 var(--serif);margin:0 0 10px}
+.routes{list-style:none;margin:0;padding:0}
+.routes li{padding:18px 0;border-top:1px solid var(--line)}
+.routes h3{font:600 20px/1.3 var(--serif);margin:0 0 6px}
+.routes p{margin:0 0 8px;color:var(--muted);font-size:16px;line-height:1.6}
+.routes a{font-size:15px;font-weight:bold;text-decoration:none;color:var(--ink);border-bottom:1px solid var(--gold)}
+.routes .soon{font-size:13px;letter-spacing:1px;text-transform:uppercase;color:var(--gold)}
+.r-step{margin:14px 0 0;padding:14px 16px;background:var(--soft);border-radius:6px;font-size:15px;line-height:1.6}
+.r-country .btn{margin-top:18px}
+@media(max-width:760px){.r-grid{grid-template-columns:1fr;gap:16px;margin:32px 0}.r-country{padding:24px 20px}}

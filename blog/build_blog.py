@@ -272,6 +272,7 @@ def bbase(lang, b): return base(lang) + b + "/"
 def post_url(lang, slug): return SITE + post_path(lang, slug)
 def home(lang): return f"/{lang}/"
 def gv(lang): return "/golden-visa/ru/" if lang == "ru" else "/golden-visa/en/"
+def rel(lang): return "/relocation/" if lang == "ru" else f"/relocation/{lang}/"
 
 def load_posts():
     posts = [json.load(open(f, encoding="utf-8")) for f in glob.glob(os.path.join(R, "posts", "*.json"))]
@@ -388,7 +389,7 @@ def head(lang, title, desc, url, image, alts, typ="website"):
 <link rel="alternate" type="application/rss+xml" title="VENI" href="{SITE}{base(lang)}rss.xml">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap">
-<link rel="stylesheet" href="/blog/blog.css?v=6">
+<link rel="stylesheet" href="/blog/blog.css?v=7">
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-73W576V144"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments)}}gtag('js',new Date());gtag('config','G-73W576V144');</script>
 </head>
@@ -400,7 +401,7 @@ def topbar(lang, alts, b=None):
     langs = "".join(f'<a href="{alts[l]}"{cur if l == lang else ""}>{l.upper()}</a>' for l in LANGS)
     return f"""<header class="bar">
   <a href="{home(lang)}" class="logo">VENI<span>REAL ESTATE</span></a>
-  <nav class="links"><a href="{blink}" class="on">{esc(BX[lang][b]["name"]) if b else t['blog']}</a><a href="{home(lang)}#catalog">{t['catalog']}</a>{f'<a href="{gv(lang)}">{t["gv"]}</a>' if b == 'greece' else ''}</nav>
+  <nav class="links"><a href="{blink}" class="on">{esc(BX[lang][b]["name"]) if b else t['blog']}</a><a href="{home(lang)}#catalog">{t['catalog']}</a><a href="{rel(lang)}">{esc(RX[lang]["menu"])}</a></nav>
   <span class="langs">{langs}</span>
 </header>"""
 
@@ -450,6 +451,134 @@ def about(lang):
   <img src="/assets/venera.jpg" alt="{esc(t['name'])}" loading="lazy" width="800" height="1067">
   <div><span class="kicker">{t['aboutT']}</span><h3>{esc(t['name'])}</h3><p>{esc(t['aboutText'])}</p>{buttons(lang)}</div>
 </section>"""
+
+
+# ---------- страница «Переезд и ВНЖ» (/relocation/) ----------
+# Способы взяты из статей блога «ВНЖ в Греции: все варианты» и «ВНЖ в Болгарии: все основания».
+# Когда по способу выйдет подробная статья — добавьте её slug в поле "post" и ссылка появится сама.
+RX = {
+"ru": {"menu": "Переезд и ВНЖ", "title": "Переезд и ВНЖ в Греции и Болгарии — Венера Хасанова",
+  "desc": "Все законные способы переехать в Грецию и Болгарию простыми словами: пенсия, работа, бизнес, учёба, семья, цифровые кочевники, инвестиции и Golden Visa.",
+  "kicker": "Переезд и ВНЖ", "h1": "Переезд в Грецию и Болгарию — <em>все способы</em>",
+  "lead": "Я сама переехала на Балканы в 2013 году и живу между Болгарией и Грецией. Здесь собраны все законные пути получить ВНЖ — от пенсии и удалённой работы до инвестиций. По каждому пути готовлю подробный разбор простыми словами.",
+  "gr": "Греция", "bg": "Болгария", "soon": "Подробный разбор скоро", "read": "Читать статью →", "test": "Проверить, подходите ли вы →",
+  "step": "Сначала — национальная виза D в консульстве, потом ВНЖ в Болгарии, обычно на год с продлением.",
+  "helpT": "Не знаете, какой путь ваш?", "help": "Напишите мне — расскажу, какие варианты подходят вашей семье, и что нужно подготовить.", "helpB": "Написать в WhatsApp ↗",
+  "wa": "Здравствуйте, Венера! Хочу узнать, как переехать в Грецию или Болгарию.",
+  "routes": {
+   "gr": [["Golden Visa через недвижимость", "ВНЖ на 5 лет при покупке недвижимости — от 250 000 до 800 000 € в зависимости от района.", "gv"],
+          ["Golden Visa без недвижимости", "Инвестиционные варианты без покупки жилья.", None],
+          ["Финансово независимые люди", "Переезд с пассивным доходом — без работы в Греции.", None],
+          ["Цифровые кочевники", "Для тех, кто работает удалённо на компанию или клиентов за пределами Греции.", None],
+          ["Работа, учёба и семья", "Классические основания; после 5 лет можно получить статус долгосрочного резидента.", None]],
+   "bg": [["Пенсионеры", "ВНЖ для получателей пенсии.", None],
+          ["Цифровые кочевники", "Для тех, кто работает удалённо.", None],
+          ["Инвестиция в недвижимость", "Обычная покупка квартиры ВНЖ не даёт — только инвестиция от 600 000 левов (около 306 775 €).", None],
+          ["Бизнес, работа, учёба и семья", "Свой бизнес, трудовой договор, учёба или воссоединение семьи.", None]]}},
+"bg": {"menu": "Преместване и пребиваване", "title": "Преместване и пребиваване в Гърция и България — Венера Хасанова",
+  "desc": "Всички законни начини да се преместите в Гърция и България с прости думи: пенсия, работа, бизнес, учене, семейство, дигитални номади, инвестиции и Golden Visa.",
+  "kicker": "Преместване и пребиваване", "h1": "Преместване в Гърция и България — <em>всички начини</em>",
+  "lead": "Самата аз се преместих на Балканите през 2013 г. и живея между България и Гърция. Тук са събрани всички законни пътища за пребиваване — от пенсия и дистанционна работа до инвестиции. За всеки път подготвям подробен разбор с прости думи.",
+  "gr": "Гърция", "bg": "България", "soon": "Подробен разбор скоро", "read": "Прочетете статията →", "test": "Проверете дали отговаряте →",
+  "step": "Първо — национална виза D в консулството, после разрешение за пребиваване в България, обикновено за година с удължаване.",
+  "helpT": "Не знаете кой път е вашият?", "help": "Пишете ми — ще ви кажа кои варианти подхождат на семейството ви и какво трябва да подготвите.", "helpB": "Пишете в WhatsApp ↗",
+  "wa": "Здравейте, Венера! Искам да разбера как да се преместя в Гърция или България.",
+  "routes": {
+   "gr": [["Golden Visa чрез имот", "Пребиваване за 5 години при покупка на имот — от 250 000 до 800 000 € според района.", "gv"],
+          ["Golden Visa без имот", "Инвестиционни варианти без покупка на жилище.", None],
+          ["Финансово независими лица", "Преместване с пасивен доход — без работа в Гърция.", None],
+          ["Дигитални номади", "За хора, които работят дистанционно за фирма или клиенти извън Гърция.", None],
+          ["Работа, учене и семейство", "Класически основания; след 5 години може да се получи статут на дългосрочно пребиваващ.", None]],
+   "bg": [["Пенсионери", "Пребиваване за получатели на пенсия.", None],
+          ["Дигитални номади", "За хора, които работят дистанционно.", None],
+          ["Инвестиция в имот", "Обикновената покупка на жилище не дава пребиваване — само инвестиция от 600 000 лв. (около 306 775 €).", None],
+          ["Бизнес, работа, учене и семейство", "Собствен бизнес, трудов договор, учене или събиране на семейството.", None]]}},
+"en": {"menu": "Relocation & residency", "title": "Relocation and residency in Greece and Bulgaria — Venera Khassanova",
+  "desc": "Every legal way to move to Greece and Bulgaria in plain words: retirement, work, business, study, family, digital nomads, investment and the Golden Visa.",
+  "kicker": "Relocation & residency", "h1": "Moving to Greece and Bulgaria — <em>every route</em>",
+  "lead": "I moved to the Balkans myself in 2013 and live between Bulgaria and Greece. Here are all the legal routes to residency — from retirement and remote work to investment. I am preparing a detailed plain-language guide for each route.",
+  "gr": "Greece", "bg": "Bulgaria", "soon": "Detailed guide coming soon", "read": "Read the article →", "test": "Check if you qualify →",
+  "step": "First a national D visa at the consulate, then a residence permit in Bulgaria, usually for a year with renewal.",
+  "helpT": "Not sure which route is yours?", "help": "Message me — I will tell you which options suit your family and what you need to prepare.", "helpB": "Message me on WhatsApp ↗",
+  "wa": "Hello Venera! I would like to know how to move to Greece or Bulgaria.",
+  "routes": {
+   "gr": [["Golden Visa through property", "A 5-year residence permit when you buy property — from €250,000 to €800,000 depending on the area.", "gv"],
+          ["Golden Visa without property", "Investment options that do not require buying a home.", None],
+          ["Financially independent persons", "Moving with passive income — without working in Greece.", None],
+          ["Digital nomads", "For people working remotely for a company or clients outside Greece.", None],
+          ["Work, study and family", "The classic routes; after 5 years you can apply for long-term resident status.", None]],
+   "bg": [["Retirees", "Residency for people receiving a pension.", None],
+          ["Digital nomads", "For people who work remotely.", None],
+          ["Investment in property", "Simply buying a flat does not give residency — only an investment from 600,000 leva (about €306,775).", None],
+          ["Business, work, study and family", "Your own business, an employment contract, study or family reunification.", None]]}},
+"de": {"menu": "Umzug & Aufenthalt", "title": "Umzug und Aufenthalt in Griechenland und Bulgarien — Venera Khassanova",
+  "desc": "Alle legalen Wege nach Griechenland und Bulgarien einfach erklärt: Rente, Arbeit, Unternehmen, Studium, Familie, digitale Nomaden, Investitionen und Golden Visa.",
+  "kicker": "Umzug & Aufenthalt", "h1": "Umzug nach Griechenland und Bulgarien — <em>alle Wege</em>",
+  "lead": "Ich bin 2013 selbst auf den Balkan gezogen und lebe zwischen Bulgarien und Griechenland. Hier finden Sie alle legalen Wege zur Aufenthaltserlaubnis — von Rente und Remote-Arbeit bis zur Investition. Zu jedem Weg bereite ich einen ausführlichen, einfachen Leitfaden vor.",
+  "gr": "Griechenland", "bg": "Bulgarien", "soon": "Ausführlicher Leitfaden folgt", "read": "Artikel lesen →", "test": "Prüfen, ob Sie infrage kommen →",
+  "step": "Zuerst ein nationales Visum D im Konsulat, dann die Aufenthaltserlaubnis in Bulgarien, meist für ein Jahr mit Verlängerung.",
+  "helpT": "Nicht sicher, welcher Weg passt?", "help": "Schreiben Sie mir — ich sage Ihnen, welche Möglichkeiten zu Ihrer Familie passen und was vorzubereiten ist.", "helpB": "Per WhatsApp schreiben ↗",
+  "wa": "Hallo Venera! Ich möchte wissen, wie ich nach Griechenland oder Bulgarien umziehen kann.",
+  "routes": {
+   "gr": [["Golden Visa durch Immobilienkauf", "Aufenthaltserlaubnis für 5 Jahre beim Immobilienkauf — von 250.000 bis 800.000 € je nach Region.", "gv"],
+          ["Golden Visa ohne Immobilie", "Investitionsmöglichkeiten ohne Wohnungskauf.", None],
+          ["Finanziell unabhängige Personen", "Umzug mit passivem Einkommen — ohne Arbeit in Griechenland.", None],
+          ["Digitale Nomaden", "Für alle, die remote für Firmen oder Kunden außerhalb Griechenlands arbeiten.", None],
+          ["Arbeit, Studium und Familie", "Die klassischen Wege; nach 5 Jahren ist der Status als langfristig Aufenthaltsberechtigter möglich.", None]],
+   "bg": [["Rentner", "Aufenthalt für Rentenbezieher.", None],
+          ["Digitale Nomaden", "Für alle, die remote arbeiten.", None],
+          ["Investition in Immobilien", "Ein normaler Wohnungskauf gibt keinen Aufenthalt — nur eine Investition ab 600.000 Lewa (ca. 306.775 €).", None],
+          ["Unternehmen, Arbeit, Studium und Familie", "Eigenes Unternehmen, Arbeitsvertrag, Studium oder Familiennachzug.", None]]}},
+"es": {"menu": "Mudanza y residencia", "title": "Mudanza y residencia en Grecia y Bulgaria — Venera Khassanova",
+  "desc": "Todas las vías legales para mudarse a Grecia y Bulgaria, explicadas con sencillez: jubilación, trabajo, negocio, estudios, familia, nómadas digitales, inversión y Golden Visa.",
+  "kicker": "Mudanza y residencia", "h1": "Mudarse a Grecia y Bulgaria — <em>todas las vías</em>",
+  "lead": "Yo misma me mudé a los Balcanes en 2013 y vivo entre Bulgaria y Grecia. Aquí están todas las vías legales para obtener la residencia, desde la jubilación y el trabajo remoto hasta la inversión. Preparo una guía detallada y sencilla para cada una.",
+  "gr": "Grecia", "bg": "Bulgaria", "soon": "Guía detallada próximamente", "read": "Leer el artículo →", "test": "Compruebe si cumple →",
+  "step": "Primero, un visado nacional D en el consulado; después, el permiso de residencia en Bulgaria, normalmente por un año renovable.",
+  "helpT": "¿No sabe qué vía es la suya?", "help": "Escríbame: le diré qué opciones encajan con su familia y qué debe preparar.", "helpB": "Escribir por WhatsApp ↗",
+  "wa": "¡Hola, Venera! Quiero saber cómo mudarme a Grecia o Bulgaria.",
+  "routes": {
+   "gr": [["Golden Visa con inmueble", "Residencia de 5 años al comprar un inmueble: de 250.000 a 800.000 € según la zona.", "gv"],
+          ["Golden Visa sin inmueble", "Opciones de inversión sin comprar vivienda.", None],
+          ["Personas económicamente independientes", "Mudarse con ingresos pasivos, sin trabajar en Grecia.", None],
+          ["Nómadas digitales", "Para quien trabaja en remoto para empresas o clientes fuera de Grecia.", None],
+          ["Trabajo, estudios y familia", "Las vías clásicas; tras 5 años se puede obtener la residencia de larga duración.", None]],
+   "bg": [["Jubilados", "Residencia para quienes cobran una pensión.", None],
+          ["Nómadas digitales", "Para quien trabaja en remoto.", None],
+          ["Inversión inmobiliaria", "Comprar un piso no da la residencia: solo una inversión desde 600.000 levas (unos 306.775 €).", None],
+          ["Negocio, trabajo, estudios y familia", "Negocio propio, contrato de trabajo, estudios o reagrupación familiar.", None]]}},
+}
+GR_POST = "greece-residence-permit-all-options-2026"     # статья «ВНЖ в Греции: все варианты»
+BG_POST = "bulgaria-residence-permit-grounds-2026"       # статья «ВНЖ в Болгарии: все основания» (появится, когда опубликуете)
+
+def build_relocation(posts):
+    pub = {p["slug"] for p in posts}
+    for lang in LANGS:
+        t, X = TX[lang], RX[lang]
+        url = SITE + rel(lang); alts = {l: SITE + rel(l) for l in LANGS}
+        def col(c, post):
+            items = ""
+            for name, txt, link in X["routes"][c]:
+                a = (f'<a href="{gv(lang)}">{X["test"]}</a>' if link == "gv" else
+                     f'<a href="{post_path(lang, link)}">{X["read"]}</a>' if link in pub else f'<span class="soon">{X["soon"]}</span>')
+                items += f'<li><h3>{esc(name)}</h3><p>{esc(txt)}</p>{a}</li>'
+            more = f'<a class="btn" href="{post_path(lang, post)}">{X["read"]}</a>' if post in pub else ""
+            step = f'<p class="r-step">{esc(X["step"])}</p>' if c == "bg" else ""
+            return f'<section class="r-country c-{"greece" if c == "gr" else "bulgaria"}" id="{"greece" if c == "gr" else "bulgaria"}"><h2>{esc(X[c])}</h2><ul class="routes">{items}</ul>{step}{more}</section>'
+        page = f"""{head(lang, X['title'], X['desc'], url, SITE + '/assets/hero-sea.jpg', alts)}
+{topbar(lang, alts)}
+<main class="list relocation">
+  <section class="intro">
+    <img class="portrait" src="/assets/venera.jpg" alt="{esc(t['name'])}" width="800" height="1067">
+    <div><span class="kicker">{esc(X['kicker'])}</span><h1>{X['h1']}</h1><p class="lead">{esc(X['lead'])}</p>{buttons(lang)}</div>
+  </section>
+  <div class="r-grid">{col('gr', GR_POST)}{col('bg', BG_POST)}</div>
+  <aside class="cta-box"><h3>{esc(X['helpT'])}</h3><p>{esc(X['help'])}</p><a class="btn" href="https://wa.me/{WA}?text={quote(X['wa'])}" target="_blank" rel="noopener">{esc(X['helpB'])}</a></aside>
+</main>
+{foot(lang)}
+</body></html>"""
+        page = page.replace(f'class="on">{t["blog"]}<', f'>{t["blog"]}<', 1).replace(f'<a href="{rel(lang)}">', f'<a href="{rel(lang)}" class="on">', 1)
+        write(os.path.join(ROOT, rel(lang).strip("/"), "index.html"), page)
 
 # ---------- сборка ----------
 def build(force_og=False):
@@ -563,10 +692,11 @@ def build(force_og=False):
 <rss version="2.0"><channel><title>{esc(t['title'])}</title><link>{SITE}{base(lang)}</link><description>{esc(t['desc'])}</description><language>{lang}</language>{items}</channel></rss>""")
     # карта сайта блога (+ Golden Visa)
     today = datetime.now().strftime("%Y-%m-%d")
-    urls = [(SITE + base(l), today) for l in LANGS] + [(SITE + bbase(l, b), today) for l in LANGS for b in BLOGS] + [(f"{SITE}/golden-visa/ru/", today), (f"{SITE}/golden-visa/en/", today)]
+    urls = [(SITE + base(l), today) for l in LANGS] + [(SITE + bbase(l, b), today) for l in LANGS for b in BLOGS] + [(f"{SITE}/golden-visa/ru/", today), (f"{SITE}/golden-visa/en/", today)] + [(SITE + rel(l), today) for l in LANGS]
     for p in posts: urls += [(post_url(l, p["slug"]), p["date"]) for l in LANGS]
     write(os.path.join(R, "sitemap.xml"), '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + "".join(f"  <url><loc>{u}</loc><lastmod>{d}</lastmod></url>\n" for u, d in urls) + "</urlset>\n")
-    print(f"blog: {len(posts)} posts × {len(LANGS)} languages")
+    build_relocation(posts)
+    print(f"blog: {len(posts)} posts × {len(LANGS)} languages + relocation")
 
 def blog_og(lang, force=False):
     """Картинка для ссылки на сам блог."""

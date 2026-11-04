@@ -67,9 +67,7 @@ function applyTexts() {
   document.querySelectorAll('[data-i-aria]').forEach(el => el.setAttribute('aria-label', T[el.dataset.iAria]));
   document.querySelectorAll('[data-i-alt]').forEach(el => el.alt = T[el.dataset.iAlt]);
   document.querySelectorAll('.blog-link').forEach(a => a.href = (lang === 'ru' ? '/blog/' : '/blog/' + lang + '/') + (country ? CSLUG[country] + '/' : '')); // у каждой страны свой блог
-  document.querySelectorAll('.gv-link').forEach(a => a.href = lang === 'ru' ? '/golden-visa/ru/' : '/golden-visa/en/');
-  document.querySelectorAll('.gv-banner').forEach(el => el.style.display = (lang === 'ru' || lang === 'en') ? '' : 'none'); // блок ВНЖ — только RU и EN
-  document.querySelectorAll('.head-links .gv-link').forEach(el => el.style.display = ((lang === 'ru' || lang === 'en') && country === 'gr') ? '' : 'none'); // пункт меню «ВНЖ в Греции» — только в разделе Греции (RU и EN)
+  document.querySelectorAll('.gv-link').forEach(a => a.href = (lang === 'ru' ? '/relocation/' : '/relocation/' + lang + '/') + (country ? '#' + CSLUG[country] : '')); // страница «Переезд и ВНЖ»
   document.querySelectorAll('.hero-ctry a').forEach(x => x.href = '/' + lang + '/' + CSLUG[x.dataset.country] + '/');
   $('logo').href = '/' + lang + '/';
   $('lang').innerHTML = LANGS.map(l => `<button type="button" data-lang="${l}" aria-pressed="${l === lang}" title="${I18N[l].name}">${l.toUpperCase()}</button>`).join('');
@@ -134,7 +132,6 @@ function renderCountries() {
   const img = c => (items.find(p => p.country === c && p.featured && p.img) || items.find(p => p.country === c && p.img) || {}).img || '';
   $('ctryCards').innerHTML = [['gr', T.ctryGr, T.ctryGrText], ['bg', T.ctryBg, T.ctryBgText]].map(([c, t, d]) =>
     `<button type="button" class="ctry" data-country="${c}"><img referrerpolicy="no-referrer" loading="lazy" src="${esc(CIMG[c] || img(c))}" alt=""><div><strong>${esc(t)}</strong><p>${esc(d)}</p><span>${esc(T.ctryCta(n(c)))}</span></div></button>`).join('');
-  document.querySelectorAll('.gv-banner').forEach(el => { if (country === 'bg') el.style.display = 'none'; });
 }
 function setCountry(c, scroll) {
   country = c; $('city').value = ''; track('country', {country: c || 'all'});
