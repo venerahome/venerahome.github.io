@@ -33,7 +33,9 @@ TR = dict(zip("АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮ�
 
 def translit(s): return "".join(TR.get(c.upper(), c) if c.upper() in TR else c for c in s).title()
 def money(v):
-    m = re.sub(r"[^\d]", "", str(v or "")); return int(m) if m else None
+    v = str(v or "").strip()
+    if re.fullmatch(r"\d+(\.\d+)?", v): return int(float(v))
+    m = re.sub(r"[^\d]", "", v); return int(m) if m else None
 def fnum(s):
     m = re.search(r"(\d+(?:[.,]\d+)?)", s or ""); return float(m.group(1).replace(",", ".")) if m else None
 
