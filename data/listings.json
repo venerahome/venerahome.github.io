@@ -12036,7 +12036,7 @@
     "de": "Bratya Miladinovi",
     "es": "Bratya Miladinovi"
    },
-   "price": 255000,
+   "price": 225000,
    "area": 74,
    "plot": null,
    "bedrooms": 1,
@@ -15277,11 +15277,11 @@
     "es": "Estudio, 35 m², Sunny Day 5, Sunny Beach"
    },
    "desc": {
-    "bg": "Студио от 35 м² на 2-ри етаж в комплекс Сани Дей 5, Слънчев бряг. Такса поддръжка 580 € годишно. Акт 16 — сградата е въведена в експлоатация. Удобен вариант за почивка или за отдаване под наем през сезона.",
-    "ru": "Студия площадью 35 м² на 2-м этаже в комплексе «Сани Дей 5», Солнечный берег. Обслуживание 580 € в год. Акт 16 — дом сдан в эксплуатацию. Удобный вариант для отдыха или сдачи в аренду в сезон.",
-    "en": "A 35 m² studio on floor 2 in Sunny Day 5, Sunny Beach. Maintenance €580 a year. Act 16 — the building is officially completed. A handy choice for holidays or seasonal letting.",
-    "de": "Studio mit 35 m² im 2. Stock in der Anlage Sunny Day 5, Sonnenstrand. Hausgebühr 580 € pro Jahr. Akt 16 – das Gebäude ist abgenommen. Ideal für Urlaub oder Saisonvermietung.",
-    "es": "Estudio de 35 m² en la 2.ª planta en el complejo Sunny Day 5, Sunny Beach. Cuota 580 € al año. Acta 16: el edificio está terminado y legalizado. Una buena opción para vacaciones o alquiler de temporada."
+    "bg": "Студио от 35 м² на 2-ри етаж в комплекс Сани Дей 5, Слънчев бряг. Такса поддръжка 580 € годишно. Акт 16 — сградата е въведена в експлоатация. Удобен вариант за почивка или за отдаване под наем през сезона. Код: ROMAN",
+    "ru": "Студия площадью 35 м² на 2-м этаже в комплексе «Сани Дей 5», Солнечный берег. Обслуживание 580 € в год. Акт 16 — дом сдан в эксплуатацию. Удобный вариант для отдыха или сдачи в аренду в сезон. Код: ROMAN",
+    "en": "A 35 m² studio on floor 2 in Sunny Day 5, Sunny Beach. Maintenance €580 a year. Act 16 — the building is officially completed. A handy choice for holidays or seasonal letting. Code: ROMAN",
+    "de": "Studio mit 35 m² im 2. Stock in der Anlage Sunny Day 5, Sonnenstrand. Hausgebühr 580 € pro Jahr. Akt 16 – das Gebäude ist abgenommen. Ideal für Urlaub oder Saisonvermietung. Code: ROMAN",
+    "es": "Estudio de 35 m² en la 2.ª planta en el complejo Sunny Day 5, Sunny Beach. Cuota 580 € al año. Acta 16: el edificio está terminado y legalizado. Una buena opción para vacaciones o alquiler de temporada. Código: ROMAN"
    },
    "feat": {
     "bg": [
@@ -15352,11 +15352,11 @@
     "es": "Estudio, 32 m², Sunny Day 6, Sunny Beach"
    },
    "desc": {
-    "bg": "Студио от 32 м² на 5-и етаж в комплекс Сани Дей 6, Слънчев бряг. Такса поддръжка 580 € годишно. Акт 16 — сградата е въведена в експлоатация. Удобен вариант за почивка или за отдаване под наем през сезона.",
-    "ru": "Студия площадью 32 м² на 5-м этаже в комплексе «Сани Дей 6», Солнечный берег. Обслуживание 580 € в год. Акт 16 — дом сдан в эксплуатацию. Удобный вариант для отдыха или сдачи в аренду в сезон.",
-    "en": "A 32 m² studio on floor 5 in Sunny Day 6, Sunny Beach. Maintenance €580 a year. Act 16 — the building is officially completed. A handy choice for holidays or seasonal letting.",
-    "de": "Studio mit 32 m² im 5. Stock in der Anlage Sunny Day 6, Sonnenstrand. Hausgebühr 580 € pro Jahr. Akt 16 – das Gebäude ist abgenommen. Ideal für Urlaub oder Saisonvermietung.",
-    "es": "Estudio de 32 m² en la 5.ª planta en el complejo Sunny Day 6, Sunny Beach. Cuota 580 € al año. Acta 16: el edificio está terminado y legalizado. Una buena opción para vacaciones o alquiler de temporada."
+    "bg": "Студио от 32 м² на 5-и етаж в комплекс Сани Дей 6, Слънчев бряг. Такса поддръжка 580 € годишно. Акт 16 — сградата е въведена в експлоатация. Удобен вариант за почивка или за отдаване под наем през сезона. Код: ROMAN",
+    "ru": "Студия площадью 32 м² на 5-м этаже в комплексе «Сани Дей 6», Солнечный берег. Обслуживание 580 € в год. Акт 16 — дом сдан в эксплуатацию. Удобный вариант для отдыха или сдачи в аренду в сезон. Код: ROMAN",
+    "en": "A 32 m² studio on floor 5 in Sunny Day 6, Sunny Beach. Maintenance €580 a year. Act 16 — the building is officially completed. A handy choice for holidays or seasonal letting. Code: ROMAN",
+    "de": "Studio mit 32 m² im 5. Stock in der Anlage Sunny Day 6, Sonnenstrand. Hausgebühr 580 € pro Jahr. Akt 16 – das Gebäude ist abgenommen. Ideal für Urlaub oder Saisonvermietung. Code: ROMAN",
+    "es": "Estudio de 32 m² en la 5.ª planta en el complejo Sunny Day 6, Sunny Beach. Cuota 580 € al año. Acta 16: el edificio está terminado y legalizado. Una buena opción para vacaciones o alquiler de temporada. Código: ROMAN"
    },
    "feat": {
     "bg": [
@@ -15423,11 +15423,11 @@
     "es": "Estudio, 34 m², Aphrodite 1, Sunny Beach"
    },
    "desc": {
-    "bg": "Студио от 34 м² на 3-ти етаж в комплекс Афродита 1, Слънчев бряг. 600 м до морето. Такса поддръжка 10 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Удобен вариант за почивка или за отдаване под наем през сезона.",
-    "ru": "Студия площадью 34 м² на 3-м этаже в комплексе «Афродита 1», Солнечный берег. 600 м до моря. Обслуживание 10 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Удобный вариант для отдыха или сдачи в аренду в сезон.",
-    "en": "A 34 m² studio on floor 3 in Aphrodite 1, Sunny Beach. 600 m to the sea. Maintenance €10/m² a year. Act 16 — the building is officially completed. A handy choice for holidays or seasonal letting.",
-    "de": "Studio mit 34 m² im 3. Stock in der Anlage Aphrodite 1, Sonnenstrand. 600 m zum Meer. Hausgebühr 10 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Ideal für Urlaub oder Saisonvermietung.",
-    "es": "Estudio de 34 m² en la 3.ª planta en el complejo Aphrodite 1, Sunny Beach. A 600 m del mar. Cuota 10 €/m² al año. Acta 16: el edificio está terminado y legalizado. Una buena opción para vacaciones o alquiler de temporada."
+    "bg": "Студио от 34 м² на 3-ти етаж в комплекс Афродита 1, Слънчев бряг. 600 м до морето. Такса поддръжка 10 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Удобен вариант за почивка или за отдаване под наем през сезона. Код: ROMAN",
+    "ru": "Студия площадью 34 м² на 3-м этаже в комплексе «Афродита 1», Солнечный берег. 600 м до моря. Обслуживание 10 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Удобный вариант для отдыха или сдачи в аренду в сезон. Код: ROMAN",
+    "en": "A 34 m² studio on floor 3 in Aphrodite 1, Sunny Beach. 600 m to the sea. Maintenance €10/m² a year. Act 16 — the building is officially completed. A handy choice for holidays or seasonal letting. Code: ROMAN",
+    "de": "Studio mit 34 m² im 3. Stock in der Anlage Aphrodite 1, Sonnenstrand. 600 m zum Meer. Hausgebühr 10 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Ideal für Urlaub oder Saisonvermietung. Code: ROMAN",
+    "es": "Estudio de 34 m² en la 3.ª planta en el complejo Aphrodite 1, Sunny Beach. A 600 m del mar. Cuota 10 €/m² al año. Acta 16: el edificio está terminado y legalizado. Una buena opción para vacaciones o alquiler de temporada. Código: ROMAN"
    },
    "feat": {
     "bg": [
@@ -15506,11 +15506,11 @@
     "es": "Estudio, 30 m², Gerber 2, Sunny Beach"
    },
    "desc": {
-    "bg": "Студио от 30 м² на 5-и етаж в комплекс Гербер 2, Слънчев бряг. 400 м до морето. Такса поддръжка 12 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Удобен вариант за почивка или за отдаване под наем през сезона.",
-    "ru": "Студия площадью 30 м² на 5-м этаже в комплексе «Гербер 2», Солнечный берег. 400 м до моря. Обслуживание 12 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Удобный вариант для отдыха или сдачи в аренду в сезон.",
-    "en": "A 30 m² studio on floor 5 in Gerber 2, Sunny Beach. 400 m to the sea. Maintenance €12/m² a year. Act 16 — the building is officially completed. A handy choice for holidays or seasonal letting.",
-    "de": "Studio mit 30 m² im 5. Stock in der Anlage Gerber 2, Sonnenstrand. 400 m zum Meer. Hausgebühr 12 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Ideal für Urlaub oder Saisonvermietung.",
-    "es": "Estudio de 30 m² en la 5.ª planta en el complejo Gerber 2, Sunny Beach. A 400 m del mar. Cuota 12 €/m² al año. Acta 16: el edificio está terminado y legalizado. Una buena opción para vacaciones o alquiler de temporada."
+    "bg": "Студио от 30 м² на 5-и етаж в комплекс Гербер 2, Слънчев бряг. 400 м до морето. Такса поддръжка 12 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Удобен вариант за почивка или за отдаване под наем през сезона. Код: ROMAN",
+    "ru": "Студия площадью 30 м² на 5-м этаже в комплексе «Гербер 2», Солнечный берег. 400 м до моря. Обслуживание 12 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Удобный вариант для отдыха или сдачи в аренду в сезон. Код: ROMAN",
+    "en": "A 30 m² studio on floor 5 in Gerber 2, Sunny Beach. 400 m to the sea. Maintenance €12/m² a year. Act 16 — the building is officially completed. A handy choice for holidays or seasonal letting. Code: ROMAN",
+    "de": "Studio mit 30 m² im 5. Stock in der Anlage Gerber 2, Sonnenstrand. 400 m zum Meer. Hausgebühr 12 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Ideal für Urlaub oder Saisonvermietung. Code: ROMAN",
+    "es": "Estudio de 30 m² en la 5.ª planta en el complejo Gerber 2, Sunny Beach. A 400 m del mar. Cuota 12 €/m² al año. Acta 16: el edificio está terminado y legalizado. Una buena opción para vacaciones o alquiler de temporada. Código: ROMAN"
    },
    "feat": {
     "bg": [
@@ -15584,11 +15584,11 @@
     "es": "Estudio, 37 m², Sunny View Central, Sunny Beach"
    },
    "desc": {
-    "bg": "Студио от 37 м² на партерен етаж в комплекс Сани Вю Централ, Слънчев бряг. 400 м до морето. Такса поддръжка 13 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Удобен вариант за почивка или за отдаване под наем през сезона.",
-    "ru": "Студия площадью 37 м² на первом этаже в комплексе «Сани Вю Централ», Солнечный берег. 400 м до моря. Обслуживание 13 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Удобный вариант для отдыха или сдачи в аренду в сезон.",
-    "en": "A 37 m² studio on the ground floor in Sunny View Central, Sunny Beach. 400 m to the sea. Maintenance €13/m² a year. Act 16 — the building is officially completed. A handy choice for holidays or seasonal letting.",
-    "de": "Studio mit 37 m² im Erdgeschoss in der Anlage Sunny View Central, Sonnenstrand. 400 m zum Meer. Hausgebühr 13 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Ideal für Urlaub oder Saisonvermietung.",
-    "es": "Estudio de 37 m² en planta baja en el complejo Sunny View Central, Sunny Beach. A 400 m del mar. Cuota 13 €/m² al año. Acta 16: el edificio está terminado y legalizado. Una buena opción para vacaciones o alquiler de temporada."
+    "bg": "Студио от 37 м² на партерен етаж в комплекс Сани Вю Централ, Слънчев бряг. 400 м до морето. Такса поддръжка 13 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Удобен вариант за почивка или за отдаване под наем през сезона. Код: ROMAN",
+    "ru": "Студия площадью 37 м² на первом этаже в комплексе «Сани Вю Централ», Солнечный берег. 400 м до моря. Обслуживание 13 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Удобный вариант для отдыха или сдачи в аренду в сезон. Код: ROMAN",
+    "en": "A 37 m² studio on the ground floor in Sunny View Central, Sunny Beach. 400 m to the sea. Maintenance €13/m² a year. Act 16 — the building is officially completed. A handy choice for holidays or seasonal letting. Code: ROMAN",
+    "de": "Studio mit 37 m² im Erdgeschoss in der Anlage Sunny View Central, Sonnenstrand. 400 m zum Meer. Hausgebühr 13 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Ideal für Urlaub oder Saisonvermietung. Code: ROMAN",
+    "es": "Estudio de 37 m² en planta baja en el complejo Sunny View Central, Sunny Beach. A 400 m del mar. Cuota 13 €/m² al año. Acta 16: el edificio está terminado y legalizado. Una buena opción para vacaciones o alquiler de temporada. Código: ROMAN"
    },
    "feat": {
     "bg": [
@@ -15662,11 +15662,11 @@
     "es": "Estudio, 38 m², Aphrodite 2, Sunny Beach"
    },
    "desc": {
-    "bg": "Студио от 38 м² на 3-ти етаж в комплекс Афродита 2, Слънчев бряг. 600 м до морето. Такса поддръжка 10 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Удобен вариант за почивка или за отдаване под наем през сезона.",
-    "ru": "Студия площадью 38 м² на 3-м этаже в комплексе «Афродита 2», Солнечный берег. 600 м до моря. Обслуживание 10 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Удобный вариант для отдыха или сдачи в аренду в сезон.",
-    "en": "A 38 m² studio on floor 3 in Aphrodite 2, Sunny Beach. 600 m to the sea. Maintenance €10/m² a year. Act 16 — the building is officially completed. A handy choice for holidays or seasonal letting.",
-    "de": "Studio mit 38 m² im 3. Stock in der Anlage Aphrodite 2, Sonnenstrand. 600 m zum Meer. Hausgebühr 10 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Ideal für Urlaub oder Saisonvermietung.",
-    "es": "Estudio de 38 m² en la 3.ª planta en el complejo Aphrodite 2, Sunny Beach. A 600 m del mar. Cuota 10 €/m² al año. Acta 16: el edificio está terminado y legalizado. Una buena opción para vacaciones o alquiler de temporada."
+    "bg": "Студио от 38 м² на 3-ти етаж в комплекс Афродита 2, Слънчев бряг. 600 м до морето. Такса поддръжка 10 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Удобен вариант за почивка или за отдаване под наем през сезона. Код: ROMAN",
+    "ru": "Студия площадью 38 м² на 3-м этаже в комплексе «Афродита 2», Солнечный берег. 600 м до моря. Обслуживание 10 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Удобный вариант для отдыха или сдачи в аренду в сезон. Код: ROMAN",
+    "en": "A 38 m² studio on floor 3 in Aphrodite 2, Sunny Beach. 600 m to the sea. Maintenance €10/m² a year. Act 16 — the building is officially completed. A handy choice for holidays or seasonal letting. Code: ROMAN",
+    "de": "Studio mit 38 m² im 3. Stock in der Anlage Aphrodite 2, Sonnenstrand. 600 m zum Meer. Hausgebühr 10 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Ideal für Urlaub oder Saisonvermietung. Code: ROMAN",
+    "es": "Estudio de 38 m² en la 3.ª planta en el complejo Aphrodite 2, Sunny Beach. A 600 m del mar. Cuota 10 €/m² al año. Acta 16: el edificio está terminado y legalizado. Una buena opción para vacaciones o alquiler de temporada. Código: ROMAN"
    },
    "feat": {
     "bg": [
@@ -15743,11 +15743,11 @@
     "es": "Estudio, 36 m², Fort Noks Orchid, Sunny Beach"
    },
    "desc": {
-    "bg": "Студио от 36 м² на последния етаж в комплекс Форт Нокс Орхидея, Слънчев бряг. Всичко в апартамента е ново. 900 м до морето. Такса поддръжка 14 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Удобен вариант за почивка или за отдаване под наем през сезона.",
-    "ru": "Студия площадью 36 м² на последнем этаже в комплексе «Форт Нокс Орхидея», Солнечный берег. В квартире всё новое. 900 м до моря. Обслуживание 14 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Удобный вариант для отдыха или сдачи в аренду в сезон.",
-    "en": "A 36 m² studio on the top floor in Fort Noks Orchid, Sunny Beach. Everything in the flat is new. 900 m to the sea. Maintenance €14/m² a year. Act 16 — the building is officially completed. A handy choice for holidays or seasonal letting.",
-    "de": "Studio mit 36 m² im obersten Stock in der Anlage Fort Noks Orchid, Sonnenstrand. In der Wohnung ist alles neu. 900 m zum Meer. Hausgebühr 14 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Ideal für Urlaub oder Saisonvermietung.",
-    "es": "Estudio de 36 m² en la última planta en el complejo Fort Noks Orchid, Sunny Beach. Todo en el piso es nuevo. A 900 m del mar. Cuota 14 €/m² al año. Acta 16: el edificio está terminado y legalizado. Una buena opción para vacaciones o alquiler de temporada."
+    "bg": "Студио от 36 м² на последния етаж в комплекс Форт Нокс Орхидея, Слънчев бряг. Всичко в апартамента е ново. 900 м до морето. Такса поддръжка 14 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Удобен вариант за почивка или за отдаване под наем през сезона. Код: ROMAN",
+    "ru": "Студия площадью 36 м² на последнем этаже в комплексе «Форт Нокс Орхидея», Солнечный берег. В квартире всё новое. 900 м до моря. Обслуживание 14 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Удобный вариант для отдыха или сдачи в аренду в сезон. Код: ROMAN",
+    "en": "A 36 m² studio on the top floor in Fort Noks Orchid, Sunny Beach. Everything in the flat is new. 900 m to the sea. Maintenance €14/m² a year. Act 16 — the building is officially completed. A handy choice for holidays or seasonal letting. Code: ROMAN",
+    "de": "Studio mit 36 m² im obersten Stock in der Anlage Fort Noks Orchid, Sonnenstrand. In der Wohnung ist alles neu. 900 m zum Meer. Hausgebühr 14 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Ideal für Urlaub oder Saisonvermietung. Code: ROMAN",
+    "es": "Estudio de 36 m² en la última planta en el complejo Fort Noks Orchid, Sunny Beach. Todo en el piso es nuevo. A 900 m del mar. Cuota 14 €/m² al año. Acta 16: el edificio está terminado y legalizado. Una buena opción para vacaciones o alquiler de temporada. Código: ROMAN"
    },
    "feat": {
     "bg": [
@@ -15826,11 +15826,11 @@
     "es": "Estudio, 41 m², Aphrodite Palace, Sunny Beach"
    },
    "desc": {
-    "bg": "Студио от 41 м² на партерен етаж в комплекс Афродита Палас, Слънчев бряг. 650 м до морето. Такса поддръжка 200 € годишно. Акт 16 — сградата е въведена в експлоатация. Удобен вариант за почивка или за отдаване под наем през сезона.",
-    "ru": "Студия площадью 41 м² на первом этаже в комплексе «Афродита Палас», Солнечный берег. 650 м до моря. Обслуживание 200 € в год. Акт 16 — дом сдан в эксплуатацию. Удобный вариант для отдыха или сдачи в аренду в сезон.",
-    "en": "A 41 m² studio on the ground floor in Aphrodite Palace, Sunny Beach. 650 m to the sea. Maintenance €200 a year. Act 16 — the building is officially completed. A handy choice for holidays or seasonal letting.",
-    "de": "Studio mit 41 m² im Erdgeschoss in der Anlage Aphrodite Palace, Sonnenstrand. 650 m zum Meer. Hausgebühr 200 € pro Jahr. Akt 16 – das Gebäude ist abgenommen. Ideal für Urlaub oder Saisonvermietung.",
-    "es": "Estudio de 41 m² en planta baja en el complejo Aphrodite Palace, Sunny Beach. A 650 m del mar. Cuota 200 € al año. Acta 16: el edificio está terminado y legalizado. Una buena opción para vacaciones o alquiler de temporada."
+    "bg": "Студио от 41 м² на партерен етаж в комплекс Афродита Палас, Слънчев бряг. 650 м до морето. Такса поддръжка 200 € годишно. Акт 16 — сградата е въведена в експлоатация. Удобен вариант за почивка или за отдаване под наем през сезона. Код: ROMAN",
+    "ru": "Студия площадью 41 м² на первом этаже в комплексе «Афродита Палас», Солнечный берег. 650 м до моря. Обслуживание 200 € в год. Акт 16 — дом сдан в эксплуатацию. Удобный вариант для отдыха или сдачи в аренду в сезон. Код: ROMAN",
+    "en": "A 41 m² studio on the ground floor in Aphrodite Palace, Sunny Beach. 650 m to the sea. Maintenance €200 a year. Act 16 — the building is officially completed. A handy choice for holidays or seasonal letting. Code: ROMAN",
+    "de": "Studio mit 41 m² im Erdgeschoss in der Anlage Aphrodite Palace, Sonnenstrand. 650 m zum Meer. Hausgebühr 200 € pro Jahr. Akt 16 – das Gebäude ist abgenommen. Ideal für Urlaub oder Saisonvermietung. Code: ROMAN",
+    "es": "Estudio de 41 m² en planta baja en el complejo Aphrodite Palace, Sunny Beach. A 650 m del mar. Cuota 200 € al año. Acta 16: el edificio está terminado y legalizado. Una buena opción para vacaciones o alquiler de temporada. Código: ROMAN"
    },
    "feat": {
     "bg": [
@@ -15902,11 +15902,11 @@
     "es": "Estudio, 45 m², Aphrodite 2, Sunny Beach"
    },
    "desc": {
-    "bg": "Студио от 45 м² на 3-ти етаж в комплекс Афродита 2, Слънчев бряг. Площта позволява да се обособи отделна спалня. 600 м до морето. Такса поддръжка 10 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Удобен вариант за почивка или за отдаване под наем през сезона.",
-    "ru": "Студия площадью 45 м² на 3-м этаже в комплексе «Афродита 2», Солнечный берег. Площадь позволяет выделить отдельную спальню. 600 м до моря. Обслуживание 10 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Удобный вариант для отдыха или сдачи в аренду в сезон.",
-    "en": "A 45 m² studio on floor 3 in Aphrodite 2, Sunny Beach. The space allows a separate bedroom to be created. 600 m to the sea. Maintenance €10/m² a year. Act 16 — the building is officially completed. A handy choice for holidays or seasonal letting.",
-    "de": "Studio mit 45 m² im 3. Stock in der Anlage Aphrodite 2, Sonnenstrand. Die Fläche erlaubt ein separates Schlafzimmer. 600 m zum Meer. Hausgebühr 10 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Ideal für Urlaub oder Saisonvermietung.",
-    "es": "Estudio de 45 m² en la 3.ª planta en el complejo Aphrodite 2, Sunny Beach. El espacio permite crear un dormitorio aparte. A 600 m del mar. Cuota 10 €/m² al año. Acta 16: el edificio está terminado y legalizado. Una buena opción para vacaciones o alquiler de temporada."
+    "bg": "Студио от 45 м² на 3-ти етаж в комплекс Афродита 2, Слънчев бряг. Площта позволява да се обособи отделна спалня. 600 м до морето. Такса поддръжка 10 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Удобен вариант за почивка или за отдаване под наем през сезона. Код: ROMAN",
+    "ru": "Студия площадью 45 м² на 3-м этаже в комплексе «Афродита 2», Солнечный берег. Площадь позволяет выделить отдельную спальню. 600 м до моря. Обслуживание 10 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Удобный вариант для отдыха или сдачи в аренду в сезон. Код: ROMAN",
+    "en": "A 45 m² studio on floor 3 in Aphrodite 2, Sunny Beach. The space allows a separate bedroom to be created. 600 m to the sea. Maintenance €10/m² a year. Act 16 — the building is officially completed. A handy choice for holidays or seasonal letting. Code: ROMAN",
+    "de": "Studio mit 45 m² im 3. Stock in der Anlage Aphrodite 2, Sonnenstrand. Die Fläche erlaubt ein separates Schlafzimmer. 600 m zum Meer. Hausgebühr 10 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Ideal für Urlaub oder Saisonvermietung. Code: ROMAN",
+    "es": "Estudio de 45 m² en la 3.ª planta en el complejo Aphrodite 2, Sunny Beach. El espacio permite crear un dormitorio aparte. A 600 m del mar. Cuota 10 €/m² al año. Acta 16: el edificio está terminado y legalizado. Una buena opción para vacaciones o alquiler de temporada. Código: ROMAN"
    },
    "feat": {
     "bg": [
@@ -15982,11 +15982,11 @@
     "es": "Estudio, 41 m², Aphrodite Palace, Sunny Beach"
    },
    "desc": {
-    "bg": "Студио от 41 м² на 2-ри етаж в комплекс Афродита Палас, Слънчев бряг. 650 м до морето. Такса поддръжка 200 € годишно. Акт 16 — сградата е въведена в експлоатация. Удобен вариант за почивка или за отдаване под наем през сезона.",
-    "ru": "Студия площадью 41 м² на 2-м этаже в комплексе «Афродита Палас», Солнечный берег. 650 м до моря. Обслуживание 200 € в год. Акт 16 — дом сдан в эксплуатацию. Удобный вариант для отдыха или сдачи в аренду в сезон.",
-    "en": "A 41 m² studio on floor 2 in Aphrodite Palace, Sunny Beach. 650 m to the sea. Maintenance €200 a year. Act 16 — the building is officially completed. A handy choice for holidays or seasonal letting.",
-    "de": "Studio mit 41 m² im 2. Stock in der Anlage Aphrodite Palace, Sonnenstrand. 650 m zum Meer. Hausgebühr 200 € pro Jahr. Akt 16 – das Gebäude ist abgenommen. Ideal für Urlaub oder Saisonvermietung.",
-    "es": "Estudio de 41 m² en la 2.ª planta en el complejo Aphrodite Palace, Sunny Beach. A 650 m del mar. Cuota 200 € al año. Acta 16: el edificio está terminado y legalizado. Una buena opción para vacaciones o alquiler de temporada."
+    "bg": "Студио от 41 м² на 2-ри етаж в комплекс Афродита Палас, Слънчев бряг. 650 м до морето. Такса поддръжка 200 € годишно. Акт 16 — сградата е въведена в експлоатация. Удобен вариант за почивка или за отдаване под наем през сезона. Код: ROMAN",
+    "ru": "Студия площадью 41 м² на 2-м этаже в комплексе «Афродита Палас», Солнечный берег. 650 м до моря. Обслуживание 200 € в год. Акт 16 — дом сдан в эксплуатацию. Удобный вариант для отдыха или сдачи в аренду в сезон. Код: ROMAN",
+    "en": "A 41 m² studio on floor 2 in Aphrodite Palace, Sunny Beach. 650 m to the sea. Maintenance €200 a year. Act 16 — the building is officially completed. A handy choice for holidays or seasonal letting. Code: ROMAN",
+    "de": "Studio mit 41 m² im 2. Stock in der Anlage Aphrodite Palace, Sonnenstrand. 650 m zum Meer. Hausgebühr 200 € pro Jahr. Akt 16 – das Gebäude ist abgenommen. Ideal für Urlaub oder Saisonvermietung. Code: ROMAN",
+    "es": "Estudio de 41 m² en la 2.ª planta en el complejo Aphrodite Palace, Sunny Beach. A 650 m del mar. Cuota 200 € al año. Acta 16: el edificio está terminado y legalizado. Una buena opción para vacaciones o alquiler de temporada. Código: ROMAN"
    },
    "feat": {
     "bg": [
@@ -16068,11 +16068,11 @@
     "es": "Estudio, 53 m², Marina Cape, Aheloy"
    },
    "desc": {
-    "bg": "Студио от 53 м² на 3-ти етаж в комплекс Марина Кейп, Ахелой. Голямата площ позволява да се превърне в апартамент с отделна спалня. 200 м до морето. Такса поддръжка 12 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Удобен вариант за почивка или за отдаване под наем през сезона.",
-    "ru": "Студия площадью 53 м² на 3-м этаже в комплексе «Марина Кейп», Ахелой. Большая площадь позволяет сделать из студии квартиру с отдельной спальней. 200 м до моря. Обслуживание 12 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Удобный вариант для отдыха или сдачи в аренду в сезон.",
-    "en": "A 53 m² studio on floor 3 in Marina Cape, Aheloy. Its size allows it to be turned into a one-bedroom flat. 200 m to the sea. Maintenance €12/m² a year. Act 16 — the building is officially completed. A handy choice for holidays or seasonal letting.",
-    "de": "Studio mit 53 m² im 3. Stock in der Anlage Marina Cape, Aheloy. Die Größe erlaubt den Umbau zur 2-Zimmer-Wohnung. 200 m zum Meer. Hausgebühr 12 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Ideal für Urlaub oder Saisonvermietung.",
-    "es": "Estudio de 53 m² en la 3.ª planta en el complejo Marina Cape, Aheloy. Su tamaño permite convertirlo en un piso de un dormitorio. A 200 m del mar. Cuota 12 €/m² al año. Acta 16: el edificio está terminado y legalizado. Una buena opción para vacaciones o alquiler de temporada."
+    "bg": "Студио от 53 м² на 3-ти етаж в комплекс Марина Кейп, Ахелой. Голямата площ позволява да се превърне в апартамент с отделна спалня. 200 м до морето. Такса поддръжка 12 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Удобен вариант за почивка или за отдаване под наем през сезона. Код: ROMAN",
+    "ru": "Студия площадью 53 м² на 3-м этаже в комплексе «Марина Кейп», Ахелой. Большая площадь позволяет сделать из студии квартиру с отдельной спальней. 200 м до моря. Обслуживание 12 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Удобный вариант для отдыха или сдачи в аренду в сезон. Код: ROMAN",
+    "en": "A 53 m² studio on floor 3 in Marina Cape, Aheloy. Its size allows it to be turned into a one-bedroom flat. 200 m to the sea. Maintenance €12/m² a year. Act 16 — the building is officially completed. A handy choice for holidays or seasonal letting. Code: ROMAN",
+    "de": "Studio mit 53 m² im 3. Stock in der Anlage Marina Cape, Aheloy. Die Größe erlaubt den Umbau zur 2-Zimmer-Wohnung. 200 m zum Meer. Hausgebühr 12 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Ideal für Urlaub oder Saisonvermietung. Code: ROMAN",
+    "es": "Estudio de 53 m² en la 3.ª planta en el complejo Marina Cape, Aheloy. Su tamaño permite convertirlo en un piso de un dormitorio. A 200 m del mar. Cuota 12 €/m² al año. Acta 16: el edificio está terminado y legalizado. Una buena opción para vacaciones o alquiler de temporada. Código: ROMAN"
    },
    "feat": {
     "bg": [
@@ -16153,11 +16153,11 @@
     "es": "Estudio, 43 m², Sun City 1, Sunny Beach"
    },
    "desc": {
-    "bg": "Студио от 43 м² на 3-ти етаж в комплекс Сан Сити 1, Слънчев бряг. 350 м до морето. Такса поддръжка 10 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Удобен вариант за почивка или за отдаване под наем през сезона.",
-    "ru": "Студия площадью 43 м² на 3-м этаже в комплексе «Сан Сити 1», Солнечный берег. 350 м до моря. Обслуживание 10 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Удобный вариант для отдыха или сдачи в аренду в сезон.",
-    "en": "A 43 m² studio on floor 3 in Sun City 1, Sunny Beach. 350 m to the sea. Maintenance €10/m² a year. Act 16 — the building is officially completed. A handy choice for holidays or seasonal letting.",
-    "de": "Studio mit 43 m² im 3. Stock in der Anlage Sun City 1, Sonnenstrand. 350 m zum Meer. Hausgebühr 10 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Ideal für Urlaub oder Saisonvermietung.",
-    "es": "Estudio de 43 m² en la 3.ª planta en el complejo Sun City 1, Sunny Beach. A 350 m del mar. Cuota 10 €/m² al año. Acta 16: el edificio está terminado y legalizado. Una buena opción para vacaciones o alquiler de temporada."
+    "bg": "Студио от 43 м² на 3-ти етаж в комплекс Сан Сити 1, Слънчев бряг. 350 м до морето. Такса поддръжка 10 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Удобен вариант за почивка или за отдаване под наем през сезона. Код: ROMAN",
+    "ru": "Студия площадью 43 м² на 3-м этаже в комплексе «Сан Сити 1», Солнечный берег. 350 м до моря. Обслуживание 10 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Удобный вариант для отдыха или сдачи в аренду в сезон. Код: ROMAN",
+    "en": "A 43 m² studio on floor 3 in Sun City 1, Sunny Beach. 350 m to the sea. Maintenance €10/m² a year. Act 16 — the building is officially completed. A handy choice for holidays or seasonal letting. Code: ROMAN",
+    "de": "Studio mit 43 m² im 3. Stock in der Anlage Sun City 1, Sonnenstrand. 350 m zum Meer. Hausgebühr 10 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Ideal für Urlaub oder Saisonvermietung. Code: ROMAN",
+    "es": "Estudio de 43 m² en la 3.ª planta en el complejo Sun City 1, Sunny Beach. A 350 m del mar. Cuota 10 €/m² al año. Acta 16: el edificio está terminado y legalizado. Una buena opción para vacaciones o alquiler de temporada. Código: ROMAN"
    },
    "feat": {
     "bg": [
@@ -16231,11 +16231,11 @@
     "es": "Estudio, 50 m², Green Fort, Sveti Vlas"
    },
    "desc": {
-    "bg": "Студио от 50 м² на 2-ри етаж в комплекс Грийн Форт, Свети Влас. Площта позволява да се обособи отделна спалня. 200 м до морето. Такса поддръжка 14,5 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Удобен вариант за почивка или за отдаване под наем през сезона.",
-    "ru": "Студия площадью 50 м² на 2-м этаже в комплексе «Грийн Форт», Святой Влас. Площадь позволяет выделить отдельную спальню. 200 м до моря. Обслуживание 14,5 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Удобный вариант для отдыха или сдачи в аренду в сезон.",
-    "en": "A 50 m² studio on floor 2 in Green Fort, Sveti Vlas. The space allows a separate bedroom to be created. 200 m to the sea. Maintenance €14.5/m² a year. Act 16 — the building is officially completed. A handy choice for holidays or seasonal letting.",
-    "de": "Studio mit 50 m² im 2. Stock in der Anlage Green Fort, Sveti Vlas. Die Fläche erlaubt ein separates Schlafzimmer. 200 m zum Meer. Hausgebühr 14,5 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Ideal für Urlaub oder Saisonvermietung.",
-    "es": "Estudio de 50 m² en la 2.ª planta en el complejo Green Fort, Sveti Vlas. El espacio permite crear un dormitorio aparte. A 200 m del mar. Cuota 14,5 €/m² al año. Acta 16: el edificio está terminado y legalizado. Una buena opción para vacaciones o alquiler de temporada."
+    "bg": "Студио от 50 м² на 2-ри етаж в комплекс Грийн Форт, Свети Влас. Площта позволява да се обособи отделна спалня. 200 м до морето. Такса поддръжка 14,5 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Удобен вариант за почивка или за отдаване под наем през сезона. Код: ROMAN",
+    "ru": "Студия площадью 50 м² на 2-м этаже в комплексе «Грийн Форт», Святой Влас. Площадь позволяет выделить отдельную спальню. 200 м до моря. Обслуживание 14,5 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Удобный вариант для отдыха или сдачи в аренду в сезон. Код: ROMAN",
+    "en": "A 50 m² studio on floor 2 in Green Fort, Sveti Vlas. The space allows a separate bedroom to be created. 200 m to the sea. Maintenance €14.5/m² a year. Act 16 — the building is officially completed. A handy choice for holidays or seasonal letting. Code: ROMAN",
+    "de": "Studio mit 50 m² im 2. Stock in der Anlage Green Fort, Sveti Vlas. Die Fläche erlaubt ein separates Schlafzimmer. 200 m zum Meer. Hausgebühr 14,5 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Ideal für Urlaub oder Saisonvermietung. Code: ROMAN",
+    "es": "Estudio de 50 m² en la 2.ª planta en el complejo Green Fort, Sveti Vlas. El espacio permite crear un dormitorio aparte. A 200 m del mar. Cuota 14,5 €/m² al año. Acta 16: el edificio está terminado y legalizado. Una buena opción para vacaciones o alquiler de temporada. Código: ROMAN"
    },
    "feat": {
     "bg": [
@@ -16320,11 +16320,11 @@
     "es": "Estudio, 37 m², Harmony Suites 5, Sunny Beach"
    },
    "desc": {
-    "bg": "Студио от 37 м² на партерен етаж в комплекс Хармони Сюитс 5, Слънчев бряг. 300 м до морето. Такса поддръжка 20 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Удобен вариант за почивка или за отдаване под наем през сезона.",
-    "ru": "Студия площадью 37 м² на первом этаже в комплексе «Хармони Сюитс 5», Солнечный берег. 300 м до моря. Обслуживание 20 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Удобный вариант для отдыха или сдачи в аренду в сезон.",
-    "en": "A 37 m² studio on the ground floor in Harmony Suites 5, Sunny Beach. 300 m to the sea. Maintenance €20/m² a year. Act 16 — the building is officially completed. A handy choice for holidays or seasonal letting.",
-    "de": "Studio mit 37 m² im Erdgeschoss in der Anlage Harmony Suites 5, Sonnenstrand. 300 m zum Meer. Hausgebühr 20 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Ideal für Urlaub oder Saisonvermietung.",
-    "es": "Estudio de 37 m² en planta baja en el complejo Harmony Suites 5, Sunny Beach. A 300 m del mar. Cuota 20 €/m² al año. Acta 16: el edificio está terminado y legalizado. Una buena opción para vacaciones o alquiler de temporada."
+    "bg": "Студио от 37 м² на партерен етаж в комплекс Хармони Сюитс 5, Слънчев бряг. 300 м до морето. Такса поддръжка 20 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Удобен вариант за почивка или за отдаване под наем през сезона. Код: ROMAN",
+    "ru": "Студия площадью 37 м² на первом этаже в комплексе «Хармони Сюитс 5», Солнечный берег. 300 м до моря. Обслуживание 20 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Удобный вариант для отдыха или сдачи в аренду в сезон. Код: ROMAN",
+    "en": "A 37 m² studio on the ground floor in Harmony Suites 5, Sunny Beach. 300 m to the sea. Maintenance €20/m² a year. Act 16 — the building is officially completed. A handy choice for holidays or seasonal letting. Code: ROMAN",
+    "de": "Studio mit 37 m² im Erdgeschoss in der Anlage Harmony Suites 5, Sonnenstrand. 300 m zum Meer. Hausgebühr 20 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Ideal für Urlaub oder Saisonvermietung. Code: ROMAN",
+    "es": "Estudio de 37 m² en planta baja en el complejo Harmony Suites 5, Sunny Beach. A 300 m del mar. Cuota 20 €/m² al año. Acta 16: el edificio está terminado y legalizado. Una buena opción para vacaciones o alquiler de temporada. Código: ROMAN"
    },
    "feat": {
     "bg": [
@@ -16402,11 +16402,11 @@
     "es": "Estudio, 60 m², Sofia Ravda, Ravda"
    },
    "desc": {
-    "bg": "Студио от 60 м² на 4-ти етаж в комплекс София Равда, Равда. От апартамента се вижда морето. Всичко в апартамента е ново. 150 м до морето. Такса поддръжка 12 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Удобен вариант за почивка или за отдаване под наем през сезона.",
-    "ru": "Студия площадью 60 м² на 4-м этаже в комплексе «София Равда», Равда. Из квартиры видно море. В квартире всё новое. 150 м до моря. Обслуживание 12 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Удобный вариант для отдыха или сдачи в аренду в сезон.",
-    "en": "A 60 m² studio on floor 4 in Sofia Ravda, Ravda. The flat has a view of the sea. Everything in the flat is new. 150 m to the sea. Maintenance €12/m² a year. Act 16 — the building is officially completed. A handy choice for holidays or seasonal letting.",
-    "de": "Studio mit 60 m² im 4. Stock in der Anlage Sofia Ravda, Ravda. Die Wohnung bietet Meerblick. In der Wohnung ist alles neu. 150 m zum Meer. Hausgebühr 12 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Ideal für Urlaub oder Saisonvermietung.",
-    "es": "Estudio de 60 m² en la 4.ª planta en el complejo Sofia Ravda, Ravda. El piso tiene vistas al mar. Todo en el piso es nuevo. A 150 m del mar. Cuota 12 €/m² al año. Acta 16: el edificio está terminado y legalizado. Una buena opción para vacaciones o alquiler de temporada."
+    "bg": "Студио от 60 м² на 4-ти етаж в комплекс София Равда, Равда. От апартамента се вижда морето. Всичко в апартамента е ново. 150 м до морето. Такса поддръжка 12 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Удобен вариант за почивка или за отдаване под наем през сезона. Код: ROMAN",
+    "ru": "Студия площадью 60 м² на 4-м этаже в комплексе «София Равда», Равда. Из квартиры видно море. В квартире всё новое. 150 м до моря. Обслуживание 12 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Удобный вариант для отдыха или сдачи в аренду в сезон. Код: ROMAN",
+    "en": "A 60 m² studio on floor 4 in Sofia Ravda, Ravda. The flat has a view of the sea. Everything in the flat is new. 150 m to the sea. Maintenance €12/m² a year. Act 16 — the building is officially completed. A handy choice for holidays or seasonal letting. Code: ROMAN",
+    "de": "Studio mit 60 m² im 4. Stock in der Anlage Sofia Ravda, Ravda. Die Wohnung bietet Meerblick. In der Wohnung ist alles neu. 150 m zum Meer. Hausgebühr 12 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Ideal für Urlaub oder Saisonvermietung. Code: ROMAN",
+    "es": "Estudio de 60 m² en la 4.ª planta en el complejo Sofia Ravda, Ravda. El piso tiene vistas al mar. Todo en el piso es nuevo. A 150 m del mar. Cuota 12 €/m² al año. Acta 16: el edificio está terminado y legalizado. Una buena opción para vacaciones o alquiler de temporada. Código: ROMAN"
    },
    "feat": {
     "bg": [
@@ -16487,11 +16487,11 @@
     "es": "Piso de 1 dormitorio, 50 m², Avalon, Sunny Beach"
    },
    "desc": {
-    "bg": "Апартамент с 1 спалня от 50 м² на 2-ри етаж в комплекс Авалон, Слънчев бряг. 400 м до морето. Такса поддръжка 9 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Подходящ за живеене, почивка или отдаване под наем.",
-    "ru": "Квартира с 1 спальней площадью 50 м² на 2-м этаже в комплексе «Авалон», Солнечный берег. 400 м до моря. Обслуживание 9 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Подойдёт для жизни, отдыха или сдачи в аренду.",
-    "en": "A 50 m² one-bedroom flat on floor 2 in Avalon, Sunny Beach. 400 m to the sea. Maintenance €9/m² a year. Act 16 — the building is officially completed. Suits living in, holidays or letting.",
-    "de": "2-Zimmer-Wohnung mit 50 m² im 2. Stock in der Anlage Avalon, Sonnenstrand. 400 m zum Meer. Hausgebühr 9 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Zum Wohnen, für Urlaub oder Vermietung.",
-    "es": "Piso de 1 dormitorio de 50 m² en la 2.ª planta en el complejo Avalon, Sunny Beach. A 400 m del mar. Cuota 9 €/m² al año. Acta 16: el edificio está terminado y legalizado. Para vivir, veranear o alquilar."
+    "bg": "Апартамент с 1 спалня от 50 м² на 2-ри етаж в комплекс Авалон, Слънчев бряг. 400 м до морето. Такса поддръжка 9 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Подходящ за живеене, почивка или отдаване под наем. Код: ROMAN",
+    "ru": "Квартира с 1 спальней площадью 50 м² на 2-м этаже в комплексе «Авалон», Солнечный берег. 400 м до моря. Обслуживание 9 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Подойдёт для жизни, отдыха или сдачи в аренду. Код: ROMAN",
+    "en": "A 50 m² one-bedroom flat on floor 2 in Avalon, Sunny Beach. 400 m to the sea. Maintenance €9/m² a year. Act 16 — the building is officially completed. Suits living in, holidays or letting. Code: ROMAN",
+    "de": "2-Zimmer-Wohnung mit 50 m² im 2. Stock in der Anlage Avalon, Sonnenstrand. 400 m zum Meer. Hausgebühr 9 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Zum Wohnen, für Urlaub oder Vermietung. Code: ROMAN",
+    "es": "Piso de 1 dormitorio de 50 m² en la 2.ª planta en el complejo Avalon, Sunny Beach. A 400 m del mar. Cuota 9 €/m² al año. Acta 16: el edificio está terminado y legalizado. Para vivir, veranear o alquilar. Código: ROMAN"
    },
    "feat": {
     "bg": [
@@ -16569,11 +16569,11 @@
     "es": "Piso de 1 dormitorio, 50 m², Gerber 3, Sunny Beach"
    },
    "desc": {
-    "bg": "Апартамент с 1 спалня от 50 м² на 2-ри етаж в комплекс Гербер 3, Слънчев бряг. 500 м до морето. Такса поддръжка 12 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Подходящ за живеене, почивка или отдаване под наем.",
-    "ru": "Квартира с 1 спальней площадью 50 м² на 2-м этаже в комплексе «Гербер 3», Солнечный берег. 500 м до моря. Обслуживание 12 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Подойдёт для жизни, отдыха или сдачи в аренду.",
-    "en": "A 50 m² one-bedroom flat on floor 2 in Gerber 3, Sunny Beach. 500 m to the sea. Maintenance €12/m² a year. Act 16 — the building is officially completed. Suits living in, holidays or letting.",
-    "de": "2-Zimmer-Wohnung mit 50 m² im 2. Stock in der Anlage Gerber 3, Sonnenstrand. 500 m zum Meer. Hausgebühr 12 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Zum Wohnen, für Urlaub oder Vermietung.",
-    "es": "Piso de 1 dormitorio de 50 m² en la 2.ª planta en el complejo Gerber 3, Sunny Beach. A 500 m del mar. Cuota 12 €/m² al año. Acta 16: el edificio está terminado y legalizado. Para vivir, veranear o alquilar."
+    "bg": "Апартамент с 1 спалня от 50 м² на 2-ри етаж в комплекс Гербер 3, Слънчев бряг. 500 м до морето. Такса поддръжка 12 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Подходящ за живеене, почивка или отдаване под наем. Код: ROMAN",
+    "ru": "Квартира с 1 спальней площадью 50 м² на 2-м этаже в комплексе «Гербер 3», Солнечный берег. 500 м до моря. Обслуживание 12 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Подойдёт для жизни, отдыха или сдачи в аренду. Код: ROMAN",
+    "en": "A 50 m² one-bedroom flat on floor 2 in Gerber 3, Sunny Beach. 500 m to the sea. Maintenance €12/m² a year. Act 16 — the building is officially completed. Suits living in, holidays or letting. Code: ROMAN",
+    "de": "2-Zimmer-Wohnung mit 50 m² im 2. Stock in der Anlage Gerber 3, Sonnenstrand. 500 m zum Meer. Hausgebühr 12 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Zum Wohnen, für Urlaub oder Vermietung. Code: ROMAN",
+    "es": "Piso de 1 dormitorio de 50 m² en la 2.ª planta en el complejo Gerber 3, Sunny Beach. A 500 m del mar. Cuota 12 €/m² al año. Acta 16: el edificio está terminado y legalizado. Para vivir, veranear o alquilar. Código: ROMAN"
    },
    "feat": {
     "bg": [
@@ -16655,11 +16655,11 @@
     "es": "Piso de 1 dormitorio, 76 m², Ohrid, Sunny Beach"
    },
    "desc": {
-    "bg": "Апартамент с 1 спалня от 76 м² на 5-и етаж в комплекс Охрид, Слънчев бряг. 600 м до морето. Такса поддръжка 264 € годишно. Акт 16 — сградата е въведена в експлоатация. Подходящ за живеене, почивка или отдаване под наем.",
-    "ru": "Квартира с 1 спальней площадью 76 м² на 5-м этаже в комплексе «Охрид», Солнечный берег. 600 м до моря. Обслуживание 264 € в год. Акт 16 — дом сдан в эксплуатацию. Подойдёт для жизни, отдыха или сдачи в аренду.",
-    "en": "A 76 m² one-bedroom flat on floor 5 in Ohrid, Sunny Beach. 600 m to the sea. Maintenance €264 a year. Act 16 — the building is officially completed. Suits living in, holidays or letting.",
-    "de": "2-Zimmer-Wohnung mit 76 m² im 5. Stock in der Anlage Ohrid, Sonnenstrand. 600 m zum Meer. Hausgebühr 264 € pro Jahr. Akt 16 – das Gebäude ist abgenommen. Zum Wohnen, für Urlaub oder Vermietung.",
-    "es": "Piso de 1 dormitorio de 76 m² en la 5.ª planta en el complejo Ohrid, Sunny Beach. A 600 m del mar. Cuota 264 € al año. Acta 16: el edificio está terminado y legalizado. Para vivir, veranear o alquilar."
+    "bg": "Апартамент с 1 спалня от 76 м² на 5-и етаж в комплекс Охрид, Слънчев бряг. 600 м до морето. Такса поддръжка 264 € годишно. Акт 16 — сградата е въведена в експлоатация. Подходящ за живеене, почивка или отдаване под наем. Код: ROMAN",
+    "ru": "Квартира с 1 спальней площадью 76 м² на 5-м этаже в комплексе «Охрид», Солнечный берег. 600 м до моря. Обслуживание 264 € в год. Акт 16 — дом сдан в эксплуатацию. Подойдёт для жизни, отдыха или сдачи в аренду. Код: ROMAN",
+    "en": "A 76 m² one-bedroom flat on floor 5 in Ohrid, Sunny Beach. 600 m to the sea. Maintenance €264 a year. Act 16 — the building is officially completed. Suits living in, holidays or letting. Code: ROMAN",
+    "de": "2-Zimmer-Wohnung mit 76 m² im 5. Stock in der Anlage Ohrid, Sonnenstrand. 600 m zum Meer. Hausgebühr 264 € pro Jahr. Akt 16 – das Gebäude ist abgenommen. Zum Wohnen, für Urlaub oder Vermietung. Code: ROMAN",
+    "es": "Piso de 1 dormitorio de 76 m² en la 5.ª planta en el complejo Ohrid, Sunny Beach. A 600 m del mar. Cuota 264 € al año. Acta 16: el edificio está terminado y legalizado. Para vivir, veranear o alquilar. Código: ROMAN"
    },
    "feat": {
     "bg": [
@@ -16736,11 +16736,11 @@
     "es": "Piso de 1 dormitorio, 55 m², Aphrodite Palace, Sunny Beach"
    },
    "desc": {
-    "bg": "Апартамент с 1 спалня от 55 м² на 2-ри етаж в комплекс Афродита Палас, Слънчев бряг. 600 м до морето. Такса поддръжка 200 € годишно. Акт 16 — сградата е въведена в експлоатация. Подходящ за живеене, почивка или отдаване под наем.",
-    "ru": "Квартира с 1 спальней площадью 55 м² на 2-м этаже в комплексе «Афродита Палас», Солнечный берег. 600 м до моря. Обслуживание 200 € в год. Акт 16 — дом сдан в эксплуатацию. Подойдёт для жизни, отдыха или сдачи в аренду.",
-    "en": "A 55 m² one-bedroom flat on floor 2 in Aphrodite Palace, Sunny Beach. 600 m to the sea. Maintenance €200 a year. Act 16 — the building is officially completed. Suits living in, holidays or letting.",
-    "de": "2-Zimmer-Wohnung mit 55 m² im 2. Stock in der Anlage Aphrodite Palace, Sonnenstrand. 600 m zum Meer. Hausgebühr 200 € pro Jahr. Akt 16 – das Gebäude ist abgenommen. Zum Wohnen, für Urlaub oder Vermietung.",
-    "es": "Piso de 1 dormitorio de 55 m² en la 2.ª planta en el complejo Aphrodite Palace, Sunny Beach. A 600 m del mar. Cuota 200 € al año. Acta 16: el edificio está terminado y legalizado. Para vivir, veranear o alquilar."
+    "bg": "Апартамент с 1 спалня от 55 м² на 2-ри етаж в комплекс Афродита Палас, Слънчев бряг. 600 м до морето. Такса поддръжка 200 € годишно. Акт 16 — сградата е въведена в експлоатация. Подходящ за живеене, почивка или отдаване под наем. Код: ROMAN",
+    "ru": "Квартира с 1 спальней площадью 55 м² на 2-м этаже в комплексе «Афродита Палас», Солнечный берег. 600 м до моря. Обслуживание 200 € в год. Акт 16 — дом сдан в эксплуатацию. Подойдёт для жизни, отдыха или сдачи в аренду. Код: ROMAN",
+    "en": "A 55 m² one-bedroom flat on floor 2 in Aphrodite Palace, Sunny Beach. 600 m to the sea. Maintenance €200 a year. Act 16 — the building is officially completed. Suits living in, holidays or letting. Code: ROMAN",
+    "de": "2-Zimmer-Wohnung mit 55 m² im 2. Stock in der Anlage Aphrodite Palace, Sonnenstrand. 600 m zum Meer. Hausgebühr 200 € pro Jahr. Akt 16 – das Gebäude ist abgenommen. Zum Wohnen, für Urlaub oder Vermietung. Code: ROMAN",
+    "es": "Piso de 1 dormitorio de 55 m² en la 2.ª planta en el complejo Aphrodite Palace, Sunny Beach. A 600 m del mar. Cuota 200 € al año. Acta 16: el edificio está terminado y legalizado. Para vivir, veranear o alquilar. Código: ROMAN"
    },
    "feat": {
     "bg": [
@@ -16816,11 +16816,11 @@
     "es": "Piso de 1 dormitorio, 55 m², Polo Resort, Sunny Beach"
    },
    "desc": {
-    "bg": "Апартамент с 1 спалня от 55 м² на последния етаж в комплекс Поло Резорт, Слънчев бряг. 400 м до морето. Такса поддръжка 10 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Подходящ за живеене, почивка или отдаване под наем.",
-    "ru": "Квартира с 1 спальней площадью 55 м² на последнем этаже в комплексе «Поло Резорт», Солнечный берег. 400 м до моря. Обслуживание 10 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Подойдёт для жизни, отдыха или сдачи в аренду.",
-    "en": "A 55 m² one-bedroom flat on the top floor in Polo Resort, Sunny Beach. 400 m to the sea. Maintenance €10/m² a year. Act 16 — the building is officially completed. Suits living in, holidays or letting.",
-    "de": "2-Zimmer-Wohnung mit 55 m² im obersten Stock in der Anlage Polo Resort, Sonnenstrand. 400 m zum Meer. Hausgebühr 10 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Zum Wohnen, für Urlaub oder Vermietung.",
-    "es": "Piso de 1 dormitorio de 55 m² en la última planta en el complejo Polo Resort, Sunny Beach. A 400 m del mar. Cuota 10 €/m² al año. Acta 16: el edificio está terminado y legalizado. Para vivir, veranear o alquilar."
+    "bg": "Апартамент с 1 спалня от 55 м² на последния етаж в комплекс Поло Резорт, Слънчев бряг. 400 м до морето. Такса поддръжка 10 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Подходящ за живеене, почивка или отдаване под наем. Код: ROMAN",
+    "ru": "Квартира с 1 спальней площадью 55 м² на последнем этаже в комплексе «Поло Резорт», Солнечный берег. 400 м до моря. Обслуживание 10 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Подойдёт для жизни, отдыха или сдачи в аренду. Код: ROMAN",
+    "en": "A 55 m² one-bedroom flat on the top floor in Polo Resort, Sunny Beach. 400 m to the sea. Maintenance €10/m² a year. Act 16 — the building is officially completed. Suits living in, holidays or letting. Code: ROMAN",
+    "de": "2-Zimmer-Wohnung mit 55 m² im obersten Stock in der Anlage Polo Resort, Sonnenstrand. 400 m zum Meer. Hausgebühr 10 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Zum Wohnen, für Urlaub oder Vermietung. Code: ROMAN",
+    "es": "Piso de 1 dormitorio de 55 m² en la última planta en el complejo Polo Resort, Sunny Beach. A 400 m del mar. Cuota 10 €/m² al año. Acta 16: el edificio está terminado y legalizado. Para vivir, veranear o alquilar. Código: ROMAN"
    },
    "feat": {
     "bg": [
@@ -16900,11 +16900,11 @@
     "es": "Piso de 1 dormitorio, 63 m², Grand Kamelia, Sunny Beach"
    },
    "desc": {
-    "bg": "Апартамент с 1 спалня от 63 м² на 5-и етаж в комплекс Гранд Камелия, Слънчев бряг. 600 м до морето. Такса поддръжка 447 € годишно. Акт 16 — сградата е въведена в експлоатация. Подходящ за живеене, почивка или отдаване под наем.",
-    "ru": "Квартира с 1 спальней площадью 63 м² на 5-м этаже в комплексе «Гранд Камелия», Солнечный берег. 600 м до моря. Обслуживание 447 € в год. Акт 16 — дом сдан в эксплуатацию. Подойдёт для жизни, отдыха или сдачи в аренду.",
-    "en": "A 63 m² one-bedroom flat on floor 5 in Grand Kamelia, Sunny Beach. 600 m to the sea. Maintenance €447 a year. Act 16 — the building is officially completed. Suits living in, holidays or letting.",
-    "de": "2-Zimmer-Wohnung mit 63 m² im 5. Stock in der Anlage Grand Kamelia, Sonnenstrand. 600 m zum Meer. Hausgebühr 447 € pro Jahr. Akt 16 – das Gebäude ist abgenommen. Zum Wohnen, für Urlaub oder Vermietung.",
-    "es": "Piso de 1 dormitorio de 63 m² en la 5.ª planta en el complejo Grand Kamelia, Sunny Beach. A 600 m del mar. Cuota 447 € al año. Acta 16: el edificio está terminado y legalizado. Para vivir, veranear o alquilar."
+    "bg": "Апартамент с 1 спалня от 63 м² на 5-и етаж в комплекс Гранд Камелия, Слънчев бряг. 600 м до морето. Такса поддръжка 447 € годишно. Акт 16 — сградата е въведена в експлоатация. Подходящ за живеене, почивка или отдаване под наем. Код: ROMAN",
+    "ru": "Квартира с 1 спальней площадью 63 м² на 5-м этаже в комплексе «Гранд Камелия», Солнечный берег. 600 м до моря. Обслуживание 447 € в год. Акт 16 — дом сдан в эксплуатацию. Подойдёт для жизни, отдыха или сдачи в аренду. Код: ROMAN",
+    "en": "A 63 m² one-bedroom flat on floor 5 in Grand Kamelia, Sunny Beach. 600 m to the sea. Maintenance €447 a year. Act 16 — the building is officially completed. Suits living in, holidays or letting. Code: ROMAN",
+    "de": "2-Zimmer-Wohnung mit 63 m² im 5. Stock in der Anlage Grand Kamelia, Sonnenstrand. 600 m zum Meer. Hausgebühr 447 € pro Jahr. Akt 16 – das Gebäude ist abgenommen. Zum Wohnen, für Urlaub oder Vermietung. Code: ROMAN",
+    "es": "Piso de 1 dormitorio de 63 m² en la 5.ª planta en el complejo Grand Kamelia, Sunny Beach. A 600 m del mar. Cuota 447 € al año. Acta 16: el edificio está terminado y legalizado. Para vivir, veranear o alquilar. Código: ROMAN"
    },
    "feat": {
     "bg": [
@@ -16979,11 +16979,11 @@
     "es": "Piso de 1 dormitorio, 43 m², Harmony Palace, Sunny Beach"
    },
    "desc": {
-    "bg": "Апартамент с 1 спалня от 43 м² на 6-и етаж в комплекс Хармони Палас, Слънчев бряг. 400 м до морето. Такса поддръжка 20 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Подходящ за живеене, почивка или отдаване под наем.",
-    "ru": "Квартира с 1 спальней площадью 43 м² на 6-м этаже в комплексе «Хармони Палас», Солнечный берег. 400 м до моря. Обслуживание 20 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Подойдёт для жизни, отдыха или сдачи в аренду.",
-    "en": "A 43 m² one-bedroom flat on floor 6 in Harmony Palace, Sunny Beach. 400 m to the sea. Maintenance €20/m² a year. Act 16 — the building is officially completed. Suits living in, holidays or letting.",
-    "de": "2-Zimmer-Wohnung mit 43 m² im 6. Stock in der Anlage Harmony Palace, Sonnenstrand. 400 m zum Meer. Hausgebühr 20 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Zum Wohnen, für Urlaub oder Vermietung.",
-    "es": "Piso de 1 dormitorio de 43 m² en la 6.ª planta en el complejo Harmony Palace, Sunny Beach. A 400 m del mar. Cuota 20 €/m² al año. Acta 16: el edificio está terminado y legalizado. Para vivir, veranear o alquilar."
+    "bg": "Апартамент с 1 спалня от 43 м² на 6-и етаж в комплекс Хармони Палас, Слънчев бряг. 400 м до морето. Такса поддръжка 20 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Подходящ за живеене, почивка или отдаване под наем. Код: ROMAN",
+    "ru": "Квартира с 1 спальней площадью 43 м² на 6-м этаже в комплексе «Хармони Палас», Солнечный берег. 400 м до моря. Обслуживание 20 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Подойдёт для жизни, отдыха или сдачи в аренду. Код: ROMAN",
+    "en": "A 43 m² one-bedroom flat on floor 6 in Harmony Palace, Sunny Beach. 400 m to the sea. Maintenance €20/m² a year. Act 16 — the building is officially completed. Suits living in, holidays or letting. Code: ROMAN",
+    "de": "2-Zimmer-Wohnung mit 43 m² im 6. Stock in der Anlage Harmony Palace, Sonnenstrand. 400 m zum Meer. Hausgebühr 20 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Zum Wohnen, für Urlaub oder Vermietung. Code: ROMAN",
+    "es": "Piso de 1 dormitorio de 43 m² en la 6.ª planta en el complejo Harmony Palace, Sunny Beach. A 400 m del mar. Cuota 20 €/m² al año. Acta 16: el edificio está terminado y legalizado. Para vivir, veranear o alquilar. Código: ROMAN"
    },
    "feat": {
     "bg": [
@@ -17059,11 +17059,11 @@
     "es": "Piso de 1 dormitorio, 63 m², Avalon, Sunny Beach"
    },
    "desc": {
-    "bg": "Апартамент с 1 спалня от 63 м² на 5-и етаж в комплекс Авалон, Слънчев бряг. 400 м до морето. Такса поддръжка 9 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Подходящ за живеене, почивка или отдаване под наем.",
-    "ru": "Квартира с 1 спальней площадью 63 м² на 5-м этаже в комплексе «Авалон», Солнечный берег. 400 м до моря. Обслуживание 9 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Подойдёт для жизни, отдыха или сдачи в аренду.",
-    "en": "A 63 m² one-bedroom flat on floor 5 in Avalon, Sunny Beach. 400 m to the sea. Maintenance €9/m² a year. Act 16 — the building is officially completed. Suits living in, holidays or letting.",
-    "de": "2-Zimmer-Wohnung mit 63 m² im 5. Stock in der Anlage Avalon, Sonnenstrand. 400 m zum Meer. Hausgebühr 9 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Zum Wohnen, für Urlaub oder Vermietung.",
-    "es": "Piso de 1 dormitorio de 63 m² en la 5.ª planta en el complejo Avalon, Sunny Beach. A 400 m del mar. Cuota 9 €/m² al año. Acta 16: el edificio está terminado y legalizado. Para vivir, veranear o alquilar."
+    "bg": "Апартамент с 1 спалня от 63 м² на 5-и етаж в комплекс Авалон, Слънчев бряг. 400 м до морето. Такса поддръжка 9 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Подходящ за живеене, почивка или отдаване под наем. Код: ROMAN",
+    "ru": "Квартира с 1 спальней площадью 63 м² на 5-м этаже в комплексе «Авалон», Солнечный берег. 400 м до моря. Обслуживание 9 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Подойдёт для жизни, отдыха или сдачи в аренду. Код: ROMAN",
+    "en": "A 63 m² one-bedroom flat on floor 5 in Avalon, Sunny Beach. 400 m to the sea. Maintenance €9/m² a year. Act 16 — the building is officially completed. Suits living in, holidays or letting. Code: ROMAN",
+    "de": "2-Zimmer-Wohnung mit 63 m² im 5. Stock in der Anlage Avalon, Sonnenstrand. 400 m zum Meer. Hausgebühr 9 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Zum Wohnen, für Urlaub oder Vermietung. Code: ROMAN",
+    "es": "Piso de 1 dormitorio de 63 m² en la 5.ª planta en el complejo Avalon, Sunny Beach. A 400 m del mar. Cuota 9 €/m² al año. Acta 16: el edificio está terminado y legalizado. Para vivir, veranear o alquilar. Código: ROMAN"
    },
    "feat": {
     "bg": [
@@ -17136,11 +17136,11 @@
     "es": "Piso de 1 dormitorio, 62 m², Polo Resort, Sunny Beach"
    },
    "desc": {
-    "bg": "Апартамент с 1 спалня от 62 м² на 5-и етаж в комплекс Поло Резорт, Какао Бийч, Слънчев бряг. 400 м до морето. Такса поддръжка 10 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Подходящ за живеене, почивка или отдаване под наем.",
-    "ru": "Квартира с 1 спальней площадью 62 м² на 5-м этаже в комплексе «Поло Резорт», Какао Бич, Солнечный берег. 400 м до моря. Обслуживание 10 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Подойдёт для жизни, отдыха или сдачи в аренду.",
-    "en": "A 62 m² one-bedroom flat on floor 5 in Polo Resort, Cacao Beach, Sunny Beach. 400 m to the sea. Maintenance €10/m² a year. Act 16 — the building is officially completed. Suits living in, holidays or letting.",
-    "de": "2-Zimmer-Wohnung mit 62 m² im 5. Stock in der Anlage Polo Resort, Cacao Beach, Sonnenstrand. 400 m zum Meer. Hausgebühr 10 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Zum Wohnen, für Urlaub oder Vermietung.",
-    "es": "Piso de 1 dormitorio de 62 m² en la 5.ª planta en el complejo Polo Resort, Cacao Beach, Sunny Beach. A 400 m del mar. Cuota 10 €/m² al año. Acta 16: el edificio está terminado y legalizado. Para vivir, veranear o alquilar."
+    "bg": "Апартамент с 1 спалня от 62 м² на 5-и етаж в комплекс Поло Резорт, Какао Бийч, Слънчев бряг. 400 м до морето. Такса поддръжка 10 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Подходящ за живеене, почивка или отдаване под наем. Код: ROMAN",
+    "ru": "Квартира с 1 спальней площадью 62 м² на 5-м этаже в комплексе «Поло Резорт», Какао Бич, Солнечный берег. 400 м до моря. Обслуживание 10 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Подойдёт для жизни, отдыха или сдачи в аренду. Код: ROMAN",
+    "en": "A 62 m² one-bedroom flat on floor 5 in Polo Resort, Cacao Beach, Sunny Beach. 400 m to the sea. Maintenance €10/m² a year. Act 16 — the building is officially completed. Suits living in, holidays or letting. Code: ROMAN",
+    "de": "2-Zimmer-Wohnung mit 62 m² im 5. Stock in der Anlage Polo Resort, Cacao Beach, Sonnenstrand. 400 m zum Meer. Hausgebühr 10 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Zum Wohnen, für Urlaub oder Vermietung. Code: ROMAN",
+    "es": "Piso de 1 dormitorio de 62 m² en la 5.ª planta en el complejo Polo Resort, Cacao Beach, Sunny Beach. A 400 m del mar. Cuota 10 €/m² al año. Acta 16: el edificio está terminado y legalizado. Para vivir, veranear o alquilar. Código: ROMAN"
    },
    "feat": {
     "bg": [
@@ -17218,11 +17218,11 @@
     "es": "Piso de 1 dormitorio, 46 m², Aphrodite Park, Sunny Beach"
    },
    "desc": {
-    "bg": "Апартамент с 1 спалня от 46 м² на 2-ри етаж в комплекс Афродита Парк, Слънчев бряг. Сградата е нова. 600 м до морето. Такса поддръжка 18 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Подходящ за живеене, почивка или отдаване под наем.",
-    "ru": "Квартира с 1 спальней площадью 46 м² на 2-м этаже в комплексе «Афродита Парк», Солнечный берег. Дом новый. 600 м до моря. Обслуживание 18 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Подойдёт для жизни, отдыха или сдачи в аренду.",
-    "en": "A 46 m² one-bedroom flat on floor 2 in Aphrodite Park, Sunny Beach. The building is new. 600 m to the sea. Maintenance €18/m² a year. Act 16 — the building is officially completed. Suits living in, holidays or letting.",
-    "de": "2-Zimmer-Wohnung mit 46 m² im 2. Stock in der Anlage Aphrodite Park, Sonnenstrand. Das Gebäude ist neu. 600 m zum Meer. Hausgebühr 18 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Zum Wohnen, für Urlaub oder Vermietung.",
-    "es": "Piso de 1 dormitorio de 46 m² en la 2.ª planta en el complejo Aphrodite Park, Sunny Beach. El edificio es nuevo. A 600 m del mar. Cuota 18 €/m² al año. Acta 16: el edificio está terminado y legalizado. Para vivir, veranear o alquilar."
+    "bg": "Апартамент с 1 спалня от 46 м² на 2-ри етаж в комплекс Афродита Парк, Слънчев бряг. Сградата е нова. 600 м до морето. Такса поддръжка 18 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Подходящ за живеене, почивка или отдаване под наем. Код: ROMAN",
+    "ru": "Квартира с 1 спальней площадью 46 м² на 2-м этаже в комплексе «Афродита Парк», Солнечный берег. Дом новый. 600 м до моря. Обслуживание 18 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Подойдёт для жизни, отдыха или сдачи в аренду. Код: ROMAN",
+    "en": "A 46 m² one-bedroom flat on floor 2 in Aphrodite Park, Sunny Beach. The building is new. 600 m to the sea. Maintenance €18/m² a year. Act 16 — the building is officially completed. Suits living in, holidays or letting. Code: ROMAN",
+    "de": "2-Zimmer-Wohnung mit 46 m² im 2. Stock in der Anlage Aphrodite Park, Sonnenstrand. Das Gebäude ist neu. 600 m zum Meer. Hausgebühr 18 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Zum Wohnen, für Urlaub oder Vermietung. Code: ROMAN",
+    "es": "Piso de 1 dormitorio de 46 m² en la 2.ª planta en el complejo Aphrodite Park, Sunny Beach. El edificio es nuevo. A 600 m del mar. Cuota 18 €/m² al año. Acta 16: el edificio está terminado y legalizado. Para vivir, veranear o alquilar. Código: ROMAN"
    },
    "feat": {
     "bg": [
@@ -17303,11 +17303,11 @@
     "es": "Piso de 1 dormitorio, 51 m², VIP Limited, Sunny Beach"
    },
    "desc": {
-    "bg": "Апартамент с 1 спалня от 51 м² на партерен етаж в комплекс ВИП Лимитед, Слънчев бряг. Сградата е нова. 400 м до морето. Такса поддръжка 300 € годишно. Акт 16 — сградата е въведена в експлоатация. Подходящ за живеене, почивка или отдаване под наем.",
-    "ru": "Квартира с 1 спальней площадью 51 м² на первом этаже в комплексе «ВИП Лимитед», Солнечный берег. Дом новый. 400 м до моря. Обслуживание 300 € в год. Акт 16 — дом сдан в эксплуатацию. Подойдёт для жизни, отдыха или сдачи в аренду.",
-    "en": "A 51 m² one-bedroom flat on the ground floor in VIP Limited, Sunny Beach. The building is new. 400 m to the sea. Maintenance €300 a year. Act 16 — the building is officially completed. Suits living in, holidays or letting.",
-    "de": "2-Zimmer-Wohnung mit 51 m² im Erdgeschoss in der Anlage VIP Limited, Sonnenstrand. Das Gebäude ist neu. 400 m zum Meer. Hausgebühr 300 € pro Jahr. Akt 16 – das Gebäude ist abgenommen. Zum Wohnen, für Urlaub oder Vermietung.",
-    "es": "Piso de 1 dormitorio de 51 m² en planta baja en el complejo VIP Limited, Sunny Beach. El edificio es nuevo. A 400 m del mar. Cuota 300 € al año. Acta 16: el edificio está terminado y legalizado. Para vivir, veranear o alquilar."
+    "bg": "Апартамент с 1 спалня от 51 м² на партерен етаж в комплекс ВИП Лимитед, Слънчев бряг. Сградата е нова. 400 м до морето. Такса поддръжка 300 € годишно. Акт 16 — сградата е въведена в експлоатация. Подходящ за живеене, почивка или отдаване под наем. Код: ROMAN",
+    "ru": "Квартира с 1 спальней площадью 51 м² на первом этаже в комплексе «ВИП Лимитед», Солнечный берег. Дом новый. 400 м до моря. Обслуживание 300 € в год. Акт 16 — дом сдан в эксплуатацию. Подойдёт для жизни, отдыха или сдачи в аренду. Код: ROMAN",
+    "en": "A 51 m² one-bedroom flat on the ground floor in VIP Limited, Sunny Beach. The building is new. 400 m to the sea. Maintenance €300 a year. Act 16 — the building is officially completed. Suits living in, holidays or letting. Code: ROMAN",
+    "de": "2-Zimmer-Wohnung mit 51 m² im Erdgeschoss in der Anlage VIP Limited, Sonnenstrand. Das Gebäude ist neu. 400 m zum Meer. Hausgebühr 300 € pro Jahr. Akt 16 – das Gebäude ist abgenommen. Zum Wohnen, für Urlaub oder Vermietung. Code: ROMAN",
+    "es": "Piso de 1 dormitorio de 51 m² en planta baja en el complejo VIP Limited, Sunny Beach. El edificio es nuevo. A 400 m del mar. Cuota 300 € al año. Acta 16: el edificio está terminado y legalizado. Para vivir, veranear o alquilar. Código: ROMAN"
    },
    "feat": {
     "bg": [
@@ -17385,11 +17385,11 @@
     "es": "Piso de 1 dormitorio, 61 m², Fort Noks Orchid, Sunny Beach"
    },
    "desc": {
-    "bg": "Апартамент с 1 спалня от 61 м² на партерен етаж в комплекс Форт Нокс Орхидея, Слънчев бряг. Има подово отопление. 900 м до морето. Такса поддръжка 14 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Подходящ за живеене, почивка или отдаване под наем.",
-    "ru": "Квартира с 1 спальней площадью 61 м² на первом этаже в комплексе «Форт Нокс Орхидея», Солнечный берег. Есть тёплые полы. 900 м до моря. Обслуживание 14 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Подойдёт для жизни, отдыха или сдачи в аренду.",
-    "en": "A 61 m² one-bedroom flat on the ground floor in Fort Noks Orchid, Sunny Beach. It has underfloor heating. 900 m to the sea. Maintenance €14/m² a year. Act 16 — the building is officially completed. Suits living in, holidays or letting.",
-    "de": "2-Zimmer-Wohnung mit 61 m² im Erdgeschoss in der Anlage Fort Noks Orchid, Sonnenstrand. Mit Fußbodenheizung. 900 m zum Meer. Hausgebühr 14 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Zum Wohnen, für Urlaub oder Vermietung.",
-    "es": "Piso de 1 dormitorio de 61 m² en planta baja en el complejo Fort Noks Orchid, Sunny Beach. Tiene suelo radiante. A 900 m del mar. Cuota 14 €/m² al año. Acta 16: el edificio está terminado y legalizado. Para vivir, veranear o alquilar."
+    "bg": "Апартамент с 1 спалня от 61 м² на партерен етаж в комплекс Форт Нокс Орхидея, Слънчев бряг. Има подово отопление. 900 м до морето. Такса поддръжка 14 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Подходящ за живеене, почивка или отдаване под наем. Код: ROMAN",
+    "ru": "Квартира с 1 спальней площадью 61 м² на первом этаже в комплексе «Форт Нокс Орхидея», Солнечный берег. Есть тёплые полы. 900 м до моря. Обслуживание 14 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Подойдёт для жизни, отдыха или сдачи в аренду. Код: ROMAN",
+    "en": "A 61 m² one-bedroom flat on the ground floor in Fort Noks Orchid, Sunny Beach. It has underfloor heating. 900 m to the sea. Maintenance €14/m² a year. Act 16 — the building is officially completed. Suits living in, holidays or letting. Code: ROMAN",
+    "de": "2-Zimmer-Wohnung mit 61 m² im Erdgeschoss in der Anlage Fort Noks Orchid, Sonnenstrand. Mit Fußbodenheizung. 900 m zum Meer. Hausgebühr 14 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Zum Wohnen, für Urlaub oder Vermietung. Code: ROMAN",
+    "es": "Piso de 1 dormitorio de 61 m² en planta baja en el complejo Fort Noks Orchid, Sunny Beach. Tiene suelo radiante. A 900 m del mar. Cuota 14 €/m² al año. Acta 16: el edificio está terminado y legalizado. Para vivir, veranear o alquilar. Código: ROMAN"
    },
    "feat": {
     "bg": [
@@ -17469,11 +17469,11 @@
     "es": "Piso de 1 dormitorio, 67 m², Avalon, Sunny Beach"
    },
    "desc": {
-    "bg": "Апартамент с 1 спалня от 67 м² на 5-и етаж в комплекс Авалон, Слънчев бряг. 400 м до морето. Такса поддръжка 9 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Подходящ за живеене, почивка или отдаване под наем.",
-    "ru": "Квартира с 1 спальней площадью 67 м² на 5-м этаже в комплексе «Авалон», Солнечный берег. 400 м до моря. Обслуживание 9 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Подойдёт для жизни, отдыха или сдачи в аренду.",
-    "en": "A 67 m² one-bedroom flat on floor 5 in Avalon, Sunny Beach. 400 m to the sea. Maintenance €9/m² a year. Act 16 — the building is officially completed. Suits living in, holidays or letting.",
-    "de": "2-Zimmer-Wohnung mit 67 m² im 5. Stock in der Anlage Avalon, Sonnenstrand. 400 m zum Meer. Hausgebühr 9 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Zum Wohnen, für Urlaub oder Vermietung.",
-    "es": "Piso de 1 dormitorio de 67 m² en la 5.ª planta en el complejo Avalon, Sunny Beach. A 400 m del mar. Cuota 9 €/m² al año. Acta 16: el edificio está terminado y legalizado. Para vivir, veranear o alquilar."
+    "bg": "Апартамент с 1 спалня от 67 м² на 5-и етаж в комплекс Авалон, Слънчев бряг. 400 м до морето. Такса поддръжка 9 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Подходящ за живеене, почивка или отдаване под наем. Код: ROMAN",
+    "ru": "Квартира с 1 спальней площадью 67 м² на 5-м этаже в комплексе «Авалон», Солнечный берег. 400 м до моря. Обслуживание 9 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Подойдёт для жизни, отдыха или сдачи в аренду. Код: ROMAN",
+    "en": "A 67 m² one-bedroom flat on floor 5 in Avalon, Sunny Beach. 400 m to the sea. Maintenance €9/m² a year. Act 16 — the building is officially completed. Suits living in, holidays or letting. Code: ROMAN",
+    "de": "2-Zimmer-Wohnung mit 67 m² im 5. Stock in der Anlage Avalon, Sonnenstrand. 400 m zum Meer. Hausgebühr 9 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Zum Wohnen, für Urlaub oder Vermietung. Code: ROMAN",
+    "es": "Piso de 1 dormitorio de 67 m² en la 5.ª planta en el complejo Avalon, Sunny Beach. A 400 m del mar. Cuota 9 €/m² al año. Acta 16: el edificio está terminado y legalizado. Para vivir, veranear o alquilar. Código: ROMAN"
    },
    "feat": {
     "bg": [
@@ -17547,11 +17547,11 @@
     "es": "Piso de 1 dormitorio, 64 m², Casa del Sol, Sunny Beach"
    },
    "desc": {
-    "bg": "Апартамент с 1 спалня от 64 м² на 2-ри етаж в комплекс Каса дел Сол, Какао Бийч, Слънчев бряг. Прозорците гледат към басейна. 600 м до морето. Такса поддръжка 12 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Подходящ за живеене, почивка или отдаване под наем.",
-    "ru": "Квартира с 1 спальней площадью 64 м² на 2-м этаже в комплексе «Каса дел Сол», Какао Бич, Солнечный берег. Окна выходят на бассейн. 600 м до моря. Обслуживание 12 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Подойдёт для жизни, отдыха или сдачи в аренду.",
-    "en": "A 64 m² one-bedroom flat on floor 2 in Casa del Sol, Cacao Beach, Sunny Beach. The windows overlook the pool. 600 m to the sea. Maintenance €12/m² a year. Act 16 — the building is officially completed. Suits living in, holidays or letting.",
-    "de": "2-Zimmer-Wohnung mit 64 m² im 2. Stock in der Anlage Casa del Sol, Cacao Beach, Sonnenstrand. Die Fenster gehen zum Pool. 600 m zum Meer. Hausgebühr 12 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Zum Wohnen, für Urlaub oder Vermietung.",
-    "es": "Piso de 1 dormitorio de 64 m² en la 2.ª planta en el complejo Casa del Sol, Cacao Beach, Sunny Beach. Las ventanas dan a la piscina. A 600 m del mar. Cuota 12 €/m² al año. Acta 16: el edificio está terminado y legalizado. Para vivir, veranear o alquilar."
+    "bg": "Апартамент с 1 спалня от 64 м² на 2-ри етаж в комплекс Каса дел Сол, Какао Бийч, Слънчев бряг. Прозорците гледат към басейна. 600 м до морето. Такса поддръжка 12 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Подходящ за живеене, почивка или отдаване под наем. Код: ROMAN",
+    "ru": "Квартира с 1 спальней площадью 64 м² на 2-м этаже в комплексе «Каса дел Сол», Какао Бич, Солнечный берег. Окна выходят на бассейн. 600 м до моря. Обслуживание 12 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Подойдёт для жизни, отдыха или сдачи в аренду. Код: ROMAN",
+    "en": "A 64 m² one-bedroom flat on floor 2 in Casa del Sol, Cacao Beach, Sunny Beach. The windows overlook the pool. 600 m to the sea. Maintenance €12/m² a year. Act 16 — the building is officially completed. Suits living in, holidays or letting. Code: ROMAN",
+    "de": "2-Zimmer-Wohnung mit 64 m² im 2. Stock in der Anlage Casa del Sol, Cacao Beach, Sonnenstrand. Die Fenster gehen zum Pool. 600 m zum Meer. Hausgebühr 12 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Zum Wohnen, für Urlaub oder Vermietung. Code: ROMAN",
+    "es": "Piso de 1 dormitorio de 64 m² en la 2.ª planta en el complejo Casa del Sol, Cacao Beach, Sunny Beach. Las ventanas dan a la piscina. A 600 m del mar. Cuota 12 €/m² al año. Acta 16: el edificio está terminado y legalizado. Para vivir, veranear o alquilar. Código: ROMAN"
    },
    "feat": {
     "bg": [
@@ -17633,11 +17633,11 @@
     "es": "Piso de 1 dormitorio, 64 m², VIP Style, Sunny Beach"
    },
    "desc": {
-    "bg": "Апартамент с 1 спалня от 64 м² на последния етаж в комплекс ВИП Стайл, Слънчев бряг. Апартаментът е след нов ремонт. 300 м до морето. Такса поддръжка 10 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Подходящ за живеене, почивка или отдаване под наем.",
-    "ru": "Квартира с 1 спальней площадью 64 м² на последнем этаже в комплексе «ВИП Стайл», Солнечный берег. В квартире свежий ремонт. 300 м до моря. Обслуживание 10 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Подойдёт для жизни, отдыха или сдачи в аренду.",
-    "en": "A 64 m² one-bedroom flat on the top floor in VIP Style, Sunny Beach. The flat has been newly renovated. 300 m to the sea. Maintenance €10/m² a year. Act 16 — the building is officially completed. Suits living in, holidays or letting.",
-    "de": "2-Zimmer-Wohnung mit 64 m² im obersten Stock in der Anlage VIP Style, Sonnenstrand. Die Wohnung ist frisch renoviert. 300 m zum Meer. Hausgebühr 10 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Zum Wohnen, für Urlaub oder Vermietung.",
-    "es": "Piso de 1 dormitorio de 64 m² en la última planta en el complejo VIP Style, Sunny Beach. El piso está recién reformado. A 300 m del mar. Cuota 10 €/m² al año. Acta 16: el edificio está terminado y legalizado. Para vivir, veranear o alquilar."
+    "bg": "Апартамент с 1 спалня от 64 м² на последния етаж в комплекс ВИП Стайл, Слънчев бряг. Апартаментът е след нов ремонт. 300 м до морето. Такса поддръжка 10 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Подходящ за живеене, почивка или отдаване под наем. Код: ROMAN",
+    "ru": "Квартира с 1 спальней площадью 64 м² на последнем этаже в комплексе «ВИП Стайл», Солнечный берег. В квартире свежий ремонт. 300 м до моря. Обслуживание 10 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Подойдёт для жизни, отдыха или сдачи в аренду. Код: ROMAN",
+    "en": "A 64 m² one-bedroom flat on the top floor in VIP Style, Sunny Beach. The flat has been newly renovated. 300 m to the sea. Maintenance €10/m² a year. Act 16 — the building is officially completed. Suits living in, holidays or letting. Code: ROMAN",
+    "de": "2-Zimmer-Wohnung mit 64 m² im obersten Stock in der Anlage VIP Style, Sonnenstrand. Die Wohnung ist frisch renoviert. 300 m zum Meer. Hausgebühr 10 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Zum Wohnen, für Urlaub oder Vermietung. Code: ROMAN",
+    "es": "Piso de 1 dormitorio de 64 m² en la última planta en el complejo VIP Style, Sunny Beach. El piso está recién reformado. A 300 m del mar. Cuota 10 €/m² al año. Acta 16: el edificio está terminado y legalizado. Para vivir, veranear o alquilar. Código: ROMAN"
    },
    "feat": {
     "bg": [
@@ -17715,11 +17715,11 @@
     "es": "Piso de 1 dormitorio, 65 m², Fort Noks Marina, Sveti Vlas"
    },
    "desc": {
-    "bg": "Апартамент с 1 спалня от 65 м² на последния етаж в комплекс Форт Нокс Марина, Свети Влас. 100 м до морето. Такса поддръжка 15 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Подходящ за живеене, почивка или отдаване под наем.",
-    "ru": "Квартира с 1 спальней площадью 65 м² на последнем этаже в комплексе «Форт Нокс Марина», Святой Влас. 100 м до моря. Обслуживание 15 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Подойдёт для жизни, отдыха или сдачи в аренду.",
-    "en": "A 65 m² one-bedroom flat on the top floor in Fort Noks Marina, Sveti Vlas. 100 m to the sea. Maintenance €15/m² a year. Act 16 — the building is officially completed. Suits living in, holidays or letting.",
-    "de": "2-Zimmer-Wohnung mit 65 m² im obersten Stock in der Anlage Fort Noks Marina, Sveti Vlas. 100 m zum Meer. Hausgebühr 15 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Zum Wohnen, für Urlaub oder Vermietung.",
-    "es": "Piso de 1 dormitorio de 65 m² en la última planta en el complejo Fort Noks Marina, Sveti Vlas. A 100 m del mar. Cuota 15 €/m² al año. Acta 16: el edificio está terminado y legalizado. Para vivir, veranear o alquilar."
+    "bg": "Апартамент с 1 спалня от 65 м² на последния етаж в комплекс Форт Нокс Марина, Свети Влас. 100 м до морето. Такса поддръжка 15 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Подходящ за живеене, почивка или отдаване под наем. Код: ROMAN",
+    "ru": "Квартира с 1 спальней площадью 65 м² на последнем этаже в комплексе «Форт Нокс Марина», Святой Влас. 100 м до моря. Обслуживание 15 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Подойдёт для жизни, отдыха или сдачи в аренду. Код: ROMAN",
+    "en": "A 65 m² one-bedroom flat on the top floor in Fort Noks Marina, Sveti Vlas. 100 m to the sea. Maintenance €15/m² a year. Act 16 — the building is officially completed. Suits living in, holidays or letting. Code: ROMAN",
+    "de": "2-Zimmer-Wohnung mit 65 m² im obersten Stock in der Anlage Fort Noks Marina, Sveti Vlas. 100 m zum Meer. Hausgebühr 15 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Zum Wohnen, für Urlaub oder Vermietung. Code: ROMAN",
+    "es": "Piso de 1 dormitorio de 65 m² en la última planta en el complejo Fort Noks Marina, Sveti Vlas. A 100 m del mar. Cuota 15 €/m² al año. Acta 16: el edificio está terminado y legalizado. Para vivir, veranear o alquilar. Código: ROMAN"
    },
    "feat": {
     "bg": [
@@ -17795,11 +17795,11 @@
     "es": "Piso de 1 dormitorio, 85 m², Semiramida, Sunny Beach"
    },
    "desc": {
-    "bg": "Апартамент с 1 спалня от 85 м² на 2-ри етаж в комплекс Семирамида, Слънчев бряг. 500 м до морето. Такса поддръжка 750 € годишно. Акт 16 — сградата е въведена в експлоатация. Подходящ за живеене, почивка или отдаване под наем.",
-    "ru": "Квартира с 1 спальней площадью 85 м² на 2-м этаже в комплексе «Семирамида», Солнечный берег. 500 м до моря. Обслуживание 750 € в год. Акт 16 — дом сдан в эксплуатацию. Подойдёт для жизни, отдыха или сдачи в аренду.",
-    "en": "A 85 m² one-bedroom flat on floor 2 in Semiramida, Sunny Beach. 500 m to the sea. Maintenance €750 a year. Act 16 — the building is officially completed. Suits living in, holidays or letting.",
-    "de": "2-Zimmer-Wohnung mit 85 m² im 2. Stock in der Anlage Semiramida, Sonnenstrand. 500 m zum Meer. Hausgebühr 750 € pro Jahr. Akt 16 – das Gebäude ist abgenommen. Zum Wohnen, für Urlaub oder Vermietung.",
-    "es": "Piso de 1 dormitorio de 85 m² en la 2.ª planta en el complejo Semiramida, Sunny Beach. A 500 m del mar. Cuota 750 € al año. Acta 16: el edificio está terminado y legalizado. Para vivir, veranear o alquilar."
+    "bg": "Апартамент с 1 спалня от 85 м² на 2-ри етаж в комплекс Семирамида, Слънчев бряг. 500 м до морето. Такса поддръжка 750 € годишно. Акт 16 — сградата е въведена в експлоатация. Подходящ за живеене, почивка или отдаване под наем. Код: ROMAN",
+    "ru": "Квартира с 1 спальней площадью 85 м² на 2-м этаже в комплексе «Семирамида», Солнечный берег. 500 м до моря. Обслуживание 750 € в год. Акт 16 — дом сдан в эксплуатацию. Подойдёт для жизни, отдыха или сдачи в аренду. Код: ROMAN",
+    "en": "A 85 m² one-bedroom flat on floor 2 in Semiramida, Sunny Beach. 500 m to the sea. Maintenance €750 a year. Act 16 — the building is officially completed. Suits living in, holidays or letting. Code: ROMAN",
+    "de": "2-Zimmer-Wohnung mit 85 m² im 2. Stock in der Anlage Semiramida, Sonnenstrand. 500 m zum Meer. Hausgebühr 750 € pro Jahr. Akt 16 – das Gebäude ist abgenommen. Zum Wohnen, für Urlaub oder Vermietung. Code: ROMAN",
+    "es": "Piso de 1 dormitorio de 85 m² en la 2.ª planta en el complejo Semiramida, Sunny Beach. A 500 m del mar. Cuota 750 € al año. Acta 16: el edificio está terminado y legalizado. Para vivir, veranear o alquilar. Código: ROMAN"
    },
    "feat": {
     "bg": [
@@ -17877,11 +17877,11 @@
     "es": "Piso de 1 dormitorio, 65 m², Karolina, Sunny Beach"
    },
    "desc": {
-    "bg": "Апартамент с 1 спалня от 65 м² на 5-и етаж в комплекс Каролина, Слънчев бряг. 300 м до морето. Такса поддръжка 12 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Подходящ за живеене, почивка или отдаване под наем.",
-    "ru": "Квартира с 1 спальней площадью 65 м² на 5-м этаже в комплексе «Каролина», Солнечный берег. 300 м до моря. Обслуживание 12 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Подойдёт для жизни, отдыха или сдачи в аренду.",
-    "en": "A 65 m² one-bedroom flat on floor 5 in Karolina, Sunny Beach. 300 m to the sea. Maintenance €12/m² a year. Act 16 — the building is officially completed. Suits living in, holidays or letting.",
-    "de": "2-Zimmer-Wohnung mit 65 m² im 5. Stock in der Anlage Karolina, Sonnenstrand. 300 m zum Meer. Hausgebühr 12 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Zum Wohnen, für Urlaub oder Vermietung.",
-    "es": "Piso de 1 dormitorio de 65 m² en la 5.ª planta en el complejo Karolina, Sunny Beach. A 300 m del mar. Cuota 12 €/m² al año. Acta 16: el edificio está terminado y legalizado. Para vivir, veranear o alquilar."
+    "bg": "Апартамент с 1 спалня от 65 м² на 5-и етаж в комплекс Каролина, Слънчев бряг. 300 м до морето. Такса поддръжка 12 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Подходящ за живеене, почивка или отдаване под наем. Код: ROMAN",
+    "ru": "Квартира с 1 спальней площадью 65 м² на 5-м этаже в комплексе «Каролина», Солнечный берег. 300 м до моря. Обслуживание 12 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Подойдёт для жизни, отдыха или сдачи в аренду. Код: ROMAN",
+    "en": "A 65 m² one-bedroom flat on floor 5 in Karolina, Sunny Beach. 300 m to the sea. Maintenance €12/m² a year. Act 16 — the building is officially completed. Suits living in, holidays or letting. Code: ROMAN",
+    "de": "2-Zimmer-Wohnung mit 65 m² im 5. Stock in der Anlage Karolina, Sonnenstrand. 300 m zum Meer. Hausgebühr 12 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Zum Wohnen, für Urlaub oder Vermietung. Code: ROMAN",
+    "es": "Piso de 1 dormitorio de 65 m² en la 5.ª planta en el complejo Karolina, Sunny Beach. A 300 m del mar. Cuota 12 €/m² al año. Acta 16: el edificio está terminado y legalizado. Para vivir, veranear o alquilar. Código: ROMAN"
    },
    "feat": {
     "bg": [
@@ -17959,11 +17959,11 @@
     "es": "Piso de 1 dormitorio, 46 m², Sweet Homes 6, Sunny Beach"
    },
    "desc": {
-    "bg": "Апартамент с 1 спалня от 46 м² на партерен етаж в комплекс Суит Хоумс 6, Слънчев бряг. 600 м до морето. Такса поддръжка 800 € годишно. Акт 16 — сградата е въведена в експлоатация. Подходящ за живеене, почивка или отдаване под наем.",
-    "ru": "Квартира с 1 спальней площадью 46 м² на первом этаже в комплексе «Суит Хоумс 6», Солнечный берег. 600 м до моря. Обслуживание 800 € в год. Акт 16 — дом сдан в эксплуатацию. Подойдёт для жизни, отдыха или сдачи в аренду.",
-    "en": "A 46 m² one-bedroom flat on the ground floor in Sweet Homes 6, Sunny Beach. 600 m to the sea. Maintenance €800 a year. Act 16 — the building is officially completed. Suits living in, holidays or letting.",
-    "de": "2-Zimmer-Wohnung mit 46 m² im Erdgeschoss in der Anlage Sweet Homes 6, Sonnenstrand. 600 m zum Meer. Hausgebühr 800 € pro Jahr. Akt 16 – das Gebäude ist abgenommen. Zum Wohnen, für Urlaub oder Vermietung.",
-    "es": "Piso de 1 dormitorio de 46 m² en planta baja en el complejo Sweet Homes 6, Sunny Beach. A 600 m del mar. Cuota 800 € al año. Acta 16: el edificio está terminado y legalizado. Para vivir, veranear o alquilar."
+    "bg": "Апартамент с 1 спалня от 46 м² на партерен етаж в комплекс Суит Хоумс 6, Слънчев бряг. 600 м до морето. Такса поддръжка 800 € годишно. Акт 16 — сградата е въведена в експлоатация. Подходящ за живеене, почивка или отдаване под наем. Код: ROMAN",
+    "ru": "Квартира с 1 спальней площадью 46 м² на первом этаже в комплексе «Суит Хоумс 6», Солнечный берег. 600 м до моря. Обслуживание 800 € в год. Акт 16 — дом сдан в эксплуатацию. Подойдёт для жизни, отдыха или сдачи в аренду. Код: ROMAN",
+    "en": "A 46 m² one-bedroom flat on the ground floor in Sweet Homes 6, Sunny Beach. 600 m to the sea. Maintenance €800 a year. Act 16 — the building is officially completed. Suits living in, holidays or letting. Code: ROMAN",
+    "de": "2-Zimmer-Wohnung mit 46 m² im Erdgeschoss in der Anlage Sweet Homes 6, Sonnenstrand. 600 m zum Meer. Hausgebühr 800 € pro Jahr. Akt 16 – das Gebäude ist abgenommen. Zum Wohnen, für Urlaub oder Vermietung. Code: ROMAN",
+    "es": "Piso de 1 dormitorio de 46 m² en planta baja en el complejo Sweet Homes 6, Sunny Beach. A 600 m del mar. Cuota 800 € al año. Acta 16: el edificio está terminado y legalizado. Para vivir, veranear o alquilar. Código: ROMAN"
    },
    "feat": {
     "bg": [
@@ -18037,11 +18037,11 @@
     "es": "Piso de 1 dormitorio, 57 m², Cascadas 4, Sunny Beach"
    },
    "desc": {
-    "bg": "Апартамент с 1 спалня от 57 м² на 2-ри етаж в комплекс Каскадас 4, Слънчев бряг. 600 м до морето. Такса поддръжка 16 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Подходящ за живеене, почивка или отдаване под наем.",
-    "ru": "Квартира с 1 спальней площадью 57 м² на 2-м этаже в комплексе «Каскадас 4», Солнечный берег. 600 м до моря. Обслуживание 16 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Подойдёт для жизни, отдыха или сдачи в аренду.",
-    "en": "A 57 m² one-bedroom flat on floor 2 in Cascadas 4, Sunny Beach. 600 m to the sea. Maintenance €16/m² a year. Act 16 — the building is officially completed. Suits living in, holidays or letting.",
-    "de": "2-Zimmer-Wohnung mit 57 m² im 2. Stock in der Anlage Cascadas 4, Sonnenstrand. 600 m zum Meer. Hausgebühr 16 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Zum Wohnen, für Urlaub oder Vermietung.",
-    "es": "Piso de 1 dormitorio de 57 m² en la 2.ª planta en el complejo Cascadas 4, Sunny Beach. A 600 m del mar. Cuota 16 €/m² al año. Acta 16: el edificio está terminado y legalizado. Para vivir, veranear o alquilar."
+    "bg": "Апартамент с 1 спалня от 57 м² на 2-ри етаж в комплекс Каскадас 4, Слънчев бряг. 600 м до морето. Такса поддръжка 16 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Подходящ за живеене, почивка или отдаване под наем. Код: ROMAN",
+    "ru": "Квартира с 1 спальней площадью 57 м² на 2-м этаже в комплексе «Каскадас 4», Солнечный берег. 600 м до моря. Обслуживание 16 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Подойдёт для жизни, отдыха или сдачи в аренду. Код: ROMAN",
+    "en": "A 57 m² one-bedroom flat on floor 2 in Cascadas 4, Sunny Beach. 600 m to the sea. Maintenance €16/m² a year. Act 16 — the building is officially completed. Suits living in, holidays or letting. Code: ROMAN",
+    "de": "2-Zimmer-Wohnung mit 57 m² im 2. Stock in der Anlage Cascadas 4, Sonnenstrand. 600 m zum Meer. Hausgebühr 16 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Zum Wohnen, für Urlaub oder Vermietung. Code: ROMAN",
+    "es": "Piso de 1 dormitorio de 57 m² en la 2.ª planta en el complejo Cascadas 4, Sunny Beach. A 600 m del mar. Cuota 16 €/m² al año. Acta 16: el edificio está terminado y legalizado. Para vivir, veranear o alquilar. Código: ROMAN"
    },
    "feat": {
     "bg": [
@@ -18114,11 +18114,11 @@
     "es": "Piso de 1 dormitorio, 63 m², Cascadas 4, Sunny Beach"
    },
    "desc": {
-    "bg": "Апартамент с 1 спалня от 63 м² на партерен етаж в комплекс Каскадас 4, Слънчев бряг. 600 м до морето. Такса поддръжка 16 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Подходящ за живеене, почивка или отдаване под наем.",
-    "ru": "Квартира с 1 спальней площадью 63 м² на первом этаже в комплексе «Каскадас 4», Солнечный берег. 600 м до моря. Обслуживание 16 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Подойдёт для жизни, отдыха или сдачи в аренду.",
-    "en": "A 63 m² one-bedroom flat on the ground floor in Cascadas 4, Sunny Beach. 600 m to the sea. Maintenance €16/m² a year. Act 16 — the building is officially completed. Suits living in, holidays or letting.",
-    "de": "2-Zimmer-Wohnung mit 63 m² im Erdgeschoss in der Anlage Cascadas 4, Sonnenstrand. 600 m zum Meer. Hausgebühr 16 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Zum Wohnen, für Urlaub oder Vermietung.",
-    "es": "Piso de 1 dormitorio de 63 m² en planta baja en el complejo Cascadas 4, Sunny Beach. A 600 m del mar. Cuota 16 €/m² al año. Acta 16: el edificio está terminado y legalizado. Para vivir, veranear o alquilar."
+    "bg": "Апартамент с 1 спалня от 63 м² на партерен етаж в комплекс Каскадас 4, Слънчев бряг. 600 м до морето. Такса поддръжка 16 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Подходящ за живеене, почивка или отдаване под наем. Код: ROMAN",
+    "ru": "Квартира с 1 спальней площадью 63 м² на первом этаже в комплексе «Каскадас 4», Солнечный берег. 600 м до моря. Обслуживание 16 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Подойдёт для жизни, отдыха или сдачи в аренду. Код: ROMAN",
+    "en": "A 63 m² one-bedroom flat on the ground floor in Cascadas 4, Sunny Beach. 600 m to the sea. Maintenance €16/m² a year. Act 16 — the building is officially completed. Suits living in, holidays or letting. Code: ROMAN",
+    "de": "2-Zimmer-Wohnung mit 63 m² im Erdgeschoss in der Anlage Cascadas 4, Sonnenstrand. 600 m zum Meer. Hausgebühr 16 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Zum Wohnen, für Urlaub oder Vermietung. Code: ROMAN",
+    "es": "Piso de 1 dormitorio de 63 m² en planta baja en el complejo Cascadas 4, Sunny Beach. A 600 m del mar. Cuota 16 €/m² al año. Acta 16: el edificio está terminado y legalizado. Para vivir, veranear o alquilar. Código: ROMAN"
    },
    "feat": {
     "bg": [
@@ -18144,93 +18144,6 @@
     "es": [
      "Amplio",
      "A 600 m del mar",
-     "Acta 16"
-    ]
-   }
-  },
-  {
-   "code": 810050,
-   "slug": "ravda-apt-810050",
-   "country": "bg",
-   "source": "partner",
-   "type": "apt",
-   "deal": "sale",
-   "status": "sale",
-   "featured": false,
-   "place": "ravda",
-   "district": {
-    "bg": "Форт Нокс Ривиера",
-    "ru": "Форт Нокс Ривиера",
-    "en": "Fort Noks Riviera",
-    "de": "Fort Noks Riviera",
-    "es": "Fort Noks Riviera"
-   },
-   "price": 101000,
-   "area": 79,
-   "plot": null,
-   "bedrooms": 1,
-   "bathrooms": null,
-   "floor": "4",
-   "sea": 50,
-   "furnished": null,
-   "lift": null,
-   "url": null,
-   "drive": "1Qsn-tyABiBNZywyKGKvWBrNuvV9N_vPi",
-   "photos": [
-    "https://lh3.googleusercontent.com/d/1WIzDvxxF898qJjROCX-8xZhsvPYSyY7b=w1600",
-    "https://lh3.googleusercontent.com/d/18JQIYI9B9Er5OxR3ODmjEOltcNqMlQWl=w1600",
-    "https://lh3.googleusercontent.com/d/1RxJp9XNP3QpvrL1dQKcOAqy30szIoh8J=w1600",
-    "https://lh3.googleusercontent.com/d/125pmqIw0LFQNuPrevtw9uv-9DVRALnci=w1600",
-    "https://lh3.googleusercontent.com/d/1TMwzeyuK__TPV97Bov39yAbUnXbgGIy7=w1600",
-    "https://lh3.googleusercontent.com/d/1NI0BXgBGK9WRB9Gqg7Mi7xZSKB7ypoPW=w1600",
-    "https://lh3.googleusercontent.com/d/14zA4aD8t1xbJJIDRYoRBNMl426TMMKM1=w1600",
-    "https://lh3.googleusercontent.com/d/1j5TBm1B_ULyjNiW6Llt1cq_k--DrgsFj=w1600",
-    "https://lh3.googleusercontent.com/d/10eAohQOBwAZ9wVVjYImW_DFkdRbBerlu=w1600",
-    "https://lh3.googleusercontent.com/d/1YHqgzwaZtCMPl8nnHQ0z5WDu43W9OTBQ=w1600"
-   ],
-   "title": {
-    "bg": "Апартамент с 1 спалня 79 м², Форт Нокс Ривиера, Равда",
-    "ru": "Квартира с 1 спальней 79 м², Форт Нокс Ривиера, Равда",
-    "en": "One-bedroom flat, 79 m², Fort Noks Riviera, Ravda",
-    "de": "2-Zimmer-Wohnung, 79 m², Fort Noks Riviera, Ravda",
-    "es": "Piso de 1 dormitorio, 79 m², Fort Noks Riviera, Ravda"
-   },
-   "desc": {
-    "bg": "Апартамент с 1 спалня от 79 м² на 4-ти етаж в комплекс Форт Нокс Ривиера, Равда. От апартамента се вижда морето. Прозорците гледат към басейна. 50 м до морето. Такса поддръжка 14,5 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Подходящ за живеене, почивка или отдаване под наем.",
-    "ru": "Квартира с 1 спальней площадью 79 м² на 4-м этаже в комплексе «Форт Нокс Ривиера», Равда. Из квартиры видно море. Окна выходят на бассейн. 50 м до моря. Обслуживание 14,5 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Подойдёт для жизни, отдыха или сдачи в аренду.",
-    "en": "A 79 m² one-bedroom flat on floor 4 in Fort Noks Riviera, Ravda. The flat has a view of the sea. The windows overlook the pool. 50 m to the sea. Maintenance €14.5/m² a year. Act 16 — the building is officially completed. Suits living in, holidays or letting.",
-    "de": "2-Zimmer-Wohnung mit 79 m² im 4. Stock in der Anlage Fort Noks Riviera, Ravda. Die Wohnung bietet Meerblick. Die Fenster gehen zum Pool. 50 m zum Meer. Hausgebühr 14,5 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Zum Wohnen, für Urlaub oder Vermietung.",
-    "es": "Piso de 1 dormitorio de 79 m² en la 4.ª planta en el complejo Fort Noks Riviera, Ravda. El piso tiene vistas al mar. Las ventanas dan a la piscina. A 50 m del mar. Cuota 14,5 €/m² al año. Acta 16: el edificio está terminado y legalizado. Para vivir, veranear o alquilar."
-   },
-   "feat": {
-    "bg": [
-     "Гледка към морето",
-     "Гледка към басейна",
-     "50 м до морето",
-     "Акт 16"
-    ],
-    "ru": [
-     "Вид на море",
-     "Вид на бассейн",
-     "50 м до моря",
-     "Акт 16"
-    ],
-    "en": [
-     "Sea view",
-     "Pool view",
-     "50 m to the sea",
-     "Act 16"
-    ],
-    "de": [
-     "Meerblick",
-     "Poolblick",
-     "50 m zum Meer",
-     "Akt 16"
-    ],
-    "es": [
-     "Vistas al mar",
-     "Vistas a la piscina",
-     "A 50 m del mar",
      "Acta 16"
     ]
    }
@@ -18286,11 +18199,11 @@
     "es": "Piso de 1 dormitorio, 79 m², Fort Noks Riviera, Ravda"
    },
    "desc": {
-    "bg": "Апартамент с 1 спалня от 79 м² на 3-ти етаж в комплекс Форт Нокс Ривиера, Равда. От апартамента се вижда морето. 50 м до морето. Такса поддръжка 14,5 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Подходящ за живеене, почивка или отдаване под наем.",
-    "ru": "Квартира с 1 спальней площадью 79 м² на 3-м этаже в комплексе «Форт Нокс Ривиера», Равда. Из квартиры видно море. 50 м до моря. Обслуживание 14,5 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Подойдёт для жизни, отдыха или сдачи в аренду.",
-    "en": "A 79 m² one-bedroom flat on floor 3 in Fort Noks Riviera, Ravda. The flat has a view of the sea. 50 m to the sea. Maintenance €14.5/m² a year. Act 16 — the building is officially completed. Suits living in, holidays or letting.",
-    "de": "2-Zimmer-Wohnung mit 79 m² im 3. Stock in der Anlage Fort Noks Riviera, Ravda. Die Wohnung bietet Meerblick. 50 m zum Meer. Hausgebühr 14,5 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Zum Wohnen, für Urlaub oder Vermietung.",
-    "es": "Piso de 1 dormitorio de 79 m² en la 3.ª planta en el complejo Fort Noks Riviera, Ravda. El piso tiene vistas al mar. A 50 m del mar. Cuota 14,5 €/m² al año. Acta 16: el edificio está terminado y legalizado. Para vivir, veranear o alquilar."
+    "bg": "Апартамент с 1 спалня от 79 м² на 3-ти етаж в комплекс Форт Нокс Ривиера, Равда. От апартамента се вижда морето. 50 м до морето. Такса поддръжка 14,5 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Подходящ за живеене, почивка или отдаване под наем. Код: ROMAN",
+    "ru": "Квартира с 1 спальней площадью 79 м² на 3-м этаже в комплексе «Форт Нокс Ривиера», Равда. Из квартиры видно море. 50 м до моря. Обслуживание 14,5 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Подойдёт для жизни, отдыха или сдачи в аренду. Код: ROMAN",
+    "en": "A 79 m² one-bedroom flat on floor 3 in Fort Noks Riviera, Ravda. The flat has a view of the sea. 50 m to the sea. Maintenance €14.5/m² a year. Act 16 — the building is officially completed. Suits living in, holidays or letting. Code: ROMAN",
+    "de": "2-Zimmer-Wohnung mit 79 m² im 3. Stock in der Anlage Fort Noks Riviera, Ravda. Die Wohnung bietet Meerblick. 50 m zum Meer. Hausgebühr 14,5 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Zum Wohnen, für Urlaub oder Vermietung. Code: ROMAN",
+    "es": "Piso de 1 dormitorio de 79 m² en la 3.ª planta en el complejo Fort Noks Riviera, Ravda. El piso tiene vistas al mar. A 50 m del mar. Cuota 14,5 €/m² al año. Acta 16: el edificio está terminado y legalizado. Para vivir, veranear o alquilar. Código: ROMAN"
    },
    "feat": {
     "bg": [
@@ -18377,11 +18290,11 @@
     "es": "Piso de 1 dormitorio, 79 m², Fort Noks Riviera, Ravda"
    },
    "desc": {
-    "bg": "Апартамент с 1 спалня от 79 м² на 4-ти етаж в комплекс Форт Нокс Ривиера, Равда. От апартамента се вижда морето. 50 м до морето. Такса поддръжка 14,5 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Подходящ за живеене, почивка или отдаване под наем.",
-    "ru": "Квартира с 1 спальней площадью 79 м² на 4-м этаже в комплексе «Форт Нокс Ривиера», Равда. Из квартиры видно море. 50 м до моря. Обслуживание 14,5 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Подойдёт для жизни, отдыха или сдачи в аренду.",
-    "en": "A 79 m² one-bedroom flat on floor 4 in Fort Noks Riviera, Ravda. The flat has a view of the sea. 50 m to the sea. Maintenance €14.5/m² a year. Act 16 — the building is officially completed. Suits living in, holidays or letting.",
-    "de": "2-Zimmer-Wohnung mit 79 m² im 4. Stock in der Anlage Fort Noks Riviera, Ravda. Die Wohnung bietet Meerblick. 50 m zum Meer. Hausgebühr 14,5 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Zum Wohnen, für Urlaub oder Vermietung.",
-    "es": "Piso de 1 dormitorio de 79 m² en la 4.ª planta en el complejo Fort Noks Riviera, Ravda. El piso tiene vistas al mar. A 50 m del mar. Cuota 14,5 €/m² al año. Acta 16: el edificio está terminado y legalizado. Para vivir, veranear o alquilar."
+    "bg": "Апартамент с 1 спалня от 79 м² на 4-ти етаж в комплекс Форт Нокс Ривиера, Равда. От апартамента се вижда морето. 50 м до морето. Такса поддръжка 14,5 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Подходящ за живеене, почивка или отдаване под наем. Код: ROMAN",
+    "ru": "Квартира с 1 спальней площадью 79 м² на 4-м этаже в комплексе «Форт Нокс Ривиера», Равда. Из квартиры видно море. 50 м до моря. Обслуживание 14,5 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Подойдёт для жизни, отдыха или сдачи в аренду. Код: ROMAN",
+    "en": "A 79 m² one-bedroom flat on floor 4 in Fort Noks Riviera, Ravda. The flat has a view of the sea. 50 m to the sea. Maintenance €14.5/m² a year. Act 16 — the building is officially completed. Suits living in, holidays or letting. Code: ROMAN",
+    "de": "2-Zimmer-Wohnung mit 79 m² im 4. Stock in der Anlage Fort Noks Riviera, Ravda. Die Wohnung bietet Meerblick. 50 m zum Meer. Hausgebühr 14,5 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Zum Wohnen, für Urlaub oder Vermietung. Code: ROMAN",
+    "es": "Piso de 1 dormitorio de 79 m² en la 4.ª planta en el complejo Fort Noks Riviera, Ravda. El piso tiene vistas al mar. A 50 m del mar. Cuota 14,5 €/m² al año. Acta 16: el edificio está terminado y legalizado. Para vivir, veranear o alquilar. Código: ROMAN"
    },
    "feat": {
     "bg": [
@@ -18464,11 +18377,11 @@
     "es": "Piso de 1 dormitorio, 70 m², Karolina, Sunny Beach"
    },
    "desc": {
-    "bg": "Апартамент с 1 спалня от 70 м² на 6-и етаж в комплекс Каролина, Слънчев бряг. 300 м до морето. Такса поддръжка 12 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Подходящ за живеене, почивка или отдаване под наем.",
-    "ru": "Квартира с 1 спальней площадью 70 м² на 6-м этаже в комплексе «Каролина», Солнечный берег. 300 м до моря. Обслуживание 12 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Подойдёт для жизни, отдыха или сдачи в аренду.",
-    "en": "A 70 m² one-bedroom flat on floor 6 in Karolina, Sunny Beach. 300 m to the sea. Maintenance €12/m² a year. Act 16 — the building is officially completed. Suits living in, holidays or letting.",
-    "de": "2-Zimmer-Wohnung mit 70 m² im 6. Stock in der Anlage Karolina, Sonnenstrand. 300 m zum Meer. Hausgebühr 12 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Zum Wohnen, für Urlaub oder Vermietung.",
-    "es": "Piso de 1 dormitorio de 70 m² en la 6.ª planta en el complejo Karolina, Sunny Beach. A 300 m del mar. Cuota 12 €/m² al año. Acta 16: el edificio está terminado y legalizado. Para vivir, veranear o alquilar."
+    "bg": "Апартамент с 1 спалня от 70 м² на 6-и етаж в комплекс Каролина, Слънчев бряг. 300 м до морето. Такса поддръжка 12 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Подходящ за живеене, почивка или отдаване под наем. Код: ROMAN",
+    "ru": "Квартира с 1 спальней площадью 70 м² на 6-м этаже в комплексе «Каролина», Солнечный берег. 300 м до моря. Обслуживание 12 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Подойдёт для жизни, отдыха или сдачи в аренду. Код: ROMAN",
+    "en": "A 70 m² one-bedroom flat on floor 6 in Karolina, Sunny Beach. 300 m to the sea. Maintenance €12/m² a year. Act 16 — the building is officially completed. Suits living in, holidays or letting. Code: ROMAN",
+    "de": "2-Zimmer-Wohnung mit 70 m² im 6. Stock in der Anlage Karolina, Sonnenstrand. 300 m zum Meer. Hausgebühr 12 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Zum Wohnen, für Urlaub oder Vermietung. Code: ROMAN",
+    "es": "Piso de 1 dormitorio de 70 m² en la 6.ª planta en el complejo Karolina, Sunny Beach. A 300 m del mar. Cuota 12 €/m² al año. Acta 16: el edificio está terminado y legalizado. Para vivir, veranear o alquilar. Código: ROMAN"
    },
    "feat": {
     "bg": [
@@ -18546,11 +18459,11 @@
     "es": "Piso de 1 dormitorio, 65 m², Panorama Dreams, Sveti Vlas"
    },
    "desc": {
-    "bg": "Апартамент с 1 спалня от 65 м² на 3-ти етаж в комплекс Панорама Дриймс, Свети Влас. Прозорците гледат към басейна. 150 м до морето. Такса поддръжка 13,5 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Подходящ за живеене, почивка или отдаване под наем.",
-    "ru": "Квартира с 1 спальней площадью 65 м² на 3-м этаже в комплексе «Панорама Дриймс», Святой Влас. Окна выходят на бассейн. 150 м до моря. Обслуживание 13,5 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Подойдёт для жизни, отдыха или сдачи в аренду.",
-    "en": "A 65 m² one-bedroom flat on floor 3 in Panorama Dreams, Sveti Vlas. The windows overlook the pool. 150 m to the sea. Maintenance €13.5/m² a year. Act 16 — the building is officially completed. Suits living in, holidays or letting.",
-    "de": "2-Zimmer-Wohnung mit 65 m² im 3. Stock in der Anlage Panorama Dreams, Sveti Vlas. Die Fenster gehen zum Pool. 150 m zum Meer. Hausgebühr 13,5 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Zum Wohnen, für Urlaub oder Vermietung.",
-    "es": "Piso de 1 dormitorio de 65 m² en la 3.ª planta en el complejo Panorama Dreams, Sveti Vlas. Las ventanas dan a la piscina. A 150 m del mar. Cuota 13,5 €/m² al año. Acta 16: el edificio está terminado y legalizado. Para vivir, veranear o alquilar."
+    "bg": "Апартамент с 1 спалня от 65 м² на 3-ти етаж в комплекс Панорама Дриймс, Свети Влас. Прозорците гледат към басейна. 150 м до морето. Такса поддръжка 13,5 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Подходящ за живеене, почивка или отдаване под наем. Код: ROMAN",
+    "ru": "Квартира с 1 спальней площадью 65 м² на 3-м этаже в комплексе «Панорама Дриймс», Святой Влас. Окна выходят на бассейн. 150 м до моря. Обслуживание 13,5 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Подойдёт для жизни, отдыха или сдачи в аренду. Код: ROMAN",
+    "en": "A 65 m² one-bedroom flat on floor 3 in Panorama Dreams, Sveti Vlas. The windows overlook the pool. 150 m to the sea. Maintenance €13.5/m² a year. Act 16 — the building is officially completed. Suits living in, holidays or letting. Code: ROMAN",
+    "de": "2-Zimmer-Wohnung mit 65 m² im 3. Stock in der Anlage Panorama Dreams, Sveti Vlas. Die Fenster gehen zum Pool. 150 m zum Meer. Hausgebühr 13,5 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Zum Wohnen, für Urlaub oder Vermietung. Code: ROMAN",
+    "es": "Piso de 1 dormitorio de 65 m² en la 3.ª planta en el complejo Panorama Dreams, Sveti Vlas. Las ventanas dan a la piscina. A 150 m del mar. Cuota 13,5 €/m² al año. Acta 16: el edificio está terminado y legalizado. Para vivir, veranear o alquilar. Código: ROMAN"
    },
    "feat": {
     "bg": [
@@ -18632,11 +18545,11 @@
     "es": "Piso de 1 dormitorio, 45 m², Harmony Suites 16, Sunny Beach"
    },
    "desc": {
-    "bg": "Апартамент с 1 спалня от 45 м² на 2-ри етаж в комплекс Хармони Сюитс 16, Слънчев бряг. Сградата е нова. 600 м до морето. Такса поддръжка 20 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Подходящ за живеене, почивка или отдаване под наем.",
-    "ru": "Квартира с 1 спальней площадью 45 м² на 2-м этаже в комплексе «Хармони Сюитс 16», Солнечный берег. Дом новый. 600 м до моря. Обслуживание 20 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Подойдёт для жизни, отдыха или сдачи в аренду.",
-    "en": "A 45 m² one-bedroom flat on floor 2 in Harmony Suites 16, Sunny Beach. The building is new. 600 m to the sea. Maintenance €20/m² a year. Act 16 — the building is officially completed. Suits living in, holidays or letting.",
-    "de": "2-Zimmer-Wohnung mit 45 m² im 2. Stock in der Anlage Harmony Suites 16, Sonnenstrand. Das Gebäude ist neu. 600 m zum Meer. Hausgebühr 20 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Zum Wohnen, für Urlaub oder Vermietung.",
-    "es": "Piso de 1 dormitorio de 45 m² en la 2.ª planta en el complejo Harmony Suites 16, Sunny Beach. El edificio es nuevo. A 600 m del mar. Cuota 20 €/m² al año. Acta 16: el edificio está terminado y legalizado. Para vivir, veranear o alquilar."
+    "bg": "Апартамент с 1 спалня от 45 м² на 2-ри етаж в комплекс Хармони Сюитс 16, Слънчев бряг. Сградата е нова. 600 м до морето. Такса поддръжка 20 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Подходящ за живеене, почивка или отдаване под наем. Код: ROMAN",
+    "ru": "Квартира с 1 спальней площадью 45 м² на 2-м этаже в комплексе «Хармони Сюитс 16», Солнечный берег. Дом новый. 600 м до моря. Обслуживание 20 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Подойдёт для жизни, отдыха или сдачи в аренду. Код: ROMAN",
+    "en": "A 45 m² one-bedroom flat on floor 2 in Harmony Suites 16, Sunny Beach. The building is new. 600 m to the sea. Maintenance €20/m² a year. Act 16 — the building is officially completed. Suits living in, holidays or letting. Code: ROMAN",
+    "de": "2-Zimmer-Wohnung mit 45 m² im 2. Stock in der Anlage Harmony Suites 16, Sonnenstrand. Das Gebäude ist neu. 600 m zum Meer. Hausgebühr 20 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Zum Wohnen, für Urlaub oder Vermietung. Code: ROMAN",
+    "es": "Piso de 1 dormitorio de 45 m² en la 2.ª planta en el complejo Harmony Suites 16, Sunny Beach. El edificio es nuevo. A 600 m del mar. Cuota 20 €/m² al año. Acta 16: el edificio está terminado y legalizado. Para vivir, veranear o alquilar. Código: ROMAN"
    },
    "feat": {
     "bg": [
@@ -18717,11 +18630,11 @@
     "es": "Piso de 1 dormitorio, 80 m², Trakia Club, Sunny Beach"
    },
    "desc": {
-    "bg": "Апартамент с 1 спалня от 80 м² на 5-и етаж в комплекс Тракия Клуб, Слънчев бряг. 200 м до морето. Такса поддръжка 10 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Подходящ за живеене, почивка или отдаване под наем.",
-    "ru": "Квартира с 1 спальней площадью 80 м² на 5-м этаже в комплексе «Тракия Клуб», Солнечный берег. 200 м до моря. Обслуживание 10 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Подойдёт для жизни, отдыха или сдачи в аренду.",
-    "en": "A 80 m² one-bedroom flat on floor 5 in Trakia Club, Sunny Beach. 200 m to the sea. Maintenance €10/m² a year. Act 16 — the building is officially completed. Suits living in, holidays or letting.",
-    "de": "2-Zimmer-Wohnung mit 80 m² im 5. Stock in der Anlage Trakia Club, Sonnenstrand. 200 m zum Meer. Hausgebühr 10 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Zum Wohnen, für Urlaub oder Vermietung.",
-    "es": "Piso de 1 dormitorio de 80 m² en la 5.ª planta en el complejo Trakia Club, Sunny Beach. A 200 m del mar. Cuota 10 €/m² al año. Acta 16: el edificio está terminado y legalizado. Para vivir, veranear o alquilar."
+    "bg": "Апартамент с 1 спалня от 80 м² на 5-и етаж в комплекс Тракия Клуб, Слънчев бряг. 200 м до морето. Такса поддръжка 10 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Подходящ за живеене, почивка или отдаване под наем. Код: ROMAN",
+    "ru": "Квартира с 1 спальней площадью 80 м² на 5-м этаже в комплексе «Тракия Клуб», Солнечный берег. 200 м до моря. Обслуживание 10 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Подойдёт для жизни, отдыха или сдачи в аренду. Код: ROMAN",
+    "en": "A 80 m² one-bedroom flat on floor 5 in Trakia Club, Sunny Beach. 200 m to the sea. Maintenance €10/m² a year. Act 16 — the building is officially completed. Suits living in, holidays or letting. Code: ROMAN",
+    "de": "2-Zimmer-Wohnung mit 80 m² im 5. Stock in der Anlage Trakia Club, Sonnenstrand. 200 m zum Meer. Hausgebühr 10 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Zum Wohnen, für Urlaub oder Vermietung. Code: ROMAN",
+    "es": "Piso de 1 dormitorio de 80 m² en la 5.ª planta en el complejo Trakia Club, Sunny Beach. A 200 m del mar. Cuota 10 €/m² al año. Acta 16: el edificio está terminado y legalizado. Para vivir, veranear o alquilar. Código: ROMAN"
    },
    "feat": {
     "bg": [
@@ -18800,11 +18713,11 @@
     "es": "Piso de 1 dormitorio, 72 m², Rusalka 29A, Sveti Vlas"
    },
    "desc": {
-    "bg": "Апартамент с 1 спалня от 72 м² на 4-ти етаж в комплекс Русалка 29А, Свети Влас. Великолепна панорамна гледка към морето. 350 м до морето. Без такса поддръжка. Акт 16 — сградата е въведена в експлоатация. Подходящ за живеене, почивка или отдаване под наем.",
-    "ru": "Квартира с 1 спальней площадью 72 м² на 4-м этаже в комплексе «Русалка 29А», Святой Влас. Великолепный панорамный вид на море. 350 м до моря. Без платы за обслуживание. Акт 16 — дом сдан в эксплуатацию. Подойдёт для жизни, отдыха или сдачи в аренду.",
-    "en": "A 72 m² one-bedroom flat on floor 4 in Rusalka 29A, Sveti Vlas. A superb panoramic view of the sea. 350 m to the sea. No maintenance fee. Act 16 — the building is officially completed. Suits living in, holidays or letting.",
-    "de": "2-Zimmer-Wohnung mit 72 m² im 4. Stock in der Anlage Rusalka 29A, Sveti Vlas. Ein herrlicher Panoramablick aufs Meer. 350 m zum Meer. Keine Hausgebühr. Akt 16 – das Gebäude ist abgenommen. Zum Wohnen, für Urlaub oder Vermietung.",
-    "es": "Piso de 1 dormitorio de 72 m² en la 4.ª planta en el complejo Rusalka 29A, Sveti Vlas. Unas vistas panorámicas al mar magníficas. A 350 m del mar. Sin cuota de mantenimiento. Acta 16: el edificio está terminado y legalizado. Para vivir, veranear o alquilar."
+    "bg": "Апартамент с 1 спалня от 72 м² на 4-ти етаж в комплекс Русалка 29А, Свети Влас. Великолепна панорамна гледка към морето. 350 м до морето. Без такса поддръжка. Акт 16 — сградата е въведена в експлоатация. Подходящ за живеене, почивка или отдаване под наем. Код: ROMAN",
+    "ru": "Квартира с 1 спальней площадью 72 м² на 4-м этаже в комплексе «Русалка 29А», Святой Влас. Великолепный панорамный вид на море. 350 м до моря. Без платы за обслуживание. Акт 16 — дом сдан в эксплуатацию. Подойдёт для жизни, отдыха или сдачи в аренду. Код: ROMAN",
+    "en": "A 72 m² one-bedroom flat on floor 4 in Rusalka 29A, Sveti Vlas. A superb panoramic view of the sea. 350 m to the sea. No maintenance fee. Act 16 — the building is officially completed. Suits living in, holidays or letting. Code: ROMAN",
+    "de": "2-Zimmer-Wohnung mit 72 m² im 4. Stock in der Anlage Rusalka 29A, Sveti Vlas. Ein herrlicher Panoramablick aufs Meer. 350 m zum Meer. Keine Hausgebühr. Akt 16 – das Gebäude ist abgenommen. Zum Wohnen, für Urlaub oder Vermietung. Code: ROMAN",
+    "es": "Piso de 1 dormitorio de 72 m² en la 4.ª planta en el complejo Rusalka 29A, Sveti Vlas. Unas vistas panorámicas al mar magníficas. A 350 m del mar. Sin cuota de mantenimiento. Acta 16: el edificio está terminado y legalizado. Para vivir, veranear o alquilar. Código: ROMAN"
    },
    "feat": {
     "bg": [
@@ -18885,11 +18798,11 @@
     "es": "Piso de 1 dormitorio, 62 m², Cascadas 11, Sunny Beach"
    },
    "desc": {
-    "bg": "Апартамент с 1 спалня от 62 м² на партерен етаж в комплекс Каскадас 11, Слънчев бряг. 600 м до морето. Такса поддръжка 16 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Подходящ за живеене, почивка или отдаване под наем.",
-    "ru": "Квартира с 1 спальней площадью 62 м² на первом этаже в комплексе «Каскадас 11», Солнечный берег. 600 м до моря. Обслуживание 16 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Подойдёт для жизни, отдыха или сдачи в аренду.",
-    "en": "A 62 m² one-bedroom flat on the ground floor in Cascadas 11, Sunny Beach. 600 m to the sea. Maintenance €16/m² a year. Act 16 — the building is officially completed. Suits living in, holidays or letting.",
-    "de": "2-Zimmer-Wohnung mit 62 m² im Erdgeschoss in der Anlage Cascadas 11, Sonnenstrand. 600 m zum Meer. Hausgebühr 16 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Zum Wohnen, für Urlaub oder Vermietung.",
-    "es": "Piso de 1 dormitorio de 62 m² en planta baja en el complejo Cascadas 11, Sunny Beach. A 600 m del mar. Cuota 16 €/m² al año. Acta 16: el edificio está terminado y legalizado. Para vivir, veranear o alquilar."
+    "bg": "Апартамент с 1 спалня от 62 м² на партерен етаж в комплекс Каскадас 11, Слънчев бряг. 600 м до морето. Такса поддръжка 16 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Подходящ за живеене, почивка или отдаване под наем. Код: ROMAN",
+    "ru": "Квартира с 1 спальней площадью 62 м² на первом этаже в комплексе «Каскадас 11», Солнечный берег. 600 м до моря. Обслуживание 16 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Подойдёт для жизни, отдыха или сдачи в аренду. Код: ROMAN",
+    "en": "A 62 m² one-bedroom flat on the ground floor in Cascadas 11, Sunny Beach. 600 m to the sea. Maintenance €16/m² a year. Act 16 — the building is officially completed. Suits living in, holidays or letting. Code: ROMAN",
+    "de": "2-Zimmer-Wohnung mit 62 m² im Erdgeschoss in der Anlage Cascadas 11, Sonnenstrand. 600 m zum Meer. Hausgebühr 16 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Zum Wohnen, für Urlaub oder Vermietung. Code: ROMAN",
+    "es": "Piso de 1 dormitorio de 62 m² en planta baja en el complejo Cascadas 11, Sunny Beach. A 600 m del mar. Cuota 16 €/m² al año. Acta 16: el edificio está terminado y legalizado. Para vivir, veranear o alquilar. Código: ROMAN"
    },
    "feat": {
     "bg": [
@@ -18967,11 +18880,11 @@
     "es": "Piso de 1 dormitorio, 57 m², Emilia Romana Verde, Sunny Beach"
    },
    "desc": {
-    "bg": "Апартамент с 1 спалня от 57 м² на 2-ри етаж в комплекс Емилия Романа Верде, Слънчев бряг. Всичко в апартамента е ново. 600 м до морето. Такса поддръжка 16 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Подходящ за живеене, почивка или отдаване под наем.",
-    "ru": "Квартира с 1 спальней площадью 57 м² на 2-м этаже в комплексе «Емилия Романа Верде», Солнечный берег. В квартире всё новое. 600 м до моря. Обслуживание 16 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Подойдёт для жизни, отдыха или сдачи в аренду.",
-    "en": "A 57 m² one-bedroom flat on floor 2 in Emilia Romana Verde, Sunny Beach. Everything in the flat is new. 600 m to the sea. Maintenance €16/m² a year. Act 16 — the building is officially completed. Suits living in, holidays or letting.",
-    "de": "2-Zimmer-Wohnung mit 57 m² im 2. Stock in der Anlage Emilia Romana Verde, Sonnenstrand. In der Wohnung ist alles neu. 600 m zum Meer. Hausgebühr 16 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Zum Wohnen, für Urlaub oder Vermietung.",
-    "es": "Piso de 1 dormitorio de 57 m² en la 2.ª planta en el complejo Emilia Romana Verde, Sunny Beach. Todo en el piso es nuevo. A 600 m del mar. Cuota 16 €/m² al año. Acta 16: el edificio está terminado y legalizado. Para vivir, veranear o alquilar."
+    "bg": "Апартамент с 1 спалня от 57 м² на 2-ри етаж в комплекс Емилия Романа Верде, Слънчев бряг. Всичко в апартамента е ново. 600 м до морето. Такса поддръжка 16 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Подходящ за живеене, почивка или отдаване под наем. Код: ROMAN",
+    "ru": "Квартира с 1 спальней площадью 57 м² на 2-м этаже в комплексе «Емилия Романа Верде», Солнечный берег. В квартире всё новое. 600 м до моря. Обслуживание 16 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Подойдёт для жизни, отдыха или сдачи в аренду. Код: ROMAN",
+    "en": "A 57 m² one-bedroom flat on floor 2 in Emilia Romana Verde, Sunny Beach. Everything in the flat is new. 600 m to the sea. Maintenance €16/m² a year. Act 16 — the building is officially completed. Suits living in, holidays or letting. Code: ROMAN",
+    "de": "2-Zimmer-Wohnung mit 57 m² im 2. Stock in der Anlage Emilia Romana Verde, Sonnenstrand. In der Wohnung ist alles neu. 600 m zum Meer. Hausgebühr 16 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Zum Wohnen, für Urlaub oder Vermietung. Code: ROMAN",
+    "es": "Piso de 1 dormitorio de 57 m² en la 2.ª planta en el complejo Emilia Romana Verde, Sunny Beach. Todo en el piso es nuevo. A 600 m del mar. Cuota 16 €/m² al año. Acta 16: el edificio está terminado y legalizado. Para vivir, veranear o alquilar. Código: ROMAN"
    },
    "feat": {
     "bg": [
@@ -19057,11 +18970,11 @@
     "es": "Piso de 2 dormitorios, 145 m², Sunset, Kosharitsa"
    },
    "desc": {
-    "bg": "Апартамент с 2 спални от 145 м² на последния етаж в комплекс Сансет, Кошарица. От терасата се виждат морето и планината. 4 км до морето. Такса поддръжка 11 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Достатъчно място за семейство — за живеене или почивка.",
-    "ru": "Квартира с 2 спальнями площадью 145 м² на последнем этаже в комплексе «Сансет», Кошарица. С террасы видно море и горы. 4 км до моря. Обслуживание 11 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Достаточно места для семьи — для жизни или отдыха.",
-    "en": "A 145 m² two-bedroom flat on the top floor in Sunset, Kosharitsa. The terrace looks out over the sea and the mountains. 4 km to the sea. Maintenance €11/m² a year. Act 16 — the building is officially completed. Room for a family — to live in or for holidays.",
-    "de": "3-Zimmer-Wohnung mit 145 m² im obersten Stock in der Anlage Sunset, Kosharitsa. Von der Terrasse sieht man Meer und Berge. 4 km zum Meer. Hausgebühr 11 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Platz für eine Familie – zum Wohnen oder Urlauben.",
-    "es": "Piso de 2 dormitorios de 145 m² en la última planta en el complejo Sunset, Kosharitsa. Desde la terraza se ven el mar y la montaña. A 4 km del mar. Cuota 11 €/m² al año. Acta 16: el edificio está terminado y legalizado. Espacio para una familia: para vivir o veranear."
+    "bg": "Апартамент с 2 спални от 145 м² на последния етаж в комплекс Сансет, Кошарица. От терасата се виждат морето и планината. 4 км до морето. Такса поддръжка 11 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Достатъчно място за семейство — за живеене или почивка. Код: ROMAN",
+    "ru": "Квартира с 2 спальнями площадью 145 м² на последнем этаже в комплексе «Сансет», Кошарица. С террасы видно море и горы. 4 км до моря. Обслуживание 11 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Достаточно места для семьи — для жизни или отдыха. Код: ROMAN",
+    "en": "A 145 m² two-bedroom flat on the top floor in Sunset, Kosharitsa. The terrace looks out over the sea and the mountains. 4 km to the sea. Maintenance €11/m² a year. Act 16 — the building is officially completed. Room for a family — to live in or for holidays. Code: ROMAN",
+    "de": "3-Zimmer-Wohnung mit 145 m² im obersten Stock in der Anlage Sunset, Kosharitsa. Von der Terrasse sieht man Meer und Berge. 4 km zum Meer. Hausgebühr 11 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Platz für eine Familie – zum Wohnen oder Urlauben. Code: ROMAN",
+    "es": "Piso de 2 dormitorios de 145 m² en la última planta en el complejo Sunset, Kosharitsa. Desde la terraza se ven el mar y la montaña. A 4 km del mar. Cuota 11 €/m² al año. Acta 16: el edificio está terminado y legalizado. Espacio para una familia: para vivir o veranear. Código: ROMAN"
    },
    "feat": {
     "bg": [
@@ -19146,11 +19059,11 @@
     "es": "Piso de 2 dormitorios, 74 m², Eden, Sunny Beach"
    },
    "desc": {
-    "bg": "Апартамент с 2 спални от 74 м² на 2-ри етаж в комплекс Еден, Слънчев бряг. 500 м до морето. Такса поддръжка 6 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Достатъчно място за семейство — за живеене или почивка.",
-    "ru": "Квартира с 2 спальнями площадью 74 м² на 2-м этаже в комплексе «Еден», Солнечный берег. 500 м до моря. Обслуживание 6 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Достаточно места для семьи — для жизни или отдыха.",
-    "en": "A 74 m² two-bedroom flat on floor 2 in Eden, Sunny Beach. 500 m to the sea. Maintenance €6/m² a year. Act 16 — the building is officially completed. Room for a family — to live in or for holidays.",
-    "de": "3-Zimmer-Wohnung mit 74 m² im 2. Stock in der Anlage Eden, Sonnenstrand. 500 m zum Meer. Hausgebühr 6 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Platz für eine Familie – zum Wohnen oder Urlauben.",
-    "es": "Piso de 2 dormitorios de 74 m² en la 2.ª planta en el complejo Eden, Sunny Beach. A 500 m del mar. Cuota 6 €/m² al año. Acta 16: el edificio está terminado y legalizado. Espacio para una familia: para vivir o veranear."
+    "bg": "Апартамент с 2 спални от 74 м² на 2-ри етаж в комплекс Еден, Слънчев бряг. 500 м до морето. Такса поддръжка 6 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Достатъчно място за семейство — за живеене или почивка. Код: ROMAN",
+    "ru": "Квартира с 2 спальнями площадью 74 м² на 2-м этаже в комплексе «Еден», Солнечный берег. 500 м до моря. Обслуживание 6 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Достаточно места для семьи — для жизни или отдыха. Код: ROMAN",
+    "en": "A 74 m² two-bedroom flat on floor 2 in Eden, Sunny Beach. 500 m to the sea. Maintenance €6/m² a year. Act 16 — the building is officially completed. Room for a family — to live in or for holidays. Code: ROMAN",
+    "de": "3-Zimmer-Wohnung mit 74 m² im 2. Stock in der Anlage Eden, Sonnenstrand. 500 m zum Meer. Hausgebühr 6 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Platz für eine Familie – zum Wohnen oder Urlauben. Code: ROMAN",
+    "es": "Piso de 2 dormitorios de 74 m² en la 2.ª planta en el complejo Eden, Sunny Beach. A 500 m del mar. Cuota 6 €/m² al año. Acta 16: el edificio está terminado y legalizado. Espacio para una familia: para vivir o veranear. Código: ROMAN"
    },
    "feat": {
     "bg": [
@@ -19228,11 +19141,11 @@
     "es": "Piso de 2 dormitorios, 53 m², Aphrodite Palace, Sunny Beach"
    },
    "desc": {
-    "bg": "Апартамент с 2 спални от 53 м² на партерен етаж в комплекс Афродита Палас, Слънчев бряг. Мебелите и техниката са нови. 600 м до морето. Такса поддръжка 200 € годишно. Акт 16 — сградата е въведена в експлоатация. Достатъчно място за семейство — за живеене или почивка.",
-    "ru": "Квартира с 2 спальнями площадью 53 м² на первом этаже в комплексе «Афродита Палас», Солнечный берег. Мебель и техника новые. 600 м до моря. Обслуживание 200 € в год. Акт 16 — дом сдан в эксплуатацию. Достаточно места для семьи — для жизни или отдыха.",
-    "en": "A 53 m² two-bedroom flat on the ground floor in Aphrodite Palace, Sunny Beach. The furniture and appliances are new. 600 m to the sea. Maintenance €200 a year. Act 16 — the building is officially completed. Room for a family — to live in or for holidays.",
-    "de": "3-Zimmer-Wohnung mit 53 m² im Erdgeschoss in der Anlage Aphrodite Palace, Sonnenstrand. Möbel und Geräte sind neu. 600 m zum Meer. Hausgebühr 200 € pro Jahr. Akt 16 – das Gebäude ist abgenommen. Platz für eine Familie – zum Wohnen oder Urlauben.",
-    "es": "Piso de 2 dormitorios de 53 m² en planta baja en el complejo Aphrodite Palace, Sunny Beach. Los muebles y electrodomésticos son nuevos. A 600 m del mar. Cuota 200 € al año. Acta 16: el edificio está terminado y legalizado. Espacio para una familia: para vivir o veranear."
+    "bg": "Апартамент с 2 спални от 53 м² на партерен етаж в комплекс Афродита Палас, Слънчев бряг. Мебелите и техниката са нови. 600 м до морето. Такса поддръжка 200 € годишно. Акт 16 — сградата е въведена в експлоатация. Достатъчно място за семейство — за живеене или почивка. Код: ROMAN",
+    "ru": "Квартира с 2 спальнями площадью 53 м² на первом этаже в комплексе «Афродита Палас», Солнечный берег. Мебель и техника новые. 600 м до моря. Обслуживание 200 € в год. Акт 16 — дом сдан в эксплуатацию. Достаточно места для семьи — для жизни или отдыха. Код: ROMAN",
+    "en": "A 53 m² two-bedroom flat on the ground floor in Aphrodite Palace, Sunny Beach. The furniture and appliances are new. 600 m to the sea. Maintenance €200 a year. Act 16 — the building is officially completed. Room for a family — to live in or for holidays. Code: ROMAN",
+    "de": "3-Zimmer-Wohnung mit 53 m² im Erdgeschoss in der Anlage Aphrodite Palace, Sonnenstrand. Möbel und Geräte sind neu. 600 m zum Meer. Hausgebühr 200 € pro Jahr. Akt 16 – das Gebäude ist abgenommen. Platz für eine Familie – zum Wohnen oder Urlauben. Code: ROMAN",
+    "es": "Piso de 2 dormitorios de 53 m² en planta baja en el complejo Aphrodite Palace, Sunny Beach. Los muebles y electrodomésticos son nuevos. A 600 m del mar. Cuota 200 € al año. Acta 16: el edificio está terminado y legalizado. Espacio para una familia: para vivir o veranear. Código: ROMAN"
    },
    "feat": {
     "bg": [
@@ -19315,11 +19228,11 @@
     "es": "Piso de 2 dormitorios, 105 m², Persani 2, Sunny Beach"
    },
    "desc": {
-    "bg": "Апартамент с 2 спални от 105 м² на 5-и етаж в комплекс Персани 2, Какао Бийч, Слънчев бряг. 400 м до морето. Такса поддръжка 5 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Достатъчно място за семейство — за живеене или почивка.",
-    "ru": "Квартира с 2 спальнями площадью 105 м² на 5-м этаже в комплексе «Персани 2», Какао Бич, Солнечный берег. 400 м до моря. Обслуживание 5 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Достаточно места для семьи — для жизни или отдыха.",
-    "en": "A 105 m² two-bedroom flat on floor 5 in Persani 2, Cacao Beach, Sunny Beach. 400 m to the sea. Maintenance €5/m² a year. Act 16 — the building is officially completed. Room for a family — to live in or for holidays.",
-    "de": "3-Zimmer-Wohnung mit 105 m² im 5. Stock in der Anlage Persani 2, Cacao Beach, Sonnenstrand. 400 m zum Meer. Hausgebühr 5 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Platz für eine Familie – zum Wohnen oder Urlauben.",
-    "es": "Piso de 2 dormitorios de 105 m² en la 5.ª planta en el complejo Persani 2, Cacao Beach, Sunny Beach. A 400 m del mar. Cuota 5 €/m² al año. Acta 16: el edificio está terminado y legalizado. Espacio para una familia: para vivir o veranear."
+    "bg": "Апартамент с 2 спални от 105 м² на 5-и етаж в комплекс Персани 2, Какао Бийч, Слънчев бряг. 400 м до морето. Такса поддръжка 5 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Достатъчно място за семейство — за живеене или почивка. Код: ROMAN",
+    "ru": "Квартира с 2 спальнями площадью 105 м² на 5-м этаже в комплексе «Персани 2», Какао Бич, Солнечный берег. 400 м до моря. Обслуживание 5 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Достаточно места для семьи — для жизни или отдыха. Код: ROMAN",
+    "en": "A 105 m² two-bedroom flat on floor 5 in Persani 2, Cacao Beach, Sunny Beach. 400 m to the sea. Maintenance €5/m² a year. Act 16 — the building is officially completed. Room for a family — to live in or for holidays. Code: ROMAN",
+    "de": "3-Zimmer-Wohnung mit 105 m² im 5. Stock in der Anlage Persani 2, Cacao Beach, Sonnenstrand. 400 m zum Meer. Hausgebühr 5 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Platz für eine Familie – zum Wohnen oder Urlauben. Code: ROMAN",
+    "es": "Piso de 2 dormitorios de 105 m² en la 5.ª planta en el complejo Persani 2, Cacao Beach, Sunny Beach. A 400 m del mar. Cuota 5 €/m² al año. Acta 16: el edificio está terminado y legalizado. Espacio para una familia: para vivir o veranear. Código: ROMAN"
    },
    "feat": {
     "bg": [
@@ -19393,11 +19306,11 @@
     "es": "Piso de 2 dormitorios, 93 m², Royal Sun, Sunny Beach"
    },
    "desc": {
-    "bg": "Апартамент с 2 спални от 93 м² на 4-ти етаж в комплекс Роял Сън, Слънчев бряг. 300 м до морето. Такса поддръжка 21,4 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Достатъчно място за семейство — за живеене или почивка.",
-    "ru": "Квартира с 2 спальнями площадью 93 м² на 4-м этаже в комплексе «Роял Сън», Солнечный берег. 300 м до моря. Обслуживание 21,4 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Достаточно места для семьи — для жизни или отдыха.",
-    "en": "A 93 m² two-bedroom flat on floor 4 in Royal Sun, Sunny Beach. 300 m to the sea. Maintenance €21.4/m² a year. Act 16 — the building is officially completed. Room for a family — to live in or for holidays.",
-    "de": "3-Zimmer-Wohnung mit 93 m² im 4. Stock in der Anlage Royal Sun, Sonnenstrand. 300 m zum Meer. Hausgebühr 21,4 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Platz für eine Familie – zum Wohnen oder Urlauben.",
-    "es": "Piso de 2 dormitorios de 93 m² en la 4.ª planta en el complejo Royal Sun, Sunny Beach. A 300 m del mar. Cuota 21,4 €/m² al año. Acta 16: el edificio está terminado y legalizado. Espacio para una familia: para vivir o veranear."
+    "bg": "Апартамент с 2 спални от 93 м² на 4-ти етаж в комплекс Роял Сън, Слънчев бряг. 300 м до морето. Такса поддръжка 21,4 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Достатъчно място за семейство — за живеене или почивка. Код: ROMAN",
+    "ru": "Квартира с 2 спальнями площадью 93 м² на 4-м этаже в комплексе «Роял Сън», Солнечный берег. 300 м до моря. Обслуживание 21,4 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Достаточно места для семьи — для жизни или отдыха. Код: ROMAN",
+    "en": "A 93 m² two-bedroom flat on floor 4 in Royal Sun, Sunny Beach. 300 m to the sea. Maintenance €21.4/m² a year. Act 16 — the building is officially completed. Room for a family — to live in or for holidays. Code: ROMAN",
+    "de": "3-Zimmer-Wohnung mit 93 m² im 4. Stock in der Anlage Royal Sun, Sonnenstrand. 300 m zum Meer. Hausgebühr 21,4 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Platz für eine Familie – zum Wohnen oder Urlauben. Code: ROMAN",
+    "es": "Piso de 2 dormitorios de 93 m² en la 4.ª planta en el complejo Royal Sun, Sunny Beach. A 300 m del mar. Cuota 21,4 €/m² al año. Acta 16: el edificio está terminado y legalizado. Espacio para una familia: para vivir o veranear. Código: ROMAN"
    },
    "feat": {
     "bg": [
@@ -19480,11 +19393,11 @@
     "es": "Piso de 2 dormitorios, 67 m², Harmony Suites 4, Sunny Beach"
    },
    "desc": {
-    "bg": "Апартамент с 2 спални от 67 м² на 5-и етаж в комплекс Хармони Сюитс 4, Слънчев бряг. 450 м до морето. Такса поддръжка 20 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Достатъчно място за семейство — за живеене или почивка.",
-    "ru": "Квартира с 2 спальнями площадью 67 м² на 5-м этаже в комплексе «Хармони Сюитс 4», Солнечный берег. 450 м до моря. Обслуживание 20 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Достаточно места для семьи — для жизни или отдыха.",
-    "en": "A 67 m² two-bedroom flat on floor 5 in Harmony Suites 4, Sunny Beach. 450 m to the sea. Maintenance €20/m² a year. Act 16 — the building is officially completed. Room for a family — to live in or for holidays.",
-    "de": "3-Zimmer-Wohnung mit 67 m² im 5. Stock in der Anlage Harmony Suites 4, Sonnenstrand. 450 m zum Meer. Hausgebühr 20 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Platz für eine Familie – zum Wohnen oder Urlauben.",
-    "es": "Piso de 2 dormitorios de 67 m² en la 5.ª planta en el complejo Harmony Suites 4, Sunny Beach. A 450 m del mar. Cuota 20 €/m² al año. Acta 16: el edificio está terminado y legalizado. Espacio para una familia: para vivir o veranear."
+    "bg": "Апартамент с 2 спални от 67 м² на 5-и етаж в комплекс Хармони Сюитс 4, Слънчев бряг. 450 м до морето. Такса поддръжка 20 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Достатъчно място за семейство — за живеене или почивка. Код: ROMAN",
+    "ru": "Квартира с 2 спальнями площадью 67 м² на 5-м этаже в комплексе «Хармони Сюитс 4», Солнечный берег. 450 м до моря. Обслуживание 20 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Достаточно места для семьи — для жизни или отдыха. Код: ROMAN",
+    "en": "A 67 m² two-bedroom flat on floor 5 in Harmony Suites 4, Sunny Beach. 450 m to the sea. Maintenance €20/m² a year. Act 16 — the building is officially completed. Room for a family — to live in or for holidays. Code: ROMAN",
+    "de": "3-Zimmer-Wohnung mit 67 m² im 5. Stock in der Anlage Harmony Suites 4, Sonnenstrand. 450 m zum Meer. Hausgebühr 20 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Platz für eine Familie – zum Wohnen oder Urlauben. Code: ROMAN",
+    "es": "Piso de 2 dormitorios de 67 m² en la 5.ª planta en el complejo Harmony Suites 4, Sunny Beach. A 450 m del mar. Cuota 20 €/m² al año. Acta 16: el edificio está terminado y legalizado. Espacio para una familia: para vivir o veranear. Código: ROMAN"
    },
    "feat": {
     "bg": [
@@ -19562,11 +19475,11 @@
     "es": "Piso de 2 dormitorios, 100 m², Harmony Suites 3, Sunny Beach"
    },
    "desc": {
-    "bg": "Апартамент с 2 спални от 100 м² на последния етаж в комплекс Хармони Сюитс 3, Слънчев бряг. Прозорците гледат към басейна. 700 м до морето. Такса поддръжка 20 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Достатъчно място за семейство — за живеене или почивка.",
-    "ru": "Квартира с 2 спальнями площадью 100 м² на последнем этаже в комплексе «Хармони Сюитс 3», Солнечный берег. Окна выходят на бассейн. 700 м до моря. Обслуживание 20 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Достаточно места для семьи — для жизни или отдыха.",
-    "en": "A 100 m² two-bedroom flat on the top floor in Harmony Suites 3, Sunny Beach. The windows overlook the pool. 700 m to the sea. Maintenance €20/m² a year. Act 16 — the building is officially completed. Room for a family — to live in or for holidays.",
-    "de": "3-Zimmer-Wohnung mit 100 m² im obersten Stock in der Anlage Harmony Suites 3, Sonnenstrand. Die Fenster gehen zum Pool. 700 m zum Meer. Hausgebühr 20 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Platz für eine Familie – zum Wohnen oder Urlauben.",
-    "es": "Piso de 2 dormitorios de 100 m² en la última planta en el complejo Harmony Suites 3, Sunny Beach. Las ventanas dan a la piscina. A 700 m del mar. Cuota 20 €/m² al año. Acta 16: el edificio está terminado y legalizado. Espacio para una familia: para vivir o veranear."
+    "bg": "Апартамент с 2 спални от 100 м² на последния етаж в комплекс Хармони Сюитс 3, Слънчев бряг. Прозорците гледат към басейна. 700 м до морето. Такса поддръжка 20 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Достатъчно място за семейство — за живеене или почивка. Код: ROMAN",
+    "ru": "Квартира с 2 спальнями площадью 100 м² на последнем этаже в комплексе «Хармони Сюитс 3», Солнечный берег. Окна выходят на бассейн. 700 м до моря. Обслуживание 20 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Достаточно места для семьи — для жизни или отдыха. Код: ROMAN",
+    "en": "A 100 m² two-bedroom flat on the top floor in Harmony Suites 3, Sunny Beach. The windows overlook the pool. 700 m to the sea. Maintenance €20/m² a year. Act 16 — the building is officially completed. Room for a family — to live in or for holidays. Code: ROMAN",
+    "de": "3-Zimmer-Wohnung mit 100 m² im obersten Stock in der Anlage Harmony Suites 3, Sonnenstrand. Die Fenster gehen zum Pool. 700 m zum Meer. Hausgebühr 20 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Platz für eine Familie – zum Wohnen oder Urlauben. Code: ROMAN",
+    "es": "Piso de 2 dormitorios de 100 m² en la última planta en el complejo Harmony Suites 3, Sunny Beach. Las ventanas dan a la piscina. A 700 m del mar. Cuota 20 €/m² al año. Acta 16: el edificio está terminado y legalizado. Espacio para una familia: para vivir o veranear. Código: ROMAN"
    },
    "feat": {
     "bg": [
@@ -19651,11 +19564,11 @@
     "es": "Piso de 2 dormitorios, 75 m², Emilia Romana Park, Sunny Beach"
    },
    "desc": {
-    "bg": "Апартамент с 2 спални от 75 м² на 4-ти етаж в комплекс Емилия Романа Парк, Слънчев бряг. Сградата е нова. 600 м до морето. Такса поддръжка 16 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Достатъчно място за семейство — за живеене или почивка.",
-    "ru": "Квартира с 2 спальнями площадью 75 м² на 4-м этаже в комплексе «Емилия Романа Парк», Солнечный берег. Дом новый. 600 м до моря. Обслуживание 16 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Достаточно места для семьи — для жизни или отдыха.",
-    "en": "A 75 m² two-bedroom flat on floor 4 in Emilia Romana Park, Sunny Beach. The building is new. 600 m to the sea. Maintenance €16/m² a year. Act 16 — the building is officially completed. Room for a family — to live in or for holidays.",
-    "de": "3-Zimmer-Wohnung mit 75 m² im 4. Stock in der Anlage Emilia Romana Park, Sonnenstrand. Das Gebäude ist neu. 600 m zum Meer. Hausgebühr 16 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Platz für eine Familie – zum Wohnen oder Urlauben.",
-    "es": "Piso de 2 dormitorios de 75 m² en la 4.ª planta en el complejo Emilia Romana Park, Sunny Beach. El edificio es nuevo. A 600 m del mar. Cuota 16 €/m² al año. Acta 16: el edificio está terminado y legalizado. Espacio para una familia: para vivir o veranear."
+    "bg": "Апартамент с 2 спални от 75 м² на 4-ти етаж в комплекс Емилия Романа Парк, Слънчев бряг. Сградата е нова. 600 м до морето. Такса поддръжка 16 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Достатъчно място за семейство — за живеене или почивка. Код: ROMAN",
+    "ru": "Квартира с 2 спальнями площадью 75 м² на 4-м этаже в комплексе «Емилия Романа Парк», Солнечный берег. Дом новый. 600 м до моря. Обслуживание 16 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Достаточно места для семьи — для жизни или отдыха. Код: ROMAN",
+    "en": "A 75 m² two-bedroom flat on floor 4 in Emilia Romana Park, Sunny Beach. The building is new. 600 m to the sea. Maintenance €16/m² a year. Act 16 — the building is officially completed. Room for a family — to live in or for holidays. Code: ROMAN",
+    "de": "3-Zimmer-Wohnung mit 75 m² im 4. Stock in der Anlage Emilia Romana Park, Sonnenstrand. Das Gebäude ist neu. 600 m zum Meer. Hausgebühr 16 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Platz für eine Familie – zum Wohnen oder Urlauben. Code: ROMAN",
+    "es": "Piso de 2 dormitorios de 75 m² en la 4.ª planta en el complejo Emilia Romana Park, Sunny Beach. El edificio es nuevo. A 600 m del mar. Cuota 16 €/m² al año. Acta 16: el edificio está terminado y legalizado. Espacio para una familia: para vivir o veranear. Código: ROMAN"
    },
    "feat": {
     "bg": [
@@ -19738,11 +19651,11 @@
     "es": "Piso de 2 dormitorios, 100 m², Feniks, Sveti Vlas"
    },
    "desc": {
-    "bg": "Апартамент с 2 спални от 100 м² на 1-ви етаж в комплекс Феникс, Свети Влас. Апартаментът е след нов ремонт. Прозорците гледат към басейна. 300 м до морето. Такса поддръжка 1 000 € годишно. Акт 16 — сградата е въведена в експлоатация. Достатъчно място за семейство — за живеене или почивка.",
-    "ru": "Квартира с 2 спальнями площадью 100 м² на 1-м этаже в комплексе «Феникс», Святой Влас. В квартире свежий ремонт. Окна выходят на бассейн. 300 м до моря. Обслуживание 1 000 € в год. Акт 16 — дом сдан в эксплуатацию. Достаточно места для семьи — для жизни или отдыха.",
-    "en": "A 100 m² two-bedroom flat on floor 1 in Feniks, Sveti Vlas. The flat has been newly renovated. The windows overlook the pool. 300 m to the sea. Maintenance €1,000 a year. Act 16 — the building is officially completed. Room for a family — to live in or for holidays.",
-    "de": "3-Zimmer-Wohnung mit 100 m² im 1. Stock in der Anlage Feniks, Sveti Vlas. Die Wohnung ist frisch renoviert. Die Fenster gehen zum Pool. 300 m zum Meer. Hausgebühr 1.000 € pro Jahr. Akt 16 – das Gebäude ist abgenommen. Platz für eine Familie – zum Wohnen oder Urlauben.",
-    "es": "Piso de 2 dormitorios de 100 m² en la 1.ª planta en el complejo Feniks, Sveti Vlas. El piso está recién reformado. Las ventanas dan a la piscina. A 300 m del mar. Cuota 1.000 € al año. Acta 16: el edificio está terminado y legalizado. Espacio para una familia: para vivir o veranear."
+    "bg": "Апартамент с 2 спални от 100 м² на 1-ви етаж в комплекс Феникс, Свети Влас. Апартаментът е след нов ремонт. Прозорците гледат към басейна. 300 м до морето. Такса поддръжка 1 000 € годишно. Акт 16 — сградата е въведена в експлоатация. Достатъчно място за семейство — за живеене или почивка. Код: ROMAN",
+    "ru": "Квартира с 2 спальнями площадью 100 м² на 1-м этаже в комплексе «Феникс», Святой Влас. В квартире свежий ремонт. Окна выходят на бассейн. 300 м до моря. Обслуживание 1 000 € в год. Акт 16 — дом сдан в эксплуатацию. Достаточно места для семьи — для жизни или отдыха. Код: ROMAN",
+    "en": "A 100 m² two-bedroom flat on floor 1 in Feniks, Sveti Vlas. The flat has been newly renovated. The windows overlook the pool. 300 m to the sea. Maintenance €1,000 a year. Act 16 — the building is officially completed. Room for a family — to live in or for holidays. Code: ROMAN",
+    "de": "3-Zimmer-Wohnung mit 100 m² im 1. Stock in der Anlage Feniks, Sveti Vlas. Die Wohnung ist frisch renoviert. Die Fenster gehen zum Pool. 300 m zum Meer. Hausgebühr 1.000 € pro Jahr. Akt 16 – das Gebäude ist abgenommen. Platz für eine Familie – zum Wohnen oder Urlauben. Code: ROMAN",
+    "es": "Piso de 2 dormitorios de 100 m² en la 1.ª planta en el complejo Feniks, Sveti Vlas. El piso está recién reformado. Las ventanas dan a la piscina. A 300 m del mar. Cuota 1.000 € al año. Acta 16: el edificio está terminado y legalizado. Espacio para una familia: para vivir o veranear. Código: ROMAN"
    },
    "feat": {
     "bg": [
@@ -19830,11 +19743,11 @@
     "es": "Piso de 2 dormitorios, 114 m², Oasis, Ravda"
    },
    "desc": {
-    "bg": "Апартамент с 2 спални от 114 м² на 5-и етаж в комплекс Оазис, Равда. От апартамента се вижда морето. Апартаментът е след нов ремонт. 50 м до морето. Такса поддръжка 10 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Достатъчно място за семейство — за живеене или почивка.",
-    "ru": "Квартира с 2 спальнями площадью 114 м² на 5-м этаже в комплексе «Оазис», Равда. Из квартиры видно море. В квартире свежий ремонт. 50 м до моря. Обслуживание 10 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Достаточно места для семьи — для жизни или отдыха.",
-    "en": "A 114 m² two-bedroom flat on floor 5 in Oasis, Ravda. The flat has a view of the sea. The flat has been newly renovated. 50 m to the sea. Maintenance €10/m² a year. Act 16 — the building is officially completed. Room for a family — to live in or for holidays.",
-    "de": "3-Zimmer-Wohnung mit 114 m² im 5. Stock in der Anlage Oasis, Ravda. Die Wohnung bietet Meerblick. Die Wohnung ist frisch renoviert. 50 m zum Meer. Hausgebühr 10 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Platz für eine Familie – zum Wohnen oder Urlauben.",
-    "es": "Piso de 2 dormitorios de 114 m² en la 5.ª planta en el complejo Oasis, Ravda. El piso tiene vistas al mar. El piso está recién reformado. A 50 m del mar. Cuota 10 €/m² al año. Acta 16: el edificio está terminado y legalizado. Espacio para una familia: para vivir o veranear."
+    "bg": "Апартамент с 2 спални от 114 м² на 5-и етаж в комплекс Оазис, Равда. От апартамента се вижда морето. Апартаментът е след нов ремонт. 50 м до морето. Такса поддръжка 10 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Достатъчно място за семейство — за живеене или почивка. Код: ROMAN",
+    "ru": "Квартира с 2 спальнями площадью 114 м² на 5-м этаже в комплексе «Оазис», Равда. Из квартиры видно море. В квартире свежий ремонт. 50 м до моря. Обслуживание 10 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Достаточно места для семьи — для жизни или отдыха. Код: ROMAN",
+    "en": "A 114 m² two-bedroom flat on floor 5 in Oasis, Ravda. The flat has a view of the sea. The flat has been newly renovated. 50 m to the sea. Maintenance €10/m² a year. Act 16 — the building is officially completed. Room for a family — to live in or for holidays. Code: ROMAN",
+    "de": "3-Zimmer-Wohnung mit 114 m² im 5. Stock in der Anlage Oasis, Ravda. Die Wohnung bietet Meerblick. Die Wohnung ist frisch renoviert. 50 m zum Meer. Hausgebühr 10 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Platz für eine Familie – zum Wohnen oder Urlauben. Code: ROMAN",
+    "es": "Piso de 2 dormitorios de 114 m² en la 5.ª planta en el complejo Oasis, Ravda. El piso tiene vistas al mar. El piso está recién reformado. A 50 m del mar. Cuota 10 €/m² al año. Acta 16: el edificio está terminado y legalizado. Espacio para una familia: para vivir o veranear. Código: ROMAN"
    },
    "feat": {
     "bg": [
@@ -19922,11 +19835,11 @@
     "es": "Apartamento de 430 m² en tres plantas con 2 garajes, Artur, Sveti Vlas"
    },
    "desc": {
-    "bg": "Пет стаи на 3-ти, 4-ти и 5-ти етаж в комплекс Артур в Свети Влас — общо 430 м² жилищна площ. Два гаража са включени в цената. 100 м до морето. Такса поддръжка 14 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Рядко предложение за голямо семейство, близо до морето.",
-    "ru": "Пять комнат на 3-м, 4-м и 5-м этажах в комплексе Артур в Святом Власе — всего 430 м² жилой площади. Два гаража входят в цену. 100 м до моря. Обслуживание 14 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Редкое предложение для большой семьи у самого моря.",
-    "en": "Five rooms on the 3rd, 4th and 5th floors of the Artur complex in Sveti Vlas — 430 m² of living space in all. Two garages are included in the price. 100 m to the sea. Maintenance €14/m² a year. Act 16 — the building is officially completed. A rare offer for a large family right by the sea.",
-    "de": "Fünf Zimmer im 3., 4. und 5. Stock der Anlage Artur in Sveti Vlas – insgesamt 430 m² Wohnfläche. Zwei Garagen sind im Preis enthalten. 100 m zum Meer. Hausgebühr 14 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Ein seltenes Angebot für eine große Familie direkt am Meer.",
-    "es": "Cinco habitaciones en las plantas 3.ª, 4.ª y 5.ª del complejo Artur en Sveti Vlas: 430 m² habitables en total. Dos garajes incluidos en el precio. A 100 m del mar. Cuota 14 €/m² al año. Acta 16: el edificio está terminado y legalizado. Una oferta poco común para una familia grande junto al mar."
+    "bg": "Пет стаи на 3-ти, 4-ти и 5-ти етаж в комплекс Артур в Свети Влас — общо 430 м² жилищна площ. Два гаража са включени в цената. 100 м до морето. Такса поддръжка 14 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Рядко предложение за голямо семейство, близо до морето. Код: ROMAN",
+    "ru": "Пять комнат на 3-м, 4-м и 5-м этажах в комплексе Артур в Святом Власе — всего 430 м² жилой площади. Два гаража входят в цену. 100 м до моря. Обслуживание 14 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Редкое предложение для большой семьи у самого моря. Код: ROMAN",
+    "en": "Five rooms on the 3rd, 4th and 5th floors of the Artur complex in Sveti Vlas — 430 m² of living space in all. Two garages are included in the price. 100 m to the sea. Maintenance €14/m² a year. Act 16 — the building is officially completed. A rare offer for a large family right by the sea. Code: ROMAN",
+    "de": "Fünf Zimmer im 3., 4. und 5. Stock der Anlage Artur in Sveti Vlas – insgesamt 430 m² Wohnfläche. Zwei Garagen sind im Preis enthalten. 100 m zum Meer. Hausgebühr 14 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Ein seltenes Angebot für eine große Familie direkt am Meer. Code: ROMAN",
+    "es": "Cinco habitaciones en las plantas 3.ª, 4.ª y 5.ª del complejo Artur en Sveti Vlas: 430 m² habitables en total. Dos garajes incluidos en el precio. A 100 m del mar. Cuota 14 €/m² al año. Acta 16: el edificio está terminado y legalizado. Una oferta poco común para una familia grande junto al mar. Código: ROMAN"
    },
    "feat": {
     "bg": [
@@ -20009,11 +19922,11 @@
     "es": "Casa de 89 m² con parcela de 2.002 m², Gospodinovo (Byala)"
    },
    "desc": {
-    "bg": "Къща в тихото село Господиново край Бяла с голям двор от 2002 м² — място за градина, овошки и отдих. Морето и плажовете на Бяла са на около 15 км.",
-    "ru": "Дом в тихом селе Господиново под Бялой с большим участком 2002 м² — место для сада, деревьев и отдыха. До моря и пляжей Бялы около 15 км.",
-    "en": "A house in the quiet village of Gospodinovo near Byala with a large 2,002 m² plot — room for a garden, fruit trees and relaxing. The sea and Byala's beaches are about 15 km away.",
-    "de": "Ein Haus im ruhigen Dorf Gospodinovo bei Byala mit großem Grundstück (2.002 m²) – Platz für Garten, Obstbäume und Erholung. Meer und Strände von Byala ca. 15 km.",
-    "es": "Casa en el tranquilo pueblo de Gospodinovo, cerca de Byala, con una gran parcela de 2.002 m²: espacio para huerto, frutales y descanso. El mar y las playas de Byala están a unos 15 km."
+    "bg": "Къща в тихото село Господиново край Бяла с голям двор от 2002 м² — място за градина, овошки и отдих. Морето и плажовете на Бяла са на около 15 км. Код: ROMAN",
+    "ru": "Дом в тихом селе Господиново под Бялой с большим участком 2002 м² — место для сада, деревьев и отдыха. До моря и пляжей Бялы около 15 км. Код: ROMAN",
+    "en": "A house in the quiet village of Gospodinovo near Byala with a large 2,002 m² plot — room for a garden, fruit trees and relaxing. The sea and Byala's beaches are about 15 km away. Code: ROMAN",
+    "de": "Ein Haus im ruhigen Dorf Gospodinovo bei Byala mit großem Grundstück (2.002 m²) – Platz für Garten, Obstbäume und Erholung. Meer und Strände von Byala ca. 15 km. Code: ROMAN",
+    "es": "Casa en el tranquilo pueblo de Gospodinovo, cerca de Byala, con una gran parcela de 2.002 m²: espacio para huerto, frutales y descanso. El mar y las playas de Byala están a unos 15 km. Código: ROMAN"
    },
    "feat": {
     "bg": [
@@ -20090,11 +20003,11 @@
     "es": "Casa de dos plantas de 132 m² en Kosharitsa"
    },
    "desc": {
-    "bg": "Къща на два етажа в живописното село Кошарица — на хълмовете над Слънчев бряг, сред зеленина и тишина. Морето е на около 3 км, Акт 16, такса поддръжка 7,20 €/м² годишно.",
-    "ru": "Дом на два этажа в живописном селе Кошарица — на холмах над Солнечным берегом, среди зелени и тишины. До моря около 3 км, Акт 16, обслуживание 7,20 €/м² в год.",
-    "en": "A two-storey house in the picturesque village of Kosharitsa, in the green, quiet hills above Sunny Beach. About 3 km to the sea, Act 16, maintenance €7.20/m² a year.",
-    "de": "Ein zweistöckiges Haus im malerischen Dorf Kosharitsa, in den ruhigen grünen Hügeln über dem Sonnenstrand. Ca. 3 km zum Meer, Akt 16, Hausgebühr 7,20 €/m² pro Jahr.",
-    "es": "Casa de dos plantas en el pintoresco pueblo de Kosharitsa, en las colinas verdes y tranquilas sobre Sunny Beach. A unos 3 km del mar, Acta 16, cuota 7,20 €/m² al año."
+    "bg": "Къща на два етажа в живописното село Кошарица — на хълмовете над Слънчев бряг, сред зеленина и тишина. Морето е на около 3 км, Акт 16, такса поддръжка 7,20 €/м² годишно. Код: ROMAN",
+    "ru": "Дом на два этажа в живописном селе Кошарица — на холмах над Солнечным берегом, среди зелени и тишины. До моря около 3 км, Акт 16, обслуживание 7,20 €/м² в год. Код: ROMAN",
+    "en": "A two-storey house in the picturesque village of Kosharitsa, in the green, quiet hills above Sunny Beach. About 3 km to the sea, Act 16, maintenance €7.20/m² a year. Code: ROMAN",
+    "de": "Ein zweistöckiges Haus im malerischen Dorf Kosharitsa, in den ruhigen grünen Hügeln über dem Sonnenstrand. Ca. 3 km zum Meer, Akt 16, Hausgebühr 7,20 €/m² pro Jahr. Code: ROMAN",
+    "es": "Casa de dos plantas en el pintoresco pueblo de Kosharitsa, en las colinas verdes y tranquilas sobre Sunny Beach. A unos 3 km del mar, Acta 16, cuota 7,20 €/m² al año. Código: ROMAN"
    },
    "feat": {
     "bg": [
