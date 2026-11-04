@@ -90,7 +90,7 @@ function langPath() {
 function setLang(l) {
   lang = l; T = I18N[l]; store.set('veni-lang', l); track('language', {language: l});
   langPath();
-  buildItems(); applyTexts(); render();
+  buildItems(); applyTexts(); render(true);
   if (opened) openItem(opened, null, false);
 }
 
@@ -146,8 +146,11 @@ function renderChips() {
 }
 function filtersActive() { return !!(type || $('search').value.trim() || ['city', 'budget', 'beds', 'area'].some(id => $(id).value)); }
 function resetFilters() { type = ''; $('search').value = ''; ['city', 'budget', 'beds', 'area'].forEach(id => $(id).value = ''); $('sort').value = 'default'; render(); }
-function render() {
+let shown = 24; // сколько карточек показано (остальные — по кнопке «Показать ещё»)
+function render(keep) {
+  if (!keep) shown = 24;
   let data = items.filter(p => matches(p));
+  const total = data.length;
   const sv = $('sort').value, ppm = p => p.area ? p.price / p.area : Infinity;
   data.sort(sv === 'asc' ? (a, b) => a.price - b.price : sv === 'desc' ? (a, b) => b.price - a.price :
     sv === 'area' ? (a, b) => (b.area || 0) - (a.area || 0) : sv === 'ppm' ? (a, b) => ppm(a) - ppm(b) :
@@ -156,10 +159,12 @@ function render() {
   $('reset').hidden = !filtersActive();
   $('count').textContent = (onlyFav ? T.favPrefix : '') + T.count(data.length);
   $('favBtn').textContent = fav.size ? T.navFavN(fav.size) : T.navFav;
+  data = data.slice(0, shown);
   $('grid').innerHTML = data.map(p => `<article class="card"><div class="picture" role="button" tabindex="0" aria-label="${esc(T.open)}: ${esc(p.title)}" onclick="openItem(${p.id},this)" onkeydown="if(event.key==='Enter')openItem(${p.id},this)"><img referrerpolicy="no-referrer" loading="lazy" src="${esc(p.img)}" alt="${esc(p.title)}"><span class="tag">${esc(p.type.toUpperCase())}${p.videos.length ? ' · ▶ ' + esc(T.videoT.toUpperCase()) : ''}</span><button class="heart ${fav.has(p.id) ? 'on' : ''}" aria-label="${esc(fav.has(p.id) ? T.removeFav : T.addFav)}" aria-pressed="${fav.has(p.id)}" onclick="event.stopPropagation();toggleFav(${p.id})">${fav.has(p.id) ? '♥' : '♡'}</button></div><h3>${esc(p.title)}</h3><div class="row"><span>${esc(p.city)}${p.desc ? ' · ' + esc(p.desc) : ''}</span><span>${p.area ? p.area + ' ' + T.m + '²' : ''}</span></div><div class="price">${money(p.price)}</div><button class="more" onclick="openItem(${p.id},this.closest('.card').querySelector('.picture'))">${esc(T.more)}</button></article>`).join('')
     || `<p class="muted">${esc(onlyFav ? T.favEmpty : T.noneFound)}</p>`;
+  $('moreBtn').hidden = total <= shown; $('moreBtn').textContent = T.showMore(total - shown);
 }
-function toggleFav(id) { track(fav.has(id) ? 'favorite_remove' : 'favorite_add', {object_id: id}); fav.has(id) ? fav.delete(id) : fav.add(id); store.set('veni-fav', [...fav]); render(); }
+function toggleFav(id) { track(fav.has(id) ? 'favorite_remove' : 'favorite_add', {object_id: id}); fav.has(id) ? fav.delete(id) : fav.add(id); store.set('veni-fav', [...fav]); render(true); }
 function explore() { onlyFav = false; render(); document.querySelector('.hero').classList.add('zoom'); $('catalog').scrollIntoView({behavior: 'smooth'}); }
 function showFav() { onlyFav = !onlyFav; render(); $('catalog').scrollIntoView({behavior: 'smooth'}); }
 
@@ -291,6 +296,7 @@ $('sellWa').addEventListener('click', () => {
 
 /* ===== События ===== */
 ['search', 'city', 'budget', 'beds', 'area', 'sort'].forEach(id => $(id).addEventListener('input', () => { render(); track('catalog_filter', {filter: id}); }));
+$('moreBtn').addEventListener('click', () => { shown += 24; render(true); track('catalog_more'); });
 $('reset').addEventListener('click', () => { resetFilters(); track('catalog_filter_reset'); });
 $('chips').addEventListener('click', e => { const b = e.target.closest('button'); if (!b || b.disabled) return; type = b.dataset.type; render(); });
 document.addEventListener('click', e => { const b = e.target.closest('[data-country]'); if (b) setCountry(b.dataset.country, b.classList.contains('ctry')); });
