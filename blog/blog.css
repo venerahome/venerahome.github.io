@@ -192,3 +192,32 @@ main.list>.back{display:inline-block;margin-bottom:22px}
 .r-step{margin:14px 0 0;padding:14px 16px;background:var(--soft);border-radius:6px;font-size:15px;line-height:1.6}
 .r-country .btn{margin-top:18px}
 @media(max-width:760px){.r-grid{grid-template-columns:1fr;gap:16px;margin:32px 0}.r-country{padding:24px 20px}}
+
+/* лендинг блогов: всё на одном экране */
+main.land{padding-top:34px}
+.land-head{display:grid;grid-template-columns:auto 1fr auto;gap:26px;align-items:center;padding-bottom:26px;border-bottom:1px solid var(--line)}
+.land-head .mini{width:112px;height:112px;border-radius:50%;object-fit:cover;object-position:50% 12%;border:3px solid var(--card);box-shadow:0 0 0 1px var(--gold-l),0 10px 24px #0001}
+.land-head h1{font:600 clamp(30px,3.4vw,44px)/1.15 var(--serif);margin:6px 0 6px}
+.land-head .lead{margin:0;font-size:16px;line-height:1.6;max-width:640px}
+.land-head .btns{flex-direction:column;align-items:stretch;gap:10px}
+.land-head .btns .btn{text-align:center;padding:12px 20px;font-size:14px}
+.land .blog-picks{margin:28px 0 40px}
+.land .blog-pick{position:relative;overflow:hidden;min-height:360px;justify-content:flex-end;background-size:cover;background-position:center}
+.land .blog-pick.c-greece{background-image:linear-gradient(180deg,rgba(28,69,99,.05) 0%,rgba(28,69,99,.55) 38%,rgba(20,52,76,.94) 72%),url(/assets/country-gr.jpg)}
+.land .blog-pick.c-bulgaria{background-image:linear-gradient(180deg,rgba(38,58,54,.05) 0%,rgba(38,58,54,.55) 38%,rgba(28,44,41,.95) 72%),url(/assets/country-bg.jpg)}
+.land .blog-pick strong{font-size:clamp(28px,3vw,38px)}
+.land .blog-pick .b-desc{font-size:15px}
+.land .blog-pick .b-last{margin-top:4px}
+@media(max-width:900px){.land-head{grid-template-columns:auto 1fr}.land-head .btns{grid-column:1/-1;flex-direction:row;flex-wrap:wrap}}
+@media(max-width:600px){.land-head{gap:16px}.land-head .mini{width:76px;height:76px}.land-head .lead{font-size:15px}.land .blog-pick{min-height:300px}}
+main.land{padding-top:22px}
+.land-head{padding-bottom:18px;gap:22px}
+.land-head .mini{width:92px;height:92px}
+.land-head h1{margin:4px 0}
+.land .blog-picks{margin:20px 0 40px}
+.land .blog-pick{min-height:0;height:clamp(300px,calc(100svh - 330px),420px);padding:26px 26px 24px;gap:10px}
+.land .blog-pick .b-desc{display:none}
+.land .blog-pick .b-last{border-top:0;padding-top:0}
+.land .blog-pick .btn{padding:12px 22px}
+@media(max-width:760px){.land .blog-pick{height:300px}}
+@media(max-width:600px){.land-head .mini{width:70px;height:70px}.land-head h1{font-size:28px}.land-head .btns{flex-direction:row}.land-head .btns .btn{flex:1;padding:11px 10px;font-size:13px}.land .blog-pick{height:270px}}

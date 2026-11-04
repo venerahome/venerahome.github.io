@@ -389,7 +389,7 @@ def head(lang, title, desc, url, image, alts, typ="website"):
 <link rel="alternate" type="application/rss+xml" title="VENI" href="{SITE}{base(lang)}rss.xml">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap">
-<link rel="stylesheet" href="/blog/blog.css?v=7">
+<link rel="stylesheet" href="/blog/blog.css?v=8">
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-73W576V144"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments)}}gtag('js',new Date());gtag('config','G-73W576V144');</script>
 </head>
@@ -669,15 +669,15 @@ def build(force_og=False):
                     f'<strong>{esc(X[b]["name"])}</strong><span class="b-desc">{esc(X[b]["desc"])}</span>{lt}<span class="btn">{esc(X["open"])} →</span></a>')
         idx = f"""{head(lang, t['title'], t['desc'], SITE + base(lang), SITE + '/blog/og/blog-' + lang + '.jpg', alts)}
 {topbar(lang, alts)}
-<main class="list">
-  <section class="intro">
-    <img class="portrait" src="/assets/venera.jpg" alt="{esc(t['name'])}" width="800" height="1067">
+<main class="list land">
+  <section class="land-head">
+    <img class="mini" src="/assets/venera.jpg" alt="{esc(t['name'])}" width="160" height="160">
     <div>
       <span class="kicker">{t['heroKicker']}</span>
       <h1>{esc(X['landT'])}</h1>
-      <p class="lead">{esc(t['heroLead'])} {esc(X['landLead'])}</p>
-      {buttons(lang)}
+      <p class="lead">{esc(X['landLead'])}</p>
     </div>
+    {buttons(lang)}
   </section>
   <section class="blog-picks">{bcard('greece')}{bcard('bulgaria')}</section>
   <section class="sub"><div><h2>{t['subT']}</h2><p>{t['subText']}</p></div><a class="btn" href="https://t.me/{TG}" target="_blank" rel="noopener">{t['btnTg']} ↗</a></section>
