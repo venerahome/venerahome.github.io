@@ -6,13 +6,12 @@
 import os, re
 R = os.path.dirname(os.path.abspath(__file__))
 SITE = "https://venihomes.eu"
-LANGS = ["bg", "ru", "en", "de", "es"]
+LANGS = ["bg", "ru", "en", "de"]
 META = {
   "bg": ("VENI — вашият личен консултант по недвижими имоти", "Апартаменти, къщи и вили в Гърция и България. Личен подход от Венера Хасанова — от избора до ключовете.", "bg_BG"),
   "ru": ("VENI — ваш личный консультант по недвижимости", "Квартиры, дома и виллы в Греции и Болгарии. Личный подход Венеры Хасановой — от выбора до ключей.", "ru_RU"),
   "en": ("VENI — your personal real estate consultant", "Apartments, houses and villas in Greece and Bulgaria. Venera Khassanova's personal approach, from choice to keys.", "en_GB"),
   "de": ("VENI — Ihre persönliche Immobilienberaterin", "Wohnungen, Häuser und Villen in Griechenland und Bulgarien. Persönliche Begleitung von Venera Khassanova, von der Auswahl bis zum Schlüssel.", "de_DE"),
-  "es": ("VENI — su asesora inmobiliaria personal", "Pisos, casas y villas en Grecia y Bulgaria. El trato personal de Venera Khassanova, de la elección a las llaves.", "es_ES"),
 }
 COUNTRY = {  # витрины стран: (заголовок, описание)
   "greece": {
@@ -20,14 +19,12 @@ COUNTRY = {  # витрины стран: (заголовок, описание)
     "ru": ("Недвижимость в Греции — VENI", "Дома у моря, виллы и квартиры в Северной Греции, на Халкидиках и островах. Объекты под Золотую визу. Венера Хасанова."),
     "en": ("Property in Greece — VENI", "Seaside houses, villas and flats in Northern Greece, Halkidiki and the islands. Golden Visa options. Venera Khassanova."),
     "de": ("Immobilien in Griechenland — VENI", "Häuser am Meer, Villen und Wohnungen in Nordgriechenland, Chalkidiki und auf den Inseln. Golden Visa. Venera Khassanova."),
-    "es": ("Inmuebles en Grecia — VENI", "Casas junto al mar, villas y pisos en el norte de Grecia, Calcídica y las islas. Opciones Golden Visa. Venera Khassanova."),
   },
   "bulgaria": {
     "bg": ("Имоти в България — VENI", "Апартаменти, къщи, парцели и търговски имоти в Бургас, Слънчев бряг, Несебър, Свети Влас и по морето. Венера Хасанова."),
     "ru": ("Недвижимость в Болгарии — VENI", "Квартиры, дома, участки и коммерция в Бургасе, Солнечном береге, Несебре, Святом Власе и у моря. Венера Хасанова."),
     "en": ("Property in Bulgaria — VENI", "Flats, houses, plots and commercial property in Burgas, Sunny Beach, Nessebar, Sveti Vlas and along the coast. Venera Khassanova."),
     "de": ("Immobilien in Bulgarien — VENI", "Wohnungen, Häuser, Grundstücke und Gewerbe in Burgas, Sonnenstrand, Nessebar, Sveti Vlas und an der Küste. Venera Khassanova."),
-    "es": ("Inmuebles en Bulgaria — VENI", "Pisos, casas, parcelas y locales en Burgas, Sunny Beach, Nesebar, Sveti Vlas y la costa. Venera Khassanova."),
   },
 }
 CODE = {"greece": "gr", "bulgaria": "bg"}

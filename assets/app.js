@@ -20,7 +20,7 @@ if (GA_ID) {
   window.dataLayer = window.dataLayer || []; window.gtag = function () { dataLayer.push(arguments); }; gtag('js', new Date()); gtag('config', GA_ID);
 }
 const track = (name, params) => { try { if (window.gtag) gtag('event', name, params || {}); } catch (e) {} };
-const LANGS = ['bg', 'ru', 'en', 'de', 'es'];
+const LANGS = ['bg', 'ru', 'en', 'de']; // испанский убран 04.11.2026 (ссылки /es/ ведут на английский)
 const WHATSAPP = CONTACTS.whatsapp.replace(/\D/g, '');
 const fmtPhone = n => n.replace(/^\+359(\d{3})(\d{3})(\d{3})$/, '+359 $1 $2 $3');
 let D = window.LISTINGS_DATA || {listings: [], places: {}};
@@ -34,7 +34,7 @@ let lang = (() => {
   if (LANGS.includes(q)) { store.set('veni-lang', q); return q; }
   if (LANGS.includes(window.PAGE_LANG)) { store.set('veni-lang', window.PAGE_LANG); return window.PAGE_LANG; }
   const s = store.get('veni-lang', null); if (LANGS.includes(s)) return s;
-  const n = (navigator.language || '').slice(0, 2); return LANGS.includes(n) ? n : 'ru';
+  const n = (navigator.language || '').slice(0, 2); return LANGS.includes(n) ? n : n === 'es' ? 'en' : 'ru';
 })();
 let T = I18N[lang];
 const pick = o => (o && (o[lang] || o.ru || o.en || Object.values(o)[0])) || '';
