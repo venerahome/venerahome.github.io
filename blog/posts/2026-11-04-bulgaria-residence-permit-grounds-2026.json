@@ -3,7 +3,7 @@
  "date": "2026-11-04",
  "category": "bulgaria",
  "cta": "contact",
- "status": "published",
+ "status": "draft",
  "stat": {
   "value": {"ru": "€306 775", "bg": "€306 775", "en": "€306,775", "de": "306.775 €", "es": "306.775 €"},
   "label": {
