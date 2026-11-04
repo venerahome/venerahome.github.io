@@ -1,0 +1,36 @@
+name: Фото партнёрских объектов из Google Drive
+
+on:
+  workflow_dispatch:
+    inputs:
+      all:
+        description: "Обновить фото у всех (yes) или только у объектов без фото"
+        required: false
+        default: "no"
+  push:
+    branches: [main]
+    paths: ["data/listings.json"]
+
+concurrency:
+  group: site-data
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  photos:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Найти фото в папках Drive
+        run: python3 .github/scripts/drive_photos.py ${{ github.event.inputs.all == 'yes' && '--all' || '' }}
+      - name: Пересобрать сайт и сохранить
+        run: |
+          if git diff --quiet data/listings.json; then echo "Без изменений"; exit 0; fi
+          python3 update_listings.py
+          git config user.name "VENI bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          git commit -m "Фото партнёрских объектов из Google Drive [no-announce]"
+          git pull --rebase && git push

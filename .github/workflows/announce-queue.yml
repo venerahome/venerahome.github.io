@@ -1,0 +1,47 @@
+name: Очередь объектов → Telegram (10:00 и 19:00)
+
+# Публикует по одному объекту из data/announce_queue.json дважды в день по времени Софии.
+# Крон в UTC указан с запасом на летнее/зимнее время; лишние запуски сами себя пропускают.
+on:
+  schedule:
+    - cron: "5 7,8,16,17 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: site-data
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Проверить время (София)
+        id: slot
+        run: |
+          H=$(TZ=Europe/Sofia date +%H); SLOT=$(TZ=Europe/Sofia date +%Y-%m-%dT%H)
+          LAST=$(python3 -c "import json;print(json.load(open('data/announce_queue.json')).get('last_slot',''))")
+          LEFT=$(python3 -c "import json;print(len(json.load(open('data/announce_queue.json'))['queue']))")
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then GO=1
+          elif { [ "$H" = "10" ] || [ "$H" = "19" ]; } && [ "$SLOT" != "$LAST" ] && [ "$LEFT" != "0" ]; then GO=1; else GO=0; fi
+          echo "go=$GO" >> $GITHUB_OUTPUT; echo "slot=$SLOT" >> $GITHUB_OUTPUT
+          echo "Час в Софии: $H, слот $SLOT, последний $LAST, в очереди $LEFT → публикую: $GO"
+      - name: Опубликовать один объект
+        if: steps.slot.outputs.go == '1'
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+          FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+          SLOT: ${{ steps.slot.outputs.slot }}
+        run: python3 .github/scripts/announce_listings.py --queue data/announce_queue.json
+      - name: Сохранить очередь
+        if: steps.slot.outputs.go == '1'
+        run: |
+          git config user.name "VENI bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/announce_queue.json
+          git diff --cached --quiet || { git commit -m "Очередь Telegram: опубликован объект [no-announce]"; git pull --rebase && git push; }

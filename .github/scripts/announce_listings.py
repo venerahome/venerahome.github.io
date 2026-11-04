@@ -96,7 +96,34 @@ def fb_publish(p, places):
     print("  Facebook:", "ok" if (r.get("id") or r.get("post_id")) else r)
     return bool(r.get("id") or r.get("post_id"))
 
+def queue_mode(qpath):
+    """Публикует ОДИН объект из очереди (по расписанию 10:00 и 19:00 по Софии) и убирает его из очереди."""
+    q = json.load(open(qpath, encoding="utf-8"))
+    new = load("data/listings.json")
+    by = {l["code"]: l for l in new["listings"]}
+    tg_on = bool(os.environ.get("TELEGRAM_BOT_TOKEN") and os.environ.get("TELEGRAM_CHAT_ID"))
+    fb_on = bool(os.environ.get("FB_PAGE_ID") and os.environ.get("FB_PAGE_TOKEN"))
+    while q["queue"]:
+        code = q["queue"].pop(0)
+        p = by.get(code)
+        if not p or not p.get("photos"):           # объект сняли или ещё нет фото — пропускаем / вернём в конец
+            if p: q["queue"].append(code)
+            if p and all(not by.get(c, {}).get("photos") for c in q["queue"]): break
+            continue
+        print("Объект", code, (p.get("title") or {}).get("ru", ""))
+        ok = True
+        if tg_on: ok = publish(p, new.get("places", {})) and ok
+        if fb_on: ok = fb_publish(p, new.get("places", {})) and ok
+        if not ok: q["queue"].insert(0, code)
+        break
+    q["last_slot"] = os.environ.get("SLOT", "")
+    json.dump(q, open(qpath, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    print("Осталось в очереди:", len(q["queue"]))
+    return 0
+
 def main():
+    if len(sys.argv) > 2 and sys.argv[1] == "--queue":
+        return queue_mode(sys.argv[2])
     tg_on = bool(os.environ.get("TELEGRAM_BOT_TOKEN") and os.environ.get("TELEGRAM_CHAT_ID"))
     fb_on = bool(os.environ.get("FB_PAGE_ID") and os.environ.get("FB_PAGE_TOKEN"))
     print("Telegram:", "вкл" if tg_on else "ключи не заданы", "| Facebook:", "вкл" if fb_on else "ключи не заданы")
