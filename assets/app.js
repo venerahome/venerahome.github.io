@@ -130,7 +130,7 @@ function renderCountries() {
   $('ctabs').innerHTML = [['', T.ctryAll], ['gr', '🇬🇷 ' + T.ctryGr], ['bg', '🇧🇬 ' + T.ctryBg]].map(([c, t]) =>
     `<button type="button" role="tab" aria-selected="${country === c}" class="${country === c ? 'active' : ''}" data-country="${c}">${esc(t)}<small>${n(c)}</small></button>`).join('');
   const img = c => (items.find(p => p.country === c && p.featured && p.img) || items.find(p => p.country === c && p.img) || {}).img || '';
-  $('ctryCards').innerHTML = [['gr', T.ctryGr, T.ctryGrText], ['bg', T.ctryBg, T.ctryBgText]].map(([c, t, d]) =>
+  if ($('ctryCards')) $('ctryCards').innerHTML = [['gr', T.ctryGr, T.ctryGrText], ['bg', T.ctryBg, T.ctryBgText]].map(([c, t, d]) =>
     `<button type="button" class="ctry" data-country="${c}"><img referrerpolicy="no-referrer" loading="lazy" src="${esc(CIMG[c] || img(c))}" alt=""><div><strong>${esc(t)}</strong><p>${esc(d)}</p><span>${esc(T.ctryCta(n(c)))}</span></div></button>`).join('');
 }
 function setCountry(c, scroll) {
