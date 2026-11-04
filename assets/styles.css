@@ -183,3 +183,5 @@ main{padding-top:40px}
 #catalog .intro .muted{margin:0 0 10px}
 #catalog+.countries{margin-top:90px}
 @media(max-width:520px){main{padding-top:28px}}
+
+@media(max-width:850px){header .head-links a[data-i="headAbout"]{display:inline-block;font-size:12px;letter-spacing:1px;padding:6px 0;white-space:nowrap}}

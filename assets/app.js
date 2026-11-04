@@ -127,6 +127,7 @@ function matches(p, skipType) {
 }
 function renderCountries() {
   const n = c => items.filter(p => !c || p.country === c).length;
+  document.querySelectorAll('.hero-ctry a').forEach(x => x.textContent = T[x.dataset.country === 'bg' ? 'heroBg' : 'heroGr'].replace(' ↗', '') + ' · ' + n(x.dataset.country) + ' ↗');
   $('ctabs').innerHTML = [['', T.ctryAll], ['gr', '🇬🇷 ' + T.ctryGr], ['bg', '🇧🇬 ' + T.ctryBg]].map(([c, t]) =>
     `<button type="button" role="tab" aria-selected="${country === c}" class="${country === c ? 'active' : ''}" data-country="${c}">${esc(t)}<small>${n(c)}</small></button>`).join('');
   const img = c => (items.find(p => p.country === c && p.featured && p.img) || items.find(p => p.country === c && p.img) || {}).img || '';

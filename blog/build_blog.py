@@ -401,7 +401,7 @@ def topbar(lang, alts, b=None):
     langs = "".join(f'<a href="{alts[l]}"{cur if l == lang else ""}>{l.upper()}</a>' for l in LANGS)
     return f"""<header class="bar">
   <a href="{home(lang)}" class="logo">VENI<span>REAL ESTATE</span></a>
-  <nav class="links"><a href="{blink}" class="on">{esc(BX[lang][b]["name"]) if b else t['blog']}</a><a href="{home(lang)}#catalog">{t['catalog']}</a><a href="{rel(lang)}">{esc(RX[lang]["menu"])}</a></nav>
+  <nav class="links"><a href="{blink}" class="on">{esc(BX[lang][b]["name"]) if b else t['blog']}</a><a href="{home(lang)}#catalog">{t['catalog']}</a><a href="{rel(lang)}">{esc(RX[lang]["menu"])}</a><a href="{home(lang)}#about">{ {"ru":"Обо мне","bg":"За мен","en":"About me","de":"Über mich","es":"Sobre mí"}[lang] }</a></nav>
   <span class="langs">{langs}</span>
 </header>"""
 
