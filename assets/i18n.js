@@ -22,11 +22,11 @@ ru: { ctryGr: 'Греция', ctryBg: 'Болгария', ctryAll: 'Все ст�
   bedrooms: n => `${n} ${ruPlural(n, 'спальня', 'спальни', 'спален')}`, seafrontShort: 'на берегу',
   howEyebrow: '02 / Как я работаю', howTitle: 'От первого звонка до ключей',
   steps: [
-    ['Подбор', 'Обсуждаем бюджет, район и цель: отдых, жизнь или сдача в аренду.'],
-    ['Показ', 'Вас встретят на месте и покажут лучшее под ваш бюджет. Я много лет работаю с проверенными агентствами.'],
-    ['ΑΦΜ и счёт', 'Помогаю получить греческий налоговый номер ΑΦΜ и открыть счёт в Греции (при необходимости).'],
-    ['Проверка', 'Адвокат проверяет собственность, обременения и разрешения.'],
-    ['Нотариус', 'Подписание у нотариуса и регистрация в Κτηματολόγιο.']
+    ["Связь", "Вы пишете мне в WhatsApp, Viber или Telegram."],
+    ["Подбор", "Обсуждаем бюджет, район и цель: отдых, жизнь или сдача в аренду."],
+    ["Показ", "Вас встречу лично я или мои коллеги на месте, и мы подберём лучшее под ваш бюджет. Я много лет работаю с проверенными агентствами."],
+    ["Проверка", "Адвокат проверяет собственность, обременения и разрешения."],
+    ["Нотариус", "Подписание у нотариуса и регистрация вашей недвижимости."]
   ],
   aboutEyebrow: 'Лично. Внимательно. На каждом шаге.', aboutTitle: 'Меня зовут Венера Хасанова',
   aboutText: 'Помогаю подобрать недвижимость в Греции и Болгарии и сопровождаю покупку. Я сама купила дом в Греции и восстанавливаю его, поэтому знаю этот путь изнутри.',
@@ -70,11 +70,11 @@ bg: { ctryGr: 'Гърция', ctryBg: 'България', ctryAll: 'Всички
   bedrooms: n => `${n} ${n === 1 ? 'спалня' : 'спални'}`, seafrontShort: 'на брега',
   howEyebrow: '02 / Как работя', howTitle: 'От първото обаждане до ключовете',
   steps: [
-    ['Подбор', 'Обсъждаме бюджет, район и цел: почивка, живеене или отдаване под наем.'],
-    ['Оглед', 'Ще ви посрещнат на място и ще ви покажат най-доброто за вашия бюджет. Работя с проверени агенции от години.'],
-    ['ΑΦΜ и сметка', 'Помагам с гръцки данъчен номер ΑΦΜ и банкова сметка в Гърция (при необходимост).'],
-    ['Проверка', 'Адвокат проверява собствеността, тежестите и разрешенията.'],
-    ['Нотариус', 'Подписване при нотариус и вписване в Κτηματολόγιο.']
+    ["Връзка", "Пишете ми в WhatsApp, Viber или Telegram."],
+    ["Подбор", "Обсъждаме бюджет, район и цел: почивка, живеене или отдаване под наем."],
+    ["Оглед", "На място ще ви посрещна лично аз или моите колеги и ще подберем най-доброто за вашия бюджет. От години работя с проверени агенции."],
+    ["Проверка", "Адвокат проверява собствеността, тежестите и разрешенията."],
+    ["Нотариус", "Подписване при нотариус и регистрация на вашия имот."]
   ],
   aboutEyebrow: 'Лично. Внимателно. На всяка стъпка.', aboutTitle: 'Казвам се Венера Хасанова',
   aboutText: 'Помагам да изберете имот в Гърция и България и ви придружавам при покупката. Самата аз купих къща в Гърция и я възстановявам, затова познавам този път отвътре.',
@@ -118,11 +118,11 @@ en: { ctryGr: 'Greece', ctryBg: 'Bulgaria', ctryAll: 'All countries', ctryEyebro
   bedrooms: n => `${n} ${n === 1 ? 'bedroom' : 'bedrooms'}`, seafrontShort: 'on the shore',
   howEyebrow: '02 / How I work', howTitle: 'From the first call to the keys',
   steps: [
-    ['Selection', 'We discuss budget, area and purpose: holidays, living or renting out.'],
-    ['Viewing', 'You will be met on site and shown the best options for your budget. I have worked with trusted agencies for years.'],
-    ['ΑΦΜ and bank', 'I help you get a Greek tax number ΑΦΜ and open a Greek bank account (if needed).'],
-    ['Due diligence', 'A lawyer checks ownership, encumbrances and permits.'],
-    ['Notary', 'Signing at the notary and registration in the Κτηματολόγιο land registry.']
+    ["Contact", "You message me on WhatsApp, Viber or Telegram."],
+    ["Selection", "We discuss budget, area and purpose: holidays, living or renting out."],
+    ["Viewing", "I or my colleagues will meet you in person and together we will find the best options for your budget. I have worked with trusted agencies for years."],
+    ["Due diligence", "A lawyer checks ownership, encumbrances and permits."],
+    ["Notary", "Signing at the notary and registration of your property."]
   ],
   aboutEyebrow: 'Personal. Attentive. At every step.', aboutTitle: 'My name is Venera Khassanova',
   aboutText: 'I help you choose property in Greece and Bulgaria and guide you through the purchase. I bought a house in Greece myself and I am restoring it, so I know this path from the inside.',
@@ -166,11 +166,11 @@ de: { ctryGr: 'Griechenland', ctryBg: 'Bulgarien', ctryAll: 'Alle Länder', ctry
   bedrooms: n => `${n} ${n === 1 ? 'Schlafzimmer' : 'Schlafzimmer'}`, seafrontShort: 'direkt am Strand',
   howEyebrow: '02 / So arbeite ich', howTitle: 'Vom ersten Anruf bis zum Schlüssel',
   steps: [
-    ['Auswahl', 'Wir besprechen Budget, Region und Ziel: Urlaub, Wohnen oder Vermietung.'],
-    ['Besichtigung', 'Sie werden vor Ort empfangen und bekommen das Beste für Ihr Budget gezeigt. Ich arbeite seit Jahren mit bewährten Agenturen zusammen.'],
-    ['ΑΦΜ und Konto', 'Ich helfe bei der griechischen Steuernummer ΑΦΜ und einem Bankkonto in Griechenland (falls nötig).'],
-    ['Prüfung', 'Ein Anwalt prüft Eigentum, Belastungen und Genehmigungen.'],
-    ['Notar', 'Unterzeichnung beim Notar und Eintragung im Κτηματολόγιο (Grundbuch).']
+    ["Kontakt", "Sie schreiben mir per WhatsApp, Viber oder Telegram."],
+    ["Auswahl", "Wir besprechen Budget, Region und Ziel: Urlaub, Wohnen oder Vermietung."],
+    ["Besichtigung", "Ich selbst oder meine Kollegen empfangen Sie vor Ort, und wir finden gemeinsam das Beste für Ihr Budget. Ich arbeite seit Jahren mit bewährten Agenturen zusammen."],
+    ["Prüfung", "Ein Anwalt prüft Eigentum, Belastungen und Genehmigungen."],
+    ["Notar", "Unterzeichnung beim Notar und Registrierung Ihrer Immobilie."]
   ],
   aboutEyebrow: 'Persönlich. Aufmerksam. Bei jedem Schritt.', aboutTitle: 'Ich heiße Venera Khassanova',
   aboutText: 'Ich helfe Ihnen, eine Immobilie in Griechenland und Bulgarien zu finden, und begleite den Kauf. Ich habe selbst ein Haus in Griechenland gekauft und restauriere es, deshalb kenne ich diesen Weg von innen.',
@@ -214,11 +214,11 @@ es: { ctryGr: 'Grecia', ctryBg: 'Bulgaria', ctryAll: 'Todos los países', ctryEy
   bedrooms: n => `${n} ${n === 1 ? 'dormitorio' : 'dormitorios'}`, seafrontShort: 'en la orilla',
   howEyebrow: '02 / Cómo trabajo', howTitle: 'De la primera llamada a las llaves',
   steps: [
-    ['Selección', 'Hablamos de presupuesto, zona y objetivo: vacaciones, vivir o alquilar.'],
-    ['Visita', 'Le recibirán allí mismo y le mostrarán lo mejor para su presupuesto. Trabajo desde hace años con agencias de confianza.'],
-    ['ΑΦΜ y cuenta', 'Le ayudo a obtener el número fiscal griego ΑΦΜ y abrir una cuenta bancaria en Grecia (si es necesario).'],
-    ['Comprobación', 'Un abogado revisa la propiedad, las cargas y los permisos.'],
-    ['Notario', 'Firma ante notario e inscripción en el Κτηματολόγιο (catastro).']
+    ["Contacto", "Me escribe por WhatsApp, Viber o Telegram."],
+    ["Selección", "Hablamos de presupuesto, zona y objetivo: vacaciones, vivir o alquilar."],
+    ["Visita", "Yo misma o mis colegas le recibiremos allí y elegiremos lo mejor para su presupuesto. Trabajo desde hace años con agencias de confianza."],
+    ["Comprobación", "Un abogado revisa la propiedad, las cargas y los permisos."],
+    ["Notaría", "Firma ante notario y registro de su inmueble."]
   ],
   aboutEyebrow: 'Personal. Atenta. En cada paso.', aboutTitle: 'Me llamo Venera Khassanova',
   aboutText: 'Le ayudo a elegir un inmueble en Grecia y Bulgaria y le acompaño en la compra. Yo misma compré una casa en Grecia y la estoy restaurando, así que conozco este camino desde dentro.',
