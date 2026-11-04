@@ -68,7 +68,8 @@ function applyTexts() {
   document.querySelectorAll('[data-i-alt]').forEach(el => el.alt = T[el.dataset.iAlt]);
   document.querySelectorAll('.blog-link').forEach(a => a.href = (lang === 'ru' ? '/blog/' : '/blog/' + lang + '/') + (country ? CSLUG[country] + '/' : '')); // у каждой страны свой блог
   document.querySelectorAll('.gv-link').forEach(a => a.href = lang === 'ru' ? '/golden-visa/ru/' : '/golden-visa/en/');
-  document.querySelectorAll('.gv-banner, .head-links .gv-link').forEach(el => el.style.display = (lang === 'ru' || lang === 'en') ? '' : 'none'); // блок и ссылка ВНЖ в шапке — только RU и EN
+  document.querySelectorAll('.gv-banner').forEach(el => el.style.display = (lang === 'ru' || lang === 'en') ? '' : 'none'); // блок ВНЖ — только RU и EN
+  document.querySelectorAll('.head-links .gv-link').forEach(el => el.style.display = ((lang === 'ru' || lang === 'en') && country === 'gr') ? '' : 'none'); // пункт меню «ВНЖ в Греции» — только в разделе Греции (RU и EN)
   document.querySelectorAll('.hero-ctry a').forEach(x => x.href = '/' + lang + '/' + CSLUG[x.dataset.country] + '/');
   $('logo').href = '/' + lang + '/';
   $('lang').innerHTML = LANGS.map(l => `<button type="button" data-lang="${l}" aria-pressed="${l === lang}" title="${I18N[l].name}">${l.toUpperCase()}</button>`).join('');
