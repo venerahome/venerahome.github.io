@@ -221,3 +221,28 @@ main.land{padding-top:22px}
 .land .blog-pick .btn{padding:12px 22px}
 @media(max-width:760px){.land .blog-pick{height:300px}}
 @media(max-width:600px){.land-head .mini{width:70px;height:70px}.land-head h1{font-size:28px}.land-head .btns{flex-direction:row}.land-head .btns .btn{flex:1;padding:11px 10px;font-size:13px}.land .blog-pick{height:270px}}
+
+/* шапка блога страны: фото страны, маленький портрет */
+main.land>.back{margin-bottom:14px}
+.blog-banner{display:grid;grid-template-columns:auto 1fr auto;gap:26px;align-items:end;padding:120px 32px 30px;border-radius:8px;color:#f6f3ed;background-size:cover;background-position:center}
+.blog-banner.c-greece{background-image:linear-gradient(180deg,rgba(20,52,76,0) 0%,rgba(20,52,76,.55) 45%,rgba(20,52,76,.94) 100%),url(/assets/country-gr.jpg)}
+.blog-banner.c-bulgaria{background-image:linear-gradient(180deg,rgba(28,44,41,0) 0%,rgba(28,44,41,.55) 45%,rgba(28,44,41,.95) 100%),url(/assets/country-bg.jpg)}
+.blog-banner .mini{width:96px;height:96px;border-radius:50%;object-fit:cover;object-position:50% 12%;border:3px solid #f6f3ed}
+.blog-banner .kicker{color:var(--gold-l)}
+.blog-banner h1{font:600 clamp(30px,3.4vw,44px)/1.15 var(--serif);margin:6px 0 8px;color:#fff}
+.blog-banner .lead{margin:0;color:#e3e9e5;font-size:16px;line-height:1.6;max-width:620px}
+.blog-banner .btns{flex-direction:column;align-items:stretch;gap:10px}
+.blog-banner .btns .btn{text-align:center;padding:12px 20px;font-size:14px}
+.blog-banner .btns .btn:not(.ghost){background:#f6f3ed;color:var(--ink)}
+.blog-banner .btns .btn.ghost{color:#fff;border-color:#ffffffb3}
+.land .latest{margin-top:34px}
+@media(max-width:900px){.blog-banner{grid-template-columns:auto 1fr;padding-top:90px}.blog-banner .btns{grid-column:1/-1;flex-direction:row}}
+@media(max-width:600px){.blog-banner{padding:80px 20px 22px;gap:14px}.blog-banner .mini{width:64px;height:64px}.blog-banner h1{font-size:27px}.blog-banner .lead{font-size:15px}.blog-banner .btns .btn{flex:1;padding:11px 8px;font-size:13px}}
+@media(max-width:600px){
+ .bar .links{gap:14px;font-size:14px;overflow-x:auto;white-space:nowrap;scrollbar-width:none;max-width:100%}
+ .bar .links::-webkit-scrollbar{display:none}
+ .bar .links a{white-space:nowrap}
+ .blog-banner{grid-template-columns:1fr;align-items:start}
+ .blog-banner .mini{width:58px;height:58px}
+ .blog-banner .btns{grid-column:auto}
+}

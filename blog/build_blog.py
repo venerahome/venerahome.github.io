@@ -24,65 +24,65 @@ BX = {
 "ru": {
   "greece": {"name": "Блог о Греции", "title": "Блог о недвижимости в Греции — Венера Хасанова",
     "desc": "Цены, законы, Golden Visa и жизнь у моря в Греции — простыми словами. Блог консультанта Венеры Хасановой.",
-    "kicker": "Блог о Греции · свежие статьи", "h1": "Недвижимость в Греции — <em>честно и по-человечески</em>",
-    "lead": "Меня зовут Венера Хасанова. Я сама купила дом в Северной Греции и восстанавливаю его. Здесь простыми словами рассказываю о ценах, законах, ВНЖ и жизни у греческого моря.",
+    "kicker": "Блог о Греции · свежие статьи", "h1": "Недвижимость и жизнь в Греции",
+    "lead": "Цены, законы, Golden Visa и жизнь у греческого моря — простыми словами. Я сама купила здесь дом и знаю этот путь изнутри.",
     "trust": [["Северная Греция", "Кавала, Халкидики, острова"], ["Golden Visa", "ВНЖ через недвижимость"], ["Свой дом в Греции", "знаю путь изнутри"]]},
   "bulgaria": {"name": "Блог о Болгарии", "title": "Блог о недвижимости в Болгарии — Венера Хасанова",
     "desc": "Цены, налоги, ВНЖ и жизнь у моря в Болгарии — простыми словами. Блог консультанта Венеры Хасановой, офис в Бургасе.",
-    "kicker": "Блог о Болгарии · свежие статьи", "h1": "Недвижимость в Болгарии — <em>честно и по-человечески</em>",
-    "lead": "Меня зовут Венера Хасанова. С 2013 года я живу в Болгарии и работаю брокером в Бургасе. Здесь простыми словами рассказываю о ценах, налогах, ВНЖ и жизни на болгарском побережье.",
+    "kicker": "Блог о Болгарии · свежие статьи", "h1": "Недвижимость и жизнь в Болгарии",
+    "lead": "Цены, налоги, ВНЖ и жизнь на болгарском побережье — простыми словами. Живу в Болгарии с 2013 года, офис в Бургасе.",
     "trust": [["С 2013 года", "живу в Болгарии"], ["Офис в Бургасе", "более 200 сделок"], ["Всё побережье", "от Несебра до Созополя"]]},
   "landT": "Два моря — два блога", "landLead": "Я работаю в двух странах и пишу о каждой отдельно. Выберите, что вам интереснее.",
   "open": "Открыть блог", "posts": "статей", "other": {"greece": "Мой блог о Болгарии →", "bulgaria": "Мой блог о Греции →"}, "allBlogs": "Все блоги"},
 "bg": {
   "greece": {"name": "Блог за Гърция", "title": "Блог за недвижими имоти в Гърция — Венера Хасанова",
     "desc": "Цени, закони, Golden Visa и живот край морето в Гърция — с прости думи. Блогът на консултанта Венера Хасанова.",
-    "kicker": "Блог за Гърция · нови статии", "h1": "Недвижими имоти в Гърция — <em>честно и по човешки</em>",
-    "lead": "Казвам се Венера Хасанова. Самата аз купих къща в Северна Гърция и я възстановявам. Тук с прости думи разказвам за цените, законите, пребиваването и живота край гръцкото море.",
+    "kicker": "Блог за Гърция · нови статии", "h1": "Имоти и живот в Гърция",
+    "lead": "Цени, закони, Golden Visa и живот край гръцкото море — с прости думи. Самата аз купих къща тук и познавам пътя отвътре.",
     "trust": [["Северна Гърция", "Кавала, Халкидики, островите"], ["Golden Visa", "пребиваване чрез имот"], ["Моя къща в Гърция", "познавам пътя отвътре"]]},
   "bulgaria": {"name": "Блог за България", "title": "Блог за недвижими имоти в България — Венера Хасанова",
     "desc": "Цени, данъци, пребиваване и живот край морето в България — с прости думи. Блогът на консултанта Венера Хасанова, офис Бургас.",
-    "kicker": "Блог за България · нови статии", "h1": "Недвижими имоти в България — <em>честно и по човешки</em>",
-    "lead": "Казвам се Венера Хасанова. От 2013 г. живея в България и съм брокер в Бургас. Тук с прости думи разказвам за цените, данъците, пребиваването и живота по българското крайбрежие.",
+    "kicker": "Блог за България · нови статии", "h1": "Имоти и живот в България",
+    "lead": "Цени, данъци, пребиваване и живот по българското крайбрежие — с прости думи. Живея в България от 2013 г., офис в Бургас.",
     "trust": [["От 2013 г.", "живея в България"], ["Офис в Бургас", "над 200 сделки"], ["Цялото крайбрежие", "от Несебър до Созопол"]]},
   "landT": "Две морета — два блога", "landLead": "Работя в две държави и пиша за всяка поотделно. Изберете коя ви интересува.",
   "open": "Към блога", "posts": "статии", "other": {"greece": "Моят блог за България →", "bulgaria": "Моят блог за Гърция →"}, "allBlogs": "Всички блогове"},
 "en": {
   "greece": {"name": "Greece blog", "title": "Real estate in Greece blog — Venera Khassanova",
     "desc": "Prices, laws, the Golden Visa and life by the sea in Greece — in plain words. The blog of consultant Venera Khassanova.",
-    "kicker": "Greece blog · fresh articles", "h1": "Real estate in Greece — <em>honest and human</em>",
-    "lead": "My name is Venera Khassanova. I bought a house in Northern Greece myself and I am restoring it. Here I explain prices, laws, residency and life by the Greek sea in plain words.",
+    "kicker": "Greece blog · fresh articles", "h1": "Property and life in Greece",
+    "lead": "Prices, laws, the Golden Visa and life by the Greek sea — in plain words. I bought a house here myself and know the path first-hand.",
     "trust": [["Northern Greece", "Kavala, Halkidiki, the islands"], ["Golden Visa", "residency through property"], ["My own house in Greece", "I know the path first-hand"]]},
   "bulgaria": {"name": "Bulgaria blog", "title": "Real estate in Bulgaria blog — Venera Khassanova",
     "desc": "Prices, taxes, residency and life by the sea in Bulgaria — in plain words. The blog of consultant Venera Khassanova, Burgas office.",
-    "kicker": "Bulgaria blog · fresh articles", "h1": "Real estate in Bulgaria — <em>honest and human</em>",
-    "lead": "My name is Venera Khassanova. I have lived in Bulgaria since 2013 and work as a broker in Burgas. Here I explain prices, taxes, residency and life on the Bulgarian coast in plain words.",
+    "kicker": "Bulgaria blog · fresh articles", "h1": "Property and life in Bulgaria",
+    "lead": "Prices, taxes, residency and life on the Bulgarian coast — in plain words. I have lived in Bulgaria since 2013, with an office in Burgas.",
     "trust": [["Since 2013", "living in Bulgaria"], ["Burgas office", "200+ deals"], ["The whole coast", "from Nessebar to Sozopol"]]},
   "landT": "Two seas — two blogs", "landLead": "I work in two countries and write about each one separately. Choose the one you are interested in.",
   "open": "Open the blog", "posts": "articles", "other": {"greece": "My Bulgaria blog →", "bulgaria": "My Greece blog →"}, "allBlogs": "All blogs"},
 "de": {
   "greece": {"name": "Griechenland-Blog", "title": "Blog über Immobilien in Griechenland — Venera Khassanova",
     "desc": "Preise, Gesetze, Golden Visa und Leben am Meer in Griechenland — einfach erklärt. Der Blog der Beraterin Venera Khassanova.",
-    "kicker": "Griechenland-Blog · neue Artikel", "h1": "Immobilien in Griechenland — <em>ehrlich und menschlich</em>",
-    "lead": "Ich bin Venera Khassanova. Ich habe selbst ein Haus in Nordgriechenland gekauft und restauriere es. Hier erkläre ich einfach Preise, Gesetze, Aufenthalt und das Leben am griechischen Meer.",
+    "kicker": "Griechenland-Blog · neue Artikel", "h1": "Immobilien und Leben in Griechenland",
+    "lead": "Preise, Gesetze, Golden Visa und Leben am griechischen Meer — einfach erklärt. Ich habe hier selbst ein Haus gekauft und kenne den Weg.",
     "trust": [["Nordgriechenland", "Kavala, Chalkidiki, Inseln"], ["Golden Visa", "Aufenthalt durch Immobilie"], ["Eigenes Haus in Griechenland", "ich kenne den Weg"]]},
   "bulgaria": {"name": "Bulgarien-Blog", "title": "Blog über Immobilien in Bulgarien — Venera Khassanova",
     "desc": "Preise, Steuern, Aufenthalt und Leben am Meer in Bulgarien — einfach erklärt. Der Blog der Beraterin Venera Khassanova, Büro Burgas.",
-    "kicker": "Bulgarien-Blog · neue Artikel", "h1": "Immobilien in Bulgarien — <em>ehrlich und menschlich</em>",
-    "lead": "Ich bin Venera Khassanova. Seit 2013 lebe ich in Bulgarien und arbeite als Maklerin in Burgas. Hier erkläre ich einfach Preise, Steuern, Aufenthalt und das Leben an der bulgarischen Küste.",
+    "kicker": "Bulgarien-Blog · neue Artikel", "h1": "Immobilien und Leben in Bulgarien",
+    "lead": "Preise, Steuern, Aufenthalt und Leben an der bulgarischen Küste — einfach erklärt. Ich lebe seit 2013 in Bulgarien, Büro in Burgas.",
     "trust": [["Seit 2013", "in Bulgarien"], ["Büro in Burgas", "über 200 Abschlüsse"], ["Die ganze Küste", "von Nessebar bis Sosopol"]]},
   "landT": "Zwei Meere — zwei Blogs", "landLead": "Ich arbeite in zwei Ländern und schreibe über jedes getrennt. Wählen Sie, was Sie interessiert.",
   "open": "Zum Blog", "posts": "Artikel", "other": {"greece": "Mein Bulgarien-Blog →", "bulgaria": "Mein Griechenland-Blog →"}, "allBlogs": "Alle Blogs"},
 "es": {
   "greece": {"name": "Blog de Grecia", "title": "Blog de inmuebles en Grecia — Venera Khassanova",
     "desc": "Precios, leyes, Golden Visa y vida junto al mar en Grecia, explicado con sencillez. El blog de la asesora Venera Khassanova.",
-    "kicker": "Blog de Grecia · artículos nuevos", "h1": "Inmuebles en Grecia — <em>con honestidad y cercanía</em>",
-    "lead": "Me llamo Venera Khassanova. Compré una casa en el norte de Grecia y la estoy restaurando. Aquí explico con sencillez precios, leyes, residencia y la vida junto al mar griego.",
+    "kicker": "Blog de Grecia · artículos nuevos", "h1": "Inmuebles y vida en Grecia",
+    "lead": "Precios, leyes, Golden Visa y vida junto al mar griego, explicado con sencillez. Compré aquí mi propia casa y conozco el camino.",
     "trust": [["Norte de Grecia", "Kavala, Calcídica, islas"], ["Golden Visa", "residencia por inversión"], ["Mi casa en Grecia", "conozco el camino"]]},
   "bulgaria": {"name": "Blog de Bulgaria", "title": "Blog de inmuebles en Bulgaria — Venera Khassanova",
     "desc": "Precios, impuestos, residencia y vida junto al mar en Bulgaria, explicado con sencillez. El blog de la asesora Venera Khassanova, oficina en Burgas.",
-    "kicker": "Blog de Bulgaria · artículos nuevos", "h1": "Inmuebles en Bulgaria — <em>con honestidad y cercanía</em>",
-    "lead": "Me llamo Venera Khassanova. Vivo en Bulgaria desde 2013 y trabajo como agente en Burgas. Aquí explico con sencillez precios, impuestos, residencia y la vida en la costa búlgara.",
+    "kicker": "Blog de Bulgaria · artículos nuevos", "h1": "Inmuebles y vida en Bulgaria",
+    "lead": "Precios, impuestos, residencia y vida en la costa búlgara, explicado con sencillez. Vivo en Bulgaria desde 2013, con oficina en Burgas.",
     "trust": [["Desde 2013", "vivo en Bulgaria"], ["Oficina en Burgas", "más de 200 operaciones"], ["Toda la costa", "de Nesebar a Sozopol"]]},
   "landT": "Dos mares, dos blogs", "landLead": "Trabajo en dos países y escribo sobre cada uno por separado. Elija el que le interese.",
   "open": "Ir al blog", "posts": "artículos", "other": {"greece": "Mi blog de Bulgaria →", "bulgaria": "Mi blog de Grecia →"}, "allBlogs": "Todos los blogs"},
@@ -389,7 +389,7 @@ def head(lang, title, desc, url, image, alts, typ="website"):
 <link rel="alternate" type="application/rss+xml" title="VENI" href="{SITE}{base(lang)}rss.xml">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap">
-<link rel="stylesheet" href="/blog/blog.css?v=8">
+<link rel="stylesheet" href="/blog/blog.css?v=10">
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-73W576V144"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments)}}gtag('js',new Date());gtag('config','G-73W576V144');</script>
 </head>
@@ -639,17 +639,16 @@ def build(force_og=False):
             grid = f'<section class="list-all"><div class="list-head"><h2 class="sec">{t["allPosts"]}</h2></div><div class="cards" id="cards">{rest}</div></section>' if len(bp) > 1 else ""
             idx = f"""{head(lang, bx['title'], bx['desc'], SITE + bbase(lang, b), SITE + '/blog/og/blog-' + lang + '.jpg', alts)}
 {topbar(lang, alts, b)}
-<main class="list blog-{b}">
+<main class="list land blog-{b}">
   <a class="back" href="{base(lang)}">← {esc(X['allBlogs'])}</a>
-  <section class="intro">
-    <img class="portrait" src="/assets/venera.jpg" alt="{esc(t['name'])}" width="800" height="1067">
+  <section class="blog-banner c-{b}">
+    <img class="mini" src="/assets/venera.jpg" alt="{esc(t['name'])}" width="160" height="160">
     <div>
       <span class="kicker">{esc(bx['kicker'])}</span>
       <h1>{bx['h1']}</h1>
       <p class="lead">{esc(bx['lead'])}</p>
-      <ul class="trust">{trust}</ul>
-      {buttons(lang)}
     </div>
+    {buttons(lang)}
   </section>
   {feat}
   {grid}
