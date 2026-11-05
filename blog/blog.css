@@ -246,3 +246,19 @@ main.land>.back{margin-bottom:14px}
  .blog-banner .mini{width:58px;height:58px}
  .blog-banner .btns{grid-column:auto}
 }
+
+/* «Переезд и ВНЖ» в стиле блогов */
+.blog-banner.c-reloc{background-image:linear-gradient(180deg,rgba(16,40,38,0) 0%,rgba(16,40,38,.5) 42%,rgba(16,40,38,.94) 100%),url(/assets/hero-sea.jpg);background-position:center 60%}
+.relocation .blog-banner h1 em{color:var(--gold-l)}
+.relocation .r-grid{margin-top:30px}
+.r-country{padding:0;overflow:hidden;border-top:0}
+.r-country .r-photo{height:150px;display:flex;align-items:flex-end;padding:0 28px 16px;background-size:cover;background-position:center}
+.r-country.c-greece .r-photo{background-image:linear-gradient(180deg,rgba(20,52,76,0) 30%,rgba(20,52,76,.85)),url(/assets/country-gr.jpg)}
+.r-country.c-bulgaria .r-photo{background-image:linear-gradient(180deg,rgba(28,44,41,0) 30%,rgba(28,44,41,.88)),url(/assets/country-bg.jpg)}
+.r-country .r-photo h2{color:#fff;margin:0}
+.r-country .routes{padding:4px 28px 0}
+.r-country .routes li:first-child{border-top:0}
+.r-country .r-step{margin:14px 28px 0}
+.r-country>.btn{margin:18px 28px 0}
+.r-country{padding-bottom:26px}
+@media(max-width:600px){.r-country .r-photo{height:120px;padding:0 20px 12px}.r-country .routes{padding:0 20px}.r-country .r-step{margin:12px 20px 0}.r-country>.btn{margin:16px 20px 0}}

@@ -389,7 +389,7 @@ def head(lang, title, desc, url, image, alts, typ="website"):
 <link rel="alternate" type="application/rss+xml" title="VENI" href="{SITE}{base(lang)}rss.xml">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap">
-<link rel="stylesheet" href="/blog/blog.css?v=10">
+<link rel="stylesheet" href="/blog/blog.css?v=11">
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-73W576V144"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments)}}gtag('js',new Date());gtag('config','G-73W576V144');</script>
 </head>
@@ -564,13 +564,14 @@ def build_relocation(posts):
                 items += f'<li><h3>{esc(name)}</h3><p>{esc(txt)}</p>{a}</li>'
             more = f'<a class="btn" href="{post_path(lang, post)}">{X["read"]}</a>' if post in pub else ""
             step = f'<p class="r-step">{esc(X["step"])}</p>' if c == "bg" else ""
-            return f'<section class="r-country c-{"greece" if c == "gr" else "bulgaria"}" id="{"greece" if c == "gr" else "bulgaria"}"><h2>{esc(X[c])}</h2><ul class="routes">{items}</ul>{step}{more}</section>'
+            return f'<section class="r-country c-{"greece" if c == "gr" else "bulgaria"}" id="{"greece" if c == "gr" else "bulgaria"}"><div class="r-photo"><h2>{esc(X[c])}</h2></div><ul class="routes">{items}</ul>{step}{more}</section>'
         page = f"""{head(lang, X['title'], X['desc'], url, SITE + '/assets/hero-sea.jpg', alts)}
 {topbar(lang, alts)}
-<main class="list relocation">
-  <section class="intro">
-    <img class="portrait" src="/assets/venera.jpg" alt="{esc(t['name'])}" width="800" height="1067">
-    <div><span class="kicker">{esc(X['kicker'])}</span><h1>{X['h1']}</h1><p class="lead">{esc(X['lead'])}</p>{buttons(lang)}</div>
+<main class="list land relocation">
+  <section class="blog-banner c-reloc">
+    <img class="mini" src="/assets/venera.jpg" alt="{esc(t['name'])}" width="160" height="160">
+    <div><span class="kicker">{esc(X['kicker'])}</span><h1>{X['h1']}</h1><p class="lead">{esc(X['lead'])}</p></div>
+    {buttons(lang)}
   </section>
   <div class="r-grid">{col('gr', GR_POST)}{col('bg', BG_POST)}</div>
   <aside class="cta-box"><h3>{esc(X['helpT'])}</h3><p>{esc(X['help'])}</p><a class="btn" href="https://wa.me/{WA}?text={quote(X['wa'])}" target="_blank" rel="noopener">{esc(X['helpB'])}</a></aside>
