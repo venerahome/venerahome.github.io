@@ -15,6 +15,7 @@ ROOT = os.path.dirname(R)
 SITE = "https://venihomes.eu"
 WA = "359882593077"
 TG = "home_greece"
+VB = "viber://chat?number=%2B359882593077"
 LANGS = ["ru", "bg", "en", "de"]   # испанский убран 04.11.2026
 LOCALE = {"ru": "ru_RU", "bg": "bg_BG", "en": "en_GB", "de": "de_DE", "es": "es_ES"}
 COLORS = {"greece": "#1c4563", "bulgaria": "#263a36", "europe": "#4b3446"}
@@ -98,6 +99,7 @@ def blog_of(p): return p.get("blog") or ("bulgaria" if p.get("category") == "bul
 TX = {
 "ru": {
   "name": "Венера Хасанова", "blog": "Блог", "catalog": "Объекты", "gv": "ВНЖ в Греции",
+  "btnVb": "Написать в Viber",
   "title": "Блог Венеры Хасановой — недвижимость в Греции и Болгарии",
   "desc": "Каждый день простыми словами: цены, законы, ВНЖ и жизнь у моря в Греции и Болгарии. Блог консультанта по недвижимости Венеры Хасановой.",
   "heroKicker": "Блог · новая статья каждое утро",
@@ -121,6 +123,7 @@ TX = {
 },
 "bg": {
   "name": "Венера Хасанова", "blog": "Блог", "catalog": "Имоти", "gv": "Пребиваване в Гърция",
+  "btnVb": "Пишете ми във Viber",
   "title": "Блогът на Венера Хасанова — недвижими имоти в Гърция и България",
   "desc": "Всеки ден с прости думи: цени, закони, пребиваване и живот край морето в Гърция и България. Блогът на консултанта по недвижими имоти Венера Хасанова.",
   "heroKicker": "Блог · нова статия всяка сутрин",
@@ -144,6 +147,7 @@ TX = {
 },
 "en": {
   "name": "Venera Khassanova", "blog": "Blog", "catalog": "Properties", "gv": "Golden Visa",
+  "btnVb": "Message me on Viber",
   "title": "Venera Khassanova's blog — real estate in Greece and Bulgaria",
   "desc": "Every day, in plain words: prices, laws, residency and life by the sea in Greece and Bulgaria. The blog of real estate consultant Venera Khassanova.",
   "heroKicker": "Blog · a new article every morning",
@@ -167,6 +171,7 @@ TX = {
 },
 "de": {
   "name": "Venera Khassanova", "blog": "Blog", "catalog": "Immobilien", "gv": "Golden Visa",
+  "btnVb": "Per Viber schreiben",
   "title": "Der Blog von Venera Khassanova — Immobilien in Griechenland und Bulgarien",
   "desc": "Jeden Tag in einfachen Worten: Preise, Gesetze, Aufenthalt und Leben am Meer in Griechenland und Bulgarien. Der Blog der Immobilienberaterin Venera Khassanova.",
   "heroKicker": "Blog · jeden Morgen ein neuer Artikel",
@@ -190,6 +195,7 @@ TX = {
 },
 "es": {
   "name": "Venera Khassanova", "blog": "Blog", "catalog": "Inmuebles", "gv": "Golden Visa",
+  "btnVb": "Escribir por Viber",
   "title": "El blog de Venera Khassanova — inmuebles en Grecia y Bulgaria",
   "desc": "Cada día, con palabras sencillas: precios, leyes, residencia y vida junto al mar en Grecia y Bulgaria. El blog de la asesora inmobiliaria Venera Khassanova.",
   "heroKicker": "Blog · un artículo nuevo cada mañana",
@@ -389,7 +395,7 @@ def head(lang, title, desc, url, image, alts, typ="website"):
 <link rel="alternate" type="application/rss+xml" title="VENI" href="{SITE}{base(lang)}rss.xml">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap">
-<link rel="stylesheet" href="/blog/blog.css?v=11">
+<link rel="stylesheet" href="/blog/blog.css?v=12">
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-73W576V144"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments)}}gtag('js',new Date());gtag('config','G-73W576V144');</script>
 </head>
@@ -406,20 +412,19 @@ def topbar(lang, alts, b=None):
 </header>"""
 
 def foot(lang):
-    return f'<footer class="foot"><span>© 2026 {esc(TX[lang]["name"])} · VENI</span><span><a href="https://t.me/{TG}" target="_blank" rel="noopener">Telegram</a> · <a href="https://wa.me/{WA}" target="_blank" rel="noopener">WhatsApp</a></span></footer>'
+    return f'<footer class="foot"><span>© 2026 {esc(TX[lang]["name"])} · VENI</span><span><a href="https://t.me/{TG}" target="_blank" rel="noopener">Telegram</a> · <a href="https://wa.me/{WA}" target="_blank" rel="noopener">WhatsApp</a> · <a href="{VB}" rel="noopener">Viber</a></span></footer>'
 
 def who(lang, cls="who"):
     t = TX[lang]
     return f'<span class="{cls}"><img src="/assets/venera.jpg" alt="" width="40" height="40"><span><b>{esc(t["name"])}</b><small>{esc(t["role"])}</small></span></span>'
 
+COVER_IMG = {"greece": "/assets/country-gr.jpg", "bulgaria": "/assets/country-bg.jpg", "europe": "/assets/hero-sea.jpg"}
 def cover(p, lang, big=False):
-    t = TX[lang]; v, lab = stat(p, lang)
-    mid = (f'<span class="c-num">{esc(v)}</span><span class="c-label">{esc(lab or "")}</span>' if v
-           else f'<span class="c-title">{esc(L(p, lang)["title"])}</span>')
-    return f"""<div class="cover c-{p['category']}{' big' if big else ''}" aria-hidden="true">
+    """Обложка: приглушённое фото сайта и название статьи на нём, спокойно, без крупных цифр."""
+    t = TX[lang]; img = p.get("img") or COVER_IMG.get(p["category"], "/assets/hero-sea.jpg")
+    return f"""<div class="cover photo c-{p['category']}{' big' if big else ''}" style="background-image:url('{img}')" aria-hidden="true">
   <span class="c-top"><span>{esc(t['cats'][p['category']])}</span><span class="c-mark">VENI</span></span>
-  <span class="c-mid">{mid}</span>
-  <span class="c-who"><img src="/assets/venera.jpg" alt="" loading="lazy" width="36" height="36">{esc(t['name'])}</span>
+  <span class="c-title">{esc(L(p, lang)["title"])}</span>
 </div>"""
 
 def meta_line(p, lang):
@@ -438,11 +443,11 @@ def cta(lang, p, url):
     if p.get("cta", "golden-visa") == "golden-visa":
         return f'<aside class="cta-box"><h3>{t["ctaGvT"]}</h3><p>{t["ctaGv"]}</p><a class="btn" href="{gv(lang)}#form">{t["ctaGvB"]}</a></aside>'
     msg = quote(t["waHello"] + L(p, lang)["title"] + "\n" + url)
-    return f'<aside class="cta-box"><h3>{t["ctaCT"]}</h3><p>{t["ctaC"]}</p><a class="btn" href="https://wa.me/{WA}?text={msg}" target="_blank" rel="noopener">{t["ctaCB"]}</a></aside>'
+    return f'<aside class="cta-box"><h3>{t["ctaCT"]}</h3><p>{t["ctaC"]}</p><span class="btns"><a class="btn" href="https://wa.me/{WA}?text={msg}" target="_blank" rel="noopener">{t["ctaCB"]}</a><a class="btn vb" href="{VB}" rel="noopener">{t["btnVb"]} ↗</a></span></aside>'
 
 def buttons(lang):
     t = TX[lang]
-    return (f'<span class="btns"><a class="btn" href="https://t.me/{TG}" target="_blank" rel="noopener">{t["btnTg"]}</a>'
+    return (f'<span class="btns"><a class="btn" href="{VB}" rel="noopener">{t["btnVb"]}</a>'
             f'<a class="btn ghost" href="https://wa.me/{WA}?text={quote(t["waHi"])}" target="_blank" rel="noopener">{t["btnWa"]}</a></span>')
 
 def about(lang):
@@ -460,93 +465,93 @@ RX = {
 "ru": {"menu": "Переезд и ВНЖ", "title": "Переезд и ВНЖ в Греции и Болгарии — Венера Хасанова",
   "desc": "Все законные способы переехать в Грецию и Болгарию простыми словами: пенсия, работа, бизнес, учёба, семья, цифровые кочевники, инвестиции и Golden Visa.",
   "kicker": "Переезд и ВНЖ", "h1": "Переезд в Грецию и Болгарию — <em>все способы</em>",
-  "lead": "Я сама переехала на Балканы в 2013 году и живу между Болгарией и Грецией. Здесь собраны все законные пути получить ВНЖ — от пенсии и удалённой работы до инвестиций. По каждому пути готовлю подробный разбор простыми словами.",
+  "lead": "Я сама переехала на Балканы в 2013 году и живу между Болгарией и Грецией. Здесь собраны все законные пути получить ВНЖ — от пенсии и удалённой работы до инвестиций. По каждому пути — подробный разбор простыми словами.",
   "gr": "Греция", "bg": "Болгария", "soon": "Подробный разбор скоро", "read": "Читать статью →", "test": "Проверить, подходите ли вы →",
   "step": "Сначала — национальная виза D в консульстве, потом ВНЖ в Болгарии, обычно на год с продлением.",
   "helpT": "Не знаете, какой путь ваш?", "help": "Напишите мне — расскажу, какие варианты подходят вашей семье, и что нужно подготовить.", "helpB": "Написать в WhatsApp ↗",
   "wa": "Здравствуйте, Венера! Хочу узнать, как переехать в Грецию или Болгарию.",
   "routes": {
    "gr": [["Golden Visa через недвижимость", "ВНЖ на 5 лет при покупке недвижимости — от 250 000 до 800 000 € в зависимости от района.", "gv"],
-          ["Golden Visa без недвижимости", "Инвестиционные варианты без покупки жилья.", None],
-          ["Финансово независимые люди", "Переезд с пассивным доходом — без работы в Греции.", None],
-          ["Цифровые кочевники", "Для тех, кто работает удалённо на компанию или клиентов за пределами Греции.", None],
-          ["Работа, учёба и семья", "Классические основания; после 5 лет можно получить статус долгосрочного резидента.", None]],
-   "bg": [["Пенсионеры", "ВНЖ для получателей пенсии.", None],
-          ["Цифровые кочевники", "Для тех, кто работает удалённо.", None],
-          ["Инвестиция в недвижимость", "Обычная покупка квартиры ВНЖ не даёт — только инвестиция от 600 000 левов (около 306 775 €).", None],
-          ["Бизнес, работа, учёба и семья", "Свой бизнес, трудовой договор, учёба или воссоединение семьи.", None]]}},
+          ["Golden Visa без недвижимости", "Инвестиционные варианты без покупки жилья.", "greece-golden-visa-without-property"],
+          ["Финансово независимые люди", "Переезд с пассивным доходом — без работы в Греции.", "greece-financially-independent-visa"],
+          ["Цифровые кочевники", "Для тех, кто работает удалённо на компанию или клиентов за пределами Греции.", "greece-digital-nomad-visa"],
+          ["Работа, учёба и семья", "Классические основания; после 5 лет можно получить статус долгосрочного резидента.", "greece-work-study-family-residence"]],
+   "bg": [["Пенсионеры", "ВНЖ для получателей пенсии.", "bulgaria-pensioner-residence"],
+          ["Цифровые кочевники", "Для тех, кто работает удалённо.", "bulgaria-digital-nomad-visa"],
+          ["Инвестиция в недвижимость", "Обычная покупка квартиры ВНЖ не даёт — только инвестиция от 600 000 левов (около 306 775 €).", "bulgaria-property-investment-residence"],
+          ["Бизнес, работа, учёба и семья", "Свой бизнес, трудовой договор, учёба или воссоединение семьи.", "bulgaria-business-work-study-family-residence"]]}},
 "bg": {"menu": "Преместване и пребиваване", "title": "Преместване и пребиваване в Гърция и България — Венера Хасанова",
   "desc": "Всички законни начини да се преместите в Гърция и България с прости думи: пенсия, работа, бизнес, учене, семейство, дигитални номади, инвестиции и Golden Visa.",
   "kicker": "Преместване и пребиваване", "h1": "Преместване в Гърция и България — <em>всички начини</em>",
-  "lead": "Самата аз се преместих на Балканите през 2013 г. и живея между България и Гърция. Тук са събрани всички законни пътища за пребиваване — от пенсия и дистанционна работа до инвестиции. За всеки път подготвям подробен разбор с прости думи.",
+  "lead": "Самата аз се преместих на Балканите през 2013 г. и живея между България и Гърция. Тук са събрани всички законни пътища за пребиваване — от пенсия и дистанционна работа до инвестиции. За всеки път има подробен разбор с прости думи.",
   "gr": "Гърция", "bg": "България", "soon": "Подробен разбор скоро", "read": "Прочетете статията →", "test": "Проверете дали отговаряте →",
   "step": "Първо — национална виза D в консулството, после разрешение за пребиваване в България, обикновено за година с удължаване.",
   "helpT": "Не знаете кой път е вашият?", "help": "Пишете ми — ще ви кажа кои варианти подхождат на семейството ви и какво трябва да подготвите.", "helpB": "Пишете в WhatsApp ↗",
   "wa": "Здравейте, Венера! Искам да разбера как да се преместя в Гърция или България.",
   "routes": {
    "gr": [["Golden Visa чрез имот", "Пребиваване за 5 години при покупка на имот — от 250 000 до 800 000 € според района.", "gv"],
-          ["Golden Visa без имот", "Инвестиционни варианти без покупка на жилище.", None],
-          ["Финансово независими лица", "Преместване с пасивен доход — без работа в Гърция.", None],
-          ["Дигитални номади", "За хора, които работят дистанционно за фирма или клиенти извън Гърция.", None],
-          ["Работа, учене и семейство", "Класически основания; след 5 години може да се получи статут на дългосрочно пребиваващ.", None]],
-   "bg": [["Пенсионери", "Пребиваване за получатели на пенсия.", None],
-          ["Дигитални номади", "За хора, които работят дистанционно.", None],
-          ["Инвестиция в имот", "Обикновената покупка на жилище не дава пребиваване — само инвестиция от 600 000 лв. (около 306 775 €).", None],
-          ["Бизнес, работа, учене и семейство", "Собствен бизнес, трудов договор, учене или събиране на семейството.", None]]}},
+          ["Golden Visa без имот", "Инвестиционни варианти без покупка на жилище.", "greece-golden-visa-without-property"],
+          ["Финансово независими лица", "Преместване с пасивен доход — без работа в Гърция.", "greece-financially-independent-visa"],
+          ["Дигитални номади", "За хора, които работят дистанционно за фирма или клиенти извън Гърция.", "greece-digital-nomad-visa"],
+          ["Работа, учене и семейство", "Класически основания; след 5 години може да се получи статут на дългосрочно пребиваващ.", "greece-work-study-family-residence"]],
+   "bg": [["Пенсионери", "Пребиваване за получатели на пенсия.", "bulgaria-pensioner-residence"],
+          ["Дигитални номади", "За хора, които работят дистанционно.", "bulgaria-digital-nomad-visa"],
+          ["Инвестиция в имот", "Обикновената покупка на жилище не дава пребиваване — само инвестиция от 600 000 лв. (около 306 775 €).", "bulgaria-property-investment-residence"],
+          ["Бизнес, работа, учене и семейство", "Собствен бизнес, трудов договор, учене или събиране на семейството.", "bulgaria-business-work-study-family-residence"]]}},
 "en": {"menu": "Relocation & residency", "title": "Relocation and residency in Greece and Bulgaria — Venera Khassanova",
   "desc": "Every legal way to move to Greece and Bulgaria in plain words: retirement, work, business, study, family, digital nomads, investment and the Golden Visa.",
   "kicker": "Relocation & residency", "h1": "Moving to Greece and Bulgaria — <em>every route</em>",
-  "lead": "I moved to the Balkans myself in 2013 and live between Bulgaria and Greece. Here are all the legal routes to residency — from retirement and remote work to investment. I am preparing a detailed plain-language guide for each route.",
+  "lead": "I moved to the Balkans myself in 2013 and live between Bulgaria and Greece. Here are all the legal routes to residency — from retirement and remote work to investment. Each route has a detailed plain-language guide.",
   "gr": "Greece", "bg": "Bulgaria", "soon": "Detailed guide coming soon", "read": "Read the article →", "test": "Check if you qualify →",
   "step": "First a national D visa at the consulate, then a residence permit in Bulgaria, usually for a year with renewal.",
   "helpT": "Not sure which route is yours?", "help": "Message me — I will tell you which options suit your family and what you need to prepare.", "helpB": "Message me on WhatsApp ↗",
   "wa": "Hello Venera! I would like to know how to move to Greece or Bulgaria.",
   "routes": {
    "gr": [["Golden Visa through property", "A 5-year residence permit when you buy property — from €250,000 to €800,000 depending on the area.", "gv"],
-          ["Golden Visa without property", "Investment options that do not require buying a home.", None],
-          ["Financially independent persons", "Moving with passive income — without working in Greece.", None],
-          ["Digital nomads", "For people working remotely for a company or clients outside Greece.", None],
-          ["Work, study and family", "The classic routes; after 5 years you can apply for long-term resident status.", None]],
-   "bg": [["Retirees", "Residency for people receiving a pension.", None],
-          ["Digital nomads", "For people who work remotely.", None],
-          ["Investment in property", "Simply buying a flat does not give residency — only an investment from 600,000 leva (about €306,775).", None],
-          ["Business, work, study and family", "Your own business, an employment contract, study or family reunification.", None]]}},
+          ["Golden Visa without property", "Investment options that do not require buying a home.", "greece-golden-visa-without-property"],
+          ["Financially independent persons", "Moving with passive income — without working in Greece.", "greece-financially-independent-visa"],
+          ["Digital nomads", "For people working remotely for a company or clients outside Greece.", "greece-digital-nomad-visa"],
+          ["Work, study and family", "The classic routes; after 5 years you can apply for long-term resident status.", "greece-work-study-family-residence"]],
+   "bg": [["Retirees", "Residency for people receiving a pension.", "bulgaria-pensioner-residence"],
+          ["Digital nomads", "For people who work remotely.", "bulgaria-digital-nomad-visa"],
+          ["Investment in property", "Simply buying a flat does not give residency — only an investment from 600,000 leva (about €306,775).", "bulgaria-property-investment-residence"],
+          ["Business, work, study and family", "Your own business, an employment contract, study or family reunification.", "bulgaria-business-work-study-family-residence"]]}},
 "de": {"menu": "Umzug & Aufenthalt", "title": "Umzug und Aufenthalt in Griechenland und Bulgarien — Venera Khassanova",
   "desc": "Alle legalen Wege nach Griechenland und Bulgarien einfach erklärt: Rente, Arbeit, Unternehmen, Studium, Familie, digitale Nomaden, Investitionen und Golden Visa.",
   "kicker": "Umzug & Aufenthalt", "h1": "Umzug nach Griechenland und Bulgarien — <em>alle Wege</em>",
-  "lead": "Ich bin 2013 selbst auf den Balkan gezogen und lebe zwischen Bulgarien und Griechenland. Hier finden Sie alle legalen Wege zur Aufenthaltserlaubnis — von Rente und Remote-Arbeit bis zur Investition. Zu jedem Weg bereite ich einen ausführlichen, einfachen Leitfaden vor.",
+  "lead": "Ich bin 2013 selbst auf den Balkan gezogen und lebe zwischen Bulgarien und Griechenland. Hier finden Sie alle legalen Wege zur Aufenthaltserlaubnis — von Rente und Remote-Arbeit bis zur Investition. Zu jedem Weg gibt es einen ausführlichen, einfachen Leitfaden.",
   "gr": "Griechenland", "bg": "Bulgarien", "soon": "Ausführlicher Leitfaden folgt", "read": "Artikel lesen →", "test": "Prüfen, ob Sie infrage kommen →",
   "step": "Zuerst ein nationales Visum D im Konsulat, dann die Aufenthaltserlaubnis in Bulgarien, meist für ein Jahr mit Verlängerung.",
   "helpT": "Nicht sicher, welcher Weg passt?", "help": "Schreiben Sie mir — ich sage Ihnen, welche Möglichkeiten zu Ihrer Familie passen und was vorzubereiten ist.", "helpB": "Per WhatsApp schreiben ↗",
   "wa": "Hallo Venera! Ich möchte wissen, wie ich nach Griechenland oder Bulgarien umziehen kann.",
   "routes": {
    "gr": [["Golden Visa durch Immobilienkauf", "Aufenthaltserlaubnis für 5 Jahre beim Immobilienkauf — von 250.000 bis 800.000 € je nach Region.", "gv"],
-          ["Golden Visa ohne Immobilie", "Investitionsmöglichkeiten ohne Wohnungskauf.", None],
-          ["Finanziell unabhängige Personen", "Umzug mit passivem Einkommen — ohne Arbeit in Griechenland.", None],
-          ["Digitale Nomaden", "Für alle, die remote für Firmen oder Kunden außerhalb Griechenlands arbeiten.", None],
-          ["Arbeit, Studium und Familie", "Die klassischen Wege; nach 5 Jahren ist der Status als langfristig Aufenthaltsberechtigter möglich.", None]],
-   "bg": [["Rentner", "Aufenthalt für Rentenbezieher.", None],
-          ["Digitale Nomaden", "Für alle, die remote arbeiten.", None],
-          ["Investition in Immobilien", "Ein normaler Wohnungskauf gibt keinen Aufenthalt — nur eine Investition ab 600.000 Lewa (ca. 306.775 €).", None],
-          ["Unternehmen, Arbeit, Studium und Familie", "Eigenes Unternehmen, Arbeitsvertrag, Studium oder Familiennachzug.", None]]}},
+          ["Golden Visa ohne Immobilie", "Investitionsmöglichkeiten ohne Wohnungskauf.", "greece-golden-visa-without-property"],
+          ["Finanziell unabhängige Personen", "Umzug mit passivem Einkommen — ohne Arbeit in Griechenland.", "greece-financially-independent-visa"],
+          ["Digitale Nomaden", "Für alle, die remote für Firmen oder Kunden außerhalb Griechenlands arbeiten.", "greece-digital-nomad-visa"],
+          ["Arbeit, Studium und Familie", "Die klassischen Wege; nach 5 Jahren ist der Status als langfristig Aufenthaltsberechtigter möglich.", "greece-work-study-family-residence"]],
+   "bg": [["Rentner", "Aufenthalt für Rentenbezieher.", "bulgaria-pensioner-residence"],
+          ["Digitale Nomaden", "Für alle, die remote arbeiten.", "bulgaria-digital-nomad-visa"],
+          ["Investition in Immobilien", "Ein normaler Wohnungskauf gibt keinen Aufenthalt — nur eine Investition ab 600.000 Lewa (ca. 306.775 €).", "bulgaria-property-investment-residence"],
+          ["Unternehmen, Arbeit, Studium und Familie", "Eigenes Unternehmen, Arbeitsvertrag, Studium oder Familiennachzug.", "bulgaria-business-work-study-family-residence"]]}},
 "es": {"menu": "Mudanza y residencia", "title": "Mudanza y residencia en Grecia y Bulgaria — Venera Khassanova",
   "desc": "Todas las vías legales para mudarse a Grecia y Bulgaria, explicadas con sencillez: jubilación, trabajo, negocio, estudios, familia, nómadas digitales, inversión y Golden Visa.",
   "kicker": "Mudanza y residencia", "h1": "Mudarse a Grecia y Bulgaria — <em>todas las vías</em>",
-  "lead": "Yo misma me mudé a los Balcanes en 2013 y vivo entre Bulgaria y Grecia. Aquí están todas las vías legales para obtener la residencia, desde la jubilación y el trabajo remoto hasta la inversión. Preparo una guía detallada y sencilla para cada una.",
+  "lead": "Yo misma me mudé a los Balcanes en 2013 y vivo entre Bulgaria y Grecia. Aquí están todas las vías legales para obtener la residencia, desde la jubilación y el trabajo remoto hasta la inversión. Cada una tiene una guía detallada y sencilla.",
   "gr": "Grecia", "bg": "Bulgaria", "soon": "Guía detallada próximamente", "read": "Leer el artículo →", "test": "Compruebe si cumple →",
   "step": "Primero, un visado nacional D en el consulado; después, el permiso de residencia en Bulgaria, normalmente por un año renovable.",
   "helpT": "¿No sabe qué vía es la suya?", "help": "Escríbame: le diré qué opciones encajan con su familia y qué debe preparar.", "helpB": "Escribir por WhatsApp ↗",
   "wa": "¡Hola, Venera! Quiero saber cómo mudarme a Grecia o Bulgaria.",
   "routes": {
    "gr": [["Golden Visa con inmueble", "Residencia de 5 años al comprar un inmueble: de 250.000 a 800.000 € según la zona.", "gv"],
-          ["Golden Visa sin inmueble", "Opciones de inversión sin comprar vivienda.", None],
-          ["Personas económicamente independientes", "Mudarse con ingresos pasivos, sin trabajar en Grecia.", None],
-          ["Nómadas digitales", "Para quien trabaja en remoto para empresas o clientes fuera de Grecia.", None],
-          ["Trabajo, estudios y familia", "Las vías clásicas; tras 5 años se puede obtener la residencia de larga duración.", None]],
-   "bg": [["Jubilados", "Residencia para quienes cobran una pensión.", None],
-          ["Nómadas digitales", "Para quien trabaja en remoto.", None],
-          ["Inversión inmobiliaria", "Comprar un piso no da la residencia: solo una inversión desde 600.000 levas (unos 306.775 €).", None],
-          ["Negocio, trabajo, estudios y familia", "Negocio propio, contrato de trabajo, estudios o reagrupación familiar.", None]]}},
+          ["Golden Visa sin inmueble", "Opciones de inversión sin comprar vivienda.", "greece-golden-visa-without-property"],
+          ["Personas económicamente independientes", "Mudarse con ingresos pasivos, sin trabajar en Grecia.", "greece-financially-independent-visa"],
+          ["Nómadas digitales", "Para quien trabaja en remoto para empresas o clientes fuera de Grecia.", "greece-digital-nomad-visa"],
+          ["Trabajo, estudios y familia", "Las vías clásicas; tras 5 años se puede obtener la residencia de larga duración.", "greece-work-study-family-residence"]],
+   "bg": [["Jubilados", "Residencia para quienes cobran una pensión.", "bulgaria-pensioner-residence"],
+          ["Nómadas digitales", "Para quien trabaja en remoto.", "bulgaria-digital-nomad-visa"],
+          ["Inversión inmobiliaria", "Comprar un piso no da la residencia: solo una inversión desde 600.000 levas (unos 306.775 €).", "bulgaria-property-investment-residence"],
+          ["Negocio, trabajo, estudios y familia", "Negocio propio, contrato de trabajo, estudios o reagrupación familiar.", "bulgaria-business-work-study-family-residence"]]}},
 }
 GR_POST = "greece-residence-permit-all-options-2026"     # статья «ВНЖ в Греции: все варианты»
 BG_POST = "bulgaria-residence-permit-grounds-2026"       # статья «ВНЖ в Болгарии: все основания» (появится, когда опубликуете)
@@ -574,7 +579,7 @@ def build_relocation(posts):
     {buttons(lang)}
   </section>
   <div class="r-grid">{col('gr', GR_POST)}{col('bg', BG_POST)}</div>
-  <aside class="cta-box"><h3>{esc(X['helpT'])}</h3><p>{esc(X['help'])}</p><a class="btn" href="https://wa.me/{WA}?text={quote(X['wa'])}" target="_blank" rel="noopener">{esc(X['helpB'])}</a></aside>
+  <aside class="cta-box"><h3>{esc(X['helpT'])}</h3><p>{esc(X['help'])}</p><span class="btns"><a class="btn" href="https://wa.me/{WA}?text={quote(X['wa'])}" target="_blank" rel="noopener">{esc(X['helpB'])}</a><a class="btn vb" href="{VB}" rel="noopener">{esc(t['btnVb'])} ↗</a></span></aside>
 </main>
 {foot(lang)}
 </body></html>"""
@@ -654,7 +659,6 @@ def build(force_og=False):
   {feat}
   {grid}
   <p class="other-blog"><a href="{bbase(lang, other)}">{esc(X['other'][b])}</a></p>
-  <section class="sub"><div><h2>{t['subT']}</h2><p>{t['subText']}</p></div><a class="btn" href="https://t.me/{TG}" target="_blank" rel="noopener">{t['btnTg']} ↗</a></section>
 </main>
 {foot(lang)}
 </body></html>"""
@@ -680,7 +684,6 @@ def build(force_og=False):
     {buttons(lang)}
   </section>
   <section class="blog-picks">{bcard('greece')}{bcard('bulgaria')}</section>
-  <section class="sub"><div><h2>{t['subT']}</h2><p>{t['subText']}</p></div><a class="btn" href="https://t.me/{TG}" target="_blank" rel="noopener">{t['btnTg']} ↗</a></section>
 </main>
 {foot(lang)}
 </body></html>"""

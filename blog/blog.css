@@ -262,3 +262,17 @@ main.land>.back{margin-bottom:14px}
 .r-country>.btn{margin:18px 28px 0}
 .r-country{padding-bottom:26px}
 @media(max-width:600px){.r-country .r-photo{height:120px;padding:0 20px 12px}.r-country .routes{padding:0 20px}.r-country .r-step{margin:12px 20px 0}.r-country>.btn{margin:16px 20px 0}}
+
+/* 11.11.2026: спокойные фото-обложки и кнопка Viber */
+.cover.photo{aspect-ratio:16/9;justify-content:space-between;padding:16px 20px;background-color:#263a36;background-size:cover;background-position:center}
+.cover.photo::after{display:none}
+.cover.photo::before{inset:0;border:0;border-radius:0;background:linear-gradient(180deg,rgba(20,32,30,.55),rgba(20,32,30,.72));z-index:-1}
+.cover.photo .c-top{font-size:11px;letter-spacing:2.5px;opacity:.9}
+.cover.photo .c-title{font:600 clamp(17px,6.2cqw,24px)/1.3 var(--serif);color:#f6f3ed;display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden;max-width:92%}
+.cover.photo.big{aspect-ratio:auto;min-height:0;height:220px;padding:20px 26px}
+.cover.photo.big .c-title{font-size:clamp(20px,4.6cqw,28px)}
+.card.featured .cover.photo{aspect-ratio:16/9}
+.cta-box .btns{margin-top:0}
+.cta-box .btn.vb{background:transparent;border:1.5px solid #d7b98a;color:#f3e2c0}
+.cta-box .btn.vb:hover{background:#7360f2;border-color:#7360f2;color:#fff}
+@media (max-width:640px){.cover.photo.big{height:180px}.cta-box .btn.vb{width:100%}}
