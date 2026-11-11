@@ -1,4 +1,4 @@
-name: Очередь объектов → Telegram (10:00 и 19:00)
+name: Очередь объектов → Facebook (Telegram выключен, 10:00 и 19:00)
 
 # Публикует по одному объекту из data/announce_queue.json дважды в день по времени Софии.
 # Крон в UTC указан с запасом на летнее/зимнее время; лишние запуски сами себя пропускают.
@@ -32,8 +32,6 @@ jobs:
       - name: Опубликовать один объект
         if: steps.slot.outputs.go == '1'
         env:
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
           FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
           SLOT: ${{ steps.slot.outputs.slot }}

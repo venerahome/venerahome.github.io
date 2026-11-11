@@ -1,4 +1,4 @@
-name: Анонс статьи блога (Telegram + Facebook)
+name: Анонс статьи блога (Facebook; Telegram выключен)
 
 on:
   push:
@@ -34,8 +34,6 @@ jobs:
       - name: Отправить анонс
         if: steps.files.outputs.list != ''
         env:
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
           FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
           POST_LANG: ${{ vars.POST_LANG }}
