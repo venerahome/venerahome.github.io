@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10",
+ "updated": "2026-11-15",
  "places": {
   "kavala": {
    "bg": "Кавала",
@@ -17494,89 +17494,6 @@
     ],
     "es": [
      "A 400 m del mar",
-     "Acta 16"
-    ]
-   }
-  },
-  {
-   "code": 810041,
-   "slug": "sunny-beach-apt-810041",
-   "country": "bg",
-   "source": "partner",
-   "type": "apt",
-   "deal": "sale",
-   "status": "sale",
-   "featured": false,
-   "place": "sunny_beach",
-   "district": {
-    "bg": "Какао Бийч",
-    "ru": "Какао Бич",
-    "en": "Cacao Beach",
-    "de": "Cacao Beach",
-    "es": "Cacao Beach"
-   },
-   "price": 90000,
-   "area": 64,
-   "plot": null,
-   "bedrooms": 1,
-   "bathrooms": null,
-   "floor": "2",
-   "sea": 600,
-   "furnished": null,
-   "lift": null,
-   "url": null,
-   "drive": "12j2-fZS8ki-WiPzShL1fblUjU_VjeOUB",
-   "photos": [
-    "https://lh3.googleusercontent.com/d/1voaIVkqY915DuYd5aTJ7DzjKOgCnd5d9=w1600",
-    "https://lh3.googleusercontent.com/d/1fv4-3mIlQtjcGDpNslHVzcto7gRTEcLO=w1600",
-    "https://lh3.googleusercontent.com/d/1UCyzDOZHrSRF0kmvzcMk7rx5pUH3t8eE=w1600",
-    "https://lh3.googleusercontent.com/d/10GDaHL-qop5ttM-LKEgV0rb6qPA3P9GQ=w1600",
-    "https://lh3.googleusercontent.com/d/1qkf-wJmurXkBD3ATE_8d7ihRoYgK2Y3o=w1600",
-    "https://lh3.googleusercontent.com/d/1zF5NNREV0j728GX4x4WaZCpN6dRgprzM=w1600",
-    "https://lh3.googleusercontent.com/d/1-5g6La0A1TjBoI-yzv2BC_dVJ3J46xib=w1600",
-    "https://lh3.googleusercontent.com/d/1n5D5CLsVroddU_B6lfmNtcGMs1TJrnYm=w1600",
-    "https://lh3.googleusercontent.com/d/13HpRq9xcNK9l7CRsGk2WFX85wfp5nZAd=w1600",
-    "https://lh3.googleusercontent.com/d/1YqZuAmTR_Coi2EfBt_rPi7OdM-CyhDWt=w1600",
-    "https://lh3.googleusercontent.com/d/1geKFsOFIWJaWBqDBJRbNW3CZzpmMmaJ8=w1600"
-   ],
-   "title": {
-    "bg": "Апартамент с 1 спалня 64 м², Каса дел Сол, Слънчев бряг",
-    "ru": "Квартира с 1 спальней 64 м², Каса дел Сол, Солнечный берег",
-    "en": "One-bedroom flat, 64 m², Casa del Sol, Sunny Beach",
-    "de": "2-Zimmer-Wohnung, 64 m², Casa del Sol, Sonnenstrand",
-    "es": "Piso de 1 dormitorio, 64 m², Casa del Sol, Sunny Beach"
-   },
-   "desc": {
-    "bg": "Апартамент с 1 спалня от 64 м² на 2-ри етаж в комплекс Каса дел Сол, Какао Бийч, Слънчев бряг. Прозорците гледат към басейна. 600 м до морето. Такса поддръжка 12 €/м² годишно. Акт 16 — сградата е въведена в експлоатация. Подходящ за живеене, почивка или отдаване под наем. Код: ROMAN",
-    "ru": "Квартира с 1 спальней площадью 64 м² на 2-м этаже в комплексе «Каса дел Сол», Какао Бич, Солнечный берег. Окна выходят на бассейн. 600 м до моря. Обслуживание 12 €/м² в год. Акт 16 — дом сдан в эксплуатацию. Подойдёт для жизни, отдыха или сдачи в аренду. Код: ROMAN",
-    "en": "A 64 m² one-bedroom flat on floor 2 in Casa del Sol, Cacao Beach, Sunny Beach. The windows overlook the pool. 600 m to the sea. Maintenance €12/m² a year. Act 16 — the building is officially completed. Suits living in, holidays or letting. Code: ROMAN",
-    "de": "2-Zimmer-Wohnung mit 64 m² im 2. Stock in der Anlage Casa del Sol, Cacao Beach, Sonnenstrand. Die Fenster gehen zum Pool. 600 m zum Meer. Hausgebühr 12 €/m² pro Jahr. Akt 16 – das Gebäude ist abgenommen. Zum Wohnen, für Urlaub oder Vermietung. Code: ROMAN",
-    "es": "Piso de 1 dormitorio de 64 m² en la 2.ª planta en el complejo Casa del Sol, Cacao Beach, Sunny Beach. Las ventanas dan a la piscina. A 600 m del mar. Cuota 12 €/m² al año. Acta 16: el edificio está terminado y legalizado. Para vivir, veranear o alquilar. Código: ROMAN"
-   },
-   "feat": {
-    "bg": [
-     "Гледка към басейна",
-     "600 м до морето",
-     "Акт 16"
-    ],
-    "ru": [
-     "Вид на бассейн",
-     "600 м до моря",
-     "Акт 16"
-    ],
-    "en": [
-     "Pool view",
-     "600 m to the sea",
-     "Act 16"
-    ],
-    "de": [
-     "Poolblick",
-     "600 m zum Meer",
-     "Akt 16"
-    ],
-    "es": [
-     "Vistas a la piscina",
-     "A 600 m del mar",
      "Acta 16"
     ]
    }
