@@ -1888,94 +1888,6 @@
    }
   },
   {
-   "code": 20909349,
-   "slug": "kavala-apt-20909349",
-   "country": "gr",
-   "source": "katoiko",
-   "type": "apt",
-   "deal": "sale",
-   "status": "sale",
-   "featured": true,
-   "place": "kavala",
-   "district": {
-    "bg": "Агия Варвара",
-    "ru": "Агия Варвара",
-    "en": "Agia Varvara",
-    "de": "Agia Varvara",
-    "es": "Agia Varvara"
-   },
-   "price": 160000,
-   "area": 92,
-   "plot": null,
-   "bedrooms": 2,
-   "bathrooms": 1,
-   "floor": "3",
-   "sea": null,
-   "furnished": null,
-   "lift": true,
-   "url": "https://www.katoiko.gr/bg/propertyDetails/20909349",
-   "photos": [
-    "https://m3.spitogatos.gr/369813584_900x675.jpg",
-    "https://m2.spitogatos.gr/369813973_900x675.jpg",
-    "https://m1.spitogatos.gr/369813588_900x675.jpg",
-    "https://m3.spitogatos.gr/369813458_900x675.jpg",
-    "https://m3.spitogatos.gr/369813587_900x675.jpg",
-    "https://m3.spitogatos.gr/369813500_900x675.jpg",
-    "https://m2.spitogatos.gr/369813463_900x675.jpg",
-    "https://m1.spitogatos.gr/369813495_900x675.jpg",
-    "https://m3.spitogatos.gr/369813713_900x675.jpg",
-    "https://m2.spitogatos.gr/369813850_900x675.jpg",
-    "https://m2.spitogatos.gr/369813715_900x675.jpg",
-    "https://m3.spitogatos.gr/369947609_900x675.jpg"
-   ],
-   "title": {
-    "bg": "Апартамент с 2 спални, паркомясто и гледка, Агия Варвара",
-    "ru": "Квартира с 2 спальнями, парковкой и видом, Агия Варвара",
-    "en": "Two-bedroom flat with parking and a view, Agia Varvara",
-    "de": "Wohnung mit 2 Schlafzimmern, Stellplatz und Aussicht, Agia Varvara",
-    "es": "Piso de 2 dormitorios con plaza de parking y vistas, Agia Varvara"
-   },
-   "desc": {
-    "bg": "Сграда от 2006 г. в тих квартал, а отгоре – голяма веранда с хубава гледка. Слънчев апартамент от 92 м² на трети етаж с две спални, дневна с отворен план и кухненски бокс и баня. В цената влизат покрито паркомясто и склад на партера; самостоятелно отопление с индивидуален уред и асансьор. В отлично състояние – влизате и живеете.",
-    "ru": "Дом 2006 года в тихом районе и большая веранда с красивым видом. Солнечная квартира 92 м² на третьем этаже: две спальни, гостиная с кухонной зоной и ванная. В цену входят крытое парковочное место и кладовая на первом этаже; автономное отопление с индивидуальным счётчиком и лифт. В отличном состоянии — можно въезжать и жить.",
-    "en": "A 2006 building in a quiet neighbourhood, with a large terrace and a lovely view. A sunny 92 m² flat on the third floor with two bedrooms, an open-plan living room with kitchenette and a bathroom. A covered parking space and a ground-floor storeroom are included, with independent metered heating and a lift. In excellent condition — move straight in.",
-    "de": "Baujahr 2006, ruhiges Viertel, große Terrasse mit schöner Aussicht. Sonnige Wohnung mit 92 m² im dritten Stock: zwei Schlafzimmer, offener Wohnbereich mit Küchenzeile und Bad. Überdachter Stellplatz und Abstellraum im Erdgeschoss inklusive, eigene Heizung mit Einzelzähler und Aufzug. Hervorragender Zustand — sofort bezugsfertig.",
-    "es": "Edificio de 2006 en un barrio tranquilo, con una gran terraza y bonitas vistas. Piso soleado de 92 m² en tercera planta: dos dormitorios, salón abierto con cocina americana y baño. Incluye plaza de parking cubierta y trastero en planta baja, calefacción individual con contador propio y ascensor. En excelente estado: para entrar a vivir."
-   },
-   "feat": {
-    "bg": [
-     "Построен 2006 г.",
-     "Покрито паркомясто",
-     "Склад",
-     "Асансьор"
-    ],
-    "ru": [
-     "Построен в 2006 году",
-     "Крытая парковка",
-     "Кладовая",
-     "Лифт"
-    ],
-    "en": [
-     "Built 2006",
-     "Covered parking",
-     "Storeroom",
-     "Lift"
-    ],
-    "de": [
-     "Baujahr 2006",
-     "Überdachter Stellplatz",
-     "Abstellraum",
-     "Aufzug"
-    ],
-    "es": [
-     "Construido en 2006",
-     "Parking cubierto",
-     "Trastero",
-     "Ascensor"
-    ]
-   }
-  },
-  {
    "code": 20339077,
    "slug": "kavala-apt-20339077",
    "country": "gr",
@@ -2693,7 +2605,7 @@
     "de": "Dexameni",
     "es": "Dexameni"
    },
-   "price": 150000,
+   "price": 139000,
    "area": 92,
    "plot": null,
    "bedrooms": 2,
@@ -3634,182 +3546,6 @@
    }
   },
   {
-   "code": 20698883,
-   "slug": "kavala-house-20698883",
-   "country": "gr",
-   "source": "katoiko",
-   "type": "house",
-   "deal": "sale",
-   "status": "sale",
-   "featured": true,
-   "place": "kavala",
-   "district": {
-    "bg": "Килия",
-    "ru": "Хилия",
-    "en": "Chilia",
-    "de": "Chilia",
-    "es": "Chilia"
-   },
-   "price": 88000,
-   "area": 79,
-   "plot": null,
-   "bedrooms": 3,
-   "bathrooms": 1,
-   "floor": null,
-   "sea": null,
-   "furnished": null,
-   "lift": null,
-   "url": "https://www.katoiko.gr/bg/propertyDetails/20698883",
-   "photos": [
-    "https://m3.spitogatos.gr/366592859_900x675.jpg",
-    "https://m1.spitogatos.gr/366601521_900x675.jpg",
-    "https://m1.spitogatos.gr/366593181_900x675.jpg",
-    "https://m2.spitogatos.gr/366592915_900x675.jpg",
-    "https://m1.spitogatos.gr/366592914_900x675.jpg",
-    "https://m1.spitogatos.gr/366594759_900x675.jpg",
-    "https://m2.spitogatos.gr/366594763_900x675.jpg",
-    "https://m2.spitogatos.gr/366594586_900x675.jpg",
-    "https://m2.spitogatos.gr/366594589_900x675.jpg",
-    "https://m3.spitogatos.gr/366594590_900x675.jpg",
-    "https://m2.spitogatos.gr/366601867_900x675.jpg",
-    "https://m3.spitogatos.gr/366593207_900x675.jpg"
-   ],
-   "title": {
-    "bg": "Къща с 3 спални, веранда с гледка и паркомясто, Килия",
-    "ru": "Дом с 3 спальнями, верандой с видом и парковкой, Хилия",
-    "en": "Three-bedroom house with a view terrace and parking, Chilia",
-    "de": "Haus mit 3 Schlafzimmern, Aussichtsterrasse und Stellplatz, Chilia",
-    "es": "Casa de 3 dormitorios con terraza con vistas y parking, Chilia"
-   },
-   "desc": {
-    "bg": "Собствена къща в Кавала под 90 000 €: слънчева самостоятелна къща от 79 м² в Килия с голяма веранда и прекрасна гледка. Три спални, дневна с отворена кухня и баня, отделен склад от 16 м² и собствено паркомясто, без месечни такси. Нуждае се от ремонт – можете да я направите изцяло по свой вкус.",
-    "ru": "Свой дом в Кавале дешевле 90 000 €: солнечный отдельный дом 79 м² в Хилии с большой верандой и прекрасным видом. Три спальни, гостиная с открытой кухней и ванная, отдельная кладовая 16 м² и своё парковочное место, никаких ежемесячных взносов. Нужен ремонт — можно сделать всё полностью под себя.",
-    "en": "A house of your own in Kavala for under €90,000: a sunny, detached 79 m² house in Chilia with a large terrace and a wonderful view. Three bedrooms, a living room with open kitchen and a bathroom, a separate 16 m² storeroom and its own parking space, with no monthly fees. It needs renovating — so you can make it entirely your own.",
-    "de": "Ein eigenes Haus in Kavala für unter 90.000 €: sonniges, freistehendes 79 m² Haus in Chilia mit großer Terrasse und herrlicher Aussicht. Drei Schlafzimmer, Wohnzimmer mit offener Küche und Bad, separater 16 m² Abstellraum und eigener Stellplatz, keine Nebenkosten. Renovierungsbedürftig — ganz nach Ihren Wünschen gestaltbar.",
-    "es": "Su propia casa en Kavala por menos de 90.000 €: casa independiente y soleada de 79 m² en Chilia con gran terraza y vistas preciosas. Tres dormitorios, salón con cocina abierta y baño, trastero independiente de 16 m² y plaza de parking propia, sin gastos de comunidad. Necesita reforma: podrá dejarla totalmente a su gusto."
-   },
-   "feat": {
-    "bg": [
-     "Веранда с гледка",
-     "Паркомясто",
-     "Склад 16 м²",
-     "За ремонт"
-    ],
-    "ru": [
-     "Веранда с видом",
-     "Парковка",
-     "Кладовая 16 м²",
-     "Под ремонт"
-    ],
-    "en": [
-     "View terrace",
-     "Parking",
-     "16 m² storeroom",
-     "To renovate"
-    ],
-    "de": [
-     "Terrasse mit Aussicht",
-     "Stellplatz",
-     "16 m² Abstellraum",
-     "Renovierungsbedürftig"
-    ],
-    "es": [
-     "Terraza con vistas",
-     "Parking",
-     "Trastero de 16 m²",
-     "Para reformar"
-    ]
-   }
-  },
-  {
-   "code": 20681257,
-   "slug": "kavala-apt-20681257",
-   "country": "gr",
-   "source": "katoiko",
-   "type": "apt",
-   "deal": "sale",
-   "status": "sale",
-   "featured": true,
-   "place": "kavala",
-   "district": {
-    "bg": "Агиос Йоанис",
-    "ru": "Агиос Иоаннис",
-    "en": "Agios Ioannis",
-    "de": "Agios Ioannis",
-    "es": "Agios Ioannis"
-   },
-   "price": 153000,
-   "area": 90,
-   "plot": null,
-   "bedrooms": 2,
-   "bathrooms": 1,
-   "floor": "2",
-   "sea": null,
-   "furnished": null,
-   "lift": true,
-   "url": "https://www.katoiko.gr/bg/propertyDetails/20681257",
-   "photos": [
-    "https://m2.spitogatos.gr/366304474_900x675.jpg",
-    "https://m3.spitogatos.gr/366304472_900x675.jpg",
-    "https://m2.spitogatos.gr/366304483_900x675.jpg",
-    "https://m2.spitogatos.gr/366304480_900x675.jpg",
-    "https://m1.spitogatos.gr/366304455_900x675.jpg",
-    "https://m1.spitogatos.gr/366304482_900x675.jpg",
-    "https://m3.spitogatos.gr/366304484_900x675.jpg",
-    "https://m2.spitogatos.gr/366304465_900x675.jpg",
-    "https://m1.spitogatos.gr/366304467_900x675.jpg",
-    "https://m2.spitogatos.gr/366304477_900x675.jpg",
-    "https://m1.spitogatos.gr/366304479_900x675.jpg",
-    "https://m3.spitogatos.gr/366304463_900x675.jpg"
-   ],
-   "title": {
-    "bg": "Слънчев апартамент 90 м² с 2 спални, Агиос Йоанис",
-    "ru": "Солнечная квартира 90 м² с 2 спальнями, Агиос Иоаннис",
-    "en": "Sunny 90 m² two-bedroom flat, Agios Ioannis",
-    "de": "Sonnige 90 m² Wohnung mit 2 Schlafzimmern, Agios Ioannis",
-    "es": "Piso soleado de 90 m² y 2 dormitorios, Agios Ioannis"
-   },
-   "desc": {
-    "bg": "Светлина от две страни и всичко нужно на крачка: супермаркет, училища и автобусна спирка. Слънчев апартамент от 90 м² на втори етаж в Агиос Йоанис с две просторни спални, дневна с отворена кухня, баня и тераса. Два климатика, PVC дограма с двоен стъклопакет и асансьор – удобен за семейство или за отдаване на студенти.",
-    "ru": "Свет с двух сторон и всё нужное в шаге: супермаркет, школы и остановка. Солнечная квартира 90 м² на втором этаже в Агиос Иоаннис: две просторные спальни, гостиная с открытой кухней, ванная и терраса. Два кондиционера, ПВХ-окна со стеклопакетами и лифт — удобно для семьи или сдачи студентам.",
-    "en": "Light from two sides and everything you need a step away: a supermarket, schools and a bus stop. A sunny 90 m² flat on the second floor in Agios Ioannis with two roomy bedrooms, a living room with open kitchen, a bathroom and a terrace. Two air conditioners, double-glazed PVC windows and a lift — easy for a family or for letting to students.",
-    "de": "Licht von zwei Seiten und alles Nötige nur einen Schritt entfernt: Supermarkt, Schulen und Bushaltestelle. Sonnige 90 m² Wohnung im zweiten Stock in Agios Ioannis mit zwei geräumigen Schlafzimmern, Wohnzimmer mit offener Küche, Bad und Terrasse. Zwei Klimaanlagen, doppelt verglaste PVC-Fenster und Aufzug — ideal für Familien oder zur Vermietung an Studenten.",
-    "es": "Luz por dos lados y todo a un paso: supermercado, colegios y parada de autobús. Piso soleado de 90 m² en segunda planta en Agios Ioannis con dos dormitorios amplios, salón con cocina abierta, baño y terraza. Dos aires acondicionados, ventanas de PVC con doble acristalamiento y ascensor: cómodo para familias o para alquilar a estudiantes."
-   },
-   "feat": {
-    "bg": [
-     "Окна на две страни",
-     "2 климатика",
-     "Асансьор",
-     "До училища"
-    ],
-    "ru": [
-     "Окна на две стороны",
-     "2 кондиционера",
-     "Лифт",
-     "Рядом школы"
-    ],
-    "en": [
-     "Dual aspect",
-     "2 air conditioners",
-     "Lift",
-     "Near schools"
-    ],
-    "de": [
-     "Zweiseitige Ausrichtung",
-     "2 Klimaanlagen",
-     "Aufzug",
-     "Nahe Schulen"
-    ],
-    "es": [
-     "Doble orientación",
-     "2 aires acondicionados",
-     "Ascensor",
-     "Cerca de colegios"
-    ]
-   }
-  },
-  {
    "code": 7042091,
    "slug": "kavala-apt-7042091",
    "country": "gr",
@@ -4002,7 +3738,7 @@
     "de": "Agia Varvara",
     "es": "Agia Varvara"
    },
-   "price": 96000,
+   "price": 105000,
    "area": 90,
    "plot": null,
    "bedrooms": 2,
@@ -4334,93 +4070,6 @@
      "Terrazas panorámicas",
      "Amueblado y equipado",
      "Ascensor"
-    ]
-   }
-  },
-  {
-   "code": 20329522,
-   "slug": "kavala-apt-20329522",
-   "country": "gr",
-   "source": "katoiko",
-   "type": "apt",
-   "deal": "sale",
-   "status": "sale",
-   "featured": true,
-   "place": "kavala",
-   "district": {
-    "bg": "Център",
-    "ru": "Центр",
-    "en": "Centre",
-    "de": "Zentrum",
-    "es": "Centro"
-   },
-   "price": 100000,
-   "area": 42,
-   "plot": null,
-   "bedrooms": 1,
-   "bathrooms": 1,
-   "floor": "0",
-   "sea": null,
-   "furnished": true,
-   "lift": null,
-   "url": "https://www.katoiko.gr/bg/propertyDetails/20329522",
-   "photos": [
-    "https://m2.spitogatos.gr/360880279_900x675.jpg",
-    "https://m3.spitogatos.gr/360880283_900x675.jpg",
-    "https://m1.spitogatos.gr/360880362_900x675.jpg",
-    "https://m3.spitogatos.gr/360880181_900x675.jpg",
-    "https://m2.spitogatos.gr/360880447_900x675.jpg",
-    "https://m2.spitogatos.gr/360880648_900x675.jpg",
-    "https://m3.spitogatos.gr/360880790_900x675.jpg",
-    "https://m1.spitogatos.gr/360880650_900x675.jpg",
-    "https://m1.spitogatos.gr/360880746_900x675.jpg",
-    "https://m2.spitogatos.gr/360880138_900x675.jpg",
-    "https://m2.spitogatos.gr/360880792_900x675.jpg"
-   ],
-   "title": {
-    "bg": "Обзаведено студио за наем на минути от площада на Кавала",
-    "ru": "Студия с мебелью под аренду в паре минут от площади Кавалы",
-    "en": "Furnished studio to let, minutes from Kavala's main square",
-    "de": "Möbliertes Studio zur Vermietung, Minuten vom Hauptplatz Kavalas",
-    "es": "Estudio amueblado para alquilar a minutos de la plaza de Kavala"
-   },
-   "desc": {
-    "bg": "Готово за първия наемател още утре: ремонтирано студио с 42 м² чиста площ на партер в центъра, на минути от централния площад. Спалня, дневна с кухненски бокс и баня, мебели и всички уреди, климатик, блиндирана врата и тераса. Без такси за поддръжка – подходящо за дългосрочен наем или за летни гости с по-висока доходност.",
-    "ru": "Готова к первому арендатору хоть завтра: отремонтированная студия 42 м² чистой площади на первом этаже в центре, в паре минут от центральной площади. Спальня, гостиная с кухонной зоной и ванная, мебель и вся техника, кондиционер, бронированная дверь и терраса. Без взносов за содержание — для долгосрочной аренды или летних гостей с более высокой доходностью.",
-    "en": "Ready for its first tenant tomorrow: a renovated 42 m² net studio on the ground floor in the centre, minutes from the main square. A bedroom, a living room with kitchenette and a bathroom, furniture and all appliances, air conditioning, a security door and a terrace. No running fees — for long lets or summer guests at a higher yield.",
-    "de": "Bereit für den ersten Mieter schon morgen: renoviertes Studio mit 42 m² netto im Erdgeschoss im Zentrum, Minuten vom Hauptplatz. Schlafzimmer, Wohnzimmer mit Küchenzeile und Bad, Möbel und alle Geräte, Klimaanlage, Sicherheitstür und Terrasse. Keine Nebenkosten — für Langzeitmiete oder Sommergäste mit höherer Rendite.",
-    "es": "Listo para su primer inquilino mañana mismo: estudio reformado de 42 m² útiles en planta baja en el centro, a minutos de la plaza central. Dormitorio, salón con cocina americana y baño, muebles y todos los electrodomésticos, aire acondicionado, puerta blindada y terraza. Sin gastos de comunidad: para alquiler de larga duración o huéspedes de verano con mayor rentabilidad."
-   },
-   "feat": {
-    "bg": [
-     "Ремонтирано",
-     "С мебели и уреди",
-     "Без такси",
-     "За наем"
-    ],
-    "ru": [
-     "После ремонта",
-     "С мебелью и техникой",
-     "Без взносов",
-     "Под аренду"
-    ],
-    "en": [
-     "Renovated",
-     "Furnished and equipped",
-     "No fees",
-     "Ready to let"
-    ],
-    "de": [
-     "Renoviert",
-     "Möbliert und ausgestattet",
-     "Keine Nebenkosten",
-     "Bereit zur Vermietung"
-    ],
-    "es": [
-     "Reformado",
-     "Amueblado y equipado",
-     "Sin gastos",
-     "Listo para alquilar"
     ]
    }
   },
@@ -4949,86 +4598,6 @@
      "Sauna y gimnasio",
      "Bodega",
      "Garaje y jardín"
-    ]
-   }
-  },
-  {
-   "code": 19556354,
-   "slug": "kavala-house-19556354",
-   "country": "gr",
-   "source": "katoiko",
-   "type": "house",
-   "deal": "sale",
-   "status": "sale",
-   "featured": true,
-   "place": "kavala",
-   "district": {
-    "bg": "Неаполи – Депос",
-    "ru": "Неаполи – Депос",
-    "en": "Neapoli – Depos",
-    "de": "Neapoli – Depos",
-    "es": "Neapoli – Depos"
-   },
-   "price": 320000,
-   "area": 165,
-   "plot": null,
-   "bedrooms": 3,
-   "bathrooms": 2,
-   "floor": null,
-   "sea": null,
-   "furnished": null,
-   "lift": null,
-   "url": "https://www.katoiko.gr/bg/propertyDetails/19556354",
-   "photos": [
-    "https://m3.spitogatos.gr/349404308_900x675.jpg",
-    "https://m2.spitogatos.gr/347906977_900x675.jpg",
-    "https://m1.spitogatos.gr/347907000_900x675.jpg",
-    "https://m1.spitogatos.gr/347907009_900x675.jpg"
-   ],
-   "title": {
-    "bg": "Триетажен мезонет 165 м² с двор и гледка към морето, Депос",
-    "ru": "Трёхэтажный мезонет 165 м² с двором и видом на море, Депос",
-    "en": "Three-storey 165 m² maisonette with courtyard and sea view, Depos",
-    "de": "Dreistöckige Maisonette mit 165 m², Innenhof und Meerblick, Depos",
-    "es": "Dúplex de tres plantas y 165 m² con patio y vistas al mar, Depos"
-   },
-   "desc": {
-    "bg": "Не се нуждае от нищо – само от нови собственици: самостоятелен ъглов мезонет на три етажа, 165 м² в Депос, с вътрешен двор и прекрасна гледка към морето. Партер – хол, кухня, баня и склад; първи етаж – светла всекидневна, тоалетна и склад; втори етаж – три спални и баня. Собствен котел на нафта, нови климатици на всеки етаж, слънчев бойлер, нова дограма и аларма. Построен през 2000 г., с голяма тераса и балкони във всички стаи.",
-    "ru": "Ему ничего не нужно, кроме новых хозяев: отдельный угловой мезонет на три этажа, 165 м² в Депосе, с внутренним двором и прекрасным видом на море. Первый этаж — гостиная, кухня, ванная и кладовая; второй — светлая гостиная, туалет и кладовая; третий — три спальни и ванная. Свой котёл на дизеле, новые кондиционеры на каждом этаже, солнечный водонагреватель, новые окна и сигнализация. Построен в 2000 году, большая терраса и балконы во всех комнатах.",
-    "en": "It needs nothing but new owners: a detached corner maisonette over three floors, 165 m² in Depos, with an inner courtyard and a lovely sea view. Ground floor — living room, kitchen, bathroom and storeroom; first floor — a bright sitting room, WC and storeroom; second floor — three bedrooms and a bathroom. Its own oil boiler, new air conditioners on every floor, a solar water heater, new windows and an alarm. Built in 2000, with a large terrace and balconies off every room.",
-    "de": "Sie braucht nur noch neue Eigentümer: freistehende Eck-Maisonette auf drei Etagen, 165 m² in Depos, mit Innenhof und schönem Meerblick. Erdgeschoss — Wohnzimmer, Küche, Bad und Abstellraum; erster Stock — heller Wohnraum, WC und Abstellraum; zweiter Stock — drei Schlafzimmer und Bad. Eigener Ölkessel, neue Klimaanlagen auf jeder Etage, Solarwarmwasser, neue Fenster und Alarmanlage. Baujahr 2000, große Terrasse und Balkone an allen Zimmern.",
-    "es": "Solo le faltan nuevos dueños: dúplex esquinero independiente de tres plantas, 165 m² en Depos, con patio interior y preciosas vistas al mar. Planta baja: salón, cocina, baño y trastero; primera: sala luminosa, aseo y trastero; segunda: tres dormitorios y baño. Caldera de gasóleo propia, aires acondicionados nuevos en cada planta, calentador solar, ventanas nuevas y alarma. Construido en 2000, con gran terraza y balcones en todas las estancias."
-   },
-   "feat": {
-    "bg": [
-     "Гледка към морето",
-     "Вътрешен двор",
-     "Построен 2000 г.",
-     "Аларма"
-    ],
-    "ru": [
-     "Вид на море",
-     "Внутренний двор",
-     "Построен в 2000 году",
-     "Сигнализация"
-    ],
-    "en": [
-     "Sea view",
-     "Inner courtyard",
-     "Built 2000",
-     "Alarm system"
-    ],
-    "de": [
-     "Meerblick",
-     "Innenhof",
-     "Baujahr 2000",
-     "Alarmanlage"
-    ],
-    "es": [
-     "Vistas al mar",
-     "Patio interior",
-     "Construido en 2000",
-     "Alarma"
     ]
    }
   },
@@ -7823,94 +7392,6 @@
    }
   },
   {
-   "code": 18588558,
-   "slug": "kavala-apt-18588558",
-   "country": "gr",
-   "source": "katoiko",
-   "type": "apt",
-   "deal": "sale",
-   "status": "sale",
-   "featured": true,
-   "place": "kavala",
-   "district": {
-    "bg": "Кринидес",
-    "ru": "Кринидес",
-    "en": "Krinides",
-    "de": "Krinides",
-    "es": "Krinides"
-   },
-   "price": 30000,
-   "area": 85,
-   "plot": null,
-   "bedrooms": 2,
-   "bathrooms": 1,
-   "floor": "1",
-   "sea": null,
-   "furnished": null,
-   "lift": null,
-   "url": "https://www.katoiko.gr/bg/propertyDetails/18588558",
-   "photos": [
-    "https://m1.spitogatos.gr/333132888_900x675.jpg",
-    "https://m3.spitogatos.gr/333132884_900x675.jpg",
-    "https://m2.spitogatos.gr/333132868_900x675.jpg",
-    "https://m1.spitogatos.gr/333132867_900x675.jpg",
-    "https://m1.spitogatos.gr/333132900_900x675.jpg",
-    "https://m3.spitogatos.gr/333132908_900x675.jpg",
-    "https://m3.spitogatos.gr/333132917_900x675.jpg",
-    "https://m1.spitogatos.gr/333132921_900x675.jpg",
-    "https://m3.spitogatos.gr/333132920_900x675.jpg",
-    "https://m2.spitogatos.gr/333132922_900x675.jpg",
-    "https://m1.spitogatos.gr/333132939_900x675.jpg",
-    "https://m2.spitogatos.gr/333132940_900x675.jpg"
-   ],
-   "title": {
-    "bg": "Горен етаж на къща с двор за 30 000 €, Кринидес",
-    "ru": "Верхний этаж дома с двором за 30 000 €, Кринидес",
-    "en": "Upper floor of a house with a garden for €30,000, Krinides",
-    "de": "Obergeschoss eines Hauses mit Garten für 30.000 €, Krinides",
-    "es": "Planta alta de una casa con jardín por 30.000 €, Krinides"
-   },
-   "desc": {
-    "bg": "Свое място в Гърция на цената на кола: горният етаж на двуфамилна къща, 85 м², в селото Кринидес край древния Филипи. Към него има 60% от парцел от 450 м² и общ склад от 60 м². Без месечни такси; къщата е от 1950 г. и има нужда от ремонт.",
-    "ru": "Своё место в Греции по цене автомобиля: верхний этаж дома на две семьи, 85 м², в деревне Кринидес рядом с древними Филиппами. К нему относится 60% участка 450 м² и общий склад 60 м². Без ежемесячных взносов; дом 1950 года, нужен ремонт.",
-    "en": "Your own place in Greece for the price of a car: the 85 m² upper floor of a two-family house in the village of Krinides near ancient Philippi. It comes with a 60% share of a 450 m² plot and a shared 60 m² storeroom. No monthly fees; the house dates from 1950 and needs renovation.",
-    "de": "Ein eigenes Zuhause in Griechenland zum Preis eines Autos: Obergeschoss (85 m²) eines Zweifamilienhauses im Dorf Krinides beim antiken Philippi. Dazu 60 % eines 450 m² Grundstücks und ein gemeinsames 60 m² Lager. Keine Nebenkosten; Baujahr 1950, renovierungsbedürftig.",
-    "es": "Su propio lugar en Grecia por el precio de un coche: planta alta de 85 m² de una casa bifamiliar en el pueblo de Krinides, junto a la antigua Filipos. Incluye el 60 % de una parcela de 450 m² y un almacén compartido de 60 m². Sin gastos mensuales; casa de 1950 que necesita reforma."
-   },
-   "feat": {
-    "bg": [
-     "Цена 30 000 €",
-     "Двор",
-     "Склад 60 м²",
-     "За ремонт"
-    ],
-    "ru": [
-     "Цена 30 000 €",
-     "Двор",
-     "Склад 60 м²",
-     "Под ремонт"
-    ],
-    "en": [
-     "Price €30,000",
-     "Garden",
-     "60 m² storeroom",
-     "To renovate"
-    ],
-    "de": [
-     "Preis 30.000 €",
-     "Garten",
-     "60 m² Lager",
-     "Zu renovieren"
-    ],
-    "es": [
-     "Precio 30.000 €",
-     "Jardín",
-     "Almacén de 60 m²",
-     "Para reformar"
-    ]
-   }
-  },
-  {
    "code": 17732801,
    "slug": "kavala-apt-17732801",
    "country": "gr",
@@ -8447,7 +7928,7 @@
     "de": "Timios Stavros",
     "es": "Timios Stavros"
    },
-   "price": 49000,
+   "price": 47000,
    "area": 26,
    "plot": null,
    "bedrooms": 1,
@@ -20199,6 +19680,1528 @@
      "2 ha, vallada",
      "~300 cerezos",
      "Vistas panorámicas"
+    ]
+   }
+  },
+  {
+   "code": 2439708,
+   "slug": "kavala-house-2439708",
+   "country": "gr",
+   "source": "katoiko",
+   "type": "house",
+   "deal": "sale",
+   "status": "sale",
+   "featured": true,
+   "place": "kavala",
+   "district": {
+    "bg": "Палио",
+    "ru": "Палио",
+    "en": "Palio",
+    "de": "Palio",
+    "es": "Palio"
+   },
+   "price": 1000000,
+   "area": 240,
+   "plot": 480,
+   "bedrooms": 6,
+   "bathrooms": 2,
+   "floor": "0",
+   "sea": null,
+   "furnished": null,
+   "lift": null,
+   "url": "https://www.katoiko.gr/bg/propertyDetails/2439708",
+   "photos": [
+    "https://m3.spitogatos.gr/44669480_900x675.jpg",
+    "https://m3.spitogatos.gr/44669486_900x675.jpg",
+    "https://m1.spitogatos.gr/44669490_900x675.jpg",
+    "https://m3.spitogatos.gr/44669492_900x675.jpg",
+    "https://m1.spitogatos.gr/44669496_900x675.jpg",
+    "https://m1.spitogatos.gr/44669502_900x675.jpg",
+    "https://m3.spitogatos.gr/44669507_900x675.jpg"
+   ],
+   "title": {
+    "bg": "Луксозна къща 240 м² с гледка и двор, Палио",
+    "ru": "Роскошный дом 240 м² с видом и двором, Палио",
+    "en": "Luxury 240 m² house with views and garden, Palio",
+    "de": "Luxushaus 240 m² mit Aussicht und Garten, Palio",
+    "es": "Casa de lujo de 240 m² con vistas y jardín, Palio"
+   },
+   "desc": {
+    "bg": "Къща на три нива с 6 спални на парцел 480 м² в Палио, до морето край Кавала: камина, тераси с гледка, двор, гараж и слънчев бойлер. Построена през 1997 г.",
+    "ru": "Трёхуровневый дом с 6 спальнями на участке 480 м² в Палио, у моря рядом с Кавалой: камин, террасы с видом, двор, гараж и солнечный бойлер. Построен в 1997 году.",
+    "en": "A three-level house with 6 bedrooms on a 480 m² plot in Palio, by the sea near Kavala: fireplace, terraces with views, garden, garage and solar water heater. Built in 1997.",
+    "de": "Haus auf drei Ebenen mit 6 Schlafzimmern auf 480 m² Grund in Palio, am Meer bei Kavala: Kamin, Terrassen mit Aussicht, Garten, Garage und Solarboiler. Baujahr 1997.",
+    "es": "Casa de tres plantas con 6 dormitorios en una parcela de 480 m² en Palio, junto al mar cerca de Kavala: chimenea, terrazas con vistas, jardín, garaje y calentador solar. Construida en 1997."
+   },
+   "feat": {
+    "bg": [
+     "6 спални",
+     "Парцел 480 м²",
+     "Гледка",
+     "Гараж"
+    ],
+    "ru": [
+     "6 спален",
+     "Участок 480 м²",
+     "Вид",
+     "Гараж"
+    ],
+    "en": [
+     "6 bedrooms",
+     "480 m² plot",
+     "Views",
+     "Garage"
+    ],
+    "de": [
+     "6 Schlafzimmer",
+     "480 m² Grundstück",
+     "Aussicht",
+     "Garage"
+    ],
+    "es": [
+     "6 dormitorios",
+     "Parcela de 480 m²",
+     "Vistas",
+     "Garaje"
+    ]
+   }
+  },
+  {
+   "code": 14953072,
+   "slug": "kavala-apt-14953072",
+   "country": "gr",
+   "source": "katoiko",
+   "type": "apt",
+   "deal": "sale",
+   "status": "sale",
+   "featured": true,
+   "place": "kavala",
+   "district": {
+    "bg": "Неа Ираклица",
+    "ru": "Неа Ираклица",
+    "en": "Nea Iraklitsa",
+    "de": "Nea Iraklitsa",
+    "es": "Nea Iraklitsa"
+   },
+   "price": 340000,
+   "area": 154,
+   "plot": null,
+   "bedrooms": 3,
+   "bathrooms": 2,
+   "floor": null,
+   "sea": null,
+   "furnished": null,
+   "lift": null,
+   "url": "https://www.katoiko.gr/bg/propertyDetails/14953072",
+   "photos": [
+    "https://m3.spitogatos.gr/272218052_900x675.jpg",
+    "https://m3.spitogatos.gr/272218070_900x675.jpg",
+    "https://m2.spitogatos.gr/272218057_900x675.jpg",
+    "https://m3.spitogatos.gr/272218106_900x675.jpg",
+    "https://m1.spitogatos.gr/272218194_900x675.jpg",
+    "https://m3.spitogatos.gr/272218190_900x675.jpg",
+    "https://m1.spitogatos.gr/272218206_900x675.jpg",
+    "https://m2.spitogatos.gr/272218582_900x675.jpg",
+    "https://m2.spitogatos.gr/272218249_900x675.jpg",
+    "https://m1.spitogatos.gr/272218260_900x675.jpg",
+    "https://m2.spitogatos.gr/272218267_900x675.jpg",
+    "https://m3.spitogatos.gr/272218271_900x675.jpg",
+    "https://m2.spitogatos.gr/272218237_900x675.jpg",
+    "https://m3.spitogatos.gr/272218295_900x675.jpg",
+    "https://m3.spitogatos.gr/272218289_900x675.jpg",
+    "https://m2.spitogatos.gr/272218360_900x675.jpg",
+    "https://m1.spitogatos.gr/272218356_900x675.jpg",
+    "https://m2.spitogatos.gr/272218576_900x675.jpg",
+    "https://m3.spitogatos.gr/272218370_900x675.jpg",
+    "https://m3.spitogatos.gr/272218517_900x675.jpg",
+    "https://m2.spitogatos.gr/272218444_900x675.jpg",
+    "https://m1.spitogatos.gr/272218716_900x675.jpg",
+    "https://m1.spitogatos.gr/272218719_900x675.jpg",
+    "https://m1.spitogatos.gr/272218623_900x675.jpg",
+    "https://m1.spitogatos.gr/272218644_900x675.jpg"
+   ],
+   "title": {
+    "bg": "Ъглов мезонет 154 м² с градина до морето, Неа Ираклица",
+    "ru": "Угловой мезонет 154 м² с садом у моря, Неа Ираклица",
+    "en": "154 m² corner maisonette with garden near the sea, Nea Iraklitsa",
+    "de": "154 m² Eck-Maisonette mit Garten nahe am Meer, Nea Iraklitsa",
+    "es": "Dúplex esquinero de 154 m² con jardín cerca del mar, Nea Iraklitsa"
+   },
+   "desc": {
+    "bg": "Мезонет на три нива с гледка: два хола с кухни, три спални, тераса и градина, на няколко минути от морето. Камина, нафтово отопление, соларна и четири климатика; построен 2004 г., в перфектно състояние.",
+    "ru": "Мезонет на трёх уровнях с видом: две гостиные с кухнями, три спальни, терраса и сад, в нескольких минутах от моря. Камин, отопление на дизеле, солнечный бойлер и четыре кондиционера; дом 2004 года, в отличном состоянии.",
+    "en": "A three-level maisonette with views: two living rooms with kitchens, three bedrooms, a terrace and garden, a few minutes from the sea. Fireplace, oil heating, solar water heater and four air conditioners; built in 2004 and in perfect condition.",
+    "de": "Maisonette auf drei Ebenen mit Aussicht: zwei Wohnzimmer mit Küchen, drei Schlafzimmer, Terrasse und Garten, wenige Minuten vom Meer. Kamin, Ölheizung, Solarboiler und vier Klimaanlagen; Baujahr 2004, top Zustand.",
+    "es": "Dúplex de tres plantas con vistas: dos salones con cocina, tres dormitorios, terraza y jardín, a pocos minutos del mar. Chimenea, calefacción de gasóleo, calentador solar y cuatro aires acondicionados; de 2004 y en perfecto estado."
+   },
+   "feat": {
+    "bg": [
+     "3 спални",
+     "Градина",
+     "Камина",
+     "До морето"
+    ],
+    "ru": [
+     "3 спальни",
+     "Сад",
+     "Камин",
+     "У моря"
+    ],
+    "en": [
+     "3 bedrooms",
+     "Garden",
+     "Fireplace",
+     "Near the sea"
+    ],
+    "de": [
+     "3 Schlafzimmer",
+     "Garten",
+     "Kamin",
+     "Meernah"
+    ],
+    "es": [
+     "3 dormitorios",
+     "Jardín",
+     "Chimenea",
+     "Cerca del mar"
+    ]
+   }
+  },
+  {
+   "code": 15616878,
+   "slug": "kavala-house-15616878",
+   "country": "gr",
+   "source": "katoiko",
+   "type": "house",
+   "deal": "sale",
+   "status": "sale",
+   "featured": true,
+   "place": "kavala",
+   "district": {
+    "bg": "Неа Ираклица",
+    "ru": "Неа Ираклица",
+    "en": "Nea Iraklitsa",
+    "de": "Nea Iraklitsa",
+    "es": "Nea Iraklitsa"
+   },
+   "price": 1650000,
+   "area": 220,
+   "plot": 356,
+   "bedrooms": 4,
+   "bathrooms": 2,
+   "floor": "0",
+   "sea": null,
+   "furnished": null,
+   "lift": null,
+   "url": "https://www.katoiko.gr/bg/propertyDetails/15616878",
+   "photos": [
+    "https://m2.spitogatos.gr/283187587_900x675.jpg",
+    "https://m3.spitogatos.gr/283187405_900x675.jpg",
+    "https://m1.spitogatos.gr/283187481_900x675.jpg",
+    "https://m3.spitogatos.gr/283187507_900x675.jpg",
+    "https://m2.spitogatos.gr/283187569_900x675.jpg",
+    "https://m3.spitogatos.gr/283187426_900x675.jpg"
+   ],
+   "title": {
+    "bg": "Къща на морето с панорама от всеки етаж, Неа Ираклица",
+    "ru": "Дом у моря с панорамой с каждого этажа, Неа Ираклица",
+    "en": "Seafront house with sea views from every floor, Nea Iraklitsa",
+    "de": "Haus am Meer mit Meerblick von jeder Etage, Nea Iraklitsa",
+    "es": "Casa junto al mar con vistas desde cada planta, Nea Iraklitsa"
+   },
+   "desc": {
+    "bg": "Самостоятелна ъглова къща на три нива на морския бряг: 4 спални (главната ~40 м² със собствена баня, камина и дрешник), хол с камина, таванско помещение и двор. Всички етажи са с морска панорама; качествено строителство от 2008 г.",
+    "ru": "Отдельный угловой дом на трёх уровнях у самого моря: 4 спальни (главная около 40 м² с собственной ванной, камином и гардеробной), гостиная с камином, мансарда и двор. С каждого этажа — панорама моря; качественная постройка 2008 года.",
+    "en": "A detached corner house on three levels right by the sea: 4 bedrooms (the master is about 40 m² with en-suite, fireplace and dressing room), a living room with fireplace, an attic and a garden. Sea views from every floor; quality build from 2008.",
+    "de": "Freistehendes Eckhaus auf drei Ebenen direkt am Meer: 4 Schlafzimmer (Hauptschlafzimmer ca. 40 m² mit Bad, Kamin und Ankleide), Wohnzimmer mit Kamin, Dachboden und Garten. Meerblick von jeder Etage; hochwertiger Bau von 2008.",
+    "es": "Casa esquinera independiente de tres plantas junto al mar: 4 dormitorios (el principal de unos 40 m² con baño, chimenea y vestidor), salón con chimenea, buhardilla y jardín. Vistas al mar desde todas las plantas; construcción de calidad de 2008."
+   },
+   "feat": {
+    "bg": [
+     "На морето",
+     "4 спални",
+     "Морска панорама",
+     "Двор"
+    ],
+    "ru": [
+     "У моря",
+     "4 спальни",
+     "Панорама моря",
+     "Двор"
+    ],
+    "en": [
+     "By the sea",
+     "4 bedrooms",
+     "Sea views",
+     "Garden"
+    ],
+    "de": [
+     "Am Meer",
+     "4 Schlafzimmer",
+     "Meerblick",
+     "Garten"
+    ],
+    "es": [
+     "Junto al mar",
+     "4 dormitorios",
+     "Vistas al mar",
+     "Jardín"
+    ]
+   }
+  },
+  {
+   "code": 15705317,
+   "slug": "kavala-apt-15705317",
+   "country": "gr",
+   "source": "katoiko",
+   "type": "apt",
+   "deal": "sale",
+   "status": "sale",
+   "featured": true,
+   "place": "kavala",
+   "district": {
+    "bg": "Център",
+    "ru": "Центр",
+    "en": "Centre",
+    "de": "Zentrum",
+    "es": "Centro"
+   },
+   "price": 80000,
+   "area": 60,
+   "plot": null,
+   "bedrooms": 1,
+   "bathrooms": 1,
+   "floor": "0",
+   "sea": null,
+   "furnished": true,
+   "lift": null,
+   "url": "https://www.katoiko.gr/bg/propertyDetails/15705317",
+   "photos": [
+    "https://m2.spitogatos.gr/284537344_900x675.jpg",
+    "https://m3.spitogatos.gr/284537291_900x675.jpg",
+    "https://m3.spitogatos.gr/284537321_900x675.jpg",
+    "https://m1.spitogatos.gr/284537331_900x675.jpg",
+    "https://m3.spitogatos.gr/284537297_900x675.jpg",
+    "https://m3.spitogatos.gr/284537303_900x675.jpg",
+    "https://m2.spitogatos.gr/284537311_900x675.jpg"
+   ],
+   "title": {
+    "bg": "Обзаведен апартамент 60 м² със самостоятелен вход, център",
+    "ru": "Квартира 60 м² с мебелью и отдельным входом, центр",
+    "en": "Furnished 60 m² flat with its own entrance, centre",
+    "de": "Möblierte 60 m² Wohnung mit eigenem Eingang, Zentrum",
+    "es": "Piso amueblado de 60 m² con entrada propia, centro"
+   },
+   "desc": {
+    "bg": "Ремонтиран и напълно обзаведен партерен апартамент близо до акведукта Камарес: спалня, хол и баня, климатик, самостоятелен вход. Готов за живеене или отдаване под наем.",
+    "ru": "Отремонтированная квартира с мебелью на первом этаже рядом с акведуком Камарес: спальня, гостиная и ванная, кондиционер, отдельный вход. Можно сразу жить или сдавать.",
+    "en": "A renovated, fully furnished ground-floor flat near the Kamares aqueduct: bedroom, living room and bathroom, air conditioning and its own entrance. Ready to live in or let.",
+    "de": "Renovierte, voll möblierte Erdgeschosswohnung nahe dem Kamares-Aquädukt: Schlafzimmer, Wohnzimmer und Bad, Klimaanlage, eigener Eingang. Bezugsfertig oder zur Vermietung.",
+    "es": "Piso en planta baja reformado y amueblado junto al acueducto de Kamares: dormitorio, salón y baño, aire acondicionado y entrada propia. Listo para vivir o alquilar."
+   },
+   "feat": {
+    "bg": [
+     "Ремонтиран",
+     "Обзаведен",
+     "Самостоятелен вход"
+    ],
+    "ru": [
+     "С ремонтом",
+     "С мебелью",
+     "Отдельный вход"
+    ],
+    "en": [
+     "Renovated",
+     "Furnished",
+     "Own entrance"
+    ],
+    "de": [
+     "Renoviert",
+     "Möbliert",
+     "Eigener Eingang"
+    ],
+    "es": [
+     "Reformado",
+     "Amueblado",
+     "Entrada propia"
+    ]
+   }
+  },
+  {
+   "code": 18108972,
+   "slug": "kavala-apt-18108972",
+   "country": "gr",
+   "source": "katoiko",
+   "type": "apt",
+   "deal": "sale",
+   "status": "sale",
+   "featured": true,
+   "place": "kavala",
+   "district": {
+    "bg": "Виронас",
+    "ru": "Виронас",
+    "en": "Vyronas",
+    "de": "Vyronas",
+    "es": "Vyronas"
+   },
+   "price": 230000,
+   "area": 106,
+   "plot": null,
+   "bedrooms": 2,
+   "bathrooms": 1,
+   "floor": "3",
+   "sea": null,
+   "furnished": null,
+   "lift": true,
+   "url": "https://www.katoiko.gr/bg/propertyDetails/18108972",
+   "photos": [
+    "https://m1.spitogatos.gr/374343447_900x675.jpg",
+    "https://m1.spitogatos.gr/374340399_900x675.jpg",
+    "https://m2.spitogatos.gr/374343556_900x675.jpg",
+    "https://m2.spitogatos.gr/374340382_900x675.jpg",
+    "https://m3.spitogatos.gr/374341487_900x675.jpg",
+    "https://m1.spitogatos.gr/374341434_900x675.jpg",
+    "https://m2.spitogatos.gr/374341855_900x675.jpg",
+    "https://m1.spitogatos.gr/374341851_900x675.jpg",
+    "https://m2.spitogatos.gr/374341849_900x675.jpg",
+    "https://m1.spitogatos.gr/374340210_900x675.jpg",
+    "https://m2.spitogatos.gr/374340214_900x675.jpg",
+    "https://m2.spitogatos.gr/374340202_900x675.jpg",
+    "https://m2.spitogatos.gr/374342374_900x675.jpg",
+    "https://m1.spitogatos.gr/374342370_900x675.jpg",
+    "https://m3.spitogatos.gr/374344811_900x675.jpg",
+    "https://m1.spitogatos.gr/374341470_900x675.jpg",
+    "https://m3.spitogatos.gr/374342555_900x675.jpg",
+    "https://m3.spitogatos.gr/374342348_900x675.jpg",
+    "https://m3.spitogatos.gr/374342576_900x675.jpg",
+    "https://m1.spitogatos.gr/374341437_900x675.jpg",
+    "https://m2.spitogatos.gr/374341468_900x675.jpg"
+   ],
+   "title": {
+    "bg": "Слънчев апартамент 106 м² с паркомясто, Виронас",
+    "ru": "Солнечная квартира 106 м² с парковкой, Виронас",
+    "en": "Sunny 106 m² flat with parking, Vyronas",
+    "de": "Sonnige 106 m² Wohnung mit Stellplatz, Vyronas",
+    "es": "Piso soleado de 106 m² con plaza de parking, Vyronas"
+   },
+   "desc": {
+    "bg": "Апартамент на 3-ти етаж в сграда от 2000 г.: две спални, хол, кухня, баня, склад и голяма тераса, асансьор и собствено паркомясто. Близо до училища, спирка и супермаркет.",
+    "ru": "Квартира на 3-м этаже в доме 2000 года: две спальни, гостиная, кухня, ванная, кладовая и большая терраса, лифт и своё парковочное место. Рядом школы, остановка и супермаркет.",
+    "en": "A 3rd-floor flat in a 2000 building: two bedrooms, living room, kitchen, bathroom, storeroom and a large terrace, with a lift and private parking. Close to schools, a bus stop and a supermarket.",
+    "de": "Wohnung im 3. Stock eines Hauses von 2000: zwei Schlafzimmer, Wohnzimmer, Küche, Bad, Abstellraum und große Terrasse, Aufzug und eigener Stellplatz. Nahe Schulen, Bushaltestelle und Supermarkt.",
+    "es": "Piso en 3.ª planta en un edificio de 2000: dos dormitorios, salón, cocina, baño, trastero y gran terraza, con ascensor y plaza de parking propia. Cerca de colegios, parada de autobús y supermercado."
+   },
+   "feat": {
+    "bg": [
+     "2 спални",
+     "Паркомясто",
+     "Асансьор",
+     "Сграда от 2000 г."
+    ],
+    "ru": [
+     "2 спальни",
+     "Парковка",
+     "Лифт",
+     "Дом 2000 года"
+    ],
+    "en": [
+     "2 bedrooms",
+     "Parking",
+     "Lift",
+     "Built 2000"
+    ],
+    "de": [
+     "2 Schlafzimmer",
+     "Stellplatz",
+     "Aufzug",
+     "Baujahr 2000"
+    ],
+    "es": [
+     "2 dormitorios",
+     "Parking",
+     "Ascensor",
+     "Construido en 2000"
+    ]
+   }
+  },
+  {
+   "code": 18816310,
+   "slug": "kavala-house-18816310",
+   "country": "gr",
+   "source": "katoiko",
+   "type": "house",
+   "deal": "sale",
+   "status": "sale",
+   "featured": true,
+   "place": "kavala",
+   "district": {
+    "bg": "Парадисос (Хрисуполи)",
+    "ru": "Парадисос (Хрисуполи)",
+    "en": "Paradeisos (Chrysoupoli)",
+    "de": "Paradeisos (Chrysoupoli)",
+    "es": "Paradeisos (Chrysoupoli)"
+   },
+   "price": 200000,
+   "area": 89,
+   "plot": 24111,
+   "bedrooms": 1,
+   "bathrooms": 1,
+   "floor": "0",
+   "sea": null,
+   "furnished": true,
+   "lift": null,
+   "url": "https://www.katoiko.gr/bg/propertyDetails/18816310",
+   "photos": [
+    "https://m2.spitogatos.gr/337274533_900x675.jpg",
+    "https://m2.spitogatos.gr/337274536_900x675.jpg",
+    "https://m1.spitogatos.gr/337274538_900x675.jpg",
+    "https://m3.spitogatos.gr/337274531_900x675.jpg"
+   ],
+   "title": {
+    "bg": "Къща с маслинови насаждения 2,4 ха, Парадисос",
+    "ru": "Дом с оливковыми плантациями 2,4 га, Парадисос",
+    "en": "House with 2.4 ha of olive groves, Paradeisos",
+    "de": "Haus mit 2,4 ha Olivenhainen, Paradeisos",
+    "es": "Casa con 2,4 ha de olivares, Paradeisos"
+   },
+   "desc": {
+    "bg": "Обзаведена къща 89 м² сред около 2,4 ха земя с над 500 маслинови и 35 овощни дървета край Хрисуполи; безплатна вода от изворите на селото. Продава се и техниката за обработка — готов бизнес с добив до 30 т маслини годишно.",
+    "ru": "Дом 89 м² с мебелью среди примерно 2,4 га земли с более чем 500 оливковыми и 35 фруктовыми деревьями у Хрисуполи; бесплатная вода из родников деревни. Продаётся и техника для обработки — готовый бизнес с урожаем до 30 т оливок в год.",
+    "en": "A furnished 89 m² house on about 2.4 ha of land with over 500 olive trees and 35 fruit trees near Chrysoupoli, with free water from the village springs. The farm machinery is also for sale — a ready business yielding up to 30 tonnes of olives a year.",
+    "de": "Möbliertes 89 m² Haus auf rund 2,4 ha Land mit über 500 Oliven- und 35 Obstbäumen bei Chrysoupoli, kostenloses Quellwasser des Dorfes. Die Landmaschinen werden mitverkauft – ein fertiger Betrieb mit bis zu 30 t Oliven pro Jahr.",
+    "es": "Casa amueblada de 89 m² en unas 2,4 ha con más de 500 olivos y 35 frutales cerca de Chrysoupoli, con agua gratuita de los manantiales del pueblo. También se vende la maquinaria: un negocio listo con hasta 30 t de aceitunas al año."
+   },
+   "feat": {
+    "bg": [
+     "2,4 ха земя",
+     "500+ маслинови дървета",
+     "Готов бизнес"
+    ],
+    "ru": [
+     "2,4 га земли",
+     "500+ олив",
+     "Готовый бизнес"
+    ],
+    "en": [
+     "2.4 ha of land",
+     "500+ olive trees",
+     "Ready business"
+    ],
+    "de": [
+     "2,4 ha Land",
+     "500+ Olivenbäume",
+     "Fertiger Betrieb"
+    ],
+    "es": [
+     "2,4 ha de terreno",
+     "500+ olivos",
+     "Negocio listo"
+    ]
+   }
+  },
+  {
+   "code": 20148965,
+   "slug": "kavala-house-20148965",
+   "country": "gr",
+   "source": "katoiko",
+   "type": "house",
+   "deal": "sale",
+   "status": "sale",
+   "featured": true,
+   "place": "kavala",
+   "district": {
+    "bg": "Вунохори (Филипи)",
+    "ru": "Вунохори (Филиппы)",
+    "en": "Vounochori (Filippoi)",
+    "de": "Vounochori (Filippoi)",
+    "es": "Vounochori (Filippoi)"
+   },
+   "price": 160000,
+   "area": 260,
+   "plot": 620,
+   "bedrooms": 3,
+   "bathrooms": 2,
+   "floor": "0",
+   "sea": null,
+   "furnished": null,
+   "lift": null,
+   "url": "https://www.katoiko.gr/bg/propertyDetails/20148965",
+   "photos": [
+    "https://m3.spitogatos.gr/357720743_900x675.jpg",
+    "https://m3.spitogatos.gr/357720746_900x675.jpg",
+    "https://m2.spitogatos.gr/357720805_900x675.jpg",
+    "https://m2.spitogatos.gr/357720793_900x675.jpg",
+    "https://m3.spitogatos.gr/357720821_900x675.jpg",
+    "https://m2.spitogatos.gr/357720769_900x675.jpg",
+    "https://m3.spitogatos.gr/357720845_900x675.jpg",
+    "https://m1.spitogatos.gr/357720846_900x675.jpg",
+    "https://m3.spitogatos.gr/357720824_900x675.jpg",
+    "https://m1.spitogatos.gr/357720825_900x675.jpg",
+    "https://m1.spitogatos.gr/357720828_900x675.jpg",
+    "https://m2.spitogatos.gr/357720889_900x675.jpg",
+    "https://m1.spitogatos.gr/357720942_900x675.jpg",
+    "https://m3.spitogatos.gr/357720911_900x675.jpg",
+    "https://m1.spitogatos.gr/357720918_900x675.jpg",
+    "https://m1.spitogatos.gr/357720933_900x675.jpg",
+    "https://m3.spitogatos.gr/357720944_900x675.jpg",
+    "https://m2.spitogatos.gr/357720946_900x675.jpg",
+    "https://m1.spitogatos.gr/357720966_900x675.jpg",
+    "https://m2.spitogatos.gr/357720976_900x675.jpg",
+    "https://m2.spitogatos.gr/357721213_900x675.jpg",
+    "https://m3.spitogatos.gr/357721334_900x675.jpg",
+    "https://m3.spitogatos.gr/357721217_900x675.jpg",
+    "https://m3.spitogatos.gr/357721241_900x675.jpg",
+    "https://m1.spitogatos.gr/357721212_900x675.jpg"
+   ],
+   "title": {
+    "bg": "Къща с два апартамента и гледка към природата, Вунохори",
+    "ru": "Дом с двумя квартирами и видом на природу, Вунохори",
+    "en": "House with two flats and green views, Vounochori",
+    "de": "Haus mit zwei Wohnungen und Blick ins Grüne, Vounochori",
+    "es": "Casa con dos viviendas y vistas a la naturaleza, Vounochori"
+   },
+   "desc": {
+    "bg": "Самостоятелна къща от 1998 г. на парцел 620 м² край Филипи: два апартамента по 130 м² (общо 3 спални, 2 бани), гараж, тераси с гледка, камина и склад. В перфектно състояние, без месечни такси.",
+    "ru": "Отдельный дом 1998 года на участке 620 м² у Филипп: две квартиры по 130 м² (всего 3 спальни, 2 ванные), гараж, террасы с видом, камин и кладовая. В отличном состоянии, без ежемесячных взносов.",
+    "en": "A detached 1998 house on a 620 m² plot near Filippoi: two 130 m² flats (3 bedrooms and 2 bathrooms in total), a garage, terraces with views, a fireplace and storage. In perfect condition, no monthly fees.",
+    "de": "Freistehendes Haus von 1998 auf 620 m² Grund bei Philippi: zwei Wohnungen à 130 m² (insgesamt 3 Schlafzimmer, 2 Bäder), Garage, Terrassen mit Aussicht, Kamin und Lager. Top Zustand, keine Nebenkosten.",
+    "es": "Casa independiente de 1998 en una parcela de 620 m² cerca de Filipos: dos viviendas de 130 m² (3 dormitorios y 2 baños en total), garaje, terrazas con vistas, chimenea y almacén. En perfecto estado, sin cuotas."
+   },
+   "feat": {
+    "bg": [
+     "2 апартамента",
+     "Парцел 620 м²",
+     "Гараж",
+     "Гледка"
+    ],
+    "ru": [
+     "2 квартиры",
+     "Участок 620 м²",
+     "Гараж",
+     "Вид"
+    ],
+    "en": [
+     "2 flats",
+     "620 m² plot",
+     "Garage",
+     "Views"
+    ],
+    "de": [
+     "2 Wohnungen",
+     "620 m² Grundstück",
+     "Garage",
+     "Aussicht"
+    ],
+    "es": [
+     "2 viviendas",
+     "Parcela de 620 m²",
+     "Garaje",
+     "Vistas"
+    ]
+   }
+  },
+  {
+   "code": 20952786,
+   "slug": "kavala-house-20952786",
+   "country": "gr",
+   "source": "katoiko",
+   "type": "house",
+   "deal": "sale",
+   "status": "sale",
+   "featured": true,
+   "place": "kavala",
+   "district": {
+    "bg": "Амигдалеонас",
+    "ru": "Амигдалеонас",
+    "en": "Amygdaleonas",
+    "de": "Amygdaleonas",
+    "es": "Amygdaleonas"
+   },
+   "price": 70000,
+   "area": 157,
+   "plot": 500,
+   "bedrooms": null,
+   "bathrooms": null,
+   "floor": "0",
+   "sea": null,
+   "furnished": null,
+   "lift": null,
+   "url": "https://www.katoiko.gr/bg/propertyDetails/20952786",
+   "photos": [
+    "https://m3.spitogatos.gr/370468718_900x675.jpg",
+    "https://m2.spitogatos.gr/370468720_900x675.jpg",
+    "https://m1.spitogatos.gr/370468701_900x675.jpg",
+    "https://m3.spitogatos.gr/370468820_900x675.jpg"
+   ],
+   "title": {
+    "bg": "Незавършена къща 157 м² с открита гледка, Амигдалеонас",
+    "ru": "Недостроенный дом 157 м² с открытым видом, Амигдалеонас",
+    "en": "Unfinished 157 m² house with open views, Amygdaleonas",
+    "de": "Unfertiges 157 m² Haus mit freier Aussicht, Amygdaleonas",
+    "es": "Casa sin terminar de 157 m² con vistas abiertas, Amygdaleonas"
+   },
+   "desc": {
+    "bg": "Слънчева къща на две нива (97 + 60 м²) на парцел 500 м² в тих квартал, с директен достъп от пътя. Недовършена — възможност да я завършите по ваш вкус като семеен дом.",
+    "ru": "Солнечный дом на двух уровнях (97 + 60 м²) на участке 500 м² в тихом районе, подъезд прямо с дороги. Не достроен — можно закончить по своему вкусу как семейный дом.",
+    "en": "A sunny two-level house (97 + 60 m²) on a 500 m² plot in a quiet neighbourhood, with direct road access. Unfinished — a chance to complete it to your taste as a family home.",
+    "de": "Sonniges Haus auf zwei Ebenen (97 + 60 m²) auf 500 m² Grund in ruhiger Lage, direkte Zufahrt. Unfertig – nach eigenem Geschmack als Familienhaus fertigzustellen.",
+    "es": "Casa soleada de dos plantas (97 + 60 m²) en una parcela de 500 m² en un barrio tranquilo, con acceso directo. Sin terminar: una ocasión para acabarla a su gusto."
+   },
+   "feat": {
+    "bg": [
+     "Парцел 500 м²",
+     "Открита гледка",
+     "Тих квартал"
+    ],
+    "ru": [
+     "Участок 500 м²",
+     "Открытый вид",
+     "Тихий район"
+    ],
+    "en": [
+     "500 m² plot",
+     "Open views",
+     "Quiet area"
+    ],
+    "de": [
+     "500 m² Grundstück",
+     "Freie Aussicht",
+     "Ruhige Lage"
+    ],
+    "es": [
+     "Parcela de 500 m²",
+     "Vistas abiertas",
+     "Zona tranquila"
+    ]
+   }
+  },
+  {
+   "code": 21195864,
+   "slug": "kavala-apt-21195864",
+   "country": "gr",
+   "source": "katoiko",
+   "type": "apt",
+   "deal": "sale",
+   "status": "sale",
+   "featured": true,
+   "place": "kavala",
+   "district": {
+    "bg": "Център",
+    "ru": "Центр",
+    "en": "Centre",
+    "de": "Zentrum",
+    "es": "Centro"
+   },
+   "price": 110000,
+   "area": 36,
+   "plot": null,
+   "bedrooms": 1,
+   "bathrooms": 1,
+   "floor": "0",
+   "sea": null,
+   "furnished": true,
+   "lift": null,
+   "url": "https://www.katoiko.gr/bg/propertyDetails/21195864",
+   "photos": [
+    "https://m2.spitogatos.gr/374620444_900x675.jpg",
+    "https://m1.spitogatos.gr/374620470_900x675.jpg",
+    "https://m1.spitogatos.gr/374620407_900x675.jpg",
+    "https://m2.spitogatos.gr/374620390_900x675.jpg",
+    "https://m2.spitogatos.gr/374620363_900x675.jpg",
+    "https://m3.spitogatos.gr/374620334_900x675.jpg",
+    "https://m2.spitogatos.gr/374620288_900x675.jpg",
+    "https://m2.spitogatos.gr/374620258_900x675.jpg",
+    "https://m2.spitogatos.gr/374620060_900x675.jpg",
+    "https://m2.spitogatos.gr/374620057_900x675.jpg"
+   ],
+   "title": {
+    "bg": "Ново обзаведено студио 36 м² с балкон, център",
+    "ru": "Новая студия 36 м² с мебелью и балконом, центр",
+    "en": "New furnished 36 m² studio with balcony, centre",
+    "de": "Neues möbliertes 36 m² Studio mit Balkon, Zentrum",
+    "es": "Estudio nuevo amueblado de 36 m² con balcón, centro"
+   },
+   "desc": {
+    "bg": "Студио след ремонт през 2026 г., никога необитавано: отворено пространство, баня, балкон и климатик, изцяло нови мебели и уреди. До пазара и спирката за университета — подходящо за дългосрочен или летен наем.",
+    "ru": "Студия после ремонта 2026 года, в ней ещё никто не жил: открытое пространство, ванная, балкон и кондиционер, вся мебель и техника новые. Рядом рынок и остановка до университета — подходит под долгую или летнюю аренду.",
+    "en": "A studio renovated in 2026 and never lived in: open-plan space, bathroom, balcony and air conditioning, with brand-new furniture and appliances. Next to the market and the university bus stop — suited to long-term or summer letting.",
+    "de": "2026 renoviertes, noch nie bewohntes Studio: offener Wohnraum, Bad, Balkon und Klimaanlage, alle Möbel und Geräte neu. Nahe Markt und Uni-Bushaltestelle – ideal für Langzeit- oder Sommervermietung.",
+    "es": "Estudio reformado en 2026 y sin estrenar: espacio diáfano, baño, balcón y aire acondicionado, con muebles y electrodomésticos nuevos. Junto al mercado y la parada del autobús a la universidad: ideal para alquiler largo o de verano."
+   },
+   "feat": {
+    "bg": [
+     "Реновиран 2026, всичко ново",
+     "Балкон",
+     "За инвестиция"
+    ],
+    "ru": [
+     "Ремонт 2026, всё новое",
+     "Балкон",
+     "Под аренду"
+    ],
+    "en": [
+     "Renovated 2026, all new",
+     "Balcony",
+     "Investment"
+    ],
+    "de": [
+     "Renoviert 2026, alles neu",
+     "Balkon",
+     "Investition"
+    ],
+    "es": [
+     "Reformado 2026, todo nuevo",
+     "Balcón",
+     "Inversión"
+    ]
+   }
+  },
+  {
+   "code": 21196025,
+   "slug": "kavala-apt-21196025",
+   "country": "gr",
+   "source": "katoiko",
+   "type": "apt",
+   "deal": "sale",
+   "status": "sale",
+   "featured": true,
+   "place": "kavala",
+   "district": {
+    "bg": "Център",
+    "ru": "Центр",
+    "en": "Centre",
+    "de": "Zentrum",
+    "es": "Centro"
+   },
+   "price": 148000,
+   "area": 45,
+   "plot": null,
+   "bedrooms": 1,
+   "bathrooms": 1,
+   "floor": "1",
+   "sea": null,
+   "furnished": true,
+   "lift": null,
+   "url": "https://www.katoiko.gr/bg/propertyDetails/21196025",
+   "photos": [
+    "https://m3.spitogatos.gr/374623352_900x675.jpg",
+    "https://m2.spitogatos.gr/374680417_900x675.jpg",
+    "https://m3.spitogatos.gr/374623424_900x675.jpg",
+    "https://m2.spitogatos.gr/374680324_900x675.jpg",
+    "https://m3.spitogatos.gr/374680289_900x675.jpg",
+    "https://m2.spitogatos.gr/374680348_900x675.jpg",
+    "https://m1.spitogatos.gr/374680338_900x675.jpg",
+    "https://m3.spitogatos.gr/374623310_900x675.jpg",
+    "https://m2.spitogatos.gr/374680267_900x675.jpg"
+   ],
+   "title": {
+    "bg": "Нов обзаведен двустаен 45 м², център",
+    "ru": "Новая квартира 45 м² с мебелью, центр",
+    "en": "New furnished 45 m² one-bedroom, centre",
+    "de": "Neue möblierte 45 m² Wohnung, Zentrum",
+    "es": "Piso nuevo amueblado de 45 m², centro"
+   },
+   "desc": {
+    "bg": "Апартамент със спалня, хол с кухненски бокс и баня, реновиран през 2026 г. — ще се обитава за първи път. Нови мебели и уреди, климатик; добра доходност при дългосрочен или летен наем.",
+    "ru": "Квартира со спальней, гостиной с кухонным уголком и ванной, ремонт 2026 года — въезжаете первыми. Новая мебель и техника, кондиционер; хорошая доходность при долгой или летней аренде.",
+    "en": "A flat with a bedroom, living room with kitchenette and bathroom, renovated in 2026 — you will be the first to live in it. New furniture and appliances, air conditioning; good returns from long-term or summer letting.",
+    "de": "Wohnung mit Schlafzimmer, Wohnzimmer mit Küchenzeile und Bad, 2026 renoviert – Erstbezug. Neue Möbel und Geräte, Klimaanlage; gute Rendite bei Langzeit- oder Sommervermietung.",
+    "es": "Piso con dormitorio, salón con cocina americana y baño, reformado en 2026: será el primero en vivir en él. Muebles y electrodomésticos nuevos, aire acondicionado; buena rentabilidad en alquiler largo o de verano."
+   },
+   "feat": {
+    "bg": [
+     "Реновиран 2026, всичко ново",
+     "1 спалня",
+     "За инвестиция"
+    ],
+    "ru": [
+     "Ремонт 2026, всё новое",
+     "1 спальня",
+     "Под аренду"
+    ],
+    "en": [
+     "Renovated 2026, all new",
+     "1 bedroom",
+     "Investment"
+    ],
+    "de": [
+     "Renoviert 2026, alles neu",
+     "1 Schlafzimmer",
+     "Investition"
+    ],
+    "es": [
+     "Reformado 2026, todo nuevo",
+     "1 dormitorio",
+     "Inversión"
+    ]
+   }
+  },
+  {
+   "code": 21196123,
+   "slug": "kavala-apt-21196123",
+   "country": "gr",
+   "source": "katoiko",
+   "type": "apt",
+   "deal": "sale",
+   "status": "sale",
+   "featured": true,
+   "place": "kavala",
+   "district": {
+    "bg": "Виронас",
+    "ru": "Виронас",
+    "en": "Vyronas",
+    "de": "Vyronas",
+    "es": "Vyronas"
+   },
+   "price": 87000,
+   "area": 31,
+   "plot": null,
+   "bedrooms": 1,
+   "bathrooms": 1,
+   "floor": "0",
+   "sea": null,
+   "furnished": true,
+   "lift": null,
+   "url": "https://www.katoiko.gr/bg/propertyDetails/21196123",
+   "photos": [
+    "https://m2.spitogatos.gr/374625235_900x675.jpg",
+    "https://m1.spitogatos.gr/374625258_900x675.jpg",
+    "https://m1.spitogatos.gr/374625291_900x675.jpg",
+    "https://m3.spitogatos.gr/374625314_900x675.jpg",
+    "https://m3.spitogatos.gr/374625335_900x675.jpg",
+    "https://m3.spitogatos.gr/374625365_900x675.jpg",
+    "https://m3.spitogatos.gr/374625425_900x675.jpg",
+    "https://m1.spitogatos.gr/374625420_900x675.jpg"
+   ],
+   "title": {
+    "bg": "Ново обзаведено студио 31 м², Виронас",
+    "ru": "Новая студия 31 м² с мебелью, Виронас",
+    "en": "New furnished 31 m² studio, Vyronas",
+    "de": "Neues möbliertes 31 m² Studio, Vyronas",
+    "es": "Estudio nuevo amueblado de 31 m², Vyronas"
+   },
+   "desc": {
+    "bg": "Студио на партерен етаж, реновирано през 2026 г.: обща дневна-спалня, баня, климатик, изцяло нови мебели и уреди. Без месечни такси — удобен старт за инвестиция под наем.",
+    "ru": "Студия на первом этаже после ремонта 2026 года: общая комната-спальня, ванная, кондиционер, вся мебель и техника новые. Без ежемесячных взносов — удобный старт для инвестиций в аренду.",
+    "en": "A ground-floor studio renovated in 2026: combined living and sleeping area, bathroom, air conditioning, all-new furniture and appliances. No monthly fees — an easy start for a rental investment.",
+    "de": "Erdgeschoss-Studio, 2026 renoviert: Wohn-/Schlafraum, Bad, Klimaanlage, alle Möbel und Geräte neu. Keine Nebenkosten – ein einfacher Einstieg in die Vermietung.",
+    "es": "Estudio en planta baja reformado en 2026: salón-dormitorio, baño, aire acondicionado, muebles y electrodomésticos nuevos. Sin cuotas: un inicio fácil para invertir en alquiler."
+   },
+   "feat": {
+    "bg": [
+     "Реновиран 2026, всичко ново",
+     "Без такси",
+     "За инвестиция"
+    ],
+    "ru": [
+     "Ремонт 2026, всё новое",
+     "Без взносов",
+     "Под аренду"
+    ],
+    "en": [
+     "Renovated 2026, all new",
+     "No fees",
+     "Investment"
+    ],
+    "de": [
+     "Renoviert 2026, alles neu",
+     "Keine Nebenkosten",
+     "Investition"
+    ],
+    "es": [
+     "Reformado 2026, todo nuevo",
+     "Sin cuotas",
+     "Inversión"
+    ]
+   }
+  },
+  {
+   "code": 21196241,
+   "slug": "kavala-apt-21196241",
+   "country": "gr",
+   "source": "katoiko",
+   "type": "apt",
+   "deal": "sale",
+   "status": "sale",
+   "featured": true,
+   "place": "kavala",
+   "district": {
+    "bg": "Виронас",
+    "ru": "Виронас",
+    "en": "Vyronas",
+    "de": "Vyronas",
+    "es": "Vyronas"
+   },
+   "price": 125000,
+   "area": 49,
+   "plot": null,
+   "bedrooms": 1,
+   "bathrooms": 1,
+   "floor": "0",
+   "sea": null,
+   "furnished": true,
+   "lift": null,
+   "url": "https://www.katoiko.gr/bg/propertyDetails/21196241",
+   "photos": [
+    "https://m2.spitogatos.gr/374626732_900x675.jpg",
+    "https://m3.spitogatos.gr/374626853_900x675.jpg",
+    "https://m2.spitogatos.gr/374626855_900x675.jpg",
+    "https://m2.spitogatos.gr/374626780_900x675.jpg",
+    "https://m2.spitogatos.gr/374626759_900x675.jpg",
+    "https://m2.spitogatos.gr/374627029_900x675.jpg",
+    "https://m3.spitogatos.gr/374626964_900x675.jpg",
+    "https://m2.spitogatos.gr/374626819_900x675.jpg",
+    "https://m1.spitogatos.gr/374626851_900x675.jpg",
+    "https://m3.spitogatos.gr/374626991_900x675.jpg",
+    "https://m2.spitogatos.gr/374627068_900x675.jpg"
+   ],
+   "title": {
+    "bg": "Нов обзаведен апартамент 49 м² с тераса, Виронас",
+    "ru": "Новая квартира 49 м² с мебелью и террасой, Виронас",
+    "en": "New furnished 49 m² flat with terrace, Vyronas",
+    "de": "Neue möblierte 49 m² Wohnung mit Terrasse, Vyronas",
+    "es": "Piso nuevo amueblado de 49 m² con terraza, Vyronas"
+   },
+   "desc": {
+    "bg": "Партерен апартамент след ремонт през 2026 г.: спалня, хол с кухненски бокс, баня и отделна тоалетна, тераса и климатик. Всичко ново и неизползвано, без месечни такси.",
+    "ru": "Квартира на первом этаже после ремонта 2026 года: спальня, гостиная с кухонным уголком, ванная и отдельный туалет, терраса и кондиционер. Всё новое, без ежемесячных взносов.",
+    "en": "A ground-floor flat renovated in 2026: bedroom, living room with kitchenette, bathroom and separate WC, terrace and air conditioning. Everything is brand new, no monthly fees.",
+    "de": "Erdgeschosswohnung, 2026 renoviert: Schlafzimmer, Wohnzimmer mit Küchenzeile, Bad und separates WC, Terrasse und Klimaanlage. Alles neu, keine Nebenkosten.",
+    "es": "Piso en planta baja reformado en 2026: dormitorio, salón con cocina americana, baño y aseo, terraza y aire acondicionado. Todo nuevo, sin cuotas."
+   },
+   "feat": {
+    "bg": [
+     "Реновиран 2026, всичко ново",
+     "Тераса",
+     "Отделна тоалетна"
+    ],
+    "ru": [
+     "Ремонт 2026, всё новое",
+     "Терраса",
+     "Отдельный туалет"
+    ],
+    "en": [
+     "Renovated 2026, all new",
+     "Terrace",
+     "Separate WC"
+    ],
+    "de": [
+     "Renoviert 2026, alles neu",
+     "Terrasse",
+     "Separates WC"
+    ],
+    "es": [
+     "Reformado 2026, todo nuevo",
+     "Terraza",
+     "Aseo independiente"
+    ]
+   }
+  },
+  {
+   "code": 21196301,
+   "slug": "kavala-apt-21196301",
+   "country": "gr",
+   "source": "katoiko",
+   "type": "apt",
+   "deal": "sale",
+   "status": "sale",
+   "featured": true,
+   "place": "kavala",
+   "district": {
+    "bg": "Виронас",
+    "ru": "Виронас",
+    "en": "Vyronas",
+    "de": "Vyronas",
+    "es": "Vyronas"
+   },
+   "price": 140000,
+   "area": 46,
+   "plot": null,
+   "bedrooms": 1,
+   "bathrooms": 1,
+   "floor": "1",
+   "sea": null,
+   "furnished": true,
+   "lift": null,
+   "url": "https://www.katoiko.gr/bg/propertyDetails/21196301",
+   "photos": [
+    "https://m3.spitogatos.gr/374631551_900x675.jpg",
+    "https://m1.spitogatos.gr/374631816_900x675.jpg",
+    "https://m1.spitogatos.gr/374631591_900x675.jpg",
+    "https://m3.spitogatos.gr/374630732_900x675.jpg",
+    "https://m3.spitogatos.gr/374627996_900x675.jpg",
+    "https://m2.spitogatos.gr/374630401_900x675.jpg",
+    "https://m1.spitogatos.gr/374630781_900x675.jpg",
+    "https://m3.spitogatos.gr/374630567_900x675.jpg",
+    "https://m2.spitogatos.gr/374630689_900x675.jpg"
+   ],
+   "title": {
+    "bg": "Нов обзаведен апартамент 46 м², Виронас",
+    "ru": "Новая квартира 46 м² с мебелью, Виронас",
+    "en": "New furnished 46 m² flat, Vyronas",
+    "de": "Neue möblierte 46 m² Wohnung, Vyronas",
+    "es": "Piso nuevo amueblado de 46 m², Vyronas"
+   },
+   "desc": {
+    "bg": "Апартамент на 1-ви етаж, реновиран през 2026 г.: спалня, хол с кухненски бокс, баня, тераса и климатик. Нови мебели и уреди, без месечни такси — готов за живеене или наем.",
+    "ru": "Квартира на 1-м этаже после ремонта 2026 года: спальня, гостиная с кухонным уголком, ванная, терраса и кондиционер. Новая мебель и техника, без взносов — можно сразу жить или сдавать.",
+    "en": "A 1st-floor flat renovated in 2026: bedroom, living room with kitchenette, bathroom, terrace and air conditioning. New furniture and appliances, no monthly fees — ready to live in or let.",
+    "de": "Wohnung im 1. Stock, 2026 renoviert: Schlafzimmer, Wohnzimmer mit Küchenzeile, Bad, Terrasse und Klimaanlage. Neue Möbel und Geräte, keine Nebenkosten – bezugsfertig oder zur Vermietung.",
+    "es": "Piso en 1.ª planta reformado en 2026: dormitorio, salón con cocina americana, baño, terraza y aire acondicionado. Muebles nuevos, sin cuotas: listo para vivir o alquilar."
+   },
+   "feat": {
+    "bg": [
+     "Реновиран 2026, всичко ново",
+     "Тераса",
+     "Без такси"
+    ],
+    "ru": [
+     "Ремонт 2026, всё новое",
+     "Терраса",
+     "Без взносов"
+    ],
+    "en": [
+     "Renovated 2026, all new",
+     "Terrace",
+     "No fees"
+    ],
+    "de": [
+     "Renoviert 2026, alles neu",
+     "Terrasse",
+     "Keine Nebenkosten"
+    ],
+    "es": [
+     "Reformado 2026, todo nuevo",
+     "Terraza",
+     "Sin cuotas"
+    ]
+   }
+  },
+  {
+   "code": 21196599,
+   "slug": "kavala-apt-21196599",
+   "country": "gr",
+   "source": "katoiko",
+   "type": "apt",
+   "deal": "sale",
+   "status": "sale",
+   "featured": true,
+   "place": "kavala",
+   "district": {
+    "bg": "Виронас",
+    "ru": "Виронас",
+    "en": "Vyronas",
+    "de": "Vyronas",
+    "es": "Vyronas"
+   },
+   "price": 165000,
+   "area": 63,
+   "plot": null,
+   "bedrooms": 1,
+   "bathrooms": 1,
+   "floor": "1",
+   "sea": null,
+   "furnished": true,
+   "lift": null,
+   "url": "https://www.katoiko.gr/bg/propertyDetails/21196599",
+   "photos": [
+    "https://m1.spitogatos.gr/374633262_900x675.jpg",
+    "https://m3.spitogatos.gr/374633336_900x675.jpg",
+    "https://m3.spitogatos.gr/374633615_900x675.jpg",
+    "https://m1.spitogatos.gr/374633562_900x675.jpg",
+    "https://m2.spitogatos.gr/374633986_900x675.jpg",
+    "https://m2.spitogatos.gr/374634037_900x675.jpg",
+    "https://m3.spitogatos.gr/374634080_900x675.jpg",
+    "https://m1.spitogatos.gr/374634147_900x675.jpg",
+    "https://m3.spitogatos.gr/374633834_900x675.jpg",
+    "https://m3.spitogatos.gr/374633705_900x675.jpg",
+    "https://m3.spitogatos.gr/374633378_900x675.jpg",
+    "https://m2.spitogatos.gr/374633506_900x675.jpg",
+    "https://m1.spitogatos.gr/374633544_900x675.jpg",
+    "https://m2.spitogatos.gr/374633932_900x675.jpg"
+   ],
+   "title": {
+    "bg": "Нов апартамент 63 м² на метри от плажа, Виронас",
+    "ru": "Новая квартира 63 м² в паре шагов от пляжа, Виронас",
+    "en": "New 63 m² flat steps from the beach, Vyronas",
+    "de": "Neue 63 m² Wohnung wenige Schritte vom Strand, Vyronas",
+    "es": "Piso nuevo de 63 m² a pasos de la playa, Vyronas"
+   },
+   "desc": {
+    "bg": "Светъл апартамент на 1-ви етаж само на няколко метра от плажа: спалня, хол с кухненски бокс, баня и тоалетна, тераса. Ремонт 2026 г., нови мебели и уреди; близо до центъра и спирката за университета.",
+    "ru": "Светлая квартира на 1-м этаже в нескольких метрах от пляжа: спальня, гостиная с кухонным уголком, ванная и туалет, терраса. Ремонт 2026 года, новая мебель и техника; рядом центр и остановка до университета.",
+    "en": "A bright 1st-floor flat just metres from the beach: bedroom, living room with kitchenette, bathroom and WC, terrace. Renovated in 2026 with new furniture and appliances; close to the centre and the university bus stop.",
+    "de": "Helle Wohnung im 1. Stock nur wenige Meter vom Strand: Schlafzimmer, Wohnzimmer mit Küchenzeile, Bad und WC, Terrasse. 2026 renoviert, neue Möbel und Geräte; nahe Zentrum und Uni-Bus.",
+    "es": "Piso luminoso en 1.ª planta a pocos metros de la playa: dormitorio, salón con cocina americana, baño y aseo, terraza. Reformado en 2026, muebles nuevos; cerca del centro y del autobús a la universidad."
+   },
+   "feat": {
+    "bg": [
+     "До плажа",
+     "Реновиран 2026, всичко ново",
+     "Тераса"
+    ],
+    "ru": [
+     "У пляжа",
+     "Ремонт 2026, всё новое",
+     "Терраса"
+    ],
+    "en": [
+     "By the beach",
+     "Renovated 2026, all new",
+     "Terrace"
+    ],
+    "de": [
+     "Strandnah",
+     "Renoviert 2026, alles neu",
+     "Terrasse"
+    ],
+    "es": [
+     "Junto a la playa",
+     "Reformado 2026, todo nuevo",
+     "Terraza"
+    ]
+   }
+  },
+  {
+   "code": 21197306,
+   "slug": "kavala-apt-21197306",
+   "country": "gr",
+   "source": "katoiko",
+   "type": "apt",
+   "deal": "sale",
+   "status": "sale",
+   "featured": true,
+   "place": "kavala",
+   "district": {
+    "bg": "Център",
+    "ru": "Центр",
+    "en": "Centre",
+    "de": "Zentrum",
+    "es": "Centro"
+   },
+   "price": 88000,
+   "area": 45,
+   "plot": null,
+   "bedrooms": 1,
+   "bathrooms": 1,
+   "floor": "3",
+   "sea": null,
+   "furnished": true,
+   "lift": true,
+   "url": "https://www.katoiko.gr/bg/propertyDetails/21197306",
+   "photos": [
+    "https://m3.spitogatos.gr/374647535_900x675.jpg",
+    "https://m3.spitogatos.gr/374647538_900x675.jpg",
+    "https://m2.spitogatos.gr/374647543_900x675.jpg",
+    "https://m1.spitogatos.gr/374647542_900x675.jpg",
+    "https://m2.spitogatos.gr/374647552_900x675.jpg",
+    "https://m3.spitogatos.gr/374647529_900x675.jpg",
+    "https://m2.spitogatos.gr/374647531_900x675.jpg",
+    "https://m3.spitogatos.gr/374647547_900x675.jpg"
+   ],
+   "title": {
+    "bg": "Слънчев двустаен 45 м² в сърцето на града, център",
+    "ru": "Солнечная квартира 45 м² в самом центре",
+    "en": "Sunny 45 m² one-bedroom in the heart of town, centre",
+    "de": "Sonnige 45 m² Wohnung im Herzen der Stadt, Zentrum",
+    "es": "Piso soleado de 45 m² en pleno centro"
+   },
+   "desc": {
+    "bg": "Апартамент на 3-ти етаж с асансьор: спалня, хол, кухня и баня, два климатика и вградени гардероби. Частично обзаведен с уредите — удобен за живеене или инвестиция.",
+    "ru": "Квартира на 3-м этаже с лифтом: спальня, гостиная, кухня и ванная, два кондиционера и встроенные шкафы. Частично с мебелью и техникой — удобно для жизни или инвестиции.",
+    "en": "A 3rd-floor flat with a lift: bedroom, living room, kitchen and bathroom, two air conditioners and built-in wardrobes. Partly furnished with appliances — good to live in or as an investment.",
+    "de": "Wohnung im 3. Stock mit Aufzug: Schlafzimmer, Wohnzimmer, Küche und Bad, zwei Klimaanlagen und Einbauschränke. Teilmöbliert mit Geräten – zum Wohnen oder als Investition.",
+    "es": "Piso en 3.ª planta con ascensor: dormitorio, salón, cocina y baño, dos aires acondicionados y armarios empotrados. Parcialmente amueblado con electrodomésticos: para vivir o invertir."
+   },
+   "feat": {
+    "bg": [
+     "Център",
+     "Асансьор",
+     "2 климатика"
+    ],
+    "ru": [
+     "Центр",
+     "Лифт",
+     "2 кондиционера"
+    ],
+    "en": [
+     "Centre",
+     "Lift",
+     "2 air conditioners"
+    ],
+    "de": [
+     "Zentrum",
+     "Aufzug",
+     "2 Klimaanlagen"
+    ],
+    "es": [
+     "Centro",
+     "Ascensor",
+     "2 aires acondicionados"
+    ]
+   }
+  },
+  {
+   "code": 21215137,
+   "slug": "kavala-house-21215137",
+   "country": "gr",
+   "source": "katoiko",
+   "type": "house",
+   "deal": "sale",
+   "status": "sale",
+   "featured": true,
+   "place": "kavala",
+   "district": {
+    "bg": "Рапсани",
+    "ru": "Рапсани",
+    "en": "Rapsani",
+    "de": "Rapsani",
+    "es": "Rapsani"
+   },
+   "price": 93000,
+   "area": 101,
+   "plot": null,
+   "bedrooms": 2,
+   "bathrooms": 1,
+   "floor": "0",
+   "sea": 150,
+   "furnished": null,
+   "lift": null,
+   "url": "https://www.katoiko.gr/bg/propertyDetails/21215137",
+   "photos": [
+    "https://m3.spitogatos.gr/374970242_900x675.jpg",
+    "https://m3.spitogatos.gr/374968124_900x675.jpg",
+    "https://m1.spitogatos.gr/374968131_900x675.jpg",
+    "https://m1.spitogatos.gr/374967996_900x675.jpg",
+    "https://m2.spitogatos.gr/374968012_900x675.jpg",
+    "https://m1.spitogatos.gr/374968008_900x675.jpg",
+    "https://m1.spitogatos.gr/374968125_900x675.jpg",
+    "https://m3.spitogatos.gr/374968130_900x675.jpg",
+    "https://m1.spitogatos.gr/374977026_900x675.jpg",
+    "https://m3.spitogatos.gr/374976941_900x675.jpg",
+    "https://m1.spitogatos.gr/374967999_900x675.jpg",
+    "https://m3.spitogatos.gr/374968001_900x675.jpg",
+    "https://m1.spitogatos.gr/374968560_900x675.jpg",
+    "https://m2.spitogatos.gr/374970388_900x675.jpg",
+    "https://m1.spitogatos.gr/374976921_900x675.jpg"
+   ],
+   "title": {
+    "bg": "Къща 101 м² с двор на 150 м от плажа, Рапсани",
+    "ru": "Дом 101 м² с двором в 150 м от пляжа, Рапсани",
+    "en": "101 m² house with yard 150 m from the beach, Rapsani",
+    "de": "101 m² Haus mit Hof 150 m vom Strand, Rapsani",
+    "es": "Casa de 101 m² con patio a 150 m de la playa, Rapsani"
+   },
+   "desc": {
+    "bg": "Самостоятелна двуетажна къща с двор само на 150 м от плажа в Кавала: долу хол, кухня и баня, горе две спални. Нуждае се от ремонт — добра цена за място до морето.",
+    "ru": "Отдельный двухэтажный дом с двором всего в 150 м от пляжа в Кавале: внизу гостиная, кухня и ванная, наверху две спальни. Нужен ремонт — хорошая цена за место у моря.",
+    "en": "A detached two-storey house with a yard just 150 m from the beach in Kavala: living room, kitchen and bathroom downstairs, two bedrooms upstairs. Needs renovation — a good price for a spot by the sea.",
+    "de": "Freistehendes zweistöckiges Haus mit Hof nur 150 m vom Strand in Kavala: unten Wohnzimmer, Küche und Bad, oben zwei Schlafzimmer. Renovierungsbedürftig – ein guter Preis für die Lage am Meer.",
+    "es": "Casa independiente de dos plantas con patio a solo 150 m de la playa en Kavala: abajo salón, cocina y baño; arriba dos dormitorios. Necesita reforma: buen precio para estar junto al mar."
+   },
+   "feat": {
+    "bg": [
+     "150 м до плажа",
+     "Двор",
+     "За ремонт"
+    ],
+    "ru": [
+     "150 м до пляжа",
+     "Двор",
+     "Под ремонт"
+    ],
+    "en": [
+     "150 m to the beach",
+     "Yard",
+     "Needs renovation"
+    ],
+    "de": [
+     "150 m zum Strand",
+     "Hof",
+     "Renovierungsbedürftig"
+    ],
+    "es": [
+     "A 150 m de la playa",
+     "Patio",
+     "Para reformar"
+    ]
+   }
+  },
+  {
+   "code": 21215824,
+   "slug": "kavala-house-21215824",
+   "country": "gr",
+   "source": "katoiko",
+   "type": "house",
+   "deal": "sale",
+   "status": "sale",
+   "featured": true,
+   "place": "kavala",
+   "district": {
+    "bg": "Рапсани",
+    "ru": "Рапсани",
+    "en": "Rapsani",
+    "de": "Rapsani",
+    "es": "Rapsani"
+   },
+   "price": 91000,
+   "area": 91,
+   "plot": null,
+   "bedrooms": 2,
+   "bathrooms": 1,
+   "floor": "0",
+   "sea": 150,
+   "furnished": null,
+   "lift": null,
+   "url": "https://www.katoiko.gr/bg/propertyDetails/21215824",
+   "photos": [
+    "https://m1.spitogatos.gr/374975517_900x675.jpg",
+    "https://m2.spitogatos.gr/374975371_900x675.jpg",
+    "https://m3.spitogatos.gr/374975375_900x675.jpg",
+    "https://m3.spitogatos.gr/374975387_900x675.jpg",
+    "https://m1.spitogatos.gr/374975373_900x675.jpg",
+    "https://m2.spitogatos.gr/374975380_900x675.jpg",
+    "https://m3.spitogatos.gr/374975384_900x675.jpg",
+    "https://m1.spitogatos.gr/374975391_900x675.jpg",
+    "https://m2.spitogatos.gr/374975626_900x675.jpg",
+    "https://m2.spitogatos.gr/374975620_900x675.jpg",
+    "https://m2.spitogatos.gr/374975623_900x675.jpg",
+    "https://m2.spitogatos.gr/374975617_900x675.jpg",
+    "https://m1.spitogatos.gr/374975544_900x675.jpg",
+    "https://m2.spitogatos.gr/374975551_900x675.jpg",
+    "https://m1.spitogatos.gr/374975304_900x675.jpg",
+    "https://m3.spitogatos.gr/374975300_900x675.jpg",
+    "https://m3.spitogatos.gr/374975306_900x675.jpg",
+    "https://m1.spitogatos.gr/374975295_900x675.jpg"
+   ],
+   "title": {
+    "bg": "Къща 91 м² с двор на 150 м от плажа, Рапсани",
+    "ru": "Дом 91 м² с двором в 150 м от пляжа, Рапсани",
+    "en": "91 m² house with yard 150 m from the beach, Rapsani",
+    "de": "91 m² Haus mit Hof 150 m vom Strand, Rapsani",
+    "es": "Casa de 91 m² con patio a 150 m de la playa, Rapsani"
+   },
+   "desc": {
+    "bg": "Самостоятелна двуетажна къща с двор само на 150 м от плажа в Кавала: долу хол, кухня и баня, горе две спални. Нуждае се от ремонт — добра цена за място до морето.",
+    "ru": "Отдельный двухэтажный дом с двором всего в 150 м от пляжа в Кавале: внизу гостиная, кухня и ванная, наверху две спальни. Нужен ремонт — хорошая цена за место у моря.",
+    "en": "A detached two-storey house with a yard just 150 m from the beach in Kavala: living room, kitchen and bathroom downstairs, two bedrooms upstairs. Needs renovation — a good price for a spot by the sea.",
+    "de": "Freistehendes zweistöckiges Haus mit Hof nur 150 m vom Strand in Kavala: unten Wohnzimmer, Küche und Bad, oben zwei Schlafzimmer. Renovierungsbedürftig – ein guter Preis für die Lage am Meer.",
+    "es": "Casa independiente de dos plantas con patio a solo 150 m de la playa en Kavala: abajo salón, cocina y baño; arriba dos dormitorios. Necesita reforma: buen precio para estar junto al mar."
+   },
+   "feat": {
+    "bg": [
+     "150 м до плажа",
+     "Двор",
+     "За ремонт"
+    ],
+    "ru": [
+     "150 м до пляжа",
+     "Двор",
+     "Под ремонт"
+    ],
+    "en": [
+     "150 m to the beach",
+     "Yard",
+     "Needs renovation"
+    ],
+    "de": [
+     "150 m zum Strand",
+     "Hof",
+     "Renovierungsbedürftig"
+    ],
+    "es": [
+     "A 150 m de la playa",
+     "Patio",
+     "Para reformar"
+    ]
+   }
+  },
+  {
+   "code": 21242536,
+   "slug": "kavala-apt-21242536",
+   "country": "gr",
+   "source": "katoiko",
+   "type": "apt",
+   "deal": "sale",
+   "status": "sale",
+   "featured": true,
+   "place": "kavala",
+   "district": {
+    "bg": "Център",
+    "ru": "Центр",
+    "en": "Centre",
+    "de": "Zentrum",
+    "es": "Centro"
+   },
+   "price": 175000,
+   "area": 90,
+   "plot": null,
+   "bedrooms": 2,
+   "bathrooms": 1,
+   "floor": "4",
+   "sea": null,
+   "furnished": null,
+   "lift": true,
+   "url": "https://www.katoiko.gr/bg/propertyDetails/21242536",
+   "photos": [
+    "https://m2.spitogatos.gr/375239797_900x675.jpg",
+    "https://m2.spitogatos.gr/375238393_900x675.jpg",
+    "https://m1.spitogatos.gr/375239442_900x675.jpg",
+    "https://m2.spitogatos.gr/375239638_900x675.jpg",
+    "https://m3.spitogatos.gr/375239639_900x675.jpg",
+    "https://m1.spitogatos.gr/375239640_900x675.jpg",
+    "https://m2.spitogatos.gr/375239800_900x675.jpg",
+    "https://m2.spitogatos.gr/375238399_900x675.jpg",
+    "https://m1.spitogatos.gr/375239643_900x675.jpg",
+    "https://m1.spitogatos.gr/375239790_900x675.jpg",
+    "https://m1.spitogatos.gr/375239919_900x675.jpg",
+    "https://m2.spitogatos.gr/375239917_900x675.jpg",
+    "https://m1.spitogatos.gr/375238398_900x675.jpg",
+    "https://m3.spitogatos.gr/375240266_900x675.jpg",
+    "https://m1.spitogatos.gr/375239544_900x675.jpg",
+    "https://m3.spitogatos.gr/375239606_900x675.jpg",
+    "https://m3.spitogatos.gr/375240278_900x675.jpg",
+    "https://m3.spitogatos.gr/375239921_900x675.jpg"
+   ],
+   "title": {
+    "bg": "Реновиран апартамент 90 м² с голяма веранда, център",
+    "ru": "Квартира 90 м² после ремонта с большой верандой, центр",
+    "en": "Renovated 90 m² flat with a large veranda, centre",
+    "de": "Renovierte 90 m² Wohnung mit großer Veranda, Zentrum",
+    "es": "Piso reformado de 90 m² con gran terraza, centro"
+   },
+   "desc": {
+    "bg": "Апартамент на 4-ти етаж на ул. Ел. Венизелу: две спални, хол, кухня, баня, склад и голяма веранда, асансьор, климатик и слънчев бойлер. В отлично състояние, до училище, спирка и пазара.",
+    "ru": "Квартира на 4-м этаже на ул. Эл. Венизелу: две спальни, гостиная, кухня, ванная, кладовая и большая веранда, лифт, кондиционер и солнечный бойлер. В отличном состоянии, рядом школа, остановка и рынок.",
+    "en": "A 4th-floor flat on El. Venizelou Street: two bedrooms, living room, kitchen, bathroom, storeroom and a large veranda, with a lift, air conditioning and solar water heater. In excellent condition, close to a school, bus stop and the market.",
+    "de": "Wohnung im 4. Stock in der El.-Venizelou-Straße: zwei Schlafzimmer, Wohnzimmer, Küche, Bad, Abstellraum und große Veranda, Aufzug, Klimaanlage und Solarboiler. Top Zustand, nahe Schule, Bushaltestelle und Markt.",
+    "es": "Piso en 4.ª planta en la calle El. Venizelou: dos dormitorios, salón, cocina, baño, trastero y gran terraza, con ascensor, aire acondicionado y calentador solar. En excelente estado, cerca de colegio, parada y mercado."
+   },
+   "feat": {
+    "bg": [
+     "2 спални",
+     "Голяма веранда",
+     "Асансьор"
+    ],
+    "ru": [
+     "2 спальни",
+     "Большая веранда",
+     "Лифт"
+    ],
+    "en": [
+     "2 bedrooms",
+     "Large veranda",
+     "Lift"
+    ],
+    "de": [
+     "2 Schlafzimmer",
+     "Große Veranda",
+     "Aufzug"
+    ],
+    "es": [
+     "2 dormitorios",
+     "Gran terraza",
+     "Ascensor"
     ]
    }
   }
