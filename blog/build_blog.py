@@ -397,7 +397,7 @@ def head(lang, title, desc, url, image, alts, typ="website"):
 <link rel="alternate" type="application/rss+xml" title="VENI" href="{SITE}{base(lang)}rss.xml">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap">
-<link rel="stylesheet" href="/blog/blog.css?v=12">
+<link rel="stylesheet" href="/blog/blog.css?v=13">
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-73W576V144"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments)}}gtag('js',new Date());gtag('config','G-73W576V144');</script>
 </head>
