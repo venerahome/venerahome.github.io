@@ -46,6 +46,7 @@ main{max-width:1160px;margin:auto;padding:56px 6% 30px}
 .c-greece{background:linear-gradient(150deg,#22567a,var(--greece) 60%,#163650)}
 .c-bulgaria{background:linear-gradient(150deg,#2f4844,var(--bulgaria) 60%,#1b2b28)}
 .c-europe{background:linear-gradient(150deg,#5c4256,var(--europe) 60%,#382634)}
+.c-compare{background:linear-gradient(150deg,#5c4256,var(--europe) 60%,#382634)}
 .c-top{display:flex;justify-content:space-between;font-size:11px;font-weight:bold;letter-spacing:2.4px;text-transform:uppercase;color:var(--gold-l)}
 .c-mark{font:12px Georgia,serif;letter-spacing:5px;color:rgba(246,243,237,.7)}
 .c-mid{display:flex;flex-direction:column;gap:8px}

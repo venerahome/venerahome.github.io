@@ -1,0 +1,61 @@
+name: Статья дня из очереди → сайт + Telegram + Facebook (09:00 по Софии)
+
+# Каждый день публикует ОДНУ статью из blog/queue/ (по порядку), собирает блог и анонсирует её.
+# GitHub запускает расписание с опозданием, поэтому крон стоит на несколько часов подряд:
+# публикуем при первом запуске после 9:00 по Софии, если сегодня статья ещё не выходила.
+on:
+  schedule:
+    - cron: "40 5,6,7,8,9,10,11 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: site-data
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Проверить время (София)
+        id: time
+        run: |
+          H=$(TZ=Europe/Sofia date +%-H)
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "$H" -ge 9 ]; then echo "go=1" >> $GITHUB_OUTPUT; else echo "go=0" >> $GITHUB_OUTPUT; fi
+          echo "Час в Софии: $H"
+      - name: Взять статью из очереди
+        id: q
+        if: steps.time.outputs.go == '1'
+        run: python3 .github/scripts/publish_queued_post.py
+      - uses: actions/setup-python@v5
+        if: steps.q.outputs.file != ''
+        with:
+          python-version: "3.12"
+      - name: Собрать блог
+        if: steps.q.outputs.file != ''
+        run: |
+          pip install --quiet pillow
+          python3 blog/build_blog.py
+      - name: Сохранить и опубликовать на сайте
+        if: steps.q.outputs.file != ''
+        run: |
+          git config user.name "VENI bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A blog
+          git commit -m "Блог: статья дня из очереди [no-announce]"
+          git pull --rebase && git push
+      - name: Подождать, пока сайт обновится
+        if: steps.q.outputs.file != ''
+        run: sleep 150
+      - name: Анонс в Telegram и Facebook
+        if: steps.q.outputs.file != ''
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+          FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+          POST_LANG: ${{ vars.POST_LANG }}
+        run: python3 .github/scripts/announce.py ${{ steps.q.outputs.file }}

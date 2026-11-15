@@ -9,10 +9,10 @@ import os, sys, json, html, urllib.request, urllib.parse
 
 SITE = "https://venihomes.eu"
 LANG = (os.environ.get("POST_LANG") or "ru").strip()
-TAGS = {"ru": {"greece": "#Греция", "bulgaria": "#Болгария", "europe": "#Европа"},
-        "bg": {"greece": "#Гърция", "bulgaria": "#България", "europe": "#Европа"},
-        "en": {"greece": "#Greece", "bulgaria": "#Bulgaria", "europe": "#Europe"},
-        "de": {"greece": "#Griechenland", "bulgaria": "#Bulgarien", "europe": "#Europa"},
+TAGS = {"ru": {"greece": "#Греция", "bulgaria": "#Болгария", "europe": "#Европа", "compare": "#Болгария #Греция"},
+        "bg": {"greece": "#Гърция", "bulgaria": "#България", "europe": "#Европа", "compare": "#България #Гърция"},
+        "en": {"greece": "#Greece", "bulgaria": "#Bulgaria", "europe": "#Europe", "compare": "#Bulgaria #Greece"},
+        "de": {"greece": "#Griechenland", "bulgaria": "#Bulgarien", "europe": "#Europa", "compare": "#Bulgarien #Griechenland"},
         "es": {"greece": "#Grecia", "bulgaria": "#Bulgaria", "europe": "#Europa"}}
 MORE = {"ru": "Читать статью →", "bg": "Прочетете статията →", "en": "Read the article →", "de": "Artikel lesen →", "es": "Leer el artículo →"}
 

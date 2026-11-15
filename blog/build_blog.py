@@ -18,7 +18,7 @@ TG = "home_greece"
 VB = "viber://chat?number=%2B359882593077"
 LANGS = ["ru", "bg", "en", "de"]   # испанский убран 04.11.2026
 LOCALE = {"ru": "ru_RU", "bg": "bg_BG", "en": "en_GB", "de": "de_DE", "es": "es_ES"}
-COLORS = {"greece": "#1c4563", "bulgaria": "#263a36", "europe": "#4b3446"}
+COLORS = {"greece": "#1c4563", "bulgaria": "#263a36", "europe": "#4b3446", "compare": "#4b3446"}
 BLOGS = ["greece", "bulgaria"]
 # Два отдельных блога. Статья попадает в блог по полю "blog" (greece|bulgaria), иначе по категории.
 BX = {
@@ -95,6 +95,8 @@ def nposts(n, lang):
     if lang == "es": return "artículo" if n == 1 else "artículos"
     return "Artikel"
 def blog_of(p): return p.get("blog") or ("bulgaria" if p.get("category") == "bulgaria" else "greece")
+# "both" — сравнительная статья Болгария/Греция: показывается в обоих блогах
+def in_blog(p, b): return b == "both" or blog_of(p) in (b, "both")
 
 TX = {
 "ru": {
@@ -108,7 +110,7 @@ TX = {
   "trust": [["С 2013 года", "живу на Балканах"], ["Греция и Болгария", "сопровождаю покупки"], ["Свой дом в Греции", "знаю путь изнутри"]],
   "btnTg": "Подписаться в Telegram", "btnWa": "Задать вопрос в WhatsApp",
   "latest": "Свежая статья", "allPosts": "Все статьи", "all": "Все",
-  "cats": {"greece": "Греция", "bulgaria": "Болгария", "europe": "Европа"},
+  "cats": {"greece": "Греция", "bulgaria": "Болгария", "europe": "Европа", "compare": "Болгария и Греция"},
   "min": "мин чтения", "tldr": "Коротко", "read": "Читать статью →", "sources": "Источники", "back": "← Все статьи",
   "role": "консультант по недвижимости · Греция и Болгария",
   "aboutT": "Об авторе",
@@ -132,7 +134,7 @@ TX = {
   "trust": [["От 2013 г.", "живея на Балканите"], ["Гърция и България", "съпровождам покупки"], ["Моя къща в Гърция", "познавам пътя отвътре"]],
   "btnTg": "Абонирайте се в Telegram", "btnWa": "Задайте въпрос в WhatsApp",
   "latest": "Най-новата статия", "allPosts": "Всички статии", "all": "Всички",
-  "cats": {"greece": "Гърция", "bulgaria": "България", "europe": "Европа"},
+  "cats": {"greece": "Гърция", "bulgaria": "България", "europe": "Европа", "compare": "България и Гърция"},
   "min": "мин четене", "tldr": "Накратко", "read": "Прочетете статията →", "sources": "Източници", "back": "← Всички статии",
   "role": "консултант по недвижими имоти · Гърция и България",
   "aboutT": "За автора",
@@ -156,7 +158,7 @@ TX = {
   "trust": [["Since 2013", "living in the Balkans"], ["Greece and Bulgaria", "guiding purchases"], ["My own house in Greece", "I know the path first-hand"]],
   "btnTg": "Follow on Telegram", "btnWa": "Ask me on WhatsApp",
   "latest": "Latest article", "allPosts": "All articles", "all": "All",
-  "cats": {"greece": "Greece", "bulgaria": "Bulgaria", "europe": "Europe"},
+  "cats": {"greece": "Greece", "bulgaria": "Bulgaria", "europe": "Europe", "compare": "Bulgaria & Greece"},
   "min": "min read", "tldr": "In short", "read": "Read the article →", "sources": "Sources", "back": "← All articles",
   "role": "real estate consultant · Greece and Bulgaria",
   "aboutT": "About the author",
@@ -180,7 +182,7 @@ TX = {
   "trust": [["Seit 2013", "auf dem Balkan zu Hause"], ["Griechenland und Bulgarien", "ich begleite Käufe"], ["Eigenes Haus in Griechenland", "ich kenne den Weg selbst"]],
   "btnTg": "Auf Telegram folgen", "btnWa": "Frage per WhatsApp",
   "latest": "Neuester Artikel", "allPosts": "Alle Artikel", "all": "Alle",
-  "cats": {"greece": "Griechenland", "bulgaria": "Bulgarien", "europe": "Europa"},
+  "cats": {"greece": "Griechenland", "bulgaria": "Bulgarien", "europe": "Europa", "compare": "Bulgarien & Griechenland"},
   "min": "Min. Lesezeit", "tldr": "Kurz gesagt", "read": "Artikel lesen →", "sources": "Quellen", "back": "← Alle Artikel",
   "role": "Immobilienberaterin · Griechenland und Bulgarien",
   "aboutT": "Über die Autorin",
@@ -204,7 +206,7 @@ TX = {
   "trust": [["Desde 2013", "vivo en los Balcanes"], ["Grecia y Bulgaria", "acompaño compras"], ["Mi propia casa en Grecia", "conozco el camino"]],
   "btnTg": "Seguir en Telegram", "btnWa": "Pregúntame por WhatsApp",
   "latest": "Último artículo", "allPosts": "Todos los artículos", "all": "Todos",
-  "cats": {"greece": "Grecia", "bulgaria": "Bulgaria", "europe": "Europa"},
+  "cats": {"greece": "Grecia", "bulgaria": "Bulgaria", "europe": "Europa", "compare": "Bulgaria y Grecia"},
   "min": "min de lectura", "tldr": "En resumen", "read": "Leer el artículo →", "sources": "Fuentes", "back": "← Todos los artículos",
   "role": "asesora inmobiliaria · Grecia y Bulgaria",
   "aboutT": "Sobre la autora",
@@ -418,7 +420,7 @@ def who(lang, cls="who"):
     t = TX[lang]
     return f'<span class="{cls}"><img src="/assets/venera.jpg" alt="" width="40" height="40"><span><b>{esc(t["name"])}</b><small>{esc(t["role"])}</small></span></span>'
 
-COVER_IMG = {"greece": "/assets/country-gr.jpg", "bulgaria": "/assets/country-bg.jpg", "europe": "/assets/hero-sea.jpg"}
+COVER_IMG = {"greece": "/assets/country-gr.jpg", "bulgaria": "/assets/country-bg.jpg", "europe": "/assets/hero-sea.jpg", "compare": "/assets/hero-sea.jpg"}
 def cover(p, lang, big=False):
     """Обложка: приглушённое фото сайта и название статьи на нём, спокойно, без крупных цифр."""
     t = TX[lang]; img = p.get("img") or COVER_IMG.get(p["category"], "/assets/hero-sea.jpg")
@@ -606,7 +608,7 @@ def build(force_og=False):
             tl = T.get("tldr") or []
             tldr = f'<aside class="tldr"><span class="kicker">{t["tldr"]}</span><ul>{"".join(f"<li>{esc(x)}</li>" for x in tl)}</ul></aside>' if tl else ""
             b = blog_of(p)
-            others = [q for q in posts if q["slug"] != p["slug"] and blog_of(q) == b][:2]
+            others = [q for q in posts if q["slug"] != p["slug"] and in_blog(q, b)][:2]
             also = f'<section class="also"><h2 class="sec">{t["also"]}</h2><div class="cards two">{"".join(card(q, lang) for q in others)}</div></section>' if others else ""
             ld = json.dumps({"@context": "https://schema.org", "@type": "Article", "headline": T["title"], "description": T["excerpt"],
                              "image": img, "datePublished": p["date"], "inLanguage": lang,
@@ -614,9 +616,9 @@ def build(force_og=False):
                              "mainEntityOfPage": url}, ensure_ascii=False)
             page = f"""{head(lang, T['title'] + ' — ' + t['name'], T['excerpt'], url, img, alts, 'article')}
 <script type="application/ld+json">{ld}</script>
-{topbar(lang, alts, b)}
+{topbar(lang, alts, None if b == "both" else b)}
 <main class="article">
-  <a class="back" href="{bbase(lang, b)}">← {esc(BX[lang][b]['name'])}</a>
+  <a class="back" href="{base(lang) if b == "both" else bbase(lang, b)}">← {esc(t['blog'] if b == "both" else BX[lang][b]['name'])}</a>
   {meta_line(p, lang)}
   <h1>{esc(T['title'])}</h1>
   <p class="excerpt">{esc(T['excerpt'])}</p>
@@ -637,7 +639,7 @@ def build(force_og=False):
         # главные страницы двух блогов
         X = BX[lang]
         for b in BLOGS:
-            bp = [q for q in posts if blog_of(q) == b]; bx = X[b]; other = [o for o in BLOGS if o != b][0]
+            bp = [q for q in posts if in_blog(q, b)]; bx = X[b]; other = [o for o in BLOGS if o != b][0]
             alts = {l: SITE + bbase(l, b) for l in LANGS}
             trust = "".join(f"<li><b>{esc(a)}</b><span>{esc(c)}</span></li>" for a, c in bx["trust"])
             feat = f'<section class="latest"><h2 class="sec">{t["latest"]}</h2>{card(bp[0], lang, True)}</section>' if bp else f'<p class="lead">{t["empty"]}</p>'
@@ -667,7 +669,7 @@ def build(force_og=False):
         # лендинг /blog/: два блога рядом
         alts = {l: SITE + base(l) for l in LANGS}
         def bcard(b):
-            bp = [q for q in posts if blog_of(q) == b]; last = bp[0] if bp else None
+            bp = [q for q in posts if in_blog(q, b)]; last = bp[0] if bp else None
             lt = f'<span class="b-last">{esc(t["latest"])}: <b>{esc(L(last, lang)["title"])}</b></span>' if last else ""
             return (f'<a class="blog-pick c-{b}" href="{bbase(lang, b)}"><span class="kicker">{esc(t["cats"][b])} · {len(bp)} {esc(nposts(len(bp), lang))}</span>'
                     f'<strong>{esc(X[b]["name"])}</strong><span class="b-desc">{esc(X[b]["desc"])}</span>{lt}<span class="btn">{esc(X["open"])} →</span></a>')
