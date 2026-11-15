@@ -154,6 +154,13 @@
    "en": "Byala (Varna)",
    "de": "Byala (Warna)",
    "es": "Byala (Varna)"
+  },
+  "prosenik": {
+   "bg": "Просеник",
+   "ru": "Просеник",
+   "en": "Prosenik",
+   "de": "Prosenik",
+   "es": "Prosenik"
   }
  },
  "listings": [
@@ -12036,7 +12043,7 @@
     "de": "Bratya Miladinovi",
     "es": "Bratya Miladinovi"
    },
-   "price": 225000,
+   "price": 255000,
    "area": 74,
    "plot": null,
    "bedrooms": 1,
@@ -19951,6 +19958,247 @@
      "2 plantas",
      "A 3 km del mar",
      "Acta 16"
+    ]
+   }
+  },
+  {
+   "code": 399949,
+   "slug": "sveti-vlas-apt-399949",
+   "country": "bg",
+   "source": "imotbg",
+   "keep": true,
+   "deal": "sale",
+   "status": "sale",
+   "featured": false,
+   "url": null,
+   "type": "apt",
+   "place": "sveti_vlas",
+   "district": {
+    "bg": "Русалка",
+    "ru": "Русалка",
+    "en": "Rusalka",
+    "de": "Rusalka",
+    "es": "Rusalka"
+   },
+   "price": 88000,
+   "area": 77,
+   "plot": null,
+   "bedrooms": 2,
+   "bathrooms": 2,
+   "floor": "2/5",
+   "sea": null,
+   "furnished": null,
+   "lift": null,
+   "photos": [
+    "https://imotstatic1.focus.bg/imot/photosimotbg/1/536/big/iE",
+    "https://imotstatic1.focus.bg/imot/photosimotbg/1/536/big/Ti",
+    "https://imotstatic1.focus.bg/imot/photosimotbg/1/536/big/tc",
+    "https://imotstatic1.focus.bg/imot/photosimotbg/1/536/big/S8",
+    "https://imotstatic1.focus.bg/imot/photosimotbg/1/536/big/i",
+    "https://imotstatic1.focus.bg/imot/photosimotbg/1/536/big/z1",
+    "https://imotstatic1.focus.bg/imot/photosimotbg/1/536/big/GX",
+    "https://imotstatic1.focus.bg/imot/photosimotbg/1/536/big/Li",
+    "https://imotstatic1.focus.bg/imot/photosimotbg/1/536/big/Er",
+    "https://imotstatic1.focus.bg/imot/photosimotbg/1/536/big/c6",
+    "https://imotstatic1.focus.bg/imot/photosimotbg/1/536/big/eV",
+    "https://imotstatic1.focus.bg/imot/photosimotbg/1/536/big/t8",
+    "https://imotstatic1.focus.bg/imot/photosimotbg/1/536/big/gP",
+    "https://imotstatic1.focus.bg/imot/photosimotbg/1/536/big/pJ",
+    "https://imotstatic1.focus.bg/imot/photosimotbg/1/536/big/h1",
+    "https://imotstatic1.focus.bg/imot/photosimotbg/1/536/big/6L",
+    "https://imotstatic1.focus.bg/imot/photosimotbg/1/536/big/bC"
+   ],
+   "title": {
+    "bg": "77 м² с частична гледка към морето, Свети Влас",
+    "ru": "77 м² с частичным видом на море, Святой Влас",
+    "en": "77 m² flat with partial sea view, Sveti Vlas",
+    "de": "77 m² Wohnung mit teilweisem Meerblick, Sveti Vlas",
+    "es": "Piso de 77 m² con vista parcial al mar, Sveti Vlas"
+   },
+   "desc": {
+    "bg": "Просторен апартамент на 2-ри етаж на ул. Русалка, преустроен от две студиа: две големи стаи, две антрета, две бани и два остъклени балкона, частична гледка към морето. Може отново да се раздели на две самостоятелни студиа — за живеене или за отдаване под наем. Без такса поддръжка.",
+    "ru": "Просторная квартира на 2-м этаже на ул. Русалка, переделанная из двух студий: две большие комнаты, две прихожие, два санузла и два застеклённых балкона, частичный вид на море. Её можно снова разделить на две отдельные студии — для жизни или под сдачу. Без платы за обслуживание.",
+    "en": "A spacious 2nd-floor flat on Rusalka Street, converted from two studios: two large rooms, two hallways, two bathrooms and two glazed balconies, with a partial sea view. It can be split back into two separate studios — to live in or to let. No maintenance fee.",
+    "de": "Geräumige Wohnung im 2. Stock in der Rusalka-Straße, aus zwei Studios umgebaut: zwei große Zimmer, zwei Flure, zwei Bäder und zwei verglaste Balkone, teilweiser Meerblick. Lässt sich wieder in zwei Studios teilen – zum Wohnen oder Vermieten. Keine Hausgebühr.",
+    "es": "Amplio piso en 2.ª planta en la calle Rusalka, resultado de unir dos estudios: dos habitaciones grandes, dos recibidores, dos baños y dos balcones acristalados, con vista parcial al mar. Puede volver a dividirse en dos estudios, para vivir o alquilar. Sin cuota de mantenimiento."
+   },
+   "feat": {
+    "bg": [
+     "Частична гледка към морето",
+     "2 бани, 2 балкона",
+     "Може да се раздели на 2 студиа",
+     "Без такса"
+    ],
+    "ru": [
+     "Частичный вид на море",
+     "2 санузла, 2 балкона",
+     "Можно разделить на 2 студии",
+     "Без платы за обслуживание"
+    ],
+    "en": [
+     "Partial sea view",
+     "2 bathrooms, 2 balconies",
+     "Can be split into 2 studios",
+     "No maintenance fee"
+    ],
+    "de": [
+     "Teilweiser Meerblick",
+     "2 Bäder, 2 Balkone",
+     "In 2 Studios teilbar",
+     "Keine Hausgebühr"
+    ],
+    "es": [
+     "Vista parcial al mar",
+     "2 baños, 2 balcones",
+     "Divisible en 2 estudios",
+     "Sin cuota"
+    ]
+   }
+  },
+  {
+   "code": 399975,
+   "slug": "kosharitsa-plot-399975",
+   "country": "bg",
+   "source": "imotbg",
+   "keep": true,
+   "deal": "sale",
+   "status": "sale",
+   "featured": false,
+   "url": null,
+   "type": "plot",
+   "place": "kosharitsa",
+   "district": {
+    "bg": "Казакова курия",
+    "ru": "Казакова курия",
+    "en": "Kazakova Kuriya",
+    "de": "Kazakova Kuriya",
+    "es": "Kazakova Kuriya"
+   },
+   "price": 49000,
+   "area": null,
+   "plot": 5000,
+   "bedrooms": null,
+   "bathrooms": null,
+   "floor": null,
+   "sea": null,
+   "furnished": null,
+   "lift": null,
+   "photos": [
+    "https://imotstatic1.focus.bg/imot/photosimotbg/1/979/big/1r179396572751979_1L.jpg"
+   ],
+   "title": {
+    "bg": "Парцел 5000 м² за туристически проект, Кошарица",
+    "ru": "Участок 5000 м² под туристический проект, Кошарица",
+    "en": "5,000 m² plot for a tourism project, Kosharitsa",
+    "de": "5.000 m² Grundstück für ein Tourismusprojekt, Kosharitsa",
+    "es": "Parcela de 5.000 m² para proyecto turístico, Kosharitsa"
+   },
+   "desc": {
+    "bg": "Урбанизиран парцел за курортно-рекреационен обект на уединено възвишение в м. Казакова курия, община Несебър, до маршрут за джип сафари и ATV. Теренът е разчистен и подравнен, с чакълиран достъп от две страни; възможни сондаж, соларна енергия или ток от мрежата.",
+    "ru": "Участок в урбанизированной зоне под курортно-рекреационный объект, на уединённой возвышенности в местности Казакова курия (община Несебр), рядом с маршрутом джип-сафари и ATV. Территория расчищена и выровнена, гравийный подъезд с двух сторон; возможны скважина, солнечные панели или подключение к сети.",
+    "en": "A plot zoned for a resort and leisure facility on a secluded hill at Kazakova Kuriya, Nessebar municipality, next to a jeep-safari and ATV route. Cleared and levelled, with gravel access from two sides; a borehole, solar power or a grid connection are possible.",
+    "de": "Grundstück für eine Ferien- und Freizeitanlage auf einer abgeschiedenen Anhöhe bei Kazakova Kuriya (Gemeinde Nessebar), neben einer Jeep-Safari- und ATV-Route. Geräumt und planiert, Schotterzufahrt von zwei Seiten; Brunnen, Solarstrom oder Netzanschluss möglich.",
+    "es": "Parcela para un complejo turístico y recreativo en una colina apartada en Kazakova Kuriya (municipio de Nesebar), junto a una ruta de jeep safari y ATV. Limpia y nivelada, con acceso de grava por dos lados; posible pozo, energía solar o conexión a la red."
+   },
+   "feat": {
+    "bg": [
+     "5000 м²",
+     "За курортен обект",
+     "Достъп от две страни"
+    ],
+    "ru": [
+     "5000 м²",
+     "Под курортный объект",
+     "Подъезд с двух сторон"
+    ],
+    "en": [
+     "5,000 m²",
+     "Zoned for resort use",
+     "Access from two sides"
+    ],
+    "de": [
+     "5.000 m²",
+     "Für Ferienanlage",
+     "Zufahrt von zwei Seiten"
+    ],
+    "es": [
+     "5.000 m²",
+     "Uso turístico",
+     "Acceso por dos lados"
+    ]
+   }
+  },
+  {
+   "code": 399978,
+   "slug": "prosenik-plot-399978",
+   "country": "bg",
+   "source": "imotbg",
+   "keep": true,
+   "deal": "sale",
+   "status": "sale",
+   "featured": false,
+   "url": null,
+   "type": "plot",
+   "place": "prosenik",
+   "district": null,
+   "price": 39000,
+   "area": null,
+   "plot": 19997,
+   "bedrooms": null,
+   "bathrooms": null,
+   "floor": null,
+   "sea": null,
+   "furnished": null,
+   "lift": null,
+   "photos": [
+    "https://imotstatic1.focus.bg/imot/photosimotbg/1/509/big/1r179396849912509_An.jpg",
+    "https://imotstatic1.focus.bg/imot/photosimotbg/1/509/big/1r179396849912509_OL.jpg",
+    "https://imotstatic1.focus.bg/imot/photosimotbg/1/509/big/1r179396849912509_N6.jpg",
+    "https://imotstatic1.focus.bg/imot/photosimotbg/1/509/big/1r179396849912509_Kd.jpg",
+    "https://imotstatic1.focus.bg/imot/photosimotbg/1/509/big/1r179396849912509_ZX.jpg",
+    "https://imotstatic1.focus.bg/imot/photosimotbg/1/509/big/1r179396849912509_wG.jpg",
+    "https://imotstatic1.focus.bg/imot/photosimotbg/1/509/big/1r179396849912509_bv.jpg",
+    "https://imotstatic1.focus.bg/imot/photosimotbg/1/509/big/1r179396849912509_up.jpg"
+   ],
+   "title": {
+    "bg": "20 дка с черешова градина и панорама, Просеник",
+    "ru": "2 га с черешневым садом и панорамой, Просеник",
+    "en": "2 ha cherry orchard with panoramic views, Prosenik",
+    "de": "2 ha Kirschgarten mit Panoramablick, Prosenik",
+    "es": "2 ha con cerezos y vistas panorámicas, Prosenik"
+   },
+   "desc": {
+    "bg": "Ограден имот от 20 дка на възвишение с панорамна гледка, община Руен, на около 40 минути от морето: около 300 плододаващи черешови дървета, равен терен, асфалтов достъп. Земеделска земя (овощна градина) до гора и лавандулови полета, на 500 м от древно мегалитно светилище.",
+    "ru": "Огороженный участок 2 га на возвышенности с панорамным видом, община Руен, около 40 минут до моря: примерно 300 плодоносящих черешен, ровный рельеф, асфальтовый подъезд. Сельхозземля (фруктовый сад) рядом с лесом и лавандовыми полями, в 500 м от древнего мегалитического святилища.",
+    "en": "A fenced 2-hectare property on a hill with panoramic views, Ruen municipality, about 40 minutes from the sea: around 300 fruiting cherry trees, level ground and asphalt access. Agricultural land (orchard) next to forest and lavender fields, 500 m from an ancient megalithic sanctuary.",
+    "de": "Eingezäuntes 2-ha-Grundstück auf einer Anhöhe mit Panoramablick, Gemeinde Ruen, ca. 40 Minuten zum Meer: rund 300 tragende Kirschbäume, ebenes Gelände, Asphaltzufahrt. Landwirtschaftsfläche (Obstgarten) neben Wald und Lavendelfeldern, 500 m von einem antiken megalithischen Heiligtum.",
+    "es": "Finca vallada de 2 ha en una colina con vistas panorámicas, municipio de Ruen, a unos 40 minutos del mar: unos 300 cerezos en producción, terreno llano y acceso asfaltado. Suelo agrícola (huerto) junto a bosque y campos de lavanda, a 500 m de un antiguo santuario megalítico."
+   },
+   "feat": {
+    "bg": [
+     "20 дка, ограден",
+     "~300 черешови дървета",
+     "Панорамна гледка"
+    ],
+    "ru": [
+     "2 га, огорожен",
+     "~300 черешен",
+     "Панорамный вид"
+    ],
+    "en": [
+     "2 ha, fenced",
+     "~300 cherry trees",
+     "Panoramic views"
+    ],
+    "de": [
+     "2 ha, eingezäunt",
+     "~300 Kirschbäume",
+     "Panoramablick"
+    ],
+    "es": [
+     "2 ha, vallada",
+     "~300 cerezos",
+     "Vistas panorámicas"
     ]
    }
   }
