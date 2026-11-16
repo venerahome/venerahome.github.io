@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15",
+ "updated": "2026-11-16",
  "places": {
   "kavala": {
    "bg": "Кавала",
@@ -1531,6 +1531,92 @@
      "Estancias amplias",
      "Aire acondicionado y calefacción",
      "Parcialmente amueblado"
+    ]
+   },
+   "country": "gr"
+  },
+  {
+   "code": 397722,
+   "slug": "kavala-house-397722",
+   "type": "house",
+   "deal": "sale",
+   "status": "sale",
+   "featured": false,
+   "place": "kavala",
+   "district": {
+    "ru": "Килия",
+    "bg": "Килия",
+    "en": "Kilia",
+    "de": "Kilia",
+    "es": "Kilia"
+   },
+   "price": 88000,
+   "area": 79,
+   "plot": null,
+   "bedrooms": 3,
+   "bathrooms": 1,
+   "floor": null,
+   "sea": null,
+   "furnished": false,
+   "lift": null,
+   "url": "https://imotipremier.com/prodava/kashta/397722/",
+   "photos": [
+    "https://imotipremier.com/webfactor-images/50369778-1cb6-4e8d-a12e-b4b700e600f0-1200x800-center-1252096.webp",
+    "https://imotipremier.com/webfactor-images/a52a348f-4c26-411b-8af4-b4b700e6010c-1200x800-center-1252099.webp",
+    "https://imotipremier.com/webfactor-images/d377cc61-8734-4ab8-878f-b4b700e60102-1200x800-center-1252100.webp",
+    "https://imotipremier.com/webfactor-images/3f4f7933-7e56-40fc-b983-b4b700e60102-1200x800-center-1252101.webp",
+    "https://imotipremier.com/webfactor-images/76863062-c6fc-45ad-8453-b4b700e600fe-1200x800-center-1252102.webp",
+    "https://imotipremier.com/webfactor-images/b80c056e-daa4-449e-a580-b4b700e60110-1200x800-center-1252103.webp"
+   ],
+   "title": {
+    "ru": "Отдельный дом с 3 спальнями в Кавале — под ремонт по своему вкусу",
+    "bg": "Самостоятелна къща с 3 спални в Кавала — за ремонт по ваш вкус",
+    "en": "Detached 3-bedroom house in Kavala — renovate it your way",
+    "de": "Freistehendes Haus mit 3 Schlafzimmern in Kavala — nach eigenem Geschmack renovieren",
+    "es": "Casa independiente de 3 dormitorios en Kavala — para reformar a su gusto"
+   },
+   "desc": {
+    "ru": "Свой отдельный дом в тихом жилом районе Килия в Кавале, с удобным доступом к инфраструктуре. 79 м² на одном уровне: три спальни, открытая гостиная с кухней, ванная, плюс отдельная кладовая 16 м² и собственное парковочное место. Дому нужен ремонт и он продаётся без мебели — хороший вариант для тех, кто хочет обустроить жильё под себя по доступной цене.",
+    "bg": "Собствена самостоятелна къща в тихия жилищен район Килия в Кавала, с удобен достъп до инфраструктурата. 79 м² на едно ниво: три спални, отворена дневна с кухня, баня, плюс отделно складово помещение от 16 м² и собствено паркомясто. Къщата се нуждае от ремонт и се продава необзаведена — добър вариант за тези, които искат да подредят дома си по свой вкус на достъпна цена.",
+    "en": "Your own detached house in the quiet residential area of Kilia in Kavala, with easy access to local amenities. 79 m² on one level: three bedrooms, an open-plan living room with kitchen and a bathroom, plus a separate 16 m² storage room and a private parking space. The house needs renovation and is sold unfurnished — a good choice for anyone who wants to shape a home to their own taste at an affordable price.",
+    "de": "Ein eigenes freistehendes Haus im ruhigen Wohnviertel Kilia in Kavala, mit guter Anbindung an die örtliche Infrastruktur. 79 m² auf einer Ebene: drei Schlafzimmer, ein offener Wohnraum mit Küche und ein Bad, dazu ein separater Abstellraum von 16 m² und ein eigener Stellplatz. Das Haus ist renovierungsbedürftig und wird unmöbliert verkauft — ideal für alle, die sich ihr Zuhause zu einem günstigen Preis nach eigenem Geschmack gestalten möchten.",
+    "es": "Una casa independiente propia en la tranquila zona residencial de Kilia, en Kavala, con fácil acceso a los servicios. 79 m² en una sola planta: tres dormitorios, salón abierto con cocina y un baño, además de un trastero independiente de 16 m² y plaza de aparcamiento propia. La casa necesita reforma y se vende sin amueblar: una buena opción para quien quiera crear su hogar a su gusto a un precio asequible."
+   },
+   "feat": {
+    "ru": [
+     "Отдельный дом",
+     "3 спальни",
+     "Своя парковка",
+     "Кладовая 16 м²",
+     "Требует ремонта"
+    ],
+    "bg": [
+     "Самостоятелна къща",
+     "3 спални",
+     "Собствено паркомясто",
+     "Склад 16 м²",
+     "Нуждае се от ремонт"
+    ],
+    "en": [
+     "Detached house",
+     "3 bedrooms",
+     "Private parking",
+     "16 m² storage room",
+     "Needs renovation"
+    ],
+    "de": [
+     "Freistehendes Haus",
+     "3 Schlafzimmer",
+     "Eigener Stellplatz",
+     "Abstellraum 16 m²",
+     "Renovierungsbedürftig"
+    ],
+    "es": [
+     "Casa independiente",
+     "3 dormitorios",
+     "Aparcamiento propio",
+     "Trastero de 16 m²",
+     "Necesita reforma"
     ]
    },
    "country": "gr"
