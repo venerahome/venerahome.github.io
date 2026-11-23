@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16",
+ "updated": "2026-11-23",
  "places": {
   "kavala": {
    "bg": "Кавала",
@@ -15446,7 +15446,7 @@
     "de": "Aphrodite 2",
     "es": "Aphrodite 2"
    },
-   "price": 58500,
+   "price": 56700,
    "area": 45,
    "plot": null,
    "bedrooms": 0,
@@ -15773,7 +15773,7 @@
     "de": "Green Fort",
     "es": "Green Fort"
    },
-   "price": 71000,
+   "price": 65000,
    "area": 50,
    "plot": null,
    "bedrooms": 0,
@@ -21288,6 +21288,87 @@
      "2 dormitorios",
      "Gran terraza",
      "Ascensor"
+    ]
+   }
+  },
+  {
+   "code": 811000,
+   "slug": "sunny-beach-apt-811000",
+   "country": "bg",
+   "source": "partner",
+   "type": "apt",
+   "deal": "sale",
+   "status": "sale",
+   "featured": false,
+   "place": "sunny_beach",
+   "district": {
+    "bg": "Марак 1",
+    "ru": "Марак 1",
+    "en": "Marak 1",
+    "de": "Marak 1",
+    "es": "Marak 1"
+   },
+   "price": 76000,
+   "area": 76,
+   "plot": null,
+   "bedrooms": 1,
+   "bathrooms": null,
+   "floor": "3",
+   "sea": 800,
+   "furnished": null,
+   "lift": null,
+   "url": null,
+   "drive": "1wmXgvSNvTIF41tTsQGDBuGZ-2NnWV_OR",
+   "photos": [
+    "https://lh3.googleusercontent.com/d/1hgv-wzvvlAdHJxWgFwCA_5FDmaGRRbPg=w1600",
+    "https://lh3.googleusercontent.com/d/10cwjJKzD6EzCnlY3rZaMV0tguseqQQ4D=w1600",
+    "https://lh3.googleusercontent.com/d/12yVZKqZgPhgdMS1ECPnAYa16spCK6nUc=w1600",
+    "https://lh3.googleusercontent.com/d/15VtGCOod_XmNfqe5EfcQcURXo06TIv4J=w1600",
+    "https://lh3.googleusercontent.com/d/1ojSoIpYKbZ0fqxLPqKdmrRA1Xb1MkKLw=w1600",
+    "https://lh3.googleusercontent.com/d/1UPq8lg_vZzczfUWLzVdifB-uhJ_cAr3d=w1600",
+    "https://lh3.googleusercontent.com/d/1gInmuuSgY4XSi-p6-ookGPTKh62bOYA-=w1600",
+    "https://lh3.googleusercontent.com/d/1qiOxHaTdrEk49TF426qxYW8MireM-RwC=w1600",
+    "https://lh3.googleusercontent.com/d/1UjJbAbqcl03Uw-ATb21OSzbrcH1x2XyT=w1600",
+    "https://lh3.googleusercontent.com/d/1ORKF3_-PAVOjlUsYKF5SNYi0m9CCOwGV=w1600",
+    "https://lh3.googleusercontent.com/d/1QzDaKt_s6tOlrW4J_GJneeseZ_EUsamg=w1600",
+    "https://lh3.googleusercontent.com/d/17byV_Bv3LaU51f5AQgolVMyYCsE_tk9b=w1600",
+    "https://lh3.googleusercontent.com/d/1TSU1fRPQeRdzl2I_Nctg7R0wYv4YhDZC=w1600",
+    "https://lh3.googleusercontent.com/d/1W84Abhbz6_ZC_TFjM97VVwiGfDgtp-K6=w1600"
+   ],
+   "title": {
+    "bg": "Апартамент с 1 спалня 76 м², Марак 1, Слънчев бряг",
+    "ru": "Квартира с 1 спальней 76 м², Марак 1, Солнечный берег",
+    "en": "One-bedroom flat, 76 m², Marak 1, Sunny Beach",
+    "de": "2-Zimmer-Wohnung, 76 m², Marak 1, Sonnenstrand",
+    "es": "Piso de 1 dormitorio, 76 m², Marak 1, Sunny Beach"
+   },
+   "desc": {
+    "bg": "Апартамент с 1 спалня от 76 м² на 3-ти етаж в комплекс Марак 1, Слънчев бряг. 800 м до морето. Такса поддръжка 127 € годишно. Акт 16 — сградата е въведена в експлоатация. Подходящ за живеене, почивка или отдаване под наем. Код: ROMAN",
+    "ru": "Квартира с 1 спальней площадью 76 м² на 3-м этаже в комплексе «Марак 1», Солнечный берег. 800 м до моря. Обслуживание 127 € в год. Акт 16 — дом сдан в эксплуатацию. Подойдёт для жизни, отдыха или сдачи в аренду. Код: ROMAN",
+    "en": "A 76 m² one-bedroom flat on floor 3 in Marak 1, Sunny Beach. 800 m to the sea. Maintenance €127 a year. Act 16 — the building is officially completed. Suits living in, holidays or letting. Code: ROMAN",
+    "de": "2-Zimmer-Wohnung mit 76 m² im 3. Stock in der Anlage Marak 1, Sonnenstrand. 800 m zum Meer. Hausgebühr 127 € pro Jahr. Akt 16 – das Gebäude ist abgenommen. Zum Wohnen, für Urlaub oder Vermietung. Code: ROMAN",
+    "es": "Piso de 1 dormitorio de 76 m² en la 3.ª planta en el complejo Marak 1, Sunny Beach. A 800 m del mar. Cuota 127 € al año. Acta 16: el edificio está terminado y legalizado. Para vivir, veranear o alquilar. Código: ROMAN"
+   },
+   "feat": {
+    "bg": [
+     "800 м до морето",
+     "Акт 16"
+    ],
+    "ru": [
+     "800 м до моря",
+     "Акт 16"
+    ],
+    "en": [
+     "800 m to the sea",
+     "Act 16"
+    ],
+    "de": [
+     "800 m zum Meer",
+     "Akt 16"
+    ],
+    "es": [
+     "A 800 m del mar",
+     "Acta 16"
     ]
    }
   }
