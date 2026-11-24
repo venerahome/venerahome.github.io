@@ -161,6 +161,13 @@
    "en": "Prosenik",
    "de": "Prosenik",
    "es": "Prosenik"
+  },
+  "drama": {
+   "bg": "Драма",
+   "ru": "Драма",
+   "en": "Drama",
+   "de": "Drama",
+   "es": "Drama"
   }
  },
  "listings": [
@@ -21272,6 +21279,94 @@
     ]
    },
    "url": "https://www.katoiko.gr/bg/propertyDetails/21345955"
+  },
+  {
+   "code": 20930991,
+   "slug": "drama-apt-20930991",
+   "country": "gr",
+   "source": "katoiko",
+   "type": "apt",
+   "deal": "sale",
+   "status": "sale",
+   "featured": true,
+   "place": "drama",
+   "district": {
+    "bg": "Неа Кромни",
+    "ru": "Неа Кромни",
+    "en": "Nea Kromni",
+    "de": "Nea Kromni",
+    "es": "Nea Kromni"
+   },
+   "price": 280000,
+   "area": 250,
+   "plot": null,
+   "bedrooms": 3,
+   "bathrooms": 1,
+   "floor": "0",
+   "sea": null,
+   "furnished": null,
+   "lift": true,
+   "url": "https://www.katoiko.gr/bg/propertyDetails/20930991",
+   "photos": [
+    "https://m2.spitogatos.gr/370153507_900x675.jpg",
+    "https://m3.spitogatos.gr/370154093_900x675.jpg",
+    "https://m2.spitogatos.gr/370153519_900x675.jpg",
+    "https://m1.spitogatos.gr/370153497_900x675.jpg",
+    "https://m3.spitogatos.gr/370153718_900x675.jpg",
+    "https://m2.spitogatos.gr/370154164_900x675.jpg",
+    "https://m1.spitogatos.gr/370153830_900x675.jpg",
+    "https://m1.spitogatos.gr/370153872_900x675.jpg",
+    "https://m3.spitogatos.gr/370153943_900x675.jpg",
+    "https://m1.spitogatos.gr/370154055_900x675.jpg",
+    "https://m3.spitogatos.gr/370202120_900x675.jpg",
+    "https://m1.spitogatos.gr/370202130_900x675.jpg"
+   ],
+   "title": {
+    "bg": "Просторен ъглов мезонет 250 м² с градина, Неа Кромни (Драма)",
+    "ru": "Просторный угловой мезонет 250 м² с садом, Неа Кромни (Драма)",
+    "en": "Spacious 250 m² corner maisonette with a garden, Nea Kromni (Drama)",
+    "de": "Geräumige 250 m² Eck-Maisonette mit Garten, Nea Kromni (Drama)",
+    "es": "Amplio dúplex esquinero de 250 m² con jardín, Nea Kromni (Drama)"
+   },
+   "desc": {
+    "bg": "Ъглов мезонет на три нива от 2009 г. в Неа Кромни край Драма: 3 спални, две дневни и две кухни, камина, тераси и собствена градина, гараж. Индивидуално отопление на нафта, слънчев бойлер, климатици, асансьор, охранителна система и без месечни такси.",
+    "ru": "Угловой мезонет на трёх уровнях 2009 года в Неа Кромни у Драмы: 3 спальни, две гостиные и две кухни, камин, террасы и собственный сад, гараж. Своё отопление на дизеле, солнечный бойлер, кондиционеры, лифт, сигнализация и никаких ежемесячных взносов.",
+    "en": "A three-level corner maisonette built in 2009 in Nea Kromni near Drama: 3 bedrooms, two living rooms and two kitchens, fireplace, terraces, a private garden and a garage. Independent oil heating, solar water heater, air conditioning, a lift, an alarm system and no monthly fees.",
+    "de": "Eck-Maisonette auf drei Ebenen von 2009 in Nea Kromni bei Drama: 3 Schlafzimmer, zwei Wohnzimmer und zwei Küchen, Kamin, Terrassen, eigener Garten und Garage. Eigene Ölheizung, Solarboiler, Klimaanlagen, Aufzug, Alarmanlage und keine monatlichen Gebühren.",
+    "es": "Dúplex esquinero de tres plantas de 2009 en Nea Kromni, cerca de Drama: 3 dormitorios, dos salones y dos cocinas, chimenea, terrazas, jardín privado y garaje. Calefacción propia de gasóleo, calentador solar, aire acondicionado, ascensor, alarma y sin cuotas."
+   },
+   "feat": {
+    "bg": [
+     "250 м², 3 нива",
+     "Градина и гараж",
+     "Камина",
+     "Без такси"
+    ],
+    "ru": [
+     "250 м², 3 уровня",
+     "Сад и гараж",
+     "Камин",
+     "Без взносов"
+    ],
+    "en": [
+     "250 m², 3 levels",
+     "Garden and garage",
+     "Fireplace",
+     "No fees"
+    ],
+    "de": [
+     "250 m², 3 Ebenen",
+     "Garten und Garage",
+     "Kamin",
+     "Keine Gebühren"
+    ],
+    "es": [
+     "250 m², 3 plantas",
+     "Jardín y garaje",
+     "Chimenea",
+     "Sin cuotas"
+    ]
+   }
   }
  ]
 }
