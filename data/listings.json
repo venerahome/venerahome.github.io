@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23",
+ "updated": "2026-11-24",
  "places": {
   "kavala": {
    "bg": "Кавала",
@@ -12427,93 +12427,6 @@
    "year": 2008
   },
   {
-   "code": 370926,
-   "slug": "burgas-apt-370926",
-   "country": "bg",
-   "source": "imotbg",
-   "keep": true,
-   "type": "apt",
-   "deal": "sale",
-   "status": "sale",
-   "featured": false,
-   "place": "burgas",
-   "district": {
-    "bg": "Лазур",
-    "ru": "Лазур",
-    "en": "Lazur",
-    "de": "Lazur",
-    "es": "Lazur"
-   },
-   "price": 195000,
-   "area": 61,
-   "plot": null,
-   "bedrooms": 1,
-   "bathrooms": null,
-   "floor": null,
-   "sea": null,
-   "furnished": null,
-   "lift": null,
-   "url": null,
-   "photos": [
-    "https://cdn3.focus.bg/imot/photosimotbg/1/688/big/1b175284458078688_Mz.jpg",
-    "https://cdn3.focus.bg/imot/photosimotbg/1/688/big/1b175284458078688_9i.jpg",
-    "https://cdn3.focus.bg/imot/photosimotbg/1/688/big/1b175284458078688_gJ.jpg",
-    "https://cdn3.focus.bg/imot/photosimotbg/1/688/big/1b175284458078688_4z.jpg",
-    "https://cdn3.focus.bg/imot/photosimotbg/1/688/big/1b175284458078688_aY.jpg",
-    "https://cdn3.focus.bg/imot/photosimotbg/1/688/big/1b175284458078688_YB.jpg",
-    "https://cdn3.focus.bg/imot/photosimotbg/1/688/big/1b175284458078688_BW.jpg",
-    "https://cdn3.focus.bg/imot/photosimotbg/1/688/big/1b175284458078688_HK.jpg",
-    "https://cdn3.focus.bg/imot/photosimotbg/1/688/big/1b175284458078688_Ly.jpg",
-    "https://cdn3.focus.bg/imot/photosimotbg/1/688/big/1b175284458078688_2F.jpg",
-    "https://cdn3.focus.bg/imot/photosimotbg/1/688/big/1b175284458078688_LA.jpg",
-    "https://cdn3.focus.bg/imot/photosimotbg/1/688/big/1b175284458078688_qW.jpg",
-    "https://cdn3.focus.bg/imot/photosimotbg/1/688/big/1b175284458078688_CJ.jpg",
-    "https://cdn3.focus.bg/imot/photosimotbg/1/688/big/1b175284458078688_Am.jpg"
-   ],
-   "title": {
-    "bg": "Апартамент с модерен дизайн на крачка от морето, Лазур, Бургас",
-    "ru": "Квартира с современным дизайном в шаге от моря, Лазур, Бургас",
-    "en": "Modern flat a step from the sea, Lazur, Burgas",
-    "de": "Moderne Wohnung nur einen Schritt vom Meer, Lazur, Burgas",
-    "es": "Piso moderno a un paso del mar, Lazur, Burgas"
-   },
-   "desc": {
-    "bg": "Функционално разпределение и съвременен дизайн в един от най-желаните квартали на Бургас: светла дневна с кухня, просторна спалня, тераса, мазе и малък склад на тавана. Чиста площ 61 м², на крачка от морето.",
-    "ru": "Функциональная планировка и современный дизайн в одном из самых желанных районов Бургаса: светлая гостиная с кухней, просторная спальня, терраса, подвал и небольшая кладовая на чердаке. Чистая площадь 61 м², море в шаге.",
-    "en": "A practical layout and contemporary design in one of Burgas's most desirable districts: bright living room with kitchen, spacious bedroom, terrace, cellar and a small attic store. 61 m² net, a step from the sea.",
-    "de": "Durchdachter Grundriss und modernes Design in einem der begehrtesten Viertel von Burgas: helles Wohnzimmer mit Küche, großes Schlafzimmer, Terrasse, Keller und kleiner Dachboden-Abstellraum. 61 m² netto, nah am Meer.",
-    "es": "Distribución práctica y diseño actual en uno de los barrios más deseados de Burgas: salón luminoso con cocina, dormitorio amplio, terraza, trastero y pequeño almacén en el ático. 61 m² útiles, a un paso del mar."
-   },
-   "feat": {
-    "bg": [
-     "До морето",
-     "Мазе + таван",
-     "Модерен ремонт"
-    ],
-    "ru": [
-     "Рядом с морем",
-     "Подвал + чердак",
-     "Современный ремонт"
-    ],
-    "en": [
-     "By the sea",
-     "Cellar + attic store",
-     "Modern finish"
-    ],
-    "de": [
-     "Meernah",
-     "Keller + Dachboden",
-     "Modern renoviert"
-    ],
-    "es": [
-     "Junto al mar",
-     "Trastero + ático",
-     "Reforma moderna"
-    ]
-   },
-   "year": 2009
-  },
-  {
    "code": 800034,
    "slug": "burgas-apt-800034",
    "country": "bg",
@@ -19547,7 +19460,7 @@
     "de": "Rusalka",
     "es": "Rusalka"
    },
-   "price": 88000,
+   "price": 85000,
    "area": 77,
    "plot": null,
    "bedrooms": 2,
@@ -19557,23 +19470,23 @@
    "furnished": null,
    "lift": null,
    "photos": [
-    "https://imotstatic1.focus.bg/imot/photosimotbg/1/536/big/iE",
-    "https://imotstatic1.focus.bg/imot/photosimotbg/1/536/big/Ti",
-    "https://imotstatic1.focus.bg/imot/photosimotbg/1/536/big/tc",
-    "https://imotstatic1.focus.bg/imot/photosimotbg/1/536/big/S8",
-    "https://imotstatic1.focus.bg/imot/photosimotbg/1/536/big/i",
-    "https://imotstatic1.focus.bg/imot/photosimotbg/1/536/big/z1",
-    "https://imotstatic1.focus.bg/imot/photosimotbg/1/536/big/GX",
-    "https://imotstatic1.focus.bg/imot/photosimotbg/1/536/big/Li",
-    "https://imotstatic1.focus.bg/imot/photosimotbg/1/536/big/Er",
-    "https://imotstatic1.focus.bg/imot/photosimotbg/1/536/big/c6",
-    "https://imotstatic1.focus.bg/imot/photosimotbg/1/536/big/eV",
-    "https://imotstatic1.focus.bg/imot/photosimotbg/1/536/big/t8",
-    "https://imotstatic1.focus.bg/imot/photosimotbg/1/536/big/gP",
-    "https://imotstatic1.focus.bg/imot/photosimotbg/1/536/big/pJ",
-    "https://imotstatic1.focus.bg/imot/photosimotbg/1/536/big/h1",
-    "https://imotstatic1.focus.bg/imot/photosimotbg/1/536/big/6L",
-    "https://imotstatic1.focus.bg/imot/photosimotbg/1/536/big/bC"
+    "https://imotstatic1.focus.bg/imot/photosimotbg/1/063/big/1b179551168736063_bM.jpg",
+    "https://imotstatic1.focus.bg/imot/photosimotbg/1/063/big/1b179551168736063_fR.jpg",
+    "https://imotstatic1.focus.bg/imot/photosimotbg/1/063/big/1b179551168736063_2h.jpg",
+    "https://imotstatic1.focus.bg/imot/photosimotbg/1/063/big/1b179551168736063_A5.jpg",
+    "https://imotstatic1.focus.bg/imot/photosimotbg/1/063/big/1b179551168736063_eK.jpg",
+    "https://imotstatic1.focus.bg/imot/photosimotbg/1/063/big/1b179551168736063_2j.jpg",
+    "https://imotstatic1.focus.bg/imot/photosimotbg/1/063/big/1b179551168736063_Tc.jpg",
+    "https://imotstatic1.focus.bg/imot/photosimotbg/1/063/big/1b179551168736063_XD.jpg",
+    "https://imotstatic1.focus.bg/imot/photosimotbg/1/063/big/1b179551168736063_L8.jpg",
+    "https://imotstatic1.focus.bg/imot/photosimotbg/1/063/big/1b179551168736063_Zu.jpg",
+    "https://imotstatic1.focus.bg/imot/photosimotbg/1/063/big/1b179551168736063_LQ.jpg",
+    "https://imotstatic1.focus.bg/imot/photosimotbg/1/063/big/1b179551168736063_44.jpg",
+    "https://imotstatic1.focus.bg/imot/photosimotbg/1/063/big/1b179551168736063_Gi.jpg",
+    "https://imotstatic1.focus.bg/imot/photosimotbg/1/063/big/1b179551168736063_fJ.jpg",
+    "https://imotstatic1.focus.bg/imot/photosimotbg/1/063/big/1b179551168736063_P6.jpg",
+    "https://imotstatic1.focus.bg/imot/photosimotbg/1/063/big/1b179551168736063_pa.jpg",
+    "https://imotstatic1.focus.bg/imot/photosimotbg/1/063/big/1b179551168736063_bg.jpg"
    ],
    "title": {
     "bg": "77 м² с частична гледка към морето, Свети Влас",
@@ -21369,6 +21282,235 @@
     "es": [
      "A 800 m del mar",
      "Acta 16"
+    ]
+   }
+  },
+  {
+   "code": 400179,
+   "slug": "burgas-apt-400179",
+   "country": "bg",
+   "source": "imotbg",
+   "keep": true,
+   "deal": "sale",
+   "status": "sale",
+   "featured": false,
+   "url": null,
+   "type": "apt",
+   "place": "burgas",
+   "district": {
+    "bg": "Изгрев",
+    "ru": "Изгрев",
+    "en": "Izgrev",
+    "de": "Izgrev",
+    "es": "Izgrev"
+   },
+   "price": 90000,
+   "area": 42,
+   "plot": null,
+   "bedrooms": null,
+   "bathrooms": 1,
+   "floor": "3/8",
+   "sea": null,
+   "furnished": true,
+   "lift": true,
+   "photos": [
+    "https://imotstatic1.focus.bg/imot/photosimotbg/1/762/big/1b179551975884762_Vd.jpg",
+    "https://imotstatic1.focus.bg/imot/photosimotbg/1/762/big/1b179551975884762_Nn.jpg",
+    "https://imotstatic1.focus.bg/imot/photosimotbg/1/762/big/1b179551975884762_hM.jpg",
+    "https://imotstatic1.focus.bg/imot/photosimotbg/1/762/big/1b179551975884762_Wv.jpg",
+    "https://imotstatic1.focus.bg/imot/photosimotbg/1/762/big/1b179551975884762_gm.jpg"
+   ],
+   "title": {
+    "bg": "Обзаведена гарсониера 42 м² в Изгрев, Бургас",
+    "ru": "Гарсоньера 42 м² с мебелью в Изгреве, Бургас",
+    "en": "Furnished 42 m² studio flat in Izgrev, Burgas",
+    "de": "Möblierte 42 m² Einzimmerwohnung in Izgrev, Burgas",
+    "es": "Estudio amueblado de 42 m² en Izgrev, Burgas"
+   },
+   "desc": {
+    "bg": "Гарсониера на 3-ти етаж в сграда с асансьор и контролиран достъп в ж.к. Изгрев. Продава се с обзавеждането; наблизо има транспорт, магазини, училища и детски градини. Добро първо жилище или имот за отдаване под наем.",
+    "ru": "Гарсоньера на 3-м этаже в доме с лифтом и контролируемым входом в квартале Изгрев. Продаётся с мебелью; рядом транспорт, магазины, школы и детские сады. Хороший вариант для первого жилья или для сдачи в аренду.",
+    "en": "A studio flat on the 3rd floor of a building with a lift and controlled entry in the Izgrev district. Sold furnished; transport, shops, schools and nurseries are close by. A good first home or a flat to let.",
+    "de": "Einzimmerwohnung im 3. Stock eines Hauses mit Aufzug und Zugangskontrolle im Viertel Izgrev. Wird möbliert verkauft; Verkehr, Geschäfte, Schulen und Kindergärten in der Nähe. Gut als erste Wohnung oder zur Vermietung.",
+    "es": "Estudio en 3.ª planta de un edificio con ascensor y acceso controlado en el barrio de Izgrev. Se vende amueblado; transporte, tiendas, colegios y guarderías cerca. Buena primera vivienda o para alquilar."
+   },
+   "feat": {
+    "bg": [
+     "С обзавеждане",
+     "Асансьор",
+     "Контролиран достъп"
+    ],
+    "ru": [
+     "С мебелью",
+     "Лифт",
+     "Контролируемый вход"
+    ],
+    "en": [
+     "Furnished",
+     "Lift",
+     "Controlled entry"
+    ],
+    "de": [
+     "Möbliert",
+     "Aufzug",
+     "Zugangskontrolle"
+    ],
+    "es": [
+     "Amueblado",
+     "Ascensor",
+     "Acceso controlado"
+    ]
+   }
+  },
+  {
+   "code": 400350,
+   "slug": "burgas-apt-400350",
+   "country": "bg",
+   "source": "imotbg",
+   "keep": true,
+   "deal": "sale",
+   "status": "sale",
+   "featured": false,
+   "url": null,
+   "type": "apt",
+   "place": "burgas",
+   "district": {
+    "bg": "Мадика",
+    "ru": "Мадика",
+    "en": "Madika",
+    "de": "Madika",
+    "es": "Madika"
+   },
+   "price": 100000,
+   "area": 66,
+   "plot": null,
+   "bedrooms": 1,
+   "bathrooms": 1,
+   "floor": "8/10",
+   "sea": null,
+   "furnished": null,
+   "lift": null,
+   "photos": [
+    "https://imotstatic1.focus.bg/imot/photosimotbg/1/175/big/1b179483160205175_rK.jpg"
+   ],
+   "title": {
+    "bg": "Нов двустаен 66 м² в Atlas 3 с разсрочено плащане, Мадика",
+    "ru": "Новая двушка 66 м² в Atlas 3 с оплатой частями, Мадика",
+    "en": "New 66 m² one-bedroom in Atlas 3 with staged payments, Madika",
+    "de": "Neue 66 m² 2-Zimmer-Wohnung in Atlas 3 mit Ratenzahlung, Madika",
+    "es": "Piso nuevo de 66 m² en Atlas 3 con pago por etapas, Madika"
+   },
+   "desc": {
+    "bg": "Апартамент на 8-ми етаж с южно изложение в новия комплекс Atlas 3 (въвеждане в експлоатация 2027 г.): дневна с кухня, спалня, баня с тоалетна, отделно мокро помещение и тераса. Плаща се на етапи според строителството; има опция за гараж.",
+    "ru": "Квартира на 8-м этаже с южной стороной в новом комплексе Atlas 3 (сдача в 2027 году): гостиная с кухней, спальня, санузел, отдельная постирочная и терраса. Оплата частями по ходу строительства; можно докупить гараж.",
+    "en": "An 8th-floor, south-facing flat in the new Atlas 3 complex (completion in 2027): living room with kitchen, bedroom, bathroom, separate utility room and terrace. Paid in stages as construction progresses; a garage is available.",
+    "de": "Wohnung im 8. Stock mit Südausrichtung in der neuen Anlage Atlas 3 (Fertigstellung 2027): Wohnzimmer mit Küche, Schlafzimmer, Bad, separater Hauswirtschaftsraum und Terrasse. Zahlung in Raten nach Baufortschritt; Garage optional.",
+    "es": "Piso en 8.ª planta orientado al sur en el nuevo complejo Atlas 3 (entrega en 2027): salón con cocina, dormitorio, baño, lavadero independiente y terraza. Pago por etapas según la obra; garaje opcional."
+   },
+   "feat": {
+    "bg": [
+     "Ново строителство",
+     "Плащане на етапи",
+     "Южно изложение",
+     "Опция за гараж"
+    ],
+    "ru": [
+     "Новостройка",
+     "Оплата частями",
+     "Южная сторона",
+     "Можно гараж"
+    ],
+    "en": [
+     "New build",
+     "Staged payments",
+     "South-facing",
+     "Garage option"
+    ],
+    "de": [
+     "Neubau",
+     "Ratenzahlung",
+     "Südausrichtung",
+     "Garage optional"
+    ],
+    "es": [
+     "Obra nueva",
+     "Pago por etapas",
+     "Orientación sur",
+     "Garaje opcional"
+    ]
+   }
+  },
+  {
+   "code": 400700,
+   "slug": "ustrem-house-400700",
+   "country": "bg",
+   "source": "imotbg",
+   "keep": true,
+   "deal": "sale",
+   "status": "sale",
+   "featured": false,
+   "url": null,
+   "type": "house",
+   "place": "ustrem",
+   "district": null,
+   "price": 28000,
+   "area": 245,
+   "plot": 970,
+   "bedrooms": null,
+   "bathrooms": null,
+   "floor": null,
+   "sea": null,
+   "furnished": null,
+   "lift": null,
+   "photos": [
+    "https://imotstatic1.focus.bg/imot/photosimotbg/1/486/big/1j179552272343486_D5.jpg",
+    "https://imotstatic1.focus.bg/imot/photosimotbg/1/486/big/1j179552272343486_iD.jpg",
+    "https://imotstatic1.focus.bg/imot/photosimotbg/1/486/big/1j179552272343486_bi.jpg",
+    "https://imotstatic1.focus.bg/imot/photosimotbg/1/486/big/1j179552272343486_TN.jpg",
+    "https://imotstatic1.focus.bg/imot/photosimotbg/1/486/big/1j179552272343486_63.jpg",
+    "https://imotstatic1.focus.bg/imot/photosimotbg/1/486/big/1j179552272343486_cu.jpg",
+    "https://imotstatic1.focus.bg/imot/photosimotbg/1/486/big/1j179552272343486_1z.jpg",
+    "https://imotstatic1.focus.bg/imot/photosimotbg/1/486/big/1j179552272343486_LW.jpg"
+   ],
+   "title": {
+    "bg": "Имот с 4 сгради и двор 970 м², Устрем",
+    "ru": "Усадьба с 4 постройками и участком 970 м², Устрем",
+    "en": "Property with 4 buildings and a 970 m² plot, Ustrem",
+    "de": "Anwesen mit 4 Gebäuden und 970 m² Grund, Ustrem",
+    "es": "Finca con 4 edificios y parcela de 970 m², Ustrem"
+   },
+   "desc": {
+    "bg": "Четири сгради с обща застроена площ 245 м² в с. Устрем, община Тополовград: масивна къща 80 м², паянтова къща 110 м² и две стопански постройки, върху парцел 970 м². Подходящ за голям семеен дом, къща за гости или проект с потенциал.",
+    "ru": "Четыре постройки общей площадью 245 м² в селе Устрем (община Тополовград): капитальный дом 80 м², старый дом 110 м² и две хозпостройки на участке 970 м². Подойдёт под большой семейный дом, гостевой дом или проект с потенциалом.",
+    "en": "Four buildings with 245 m² of built area in Ustrem village, Topolovgrad municipality: a solid 80 m² house, an older 110 m² house and two outbuildings on a 970 m² plot. Suits a large family home, a guest house or a project with potential.",
+    "de": "Vier Gebäude mit 245 m² bebauter Fläche im Dorf Ustrem, Gemeinde Topolovgrad: ein massives Haus mit 80 m², ein älteres Haus mit 110 m² und zwei Nebengebäude auf 970 m² Grund. Geeignet als großes Familienhaus, Gästehaus oder Projekt mit Potenzial.",
+    "es": "Cuatro edificios con 245 m² construidos en el pueblo de Ustrem, municipio de Topolovgrad: una casa sólida de 80 m², una casa antigua de 110 m² y dos anexos en una parcela de 970 m². Para una gran casa familiar, casa de huéspedes o proyecto con potencial."
+   },
+   "feat": {
+    "bg": [
+     "4 сгради",
+     "Двор 970 м²",
+     "Цена 28 000 €"
+    ],
+    "ru": [
+     "4 постройки",
+     "Участок 970 м²",
+     "Цена 28 000 €"
+    ],
+    "en": [
+     "4 buildings",
+     "970 m² plot",
+     "€28,000"
+    ],
+    "de": [
+     "4 Gebäude",
+     "970 m² Grund",
+     "28.000 €"
+    ],
+    "es": [
+     "4 edificios",
+     "Parcela de 970 m²",
+     "28.000 €"
     ]
    }
   }
