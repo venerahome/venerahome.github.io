@@ -1,6 +1,7 @@
 {
  "listings_posted": [
-  900009
+  900009,
+  900008
  ],
  "listings_known": [
   900009,
@@ -134,5 +135,7 @@
  ],
  "round": 1,
  "blog_posted": [],
- "slots_done": []
+ "slots_done": [
+  "2026-11-25-19"
+ ]
 }
