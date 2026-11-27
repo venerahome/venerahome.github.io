@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26",
+ "updated": "2026-11-27",
  "places": {
   "kavala": {
    "bg": "Кавала",
@@ -877,6 +877,98 @@
      "Papeles en regla"
     ]
    }
+  },
+  {
+   "code": 400405,
+   "slug": "kavala-apartment-400405",
+   "type": "apt",
+   "deal": "sale",
+   "status": "sale",
+   "featured": false,
+   "place": "kavala",
+   "district": {
+    "bg": "Потамудия",
+    "ru": "Потамудия",
+    "en": "Potamoudia",
+    "de": "Potamoudia",
+    "es": "Potamoudia"
+   },
+   "price": 75000,
+   "area": 80,
+   "plot": null,
+   "bedrooms": 2,
+   "bathrooms": 1,
+   "floor": null,
+   "sea": null,
+   "furnished": true,
+   "lift": true,
+   "url": "https://imotipremier.com/prodava/tristaen-apartament/400405/",
+   "photos": [
+    "https://imotipremier.com/webfactor-images/e86001d6-e550-4c83-8821-b50500bd5bb1-1200x800-center-1263137.webp",
+    "https://imotipremier.com/webfactor-images/d45db06d-4f24-478a-9759-b50500bd5bb1-1200x800-center-1263138.webp",
+    "https://imotipremier.com/webfactor-images/5032ea64-4bc0-4c34-a13d-b50500bd5bad-1200x800-center-1263139.webp",
+    "https://imotipremier.com/webfactor-images/66bd7c02-aead-4b06-b8b1-b50500bd5bb1-1200x800-center-1263140.webp",
+    "https://imotipremier.com/webfactor-images/09fb6006-489d-4031-a6f0-b50500bd5bbb-1200x800-center-1263141.webp",
+    "https://imotipremier.com/webfactor-images/a3241c38-af35-481f-9664-b50500bd5ba3-1200x800-center-1263142.webp",
+    "https://imotipremier.com/webfactor-images/112729a5-9f1e-460a-b67a-b50500bd5bb6-1200x800-center-1263143.webp",
+    "https://imotipremier.com/webfactor-images/bf9cd395-8f12-4b00-9fba-b50500bd5bb1-1200x800-center-1263144.webp",
+    "https://imotipremier.com/webfactor-images/9c61d539-705e-4dc4-add0-b50500bd5bb6-1200x800-center-1263145.webp",
+    "https://imotipremier.com/webfactor-images/6eaff0f9-9271-4169-9a94-b50500bd5ba8-1200x800-center-1263146.webp",
+    "https://imotipremier.com/webfactor-images/e8b57089-cd24-40dd-a54e-b50500bd5bb1-1200x800-center-1263147.webp",
+    "https://imotipremier.com/webfactor-images/e51e2633-09ad-4cda-9501-b50500bd5bb6-1200x800-center-1263148.webp"
+   ],
+   "title": {
+    "ru": "Квартира 80 м² с двумя спальнями в Потамудии, Кавала",
+    "bg": "Апартамент от 80 м² с две спални в Потамудия, Кавала",
+    "en": "80 m² two-bedroom apartment in Potamoudia, Kavala",
+    "de": "80-m²-Wohnung mit zwei Schlafzimmern in Potamoudia, Kavala",
+    "es": "Piso de 80 m² con dos dormitorios en Potamoudia, Kavala"
+   },
+   "desc": {
+    "ru": "80 м² в приморской Кавале по цене около 940 €/м² — квартира в хорошем состоянии, с мебелью, в доме с лифтом. Внутри две отдельные спальни, просторная гостиная, кухня и ванная; этаж невысокий, рядом школа, до центра легко добраться. Подойдёт и для постоянной жизни, и как вложение под аренду.",
+    "bg": "80 м² в крайморската Кавала на цена около 940 €/м² — апартамент в добро състояние, обзаведен, в сграда с асансьор. Вътре има две отделни спални, просторна дневна, кухня и баня; етажът е нисък, наблизо има училище, а до центъра се стига лесно. Подходящ както за постоянно живеене, така и като инвестиция за отдаване под наем.",
+    "en": "80 m² in seaside Kavala for around €940/m² — a furnished apartment in good condition, in a building with a lift. Inside are two separate bedrooms, a spacious living room, a kitchen and a bathroom; it sits on a low floor, close to a school and with easy access to the centre. Suits both living in year-round and investing for rental income.",
+    "de": "80 m² im Küstenort Kavala für rund 940 €/m² — eine möblierte Wohnung in gutem Zustand, in einem Haus mit Aufzug. Sie bietet zwei separate Schlafzimmer, ein geräumiges Wohnzimmer, Küche und Bad; die Wohnung liegt in einem niedrigen Stockwerk, eine Schule ist in der Nähe, das Zentrum gut erreichbar. Ideal zum dauerhaften Wohnen oder als Investition zur Vermietung.",
+    "es": "80 m² en la costera Kavala por unos 940 €/m²: un piso amueblado en buen estado, en un edificio con ascensor. Tiene dos dormitorios independientes, un salón amplio, cocina y baño; está en una planta baja, cerca de un colegio y con fácil acceso al centro. Ideal para vivir todo el año o como inversión para alquilar."
+   },
+   "feat": {
+    "ru": [
+     "Две отдельные спальни",
+     "С мебелью",
+     "Лифт в доме",
+     "Рядом школа",
+     "Около 940 €/м²"
+    ],
+    "bg": [
+     "Две отделни спални",
+     "Обзаведен",
+     "Асансьор в сградата",
+     "Близо до училище",
+     "Около 940 €/м²"
+    ],
+    "en": [
+     "Two separate bedrooms",
+     "Furnished",
+     "Lift in the building",
+     "Near a school",
+     "Around €940/m²"
+    ],
+    "de": [
+     "Zwei separate Schlafzimmer",
+     "Möbliert",
+     "Aufzug im Haus",
+     "Schule in der Nähe",
+     "Rund 940 €/m²"
+    ],
+    "es": [
+     "Dos dormitorios independientes",
+     "Amueblado",
+     "Ascensor en el edificio",
+     "Cerca de un colegio",
+     "Unos 940 €/m²"
+    ]
+   },
+   "country": "gr"
   },
   {
    "code": 397724,
