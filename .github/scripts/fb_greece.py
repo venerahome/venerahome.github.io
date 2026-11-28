@@ -33,8 +33,10 @@ EMOJI = {"apt": "🏢", "house": "🏡", "villa": "🏖"}
 # день недели (0 = понедельник) → что выходит утром и вечером
 PLAN = {0: ("blog", "listing"), 1: ("listing", "listing"), 2: ("blog", "listing"),
         3: ("listing", "listing"), 4: ("blog", "listing"), 5: (None, "listing"), 6: (None, "listing")}
-MORNING, EVENING = 9, 19          # публикуем при первом запуске после этого часа
-LATE = {MORNING: 13, EVENING: 23}  # позже этого часа слот пропускаем (чтобы не постить ночью)
+MORNING, EVENING = 8, 18          # публикуем при первом запуске после этого часа
+# GitHub часто пропускает или сильно задерживает запуски по расписанию, поэтому
+# пропущенный утренний пост догоняем в течение дня (до полуночи), а вечерний — до полуночи.
+LATE = {MORNING: 24, EVENING: 24}
 
 DRY = "--dry" in sys.argv
 
@@ -200,7 +202,7 @@ def main():
     now = datetime.now(ZoneInfo("Europe/Sofia"))
     day = now.strftime("%Y-%m-%d"); plan = PLAN[now.weekday()]
     todo = None
-    for hour, kind in ((EVENING, plan[1]), (MORNING, plan[0])):
+    for hour, kind in ((MORNING, plan[0]), (EVENING, plan[1])):   # сначала догоняем утренний
         slot = f"{day}-{hour}"
         if kind and hour <= now.hour < LATE[hour] and slot not in s["slots_done"]:
             todo = (slot, kind); break
